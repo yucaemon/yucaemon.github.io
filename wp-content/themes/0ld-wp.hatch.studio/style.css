@@ -1,0 +1,1901 @@
+/*
+
+
+
+Theme Name: hatch.studio
+
+
+
+Description:海外情報面白発見！！
+
+
+
+Theme URI: http://hatchstudioinc.com/
+
+
+
+Author: hatchstudio
+
+
+
+Author URI: http://hatchstudioinc.com/
+
+
+
+Version: バージョン
+
+
+
+License: ライセンス
+
+
+
+License URI: ライセンスの URL
+
+
+
+
+
+/* initialize */
+
+
+
+@charset "utf-8";
+
+
+
+/*CSS Document */
+
+
+
+
+
+* {
+
+     marign : 0;
+
+     padding : 0;
+
+}
+
+/*Font*/
+
+a img {
+
+
+
+    border-style: none;
+
+
+
+}
+
+
+
+.font-one {
+
+
+
+    font-size: 10px;
+
+
+
+}
+
+
+
+.font-two {
+
+
+
+    font-size: 10px;
+
+
+
+}
+
+
+
+.font-three {
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+.font-three-en {
+
+
+
+    font-size: 13px;
+
+
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+    font-weight: 900;
+
+
+
+}
+
+
+
+.font-four {
+
+
+
+    font-size: 12px;
+
+
+
+}
+
+
+
+.font-five {
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+.font-six {
+
+
+
+    font-size: 13px;
+
+
+
+}
+
+
+
+.font-seven {
+
+
+
+    font-size: 18px
+
+
+
+    text-align: left;
+
+
+
+    font-weight: bold;
+
+
+
+    margin-top: 20px;
+
+
+
+}
+
+
+
+hr {
+
+
+
+    color: #C7C4C4; /* 線の色(IE用) */
+
+
+
+    background-color: #C7C4C4; /* 線の色(NN用) */
+
+
+
+    height: 1px; /* 線の太さ */
+
+
+
+    border: 0px; /* 枠の太さ */
+
+
+
+    border-style: double; /* 枠の種類 */
+
+
+
+}
+
+
+
+/* PAGE LAYOUT*/
+
+
+
+* {
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+}
+
+
+
+body {
+
+
+
+
+
+    width: 100%;
+
+
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-size: 12px;
+
+    font-size: 1.2rem;
+
+
+
+    font-weight: bold;
+
+
+
+    //background-color: #F3F3F3
+
+
+
+}
+
+
+
+#container {
+
+
+
+    position: relative;
+
+
+
+    width: 950px;
+
+
+
+    margin: 0 auto;
+
+
+
+    background-color: #FFFFFF;
+
+
+
+}
+
+
+
+#header {
+
+
+
+    width: 950px;
+
+
+
+    //padding-top: 5px;
+
+
+
+    //margin-bottom: 20px;
+
+
+
+}
+
+
+
+#left {
+
+
+
+    float: left;
+
+    width: 170px;
+
+    padding: 0 10px;
+
+
+
+
+
+
+
+}
+
+
+
+#right {
+
+
+
+    float: right;
+
+    width: 170px;
+
+    padding: 0 10px;
+
+
+
+
+
+}.
+
+
+
+.clear-both{
+
+clear:both;
+
+width:100%;
+
+}
+
+
+
+
+
+.clear{
+
+clear:both;
+
+}
+
+
+
+
+
+#middle {
+
+
+
+   margin:0 190px;
+
+
+
+
+
+    padding: 0 20px;
+
+
+
+    border-left: 3px double #DCDCDC;
+
+
+
+    border-right: 3px double #DCDCDC;
+
+
+
+}
+
+
+
+#footer {
+
+
+
+   
+
+
+
+}
+
+
+
+/* HEADER*/
+
+
+
+#middle{
+
+
+
+//border-top: 3px solid black;
+
+}
+
+
+
+#nav-main {
+
+
+
+    width: 950px;
+
+
+
+    margin-left: 30px;
+
+
+
+    margin-top: -2px;
+
+
+
+}
+
+
+
+#nav-main li {
+
+
+
+    float: left;
+
+
+
+    //margin-left: 10px;
+
+
+
+}
+
+
+
+#nav-main li.us, .au, .jk {
+
+
+
+    border-left: 1px dotted #DCDCDC;
+
+
+
+}
+
+
+
+p.time {
+
+
+
+    font-size: 10px;
+
+
+
+    float: left;
+
+
+
+    padding-left: 10px;
+
+
+
+    padding-right: 20px;
+
+
+
+    text-align: center;
+
+
+
+    border-left: 1px dotted #DCDCDC;
+
+
+
+}
+
+
+
+p.time-right {
+
+
+
+    font-size: 10px;
+
+
+
+    float: left;
+
+
+
+    margin-left: -20px;
+
+
+
+    padding-top: 13px;
+
+
+
+    border-left: 1px dotted #DCDCDC;
+
+
+
+}
+
+
+
+#nav-main li a img {
+
+
+
+    margin-right: 5px;
+
+
+
+    padding-right: 10px;
+
+
+
+    padding-left: 10px;
+
+
+
+}
+
+
+
+#nav-main li.rogo, .us, .jk, .au, .time {
+
+
+
+    border-right: 0px solid #999;
+
+
+
+}
+
+
+
+/* INFO */
+
+
+
+.module_headline ul {
+
+  list-style: none;
+
+  margin-bottom: 2em;
+
+  margin-left: 0;
+
+ font-size:12px;
+
+}
+
+
+
+.module_headline li,
+
+.module_headline .title {
+
+  display: block;
+
+  overflow: hidden;
+
+}
+
+
+
+.module_headline li {
+
+  margin-bottom: 0.5em;
+
+}
+
+
+
+.module_headline time {
+
+  float: left;
+
+  letter-spacing: 0.1em;
+
+  width: 9em;
+
+}
+
+
+
+.widget_information{
+
+border-top:solid 1px #C7C4C4;
+
+border-bottom:solid 1px #C7C4C4;
+
+margin-bottom:30px;
+
+}
+
+
+
+img.info-month{
+
+
+
+float:right;
+
+}
+
+
+
+
+
+
+
+/* MEMBERS */
+
+
+
+
+
+
+
+
+
+.cate-img{
+
+float:left;
+
+padding:5px;
+
+}
+
+
+
+.cate-text{
+
+width:93px;
+
+float:right;
+
+font-size:12px;
+
+padding:10px;
+
+}
+
+.cate-top-text{
+
+font-size:12px;
+
+}
+
+
+
+.menber-img{
+
+width:46px;
+
+height:54px;
+
+float:left;
+
+
+
+}
+
+
+
+.menber-text{
+
+width:120px;
+
+float:right;
+
+font-size:12px;
+
+}
+
+
+
+.letest-img{
+
+width:60px;
+
+height:60px;
+
+float:left;
+
+padding:5px;
+
+}
+
+
+
+.letest-text{
+
+width:90px;
+
+float:right;
+
+font-size:9px;
+
+padding:5px;
+
+}
+
+
+
+li.letest{
+
+
+
+border-bottom:solid 1px #C7C4C4;
+
+padding:10px 0;
+
+}
+
+
+
+
+
+dt.cate-desc-tit{
+
+
+
+border-bottom:solid 1px #C7C4C4;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#members {
+
+
+
+    text-align: left;
+
+
+
+}
+
+
+
+.right-catetext li {
+
+
+
+    margin: 20px 0 23px 0;
+
+
+
+}
+
+
+
+.right-catetext {
+
+
+
+    margin-top: 30px;
+
+
+
+}
+
+
+
+dl.tit-top{
+
+
+
+ line-height: 20px;
+
+ padding: 10px 10px;
+
+}
+
+
+
+.hr-menbers {
+
+
+
+    width: 65%;
+
+
+
+}
+
+
+
+.hrt {
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+li.john-position img {
+
+
+
+    margin-right: -15px;
+
+
+
+}
+
+
+
+#sen {
+
+
+
+    clear: both;
+
+
+
+}
+
+
+
+#sen img {
+
+
+
+    margin-top: 20px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+/* FACEBOOK */
+
+/* TITTER*/
+
+.side-title {
+
+
+
+    //clear: both;
+
+
+
+    //text-align: left;
+
+
+
+  padding:10px 0;
+
+
+
+}
+
+
+
+/* LETEST*/
+
+
+
+
+
+/* MIDDLE*//* HOME STAY*/
+
+
+
+.tit-house,.tit-maga {
+
+    border: 1px double #DCDCDC;
+
+    text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MAGAGINE*/
+
+
+
+#main-post{
+
+
+
+//width:544px;
+
+
+
+padding: 0 0 10px 0;
+
+
+
+text-align: left;
+
+
+
+}
+
+
+
+
+
+.post-tit {
+
+
+
+    font-size: 20px;
+
+    padding-top: 30px;
+
+
+
+}
+
+
+
+.post-time {
+
+
+
+    font-size: 12px;
+
+    padding: 5px 0px;
+
+
+
+}
+
+
+
+.post-text {
+
+
+
+    font-size: 12px;
+
+    padding: 5px 0;
+
+
+
+}
+
+
+
+p.more {
+
+
+
+    text-align: left;
+
+
+
+    font-size: 12px;
+
+
+
+    padding: 5px 0;
+
+
+
+}
+
+
+
+#footer {
+
+
+
+    width: 890px;
+
+
+
+    background-color: #333333;
+
+
+
+    color: #FFFFFF;
+
+
+
+    text-align: right;
+
+
+
+    padding: 30px;
+
+
+
+    clear: both;
+
+
+
+}
+
+
+
+a {
+
+
+
+    text-decoration: none;
+
+
+
+    color: black;
+
+
+
+}
+
+
+
+/**
+
+ * BxSlider v4.0 - Fully loaded, responsive content slider
+
+ * http://bxslider.com
+
+ *
+
+ * Written by: Steven Wanderski, 2012
+
+ * http://stevenwanderski.com
+
+ * (while drinking Belgian ales and listening to jazz)
+
+ *
+
+ * CEO and founder of bxCreative, LTD
+
+ * http://bxcreative.com
+
+ */
+
+
+
+
+
+/** RESET AND LAYOUT
+
+===================================*/
+
+
+
+.bx-wrapper {
+
+	position: relative;
+
+	margin: 0 auto 60px;
+
+	padding: 0;
+
+	*zoom: 1;
+
+}
+
+
+
+.bx-wrapper img,.thimbnailtop img{
+
+	max-width: 100%;
+
+	display: block;
+
+        border: 1px double #DCDCDC;
+
+        width:522px;
+
+        height:338px;
+
+}
+
+
+
+
+
+/** THEME
+
+===================================*/
+
+
+
+.bx-wrapper .bx-viewport {
+
+	//-moz-box-shadow: 0 0 5px #ccc;
+
+	//-webkit-box-shadow: 0 0 5px #ccc;
+
+	//box-shadow: 0 0 5px #ccc;
+
+	//border: solid #fff 5px;
+
+	//left: -5px;
+
+	//background: #fff;
+
+}
+
+
+
+.bx-wrapper .bx-pager,
+
+.bx-wrapper .bx-controls-auto {
+
+	position: absolute;
+
+	bottom: -30px;
+
+	width: 100%;
+
+}
+
+
+
+
+
+/* LOADER */
+
+
+
+.bx-wrapper .bx-loading {
+
+	min-height: 50px;
+
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+
+	height: 100%;
+
+	width: 100%;
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 2000;
+
+}
+
+
+
+/* PAGER */
+
+
+
+.bx-wrapper .bx-pager {
+
+	//text-align: center;
+
+	font-size: .85em;
+
+	font-family: Arial;
+
+	font-weight: bold;
+
+	color: #666;
+
+	//padding-top: 20px;
+
+}
+
+
+
+.bx-wrapper .bx-pager .bx-pager-item,
+
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+
+	display: inline-block;
+
+	*zoom: 1;
+
+	*display: inline;
+
+}
+
+
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+
+	background: #666;
+
+	text-indent: -9999px;
+
+	display: block;
+
+	width: 10px;
+
+	height: 10px;
+
+	margin: 0 5px;
+
+	outline: 0;
+
+	-moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+}
+
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+
+	background: #000;
+
+}
+
+
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+
+
+.bx-wrapper .bx-prev {
+
+	left: 10px;
+
+	
+
+}
+
+
+
+.bx-wrapper .bx-next {
+
+	right: 10px;
+
+	
+
+}
+
+
+
+.bx-wrapper .bx-prev:hover {
+
+	background-position: 0 0;
+
+}
+
+
+
+.bx-wrapper .bx-next:hover {
+
+	background-position: -43px 0;
+
+}
+
+
+
+.bx-wrapper .bx-controls-direction a {
+
+	position: absolute;
+
+	top: 50%;
+
+	margin-top: -16px;
+
+	outline: 0;
+
+	width: 32px;
+
+	height: 32px;
+
+	text-indent: -9999px;
+
+	z-index: 9999;
+
+}
+
+
+
+.bx-wrapper .bx-controls-direction a.disabled {
+
+	display: none;
+
+}
+
+
+
+/* AUTO CONTROLS (START / STOP) */
+
+
+
+.bx-wrapper .bx-controls-auto {
+
+	//text-align: center;
+
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-start {
+
+	display: block;
+
+	text-indent: -9999px;
+
+	width: 10px;
+
+	height: 11px;
+
+	outline: 0;
+
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+
+.bx-wrapper .bx-controls-auto .bx-start.active {
+
+	background-position: -86px 0;
+
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+
+	display: block;
+
+	text-indent: -9999px;
+
+	width: 9px;
+
+	height: 11px;
+
+	outline: 0;
+
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+
+	background-position: -86px -33px;
+
+}
+
+
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+
+	text-align: right;
+
+	width: 100%;
+
+}
+
+
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+
+	right: 0;
+
+	width: 35px;
+
+}
+
+
+
+/* IMAGE CAPTIONS */
+
+
+
+.bx-wrapper .bx-caption {
+
+	position: absolute;
+
+	bottom: 0;
+
+	left: 0;
+
+	background: #666\9;
+
+	background: rgba(80, 80, 80, 0.75);
+
+	width: 100%;
+
+}
+
+
+
+.bx-wrapper .bx-caption span {
+
+	color: #fff;
+
+	font-family: Arial;
+
+	display: block;
+
+	font-size: .85em;
+
+	padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/** THEME
+
+
+
+
+
+.ib-box {
+
+
+
+    display: inline-block;
+
+
+
+    width: 180px;
+
+
+
+    height: 180px;
+
+
+
+}
+
+
+
+
+
+.box-zero {
+
+
+
+    height: 30px;
+
+
+
+}
+
+
+
+.wrap {
+
+
+
+}
+
+
+
+/*index page magazine サムネイル画像*/
+
+
+
+/*single page magazine　投稿画像*/
+
+
+
+photo-sumnail img {
+
+
+
+    border: solid 5px #CCC;
+
+
+
+}
+
+
+
+/*最新の投稿*/
+
+
+
+.blog li {
+
+
+
+    overflow: hidden;
+
+
+
+    clear: both;
+
+
+
+    margin: 0px;
+
+
+
+    list-style: none;
+
+
+
+}
+
+
+
+p.sstit {
+
+
+
+    width: 100px;
+
+
+
+    float: left;
+
+
+
+    font-size: 10px;
+
+
+
+}
+
+
+
+#sen li {
+
+
+
+    display: inline-block;
+
+
+
+}
+
+
+
+a:hover {
+
+
+
+    opacity: 0.6;
+
+
+
+    filter: alpha(opacity=90);
+
+
+
+    -ms-filter: "alpha( opacity=90 )";
+
+
+
+    background: #fff;
+
+
+
+}
+
+
+
+/*members*/
+
+
+
+#members-picup {
+
+
+
+    padding-top: 50px;
+
+
+
+    text-align: center;
+
+
+
+    height: 1500px;
+
+
+
+}
+
+
+
+.members-text-right-picup {
+
+
+
+    float: right;
+
+
+
+    text-align: left;
+
+
+
+}
+
+
+
+.members-text-left-picup-yuka img {
+
+
+
+    margin-top: 8px;
+
+
+
+    margin-bottom: 6px;
+
+
+
+}
+
+
+
+p.members-text-down-picup {
+
+
+
+    font-size: 12px;
+
+
+
+    text-align: left;
+
+
+
+    margin-top: 5px;
+
+
+
+}
+
+
+
+.staff-position {
+
+
+
+    margin-top: 50px;
+
+
+
+}
+
+
+
+span.text-heder {
+
+
+
+    font-size: 12px;
+
+
+
+}
+
+
+
+span.text-big {
+
+
+
+    font-size: 22px;
+
+
+
+    margin-top: 5px;
+
+
+
+}
+
+
+
+p.members-text-left-picup img {
+
+
+
+    margin-top: 6px;
+
+
+
+    margin-right: 3px;
+
+
+
+}
+
+
+
+/*advertize*/
+
+
+
+.adver-txt {
+
+    //padding:5px;
+
+    font-size: 12px;
+
+    //line-height: 140%
+
+}
+
+
+
+
+
+#house-wrap{
+
+width:524px;
+
+height:380px;
+
+padding:20px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.house-post {
+
+
+
+    width:222px;
+
+    //height:400px;
+
+    padding:0 20px;
+
+    float:left;
+
+
+
+}
+
+
+
+.house-text-intro {
+
+
+
+    font-size: 10px;
+
+
+
+    //margin-left: 10px;
+
+
+
+    //width: 170px;
+
+
+
+}
+
+
+
+.house-text-tit {
+
+
+
+    font-size: 13px;
+
+ 
+
+    //margin-left: 10px;
+
+
+
+    //width: 170px;
+
+
+
+}
+
+
+
+dl.house-text{
+
+padding:10px 0;
+
+}
+
+
+
+#test-box {
+
+
+
+    display: inline-block;
+
+
+
+}

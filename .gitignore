@@ -1,0 +1,6 @@
+/wp-content/uploads
+/wp-content/themes/*
+!/wp-content/themes/*hatch*
+/wp-content/plugins/*
+**/*.swp
+/ucberkeley.org/*
