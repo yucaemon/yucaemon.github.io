@@ -4,3 +4,4 @@
 /wp-content/plugins/*
 **/*.swp
 /ucberkeley.org/*
+.idea
