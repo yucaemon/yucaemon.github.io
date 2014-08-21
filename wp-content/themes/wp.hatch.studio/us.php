@@ -8,8 +8,6 @@
 
 <ul class="bxslider">
 
-
-
 <li><img src="<?php echo get_template_directory_uri(); ?>/js/jquery/images/bnr_us01.jpg"/></li>
 
 <li><img src="<?php echo get_template_directory_uri(); ?>/js/jquery/images/bnr_us02.jpg"/></li>
@@ -25,8 +23,6 @@
 <li><img src="<?php echo get_template_directory_uri(); ?>/js/jquery/images/bnr_jk02.jpg"/></li>
 
 </ul>
-
-
 
 <div class="widget_information">
 
@@ -50,20 +46,6 @@
 
 </div><!-- /.widget_information -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="tit-house"><!-- TITTLE HOUSE -->
 
 <dl class="tit-top">
@@ -78,13 +60,7 @@
 
 </div>
 
-
-
-
-
 <div id="house-wrap">
-
-
 
 <div class="house-post"><!-- HOUSE LEFT -->
 
@@ -112,11 +88,7 @@ while(have_posts()) : the_post();
 
 </div>
 
-
-
 <div class="house-post"><!-- HOUSE RIGHT -->
-
-
 
 <?php
 
@@ -142,23 +114,11 @@ while(have_posts()) : the_post();
 
 </div>
 
-
-
-
-
-
-
-
-
 <div class="clear-both"></div>
 
 </div>
 
-
-
 <div id="main-post">
-
-
 
 <div class="tit-house"><!-- TITTLE HOUSE -->
 
@@ -173,10 +133,6 @@ while(have_posts()) : the_post();
 </dl>
 
 </div>
-
-
-
-
 
 <?php
 
@@ -201,8 +157,6 @@ while(have_posts()) : the_post();
 <?php endwhile; ?>
 
 </div>
-
-
 
 </div><!-- ------------------------------------------------------------------------------- END MIDDLE -->
 

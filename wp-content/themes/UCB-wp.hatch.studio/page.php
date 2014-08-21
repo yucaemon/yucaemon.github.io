@@ -1,24 +1,6 @@
- <?php get_header(); ?>
+<?php get_header(); ?>
 
 <?php get_Sidebar(2); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php get_Sidebar(); ?>
 

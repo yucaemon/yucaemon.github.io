@@ -10,19 +10,7 @@ Template Name: yuka
 
 <?php get_header(); ?>
 
-
-
-
-
-
-
 <?php get_sidebar(); ?>
-
-
-
-
-
-
 
 <div id="middle"><!-- ------------------------------------------------------------------------ MIDDLE -->
 
@@ -40,8 +28,6 @@ Template Name: yuka
 
 </div-->
 
-
-
 <div id="members-picup">
 
 <p class= "members-text-left-picup"><img src="<?php echo get_template_directory_uri(); ?>/images/yukatext.png"></span><span class="members-text-right-picup"><span class="text-heder">適当おもしろリーダー。</span></br><span class="text-big">適当なのに心配性。</span></p>
@@ -55,9 +41,5 @@ Template Name: yuka
 </div>
 
 </div><!-- ------------------------------------------------------------------------------- END MIDDLE -->
-
-
-
-
 
 <?php get_footer(); ?>

@@ -1,78 +1,32 @@
 <?php 
 
-
-
 register_sidebar();
-
-
 
 add_theme_support( 'post-thumbnails' );
 
-
-
 set_post_thumbnail_size( 544, 340, true ); 
-
-
-
-
-
-
-
-
-
-
 
 if ( current_user_can('contributor') && !current_user_can('upload_files') )
 
-
-
     add_action('admin_init', 'allow_contributor_uploads');
-
-
 
   
 
-
-
   function allow_contributor_uploads() {
-
-
 
       $contributor = get_role('contributor');
 
-
-
       $contributor->add_cap('upload_files');
 
-
-
 }
-
-
-
-
-
-
 
 function time_ago( $type = 'post' ) {
 
-
-
 	$d = 'comment' == $type ? 'get_comment_time' : 'get_post_time';
-
-
 
 	return human_time_diff($d('U'), current_time('timestamp')) . "" . __(' ago');
 
-
-
 }
-
-
-
-
-
-
 
 function exclude_other_posts( $wp_query ) {
 
@@ -102,10 +56,6 @@ function exclude_other_posts( $wp_query ) {
 
 add_action( 'pre_get_posts', 'exclude_other_posts' );
 
-
-
-
-
 // フィルタの登録
 
 add_filter('content_save_pre','test_save_pre');
@@ -131,11 +81,5 @@ function test_save_pre($content){
     return $content;
 
 }
-
-
-
-
-
-
 
 ?>

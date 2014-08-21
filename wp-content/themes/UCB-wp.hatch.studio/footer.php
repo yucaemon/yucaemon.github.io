@@ -1,24 +1,8 @@
 <!-- footer -->
 
-
-
-
-
-
-
 <div id="footer">
 
-
-
-
-
-
-
 <div id ="footer-content">
-
-
-
-
 
 <?php if (!preg_match('~Windows|MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT'])) : ?>
 
@@ -40,47 +24,13 @@
 
 <?php endif; ?>
 
-
-
-
-
 <p><small>© <?php bloginfo('name'); ?> All Rights Reserved.</small></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
 
 <?php wp_footer(); ?>
-
-
-
-
 
 <?php if (is_user_logged_in()) : ?>
 
@@ -92,20 +42,6 @@
 
 <?php endif; ?>
 
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
 
 </html>
