@@ -76,19 +76,6 @@ endif;
 
 </div>
 
- <div class="authors-info">				
-
-<a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
-
- <div class="pickup-authors"><?php userphoto_the_author_photo() ?></div>
-
-</a>
-
- <p class="name"><?php the_author_nickname(); ?></p>
-
- <p class="author-about"><?php the_author_description(); ?></p>
-
- </div>
 
  <?php endif; ?>
 
