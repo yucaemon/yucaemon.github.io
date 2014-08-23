@@ -5,3 +5,4 @@
 **/*.swp
 /ucberkeley.org/*
 .idea
+.DS*
