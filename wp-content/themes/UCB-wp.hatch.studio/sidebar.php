@@ -34,7 +34,7 @@
 
  // 表示する順番にユーザーIDを設定する
 
- $this_authors = array(2); 
+ $this_authors = array(23);
 
 ?>
 
@@ -68,7 +68,7 @@
 
 <?php
 
-query_posts('showposts=10&cat=19');
+query_posts('showposts=10&cat=2');
 
 while(have_posts()) : the_post();
 
