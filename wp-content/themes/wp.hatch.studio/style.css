@@ -534,7 +534,7 @@ border-top: solid 12px #313131;
 
 
 
-    float: left;
+    /*float: left;*/
 
 
 
@@ -578,7 +578,16 @@ white-space: nowrap;
 
 }
 
+.sf{
 
+float:left;
+}
+
+
+
+.ucb{
+
+}
 
 #navi ul {
 
@@ -952,7 +961,7 @@ p.date {
 
 
 
-    font-size: 60px;
+    font-size: 32px;
 
 
 

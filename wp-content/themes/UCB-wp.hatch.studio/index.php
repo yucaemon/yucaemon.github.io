@@ -9,58 +9,17 @@
 <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
 
 <h2>UCバークレー大学の面白インタビュー</h2>
+<div class="subtitle">
+<p><span class="sub-title-top">UCB</span>UC バークレー大学の構内</p>
+<dt>Interview</dt>
+<dd>名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪</dd>
+</div>
 
-<p class="subtitle">名門UCバークレー大学にいる人達はどんな人たちがいるの？？ </br>
-
-という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪</p>
-
-<div id="top-sf"><img src="<?php echo get_template_directory_uri(); ?>/images/UCB.png"></div>
-
-<p class="date">08.28</p>
-
-<p class="explanation">にオープンしました。<br>面白人間あつまれ！！</p>
+<div id="top-sf"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
 
 </div><!--END TITLE -->
 
 <div class="clear-both"></div>
-
-<div id="Column">
-
-<div id="interview">
-
-<p class="bigtitle"><span class="big">i</span>nter<span class="big">v</span>iew</p>
-
-<p class="smailtitle">シリコンバレー、バークレーを中心に面白い事をやっている人たちにインタビューしてみる。</p>
-
-<div class="clear-both"></div>
-
-<div class="interview-left">
-
-<p class="name">No1. 田中 秀司</br>SHUJI TANAKA</p>
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/focus.png" class="focus">
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/interview/shujiT.jpg" class="interview-face-photo">
-
-<p class="interview-title">comming soon!!!</br>全てはキャリアため。シリコンバレーでインタビューしまくる。</p>
-
-</div>
-
-<div class="interview-right">
-
-<p class="name">No2. 横本　翔一郎</br>SEAN YOKOMOTO</p>
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/focus.png" class="focus">
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/interview/seanY.jpg" class="interview-face-photo">
-
-<p class="interview-title">comming soon!!!</br>UCバークレーでのスタートアップの活動の原点。</p>
-
-</div>
-
-<div class="clear-both"></div>
-
-</div>
 
 <ul class="pickup">
 

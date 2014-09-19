@@ -168,9 +168,22 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <div class="head-title">
 
-<a href="<?php echo home_url(); ?>"><p class="big-tit-navi">hatch studio</p></a>
+<div class="sf">
+<a href="<?php echo home_url(); ?>">
+<p class="big-tit-navi">San Francisco</p>
+</a>
+><a href="<?php echo home_url(); ?>">サンフランシスコ現地からおとどけ！面白まがじん</a>
+</div>
 
+
+<div class="ucb">
+<a href="<?php echo home_url(); ?>">
+<p class="big-tit-navi">San Francisco</p>
+</a>
 <p class="navi-title"><a href="<?php echo home_url(); ?>">サンフランシスコ現地からおとどけ！面白まがじん</a></p>
+</div>
+
+
 
 </div>
 
