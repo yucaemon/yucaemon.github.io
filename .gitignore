@@ -6,3 +6,5 @@
 /ucberkeley.org/*
 .idea
 .DS*
+.htaccess
+wp-config.php
