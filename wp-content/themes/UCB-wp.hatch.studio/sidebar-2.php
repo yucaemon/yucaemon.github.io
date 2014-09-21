@@ -1,160 +1,57 @@
 <div id="left-side"><!-- LEFT SIDE -->
 
-<div class="title-icon"><span class="sub-title">category</span></div>
-
-<ul class="category">
-
-<li>
-
-<a href="<?php echo get_category_link('5'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/EAT.png" class="cate-img EAT" ></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('5'); ?>">EAT</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('5'); ?>">食べてみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('6'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/GO.png" class="cate-img GO"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('6'); ?>">GO</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('6'); ?>">行ってみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('1'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/COOK.png" class="cate-img COOK"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('1'); ?>">COOK</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('1'); ?>">料理する</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('4'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/BUY.png" class="cate-img BUY"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('4'); ?>">BUY</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('4'); ?>">買ってみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('18'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/NEWS.png" class="cate-img NEWS"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('18'); ?>">NEWS</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('18'); ?>">読んでみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('8'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/MEMO.png" class="cate-img MEMO"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('8'); ?>">MEMO</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('8'); ?>">知ってみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('9'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/MEET.png" class="cate-img MEET"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('9'); ?>">MEET</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('9'); ?>">会ってみる</a></dt>
-
-</dl>
-
-</li>
-
-<li>
-
-<a href="<?php echo get_category_link('3'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tags/WEB.png" class="cate-img WEB"></a>
-
-<dl class="cate-text">
-
-<dt class="cate-desc-english-tit"><a href="<?php echo get_category_link('3'); ?>">STUDY</a></dt>
-
-<dt class="cate-desc-tit"><a href="<?php echo get_category_link('3'); ?>">WEBする</a></dt>
-
-</dl>
-
-</li>
-
-</ul>
-
-<div class="clear-both"></div>
-
-<div class="instagram">
-
-<span class="sub-title">ひとこと投稿</span>
-
-<ul class="little-post">
-
-<?php
-
-query_posts('showposts=20&cat=22');
-
-while(have_posts()) : the_post();
-
-?>
-
-<li>
-
-<div class="little-post-text">
-
-<p class ="little-post-title"><?php the_title(); ?></p>
-
-</div>
-
-<div class="little-post-img"><?php the_post_thumbnail(array(120,120)); ?></div>
-
-<div class="post-authors"><a href="<?php echo get_author_posts_url( get_the_author_ID() )?>"><?php userphoto_the_author_photo() ?></a></div>
-
-<div class="clear-both"></div>
-
-</li>
-
-<?php endwhile; ?>
-
-</ul>
-
-</div>
+    <div class="title-icon"><span class="sub-title">category</span></div>
+
+    <ul class="category">
+        <li><a href="<?php echo get_category_link('2'); ?>">文系</a></li>
+        <li><a href="<?php echo get_category_link('3'); ?>">理系</a></li>
+        <li><a href="<?php echo get_category_link('4'); ?>">Law School</a></li>
+        <li><a href="<?php echo get_category_link('5'); ?>">大学院 / MBA</a></li>
+        <li><a href="<?php echo get_category_link('6'); ?>">ボスドク</a></li>
+        <li><a href="<?php echo get_category_link('7'); ?>">Ph.D</a></li>
+        <li><a href="<?php echo get_category_link('8'); ?>">教授/客員教授</a></li>
+    </ul>
+
+    <div class="title-icon"><span class="sub-title">UCB Schedule</span></div>
+    <div class="schedule">
+        <dl>
+            <dt>
+                秋入学/編入
+                </br>
+                スケジュール
+            </dt>
+        </dl>
+        <dl>
+            <dt>11月31日</dt>
+            <dd>願書提出/締め切り
+                <div><img src="<?php echo get_template_directory_uri(); ?>/images/down-pint_19.png"></div>
+            </dd>
+
+        </dl>
+        <dl>
+            <dt>０1月31日</dt>
+            <dd>最後のセメスターで
+                </br>取得した成績を更新
+                <img src="<?php echo get_template_directory_uri(); ?>/images/down-pint_19.png">
+            </dd>
+        </dl>
+        <dl>
+            <dt>04月26日
+            </dt>
+            <dd>合格発表</dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="http://admission.universityofcalifornia.edu/how-to-apply/apply-online/index.html" target="_blank">
+                    UCB online
+                </br>
+               Application</a>
+            </dt>
+            <dd>
+               <a href="http://takuyasuzuki0403.wix.com/berkeley#!student-life/c11m6" target="_blank"> <span>＋</span>Read More</a>
+            </dd>
+        </dl>
+    </div>
 
 </div><!--  END LEFT SIDE -->
 

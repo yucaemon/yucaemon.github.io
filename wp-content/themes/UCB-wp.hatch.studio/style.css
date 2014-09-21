@@ -170,9 +170,8 @@ padding: 0 40px;
 
     height: auto;
 
-   
-
     margin-left:30px;
+
 
 }
 
@@ -216,7 +215,7 @@ padding: 0 40px;
 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    background-color: rgb(138, 208, 230);
+    background-color: #23B4EC;
 
     color: #fff;
 
@@ -802,47 +801,97 @@ padding-left: 15px;
 
 .category {
 
-    padding: 10px 0 30px 0;
+ border-bottom: dotted 1px #6EB3FF;
+ padding: 10px 0 5px 0;
+}
 
+
+.category,.schedule {
+
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom:24px;
 }
 
 .category li {
 
-border-bottom: dotted 1px #6EB3FF;
-
-height: 70px;
-
-padding: 17px 0 15px 0;
+    padding: 9px 0 20px 0;
+    font-weight: bold;
+    font-size: 16px;
 
 }
 
-.category li:after {
+.category li:before {
 
-    content: "";
+    content: "●";
+    color: #23B4EC;
+    font-size: 19px;
+    padding-right: 10px;
 
-    clear: both;
+}
 
-    height: 0;
+.schedule{
 
-    display: block;
+    margin-top:10px;
 
-    visibility: hidden;
+}
 
+.schedule dl{
+
+    padding:23px 0;
+    border-bottom: dotted 1px  #23B4EC;
+    text-align:center;
+
+}
+
+.schedule dt{
+
+     font-size:16px;
+     font-weight:bold;
+
+ }
+
+.schedule dd{
+
+    font-size:12px;
+    font-weight:bold;
+    color:  #23B4EC;
+    padding-top:1px;
+
+}
+
+.schedule dd img{
+    width:23px;
+    height:22px;
+    margin-top:14px;
+}
+
+.schedule dl:last-child a{
+     color:#23B4EC;
+ }
+
+.schedule dl:last-child a:hover{
+    color:#AAD9E9;
+
+}
+
+.schedule dl:last-child dt{
+   padding:14px;
+   border: solid 1px #23B4EC;
+   margin-bottom:15px;
+
+   font-size:14px;
+}
+
+.schedule dl:last-child dd{
+   text-align:right;
 }
 
 .cate-desc-tit {
-
     font-size: 11px;
 
 }
 
-.cate-desc-english-tit {
-
-    font-size: 21px;
-
-    padding: 10px 0 2px 0;
-
-}
 
 dl.cate-text {
 
@@ -1488,9 +1537,8 @@ h4 {
 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    color:rgb(138, 208, 230);
 
-    background-color: rgb(255, 255, 255);
+    background-color: #6EB3FF;
 
     border: 1px;
 
@@ -1524,6 +1572,7 @@ h4 {
 
     margin-right: 50px;
 
+    color:#6EB3FF;
 }
 
 .articles .mini-info p {
