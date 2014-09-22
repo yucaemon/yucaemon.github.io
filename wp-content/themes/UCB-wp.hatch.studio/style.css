@@ -154,7 +154,7 @@ float: left;
 
 width: 720px;
 
-padding: 0 40px;
+padding:0 45px 0 95px;
 
     }
 
@@ -181,7 +181,7 @@ padding: 0 40px;
 
     float: left;
 
-    width: 240px;
+    width: 200px;
 
     height: auto;
 
@@ -260,15 +260,18 @@ div.subtitle p{
 
     border-radius: 3px;
 
-    border: solid 1px #FFE7E7;
+    border: solid 1px #23B4EC;
 
     padding: 2px 4px;
+
+    color:#23B4EC;
 
 }
 
 .title-icon {
 
-    margin: 10px 0 5px 0;
+    margin: 15px 0 5px 0;
+    clear:both;
 
 }
 
@@ -429,7 +432,14 @@ font-size: 53px;
 
 height: 200px;
 
+    clear:both;
+
+border-bottom: dotted 1px #23B4EC;
+    height: 490px;
 }
+
+
+
 
 .title span.first-c {
 
@@ -477,14 +487,14 @@ p.title span.ca {
 
 float: right;
 
-padding: 61px 75px 10px 13px;
+padding: 56px 53px 10px 0;
 
 }
 
 #top-sf img {
 
-width: 285px;
-height: 242px;
+width: 315px;
+height: 262px;
 
 }
 
@@ -510,7 +520,7 @@ margin: 0 0;
 
 font-size: 12px;
 
-padding: 45px 9px 3px 0;
+padding: 90px 9px 3px 0;
 
 float: left;
 
@@ -524,7 +534,7 @@ font-weight: bold;
 
 .subtitle dt{
 font-size:49px;
-padding: 19px 0 24px 0;
+padding: 23px 0 31px 0;
 
 }
 
@@ -866,11 +876,11 @@ padding-left: 15px;
     margin-top:14px;
 }
 
-.schedule dl:last-child a{
+.schedule dl:last-child a,.about dd:last-child a{
      color:#23B4EC;
  }
 
-.schedule dl:last-child a:hover{
+.schedule dl:last-child a:hover,.about dd:last-child a:hover{
     color:#AAD9E9;
 
 }
@@ -885,6 +895,7 @@ padding-left: 15px;
 
 .schedule dl:last-child dd{
    text-align:right;
+
 }
 
 .cate-desc-tit {
@@ -949,47 +960,83 @@ float: left;
 
 /* ABOUT */
 
-#right-side .about {
+
+#right-side .about,#right-side .new-members  {
 
     padding: 10px 0 30px 0;
-
     border-bottom: dotted 1px #6EB3FF;
 
 }
 
-.about div.description {
+#right-side .about dt{
 
-    padding: 5px 0 14px 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 29.8px;
+    margin: 25px 0;
+}
+
+#right-side .about dd{
+
+    font-size:12px;
+    text-align:left;
+    padding-bottom:14px;
+    line-height: 1.6;
+}
+
+#right-side .about dd:last-child{
+    text-align: right;
+    font-size: 15px;
+    color: #23B4EC;
+    font-weight: bold;
+}
+
+#right-side .new-members{
+    height:200px;
+}
+
+
+
+#right-side .new-members dt{
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+
+
+
+#right-side .new-members dd.man-icon-img{
+    float:right;
+    width: 49px;
+    height: 47px;
+}
+
+
+#right-side .new-members dd.man-icon-img img{
+    width: 49px;
+    height: 47px;
+    margin-top: 8px;
+    margin-left: 13px;
 
 }
 
-.about p {
-
-    padding: 6px 30px 0 30px;
-
+#right-side .new-members dd:last-child{
     font-size: 10px;
+    line-height: 1.5;
+    padding-top: 14px;
 
 }
 
-.about img {
+#right-side .new-members dd.man-icon-img:after{
 
-    padding: 30px 0 6px 53px;
-
-}
-
-p.description {
-
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-    font-size: 9px;
-
-    text-align: left;
-
-    color: #6B6969;
-
-    width: 175px;
-
-    padding: 10px 35px;
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
 
 }
 
@@ -1035,7 +1082,7 @@ p.description {
 
 .Authors-list dl {
 
-    width: 164px;
+    width: 133px;
 
     float: left;
 
@@ -1241,7 +1288,7 @@ ul {
 
 font-size: 9px;
 
-color: #FFC7CD;
+color: #23B4EC;
 
 letter-spacing: 1px;
 
@@ -1267,7 +1314,7 @@ line-height: 2;
 
 .mini-info a {
 
-    color: #FFC7CD;
+    color: #23B4EC;
 
 }
 

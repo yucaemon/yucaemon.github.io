@@ -5,12 +5,10 @@
 <div id="center"><!-- CENTER -->
 
 <div class="title"><!-- TITLE -->
-
 <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
-
 <h2>UCバークレー大学の面白インタビュー</h2>
 <div class="subtitle">
-<p><span class="sub-title-top">UCB</span>UC バークレー大学の構内</p>
+<p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
 <dt>Interview</dt>
 <dd>名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪</dd>
 </div>
