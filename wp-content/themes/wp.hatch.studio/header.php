@@ -166,26 +166,25 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <div id="navi"><!-- NAVI -->
 
-<div class="head-title">
+    <ul class="head-categories">
 
-<div class="sf">
-<a href="<?php echo home_url(); ?>">
-<p class="big-tit-navi">San Francisco</p>
-</a>
-><a href="<?php echo home_url(); ?>">サンフランシスコ現地からおとどけ！面白まがじん</a>
-</div>
+        <li>
+            <div class="text-tit">
+                <p class="head-categories-title"><a href="<?php echo home_url(); ?>">San Francisco</a></p>
+                <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">サンフランシスコ　面白まがじん</a></p>
+            </div>
+            <div class="head-categories-img"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></a></div>
+        </li>
 
+        <li>
+            <div class="text-tit">
+                <p class="head-categories-title"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank">UC Berkeley</a></p>
+                <p class="head-categories-subtitle"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank">UCバークレー　面白インタビュー</a></p>
+            </div>
+            <div class="head-categories-img"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
+        </li>
 
-<div class="ucb">
-<a href="<?php echo home_url(); ?>">
-<p class="big-tit-navi">San Francisco</p>
-</a>
-<p class="navi-title"><a href="<?php echo home_url(); ?>">サンフランシスコ現地からおとどけ！面白まがじん</a></p>
-</div>
-
-
-
-</div>
+    </ul>
 
 <?php if (!preg_match('~Windows|MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT'])) : ?>
 

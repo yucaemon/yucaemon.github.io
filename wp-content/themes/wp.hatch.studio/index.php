@@ -49,6 +49,7 @@
 
 <li><a href="http://hatchstudioinc.com/?p=430"><time>2014/04/27</time> はっち会、寿司会しました！</a></li>
 
+</ul>
 </div>
 
 </div><!--END TITLE -->
@@ -59,43 +60,7 @@
 
 </div>
 
-<div id="Column">
 
-<div id="interview">
-
-<p class="bigtitle"><span class="big">i</span>nter<span class="big">v</span>iew</p>
-
-<p class="smailtitle">シリコンバレー、バークレーを中心に面白い事をやっている人たちにインタビューしてみる。</p>
-
-<div class="clear-both"></div>
-
-<div class="interview-left">
-
-<p class="name">No1. 田中 秀司</br>SHUJI TANAKA</p>
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/focus.png" class="focus">
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/interview/shujiT.jpg" class="interview-face-photo">
-
-<p class="interview-title">comming soon!!!</br>全てはキャリアため。シリコンバレーでインタビューしまくる。</p>
-
-</div>
-
-<div class="interview-right">
-
-<p class="name">No2. 横本　翔一郎</br>SEAN YOKOMOTO</p>
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/focus.png" class="focus">
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/interview/seanY.jpg" class="interview-face-photo">
-
-<p class="interview-title">comming soon!!!</br>UCバークレーでのスタートアップの活動の原点。</p>
-
-</div>
-
-<div class="clear-both"></div>
-
-</div>
 
 <ul class="pickup">
 
@@ -128,7 +93,7 @@ while(have_posts()) : the_post();
 endif;
 
 ?>
-
+</a>
 </div>
 
 <div class="pickup-text">
@@ -137,7 +102,7 @@ endif;
 
 <div class="pickup-paragraph">
 
-<p class="post-text"><a href="<?php the_permalink() ?>"rel="bookmark"><?php echo mb_substr(strip_tags($post-> post_content),0,130).'...'; ?></p>
+<p class="post-text"><a href="<?php the_permalink() ?>"rel="bookmark"><?php echo mb_substr(strip_tags($post-> post_content),0,130).'...'; ?></a></p>
 
 </div>
 

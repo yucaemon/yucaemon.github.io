@@ -197,19 +197,21 @@ $str = $post->post_content;
 
 
             <ul class="head-categories">
+
                 <li>
                     <div class="text-tit">
-                    <p class="head-categories-title"><a href="<?php echo home_url(); ?>">UC Berkeley</a></p>
-                    <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">UCバークレー　面白インタビュー</a></p>
-                   </div>
-                   <div class="head-categories-img"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></div>
-                </li>
-                <li>
-                    <div class="text-tit">
-                    <p class="head-categories-title"><a href="<?php echo home_url(); ?>">San Francisco</a></p>
-                    <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">サンフランシスコ　面白まがじん</a></p>
+                    <p class="head-categories-title"><a href="http://hatchstudioinc.com/">San Francisco</a></p>
+                    <p class="head-categories-subtitle"><a href="http://hatchstudioinc.com/">サンフランシスコ　面白まがじん</a></p>
                     </div>
-                    <div class="head-categories-img"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></div>
+                    <div class="head-categories-img"><a href="http://hatchstudioinc.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></a></div>
+                </li>
+
+                <li>
+                    <div class="text-tit">
+                        <p class="head-categories-title"><a href="<?php echo home_url(); ?>" target="_blank">UC Berkeley</a></p>
+                        <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>" target="_blank">UCバークレー　面白インタビュー</a></p>
+                    </div>
+                    <div class="head-categories-img"><a href="<?php echo home_url(); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
                 </li>
 
             </ul>
