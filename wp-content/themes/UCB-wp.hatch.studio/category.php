@@ -10,7 +10,6 @@
 
     <div class="title"><!-- TITLE -->
         <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
-
         <h2>UCバークレー大学の面白インタビュー</h2>
     </div>
 
@@ -18,24 +17,14 @@
 
 <?php $cat_id =  $target_cat->term_id; ?>
 
-<div class="cate-img-top cook-img-top"><img src="<?php echo get_template_directory_uri(); ?>/images/cates/T-<?php echo $cat_id?>.png"></div>
 
-<div class="cate-right-text img-cook">
+<div class="cate-right-text">
 
-<span class="sub-title">category</span>
-
-<?php 
-
+<?php
  $category = get_category( $cat_id );
-
-?> 
-
+?>
 <h3><?php echo $category->slug ?></h3>
-
-<p class="big-title"><?php echo $category->name ?></p>
-
-<p class="small-title"><?php echo $category->description ?></p>
-
+<p class="big-title"><span class="sub-title">category</span><?php echo $category->name ?></p>
 </div>
 
 <div class="clear-both"></div>

@@ -208,10 +208,10 @@ $str = $post->post_content;
 
                 <li>
                     <div class="text-tit">
-                        <p class="head-categories-title"><a href="<?php echo home_url(); ?>" target="_blank">UC Berkeley</a></p>
-                        <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>" target="_blank">UCバークレー　面白インタビュー</a></p>
+                        <p class="head-categories-title"><a href="<?php echo home_url(); ?>">UC Berkeley</a></p>
+                        <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">UCバークレー　面白インタビュー</a></p>
                     </div>
-                    <div class="head-categories-img"><a href="<?php echo home_url(); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
+                    <div class="head-categories-img"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
                 </li>
 
             </ul>
