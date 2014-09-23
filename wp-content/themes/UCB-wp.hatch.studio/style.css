@@ -639,17 +639,16 @@ p.date {
 
 .cate-right-text h3 {
 
-    font-size: 53px;
+    font-size: 85px;
 
     font-family: 'Alegreya Sans SC', sans-serif;
 
     color: #333;
 
-    padding: 6px 0 0 0;
+    padding: 45px 0 0 12px;
 
-    margin: 0 0;
+    margin: 0 0 -15px 0;
 
-    height: 56px;
 
 }
 
@@ -671,8 +670,7 @@ p.date {
 
 #header .cate-right-text .sub-title {
 
-    background-color: rgb(253, 189, 189);
-
+    background-color: #23B4EC;
     color: #FFF;
 
 }
@@ -684,6 +682,7 @@ p.date {
     color: #6B6969;
 
 }
+
 
 #interview {
 
@@ -1868,6 +1867,10 @@ a img:hover {
 
 }
 
+.yuzo_related_post .relatedthumb:hover {
+    background: #C2E9F5 !important;
+}
+
 .fb-comments {
 
     padding: 80px 0 0 35px;
@@ -1930,13 +1933,13 @@ a img:hover {
 
     margin: 0 0 4px 0;
 
-    color: #F8B0B0;
+    color: #23B4EC;
 
 }
 
 .post-related .relatedthumb {
 
-    border: solid 2px #FFDFDF !important;
+    border: solid 2px #23B4EC !important;
 
     margin: 30px 14px 0 1px !important;
 
@@ -2008,11 +2011,26 @@ a img:hover {
 
 }
 
+
+.big-title span.sub-title {
+
+    background-color: #23B4EC;
+    color: #FFF;
+    margin-right:13px;
+
+}
+
+.big-title {
+
+    margin-left:13px;
+
+}
+
 #author-page .cate-right-text {
 
     width: auto;
 
-    padding: 14px 0 0 89px;
+    padding: 73px 0 0 41px;
 
     float: left;
 
