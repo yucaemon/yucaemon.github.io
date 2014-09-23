@@ -75,7 +75,9 @@ endif;
 
 <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
 
-<div class="pickup-authors"><?php userphoto_the_author_photo() ?></div>
+<div class="pickup-authors">
+    <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
+</div>
 
 </a>
 
@@ -143,7 +145,10 @@ endif;
 
 <div class="post-authors">
 
-<a href="<?php echo get_author_posts_url( get_the_author_ID() )?>"><?php userphoto_the_author_photo() ?></a></div>
+    <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>"
+        <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
+    </a>
+</div>
 
 <div class="mini-info">
 
