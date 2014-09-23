@@ -178,10 +178,10 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
         <li>
             <div class="text-tit">
-                <p class="head-categories-title"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank">UC Berkeley</a></p>
-                <p class="head-categories-subtitle"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank">UCバークレー　面白インタビュー</a></p>
+                <p class="head-categories-title"><a href="http://ucberkeley.hatchstudioinc.com/">UC Berkeley</a></p>
+                <p class="head-categories-subtitle"><a href="http://ucberkeley.hatchstudioinc.com/">UCバークレー　面白インタビュー</a></p>
             </div>
-            <div class="head-categories-img"><a href="http://ucberkeley.hatchstudioinc.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
+            <div class="head-categories-img"><a href="http://ucberkeley.hatchstudioinc.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
         </li>
 
     </ul>
