@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php get_Sidebar(3); ?>
+<?php get_Sidebar(2); ?>
 
 <div id="center">
 
@@ -12,7 +12,7 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+ <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>
 
  <header class="entry-header">
 

@@ -163,6 +163,8 @@ endif;
 
 </div><!-- END Column -->
 
+<div class="post-related"><?php get_yuzo_related_posts(); ?></div>
+
 </div><!-- CENTER -->
 
 <?php get_Sidebar(); ?>

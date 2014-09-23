@@ -8,13 +8,11 @@
 
 <div id="header"><!-- HEADER -->
 
-<div class="title"><!-- TITLE -->
+    <div class="title"><!-- TITLE -->
+        <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
 
-<a href="<?php echo home_url(); ?>"><h1>S<span class="first-a">a</span>n Fr<span class="second-a">a</span>n<span class="c">c</span>isco</h1></a>
-
-<h2>現地密着まがじん。</h2>
-
-</div>
+        <h2>UCバークレー大学の面白インタビュー</h2>
+    </div>
 
 <?php $target_cat = get_category_by_slug( $category_name ) ?>
 

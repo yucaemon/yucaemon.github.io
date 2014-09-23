@@ -8,24 +8,16 @@
 
 <div id="header"><!-- HEADER -->
 
-<div class="title"><!-- TITLE -->
+    <div class="title"><!-- TITLE -->
+        <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
 
-<a href="<?php echo home_url(); ?>"><h1>S<span class="first-a">a</span>n Fr<span class="second-a">a</span>n<span class="c">c</span>isco</h1></a>
-
-<h2>現地密着まがじん。</h2>
-
-</div>
-
- <?php
-
-    $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
-
-    ?>
-
+        <h2>UCバークレー大学の面白インタビュー</h2>
+    </div>
 <?php
-
+    $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
+?>
+<?php
   $author_id = $curauth->id;
-
 ?>
 
 <div class="cate-right-text">
