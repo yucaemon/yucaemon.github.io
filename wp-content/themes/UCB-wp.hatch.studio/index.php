@@ -3,25 +3,27 @@
 <?php get_sidebar(2); ?>
 
 <div id="center"><!-- CENTER -->
+    <div id="header"><!-- HEADER -->
+        <div class="title"><!-- TITLE -->
+            <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1>
+            </a>
+            <h2>UCバークレー大学の面白インタビュー</h2>
+            <div class="subtitle">
+                <p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
+                <dt>Interview</dt>
+                <dd>
+                    名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪
+                </dd>
+            </div>
+            <div id="top-sf"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+            <div class="clear-both"></div>
+        </div>
+        <!--END TITLE -->
 
-<div class="title"><!-- TITLE -->
-<a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
-<h2>UCバークレー大学の面白インタビュー</h2>
-<div class="subtitle">
-<p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
-<dt>Interview</dt>
-<dd>名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪</dd>
-</div>
 
-<div id="top-sf"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+        <ul class="pickup">
 
-</div><!--END TITLE -->
-
-<div class="clear-both"></div>
-
-<ul class="pickup">
-
-<?php
+            <?php
 
 query_posts('showposts=12&cat=-22&posts_per_page=1&paged='.$paged);
 
@@ -29,11 +31,11 @@ while(have_posts()) : the_post();
 
 ?>
 
-<li>
+            <li>
 
-<div class="pickup-img"><a href="<?php the_permalink() ?>"rel="bookmark">
+                <div class="pickup-img"><a href="<?php the_permalink() ?>" rel="bookmark">
 
-<?php
+                    <?php
 
   if ( has_post_thumbnail() ) :
 
@@ -43,69 +45,72 @@ while(have_posts()) : the_post();
 
 ?>
 
-<img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png" class="attachment-post-thumbnail">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png"
+                         class="attachment-post-thumbnail">
 
-<?php
+                    <?php
 
 endif;
 
 ?>
 
-</div>
+                </a></div>
 
-<div class="pickup-text">
+                <div class="pickup-text">
 
-<h4><a href="<?php the_permalink() ?>"rel="bookmark"><?php the_title(); ?></a></h4>
+                    <h4><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
 
-<div class="pickup-paragraph">
+                    <div class="pickup-paragraph">
 
-<p class="post-text"><a href="<?php the_permalink() ?>"rel="bookmark"><?php echo mb_substr(strip_tags($post-> post_content),0,130).'...'; ?></p>
+                        <p class="post-text"><a href="<?php the_permalink() ?>"
+                                                rel="bookmark"><?php echo mb_substr(strip_tags($post->
+                            post_content),0,130).'...'; ?></a></p>
 
-</div>
+                    </div>
 
-<div class="clear-both"></div>
+                    <div class="clear-both"></div>
 
-<div class="mini-info">
+                    <div class="mini-info">
 
-<span class="sub-title"><?php echo time_ago(); ?></span>
+                        <span class="sub-title"><?php echo time_ago(); ?></span>
 
-<span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
+                        <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
 
-</div>
+                    </div>
 
-<a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
+                    <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
 
-<div class="pickup-authors">
-    <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
-</div>
+                        <div class="pickup-authors">
+                            <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
+                        </div>
 
-</a>
+                    </a>
 
-</div>
+                </div>
 
-<div class="clear-both"></div>
+                <div class="clear-both"></div>
 
-</li>
+            </li>
 
-<?php endwhile; ?>
+            <?php endwhile; ?>
 
-<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+            <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
-</ul>
+        </ul>
 
-<div class="clear-both"></div>
+        <div class="clear-both"></div>
 
-<ul class="articles">
+        <ul class="articles">
 
-<?php query_posts('showposts=16&cat=-22&offset=12');
+            <?php query_posts('showposts=16&cat=-22&offset=12');
 
 if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<li>
+            <li>
 
-<p class="thimbnailtop"><a href="<?php the_permalink() ?>"rel="bookmark">
+                <p class="thimbnailtop"><a href="<?php the_permalink() ?>" rel="bookmark">
 
-<?php
+                    <?php
 
   if ( has_post_thumbnail() ) :
 
@@ -115,58 +120,61 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 ?>
 
-<img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png" class="attachment-post-thumbnail">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png"
+                         class="attachment-post-thumbnail">
 
-<?php
+                    <?php
 
 endif;
 
 ?>
 
-</a></p>
+                </a></p>
 
-<p class="post-tit">
+                <p class="post-tit">
 
-<a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php
+                    <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php
 
  if(mb_strlen($post->post_title)>20) { $title= mb_substr($post->post_title,0,25) ; echo $title. ･･･ ;
 
-} else {echo $post->post_title;}?>
+                        } else {echo $post->post_title;}?>
 
-</a>
+                    </a>
 
-</p>
+                </p>
 
-<p class="post-text">
+                <p class="post-text">
 
-<a href="<?php the_permalink() ?>"rel="bookmark"><?php echo mb_substr(strip_tags($post-> post_content),0,30).'...'; ?></a>
+                    <a href="<?php the_permalink() ?>" rel="bookmark"><?php echo mb_substr(strip_tags($post->
+                        post_content),0,30).'...'; ?></a>
 
-</p>
+                </p>
 
-<div class="post-authors">
+                <div class="post-authors">
 
-    <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>"
-        <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
-    </a>
-</div>
+                    <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
+                        <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
+                    </a>
+                </div>
 
-<div class="mini-info">
+                <div class="mini-info">
 
-<p class="sub-title"><?php echo time_ago(); ?></p>
+                    <p class="sub-title"><?php echo time_ago(); ?></p>
 
-<p class="category-name">カテゴリ：<?php the_category(', '); ?></p>
+                    <p class="category-name">カテゴリ：<?php the_category(', '); ?></p>
 
-</div>
+                </div>
 
-</li>
+            </li>
 
-<?php endwhile; endif; wp_reset_query(); ?>
+            <?php endwhile; endif; wp_reset_query(); ?>
 
-<div class="clear-both"></div>
+            <div class="clear-both"></div>
 
-</ul>
+        </ul>
 
-</div><!-- END Column -->
+    </div>
+    <!-- END Column -->
 
 </div><!-- CENTER -->
 
