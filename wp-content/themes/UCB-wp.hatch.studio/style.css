@@ -135,6 +135,7 @@ body {
 #container {
 
     margin: 145px auto;
+    clear: both;
 
     //border-top: solid 12px;
 
@@ -154,7 +155,7 @@ float: left;
 
 width: 720px;
 
-padding:0 20px 0 60px  0px;
+padding: 0 20px 0 60px  ;
 
     }
 
@@ -333,7 +334,7 @@ margin-right: 30px;
 }
 
 .head-categories-subtitle{
-    font-size: 1px;
+    font-size: 11px;
 }
 
 
@@ -803,7 +804,6 @@ padding-left: 15px;
 }
 
 .category {
-
  border-bottom: dotted 1px #6EB3FF;
  padding: 10px 0 5px 0;
 }
