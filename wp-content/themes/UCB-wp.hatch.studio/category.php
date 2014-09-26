@@ -3,41 +3,37 @@
 <?php get_Sidebar(2); ?>
 
 <div id="center"><!-- CENTER -->
-
-<div id="category-page">
-
-<div id="header"><!-- HEADER -->
-
-    <div class="title"><!-- TITLE -->
-        <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
-        <h2>UCバークレー大学の面白インタビュー</h2>
-    </div>
-
-<?php $target_cat = get_category_by_slug( $category_name ) ?>
-
-<?php $cat_id =  $target_cat->term_id; ?>
-
-
-<div class="cate-right-text">
+    <div id="category-page">
+        <div id="header"><!-- HEADER -->
+            <div class="title"><!-- TITLE -->
+                <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley
+                </h1></a>
+                <h2>UCバークレー大学の面白インタビュー</h2>
+            </div>
+            <?php $target_cat = get_category_by_slug( $category_name ) ?>
+            <?php $cat_id =  $target_cat->term_id; ?>
+            <div class="cate-right-text">
 
 <?php
  $category = get_category( $cat_id );
 ?>
-<h3><?php echo $category->slug ?></h3>
-<p class="big-title"><span class="sub-title">category</span><?php echo $category->name ?></p>
-</div>
+                <h3><?php echo $category->slug ?></h3>
 
-<div class="clear-both"></div>
+                <p class="big-title"><span class="sub-title">category</span><?php echo $category->name ?></p>
+            </div>
 
-</div><!-- END HEADER -->
+            <div class="clear-both"></div>
 
-</div>
+        </div>
+        <!-- END HEADER -->
 
-<div id="Column">
+    </div>
 
-<ul class="pickup">
+    <div id="Column">
 
-<?php
+        <ul class="pickup">
+
+            <?php
 
 query_posts("showposts=10&cat=$cat_id");
 
@@ -45,11 +41,11 @@ while(have_posts()) : the_post();
 
 ?>
 
-<li>
+            <li>
 
-<div class="pickup-img"><a href="<?php the_permalink() ?>"rel="bookmark">
+                <div class="pickup-img"><a href="<?php the_permalink() ?>" rel="bookmark">
 
-<?php
+                    <?php
 
   if ( has_post_thumbnail() ) :
 
@@ -59,55 +55,63 @@ while(have_posts()) : the_post();
 
 ?>
 
-<img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png" class="attachment-post-thumbnail">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/NoImg.png"
+                         class="attachment-post-thumbnail">
 
-<?php
+                    <?php
 
 endif;
 
 ?>
 
-</a></div>
+                </a></div>
 
-<div class="pickup-text">
+                <div class="pickup-text">
 
-<h4><a href="<?php the_permalink() ?>"rel="bookmark"><?php the_title(); ?></a></h4>
+                    <h4><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
 
-<div class="pickup-paragraph">
+                    <div class="pickup-paragraph">
 
-<p class="post-text"><a href="<?php the_permalink() ?>"rel="bookmark"><?php echo mb_substr(strip_tags($post-> post_content),0,130).'...'; ?></p>
+                        <p class="post-text"><a href="<?php the_permalink() ?>"
+                                                rel="bookmark"><?php echo mb_substr(strip_tags($post->
+                            post_content),0,130).'...'; ?>
+                        </p>
 
-</div>
+                    </div>
 
-<div class="clear-both"></div>
+                    <div class="clear-both"></div>
 
-<div class="mini-info">
+                    <div class="mini-info">
 
-<span class="sub-title"><?php echo time_ago(); ?></span>
+                        <span class="sub-title"><?php echo time_ago(); ?></span>
 
-<span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
+                        <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
 
-</div>
+                    </div>
 
-<div class="pickup-authors"><a href="<?php echo get_author_posts_url( get_the_author_ID() )?>"><?php userphoto_the_author_photo() ?></a></div></a>
+                    <div class="pickup-authors"><a
+                            href="<?php echo get_author_posts_url( get_the_author_ID() )?>"><?php userphoto_the_author_photo() ?></a>
+                    </div>
+                    </a>
 
-</div>
+                </div>
 
-<div class="clear-both"></div>
+                <div class="clear-both"></div>
 
-</li>
+            </li>
 
-<?php endwhile; ?>
+            <?php endwhile; ?>
 
-</ul>
+        </ul>
 
-<div class="clear-both"></div>
+        <div class="clear-both"></div>
 
-<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+        <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
-</div><!-- END Column -->
+    </div>
+    <!-- END Column -->
 
-<div class="post-related"><?php get_yuzo_related_posts(); ?></div>
+    <div class="post-related"><?php get_yuzo_related_posts(); ?></div>
 
 </div><!-- CENTER -->
 
