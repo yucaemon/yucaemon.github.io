@@ -3,13 +3,13 @@
     <div class="title-icon"><span class="sub-title">category</span></div>
 
     <ul class="category">
-        <li><a href="<?php echo get_category_link('2'); ?>">文系</a></li>
-        <li><a href="<?php echo get_category_link('3'); ?>">理系</a></li>
+        <li><a href="<?php echo get_category_link('2'); ?>">文系学部生</a></li>
+        <li><a href="<?php echo get_category_link('3'); ?>">理系学部生</a></li>
         <li><a href="<?php echo get_category_link('4'); ?>">Law School</a></li>
-        <li><a href="<?php echo get_category_link('5'); ?>">大学院 / MBA</a></li>
-        <li><a href="<?php echo get_category_link('6'); ?>">ボスドク</a></li>
-        <li><a href="<?php echo get_category_link('7'); ?>">Ph.D</a></li>
-        <li><a href="<?php echo get_category_link('8'); ?>">教授/客員教授</a></li>
+        <li><a href="<?php echo get_category_link('5'); ?>">MBA</a></li>
+        <li><a href="<?php echo get_category_link('7'); ?>">大学院/Ph.D</a></li>
+        <li><a href="<?php echo get_category_link('6'); ?>">研究員</a></li>
+        <li><a href="<?php echo get_category_link('8'); ?>"><教授>                </教授></a></li>
     </ul>
 
     <div class="title-icon"><span class="sub-title">UCB Schedule</span></div>

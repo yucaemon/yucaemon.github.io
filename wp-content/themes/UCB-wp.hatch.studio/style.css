@@ -423,13 +423,13 @@ vertical-align: top;
 
     padding-bottom: 45px;
 
-    border-bottom: dotted 1px #6EB3FF;
 
 }
 
 .title {
 
-font-size: 53px;
+    font-size: 53px;
+    border-bottom: dotted 1px #6EB3FF;
 
 }
 
@@ -602,7 +602,6 @@ p.date {
 
     padding-bottom: 57px;
 
-    border-bottom: dotted 1px #6EB3FF;
 
 }
 
