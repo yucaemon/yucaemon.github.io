@@ -22,7 +22,7 @@
 
 <div class="cate-right-text">
 
-<span class="sub-title">Author</span>
+<span class="sub-title">Interviewer</span>
 
 <a href="<?php echo get_author_posts_url($author_id)?>">
 

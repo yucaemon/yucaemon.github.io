@@ -5,14 +5,9 @@
 <div id="center"><!-- CENTER -->
     <div id="category-page">
         <div id="header"><!-- HEADER -->
-            <div class="title"><!-- TITLE -->
-                <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley
-                </h1></a>
-                <h2>UCバークレー大学の面白インタビュー</h2>
-            </div>
             <?php $target_cat = get_category_by_slug( $category_name ) ?>
             <?php $cat_id =  $target_cat->term_id; ?>
-            <div class="cate-right-text">
+            <div class="cate-title">
 
 <?php
  $category = get_category( $cat_id );
@@ -75,7 +70,7 @@ endif;
                         <p class="post-text"><a href="<?php the_permalink() ?>"
                                                 rel="bookmark"><?php echo mb_substr(strip_tags($post->
                             post_content),0,130).'...'; ?>
-                        </p>
+                        </a></p>
 
                     </div>
 

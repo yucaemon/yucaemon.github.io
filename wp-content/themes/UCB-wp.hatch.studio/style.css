@@ -265,7 +265,9 @@ div.subtitle p{
 
     padding: 2px 4px;
 
-    color:#23B4EC;
+    background-color: #23B4EC;
+
+    color: #fff;
 
 }
 
@@ -429,7 +431,6 @@ vertical-align: top;
 .title {
 
     font-size: 53px;
-    border-bottom: dotted 1px #6EB3FF;
 
 }
 
@@ -598,18 +599,9 @@ p.date {
 
 #category-page #header {
 
-    border-bottom: none;
-
-    padding-bottom: 57px;
-
-
-}
-
-.cate-right-text {
-
-    float: left;
-
-    width: 287px;
+    padding-bottom: 43px;
+    border-bottom: dotted 1px #6EB3FF;
+    margin-bottom:18px;
 
 }
 
@@ -637,22 +629,23 @@ p.date {
 
 }
 
-.cate-right-text h3 {
+.cate-title h3 {
 
-    font-size: 85px;
+    font-size: 88px;
 
     font-family: 'Alegreya Sans SC', sans-serif;
 
     color: #333;
 
-    padding: 45px 0 0 12px;
+    padding-left:13px;
 
     margin: 0 0 -15px 0;
 
 
+
 }
 
-.cate-right-text .big-title {
+.cate-title .big-title {
 
     font-size: 22px;
 
@@ -660,15 +653,16 @@ p.date {
 
     font-weight: bold;
 
+    color:#333;
 }
 
-.cate-right-text .small-title {
+.cate-title .small-title {
 
     font-size: 10px;
 
 }
 
-#header .cate-right-text .sub-title {
+#header .cate-title .sub-title {
 
     background-color: #23B4EC;
     color: #FFF;
@@ -1866,7 +1860,7 @@ a img:hover {
 
 }
 
-.yuzo_related_post .relatedthumb:hover {
+.relatedthumb:hover {
     background: #C2E9F5 !important;
 }
 

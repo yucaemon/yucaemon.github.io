@@ -8,7 +8,7 @@
    <dd><a href="http://takuyasuzuki0403.wix.com/berkeley#!news-and-events/c16s4">＋More Read</a></dd>
 </dl>
 
-<div class="title-icon"><span class="sub-title">Authors</span></div>
+<div class="title-icon"><span class="sub-title">Interviewer</span></div>
 <ul class="Authors-list">
 <?php
  // 表示する順番にユーザーIDを設定する

@@ -9,7 +9,7 @@
         <li><a href="<?php echo get_category_link('5'); ?>">MBA</a></li>
         <li><a href="<?php echo get_category_link('7'); ?>">大学院/Ph.D</a></li>
         <li><a href="<?php echo get_category_link('6'); ?>">研究員</a></li>
-        <li><a href="<?php echo get_category_link('8'); ?>"><教授>                </教授></a></li>
+        <li><a href="<?php echo get_category_link('8'); ?>">教授</a></li>
     </ul>
 
     <div class="title-icon"><span class="sub-title">UCB Schedule</span></div>
