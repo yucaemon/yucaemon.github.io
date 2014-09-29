@@ -84,8 +84,10 @@ endif;
 
                     </div>
 
-                    <div class="pickup-authors"><a
-                            href="<?php echo get_author_posts_url( get_the_author_ID() )?>"><?php userphoto_the_author_photo() ?></a>
+                    <div class="pickup-authors">
+                        <a href="<?php echo get_author_posts_url( get_the_author_ID() )?>">
+                            <img src="/wp-content/uploads/userphoto/<?php echo get_the_author_ID() ?>.jpg">
+                        </a>
                     </div>
                     </a>
 
