@@ -423,8 +423,6 @@ vertical-align: top;
 
     width: 100%;
 
-    padding-bottom: 45px;
-
 
 }
 
@@ -451,6 +449,7 @@ vertical-align: top;
     font-size: 86px;
     height: 109px;
     white-space: nowrap;
+    border-bottom: solid 1px #fff;
 
 }
 
@@ -495,17 +494,15 @@ height: 262px;
 
 }
 
-h2 {
+.title h2 {
 
 font-size: 23px;
 
 padding-top: -6px;
 
-margin: 0 0 0 8px;
+margin: 0 0 8px 8px;
 
 font-weight: bold;
-
-float: left;
 
 letter-spacing: 3px;
 
@@ -1030,6 +1027,14 @@ float: left;
     visibility: hidden;
 
 }
+
+#right-side .new-members dd a{
+
+    font-size:15px;
+    color: #23B4EC;
+}
+
+
 
 /* AUTHORS */
 
@@ -2028,9 +2033,7 @@ a img:hover {
 
     width: auto;
 
-    padding: 73px 0 0 41px;
-
-    float: left;
+    padding: 10px 0 40px 41px;
 
 }
 

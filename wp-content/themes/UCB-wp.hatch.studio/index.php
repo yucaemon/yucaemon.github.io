@@ -5,8 +5,7 @@
 <div id="center"><!-- CENTER -->
     <div id="header"><!-- HEADER -->
         <div class="title"><!-- TITLE -->
-            <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1>
-            </a>
+            <h1><a href="<?php echo home_url(); ?>">U<span class="first-c">C</span> B<span class="e">e</span>rkeley</a></h1>
             <h2>UCバークレー大学の面白インタビュー</h2>
             <div class="subtitle">
                 <p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>

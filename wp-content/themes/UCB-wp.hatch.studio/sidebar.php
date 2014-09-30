@@ -44,7 +44,7 @@
 <dl class="new-members">
     <dt>UCバークレー生徒で</br>一緒にインタビューし</br>てくれる人募集！</dt>
     <dd class="man-icon-img"><img src="<?php echo get_template_directory_uri(); ?>/images/man-icon_15.png"></dd>
-    <dd>インタビューを通して面白い人達と会えるいいチャーンス！興味がある方はメールを下さい。</dd>
+    <dd>インタビューを通して面白い人達と会えるいいチャーンス！興味がある方は<a href="https://www.facebook.com/takuya.suzuki2" target="_blank">takuya'Facebook</a>にメッセージを下さい。</dd>
 
 </dl>
 

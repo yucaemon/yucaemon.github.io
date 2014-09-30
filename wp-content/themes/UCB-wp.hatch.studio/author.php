@@ -12,7 +12,7 @@
         <a href="<?php echo home_url(); ?>"><h1>U<span class="first-c">C</span> B<span class="e">e</span>rkeley</h1></a>
 
         <h2>UCバークレー大学の面白インタビュー</h2>
-    </div>
+
 <?php
     $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
 ?>
@@ -35,6 +35,7 @@
 <p class="big-title"><?php echo get_the_author_meta( 'description', $author_id ); ?></p>
 
 </div>
+        </div>
 
 <div class="clear-both"></div>
 
