@@ -26,6 +26,20 @@
 <?php } ?>
 </ul>
 
+    <div class="title-icon"><span class="sub-title">UCB関連Link</span></div>
+    <ul class="link">
+        <li><a href="http://studyabroadberkeley.blogspot.com/" target="_blank">ぼくのやったことin Berkeley</a></li>
+        <li><a href="http://haasjapan.wordpress.com/" target="_blank">Haas日本人向けサイト</a></li>
+        <li><a href="http://www.ocf.berkeley.edu/~cjc/" target="_blank">Cal Japan Club </a></li>
+        <li><a href="http://www.ocf.berkeley.edu/~jgrb/" target="_blank">JGRB</a></li>
+        <li><a href="http://www.ocf.berkeley.edu/~nsu/" target="_blank">Nikkei Student Union</a></li>
+        <li><a href="http://www.berkeleyjapan.net/" target="_blank">バークレー日本人同窓会</a></li>
+        <li><a href="http://ihouse.berkeley.edu/" target="_blank">インターナショナルハウス</a></li>
+    </ul>
+
+
+
+
 <div class="title-icon"><span class="sub-title">new members</span></div>
 <dl class="new-members">
     <dt>UCバークレー生徒で</br>一緒にインタビューし</br>てくれる人募集！</dt>

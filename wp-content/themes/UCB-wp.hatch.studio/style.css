@@ -802,22 +802,26 @@ padding-left: 15px;
 }
 
 
-.category,.schedule {
+.category,.schedule,.link {
 
 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom:24px;
 }
 
-.category li {
-
+.category li{
     padding: 9px 0 20px 0;
     font-weight: bold;
     font-size: 16px;
-
 }
 
-.category li:before {
+.link li{
+padding: 9px 0 0 0;
+font-weight: bold;
+font-size: 13px;
+}
+
+.category li:before ,.link li:before {
 
     content: "●";
     color: #23B4EC;
@@ -947,7 +951,7 @@ float: left;
 /* ABOUT */
 
 
-#right-side .about,#right-side .new-members  {
+#right-side .about,#right-side .new-members,#right-side .link {
 
     padding: 10px 0 30px 0;
     border-bottom: dotted 1px #6EB3FF;
