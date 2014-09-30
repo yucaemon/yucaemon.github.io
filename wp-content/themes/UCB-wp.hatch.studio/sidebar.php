@@ -12,7 +12,7 @@
 <ul class="Authors-list">
 <?php
  // 表示する順番にユーザーIDを設定する
- $this_authors = array(23);
+ $this_authors = array(23, 31);
 ?>
 <?php foreach ($this_authors as $this_author_id ) { ?>
 <li>
