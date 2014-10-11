@@ -236,18 +236,11 @@ body {
 
 
 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "ＭＳ Ｐゴシック";
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "ＭＳ Ｐゴシック";
 
 
 
     font-size: 12px;
-
-
-
-    font-size: 1.2rem;
-
-
-
 
 
 }
@@ -292,7 +285,7 @@ width: 720px;
 
 padding: 0 40px;
 
-    }
+ }
 
 
 
@@ -453,10 +446,6 @@ padding: 0 40px;
 
 
     background-color: rgb(255, 255, 255);
-
-
-
-    border: 1px;
 
 
 
@@ -969,16 +958,8 @@ p.date {
 
 
 .go-img-top {
-
-
-
     padding-left: 121px;
-
-
-
-    padding-top: 0px;
-
-
+    padding-top: 0;
 
 }
 
@@ -1310,8 +1291,6 @@ p.date {
 
 #interview img.focus {
 
-
-
    width: 20px;
 
    height: 20px;
@@ -1331,7 +1310,6 @@ p.date {
 
 
     margin-top: 1px;
-
 
 
 }
@@ -2179,8 +2157,6 @@ color: #FFC7CD;
 letter-spacing: 1px;
 
 padding-top: 18px;
-
-//width: 300px;
 
 line-height: 2;
 
@@ -3172,7 +3148,6 @@ a img:hover {
 
     font-weight: bold;
 
-    font-weight: bold;
 
 
 
@@ -3620,32 +3595,19 @@ a img:hover {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 
-.social-icons {
-
-display: hide;
+    .social-icons {
+        display: hide;
+    }
 
 }
 
-
-
-
-
-
-
-iframe[Attributes Style]{
+iframe[AttributesStyle]{
 
 height: 150px;
 
 width: 300px;
 
-border-top-width: 0px;
-
-border-right-width: 0px;
-
-border-bottom-width: 0px;
-
-border-left-width: 0px;
-
+border-top-width: 0;
 }
 
 
@@ -3662,80 +3624,59 @@ font-weight:bold;
 
 
 
-
-
 .navi-pager{
 
+    font-size: 14px;
 
+    text-align: center;
 
-font-size: 14px;
+    width: 217px;
 
-text-align: center;
+    padding-left: 256px;
 
-width: 217px;
+    padding-bottom: 59px;
 
-padding-left: 256px;
-
-padding-bottom: 59px;
-
-clear: both;
-
-
+    clear: both;
 
 }
-
-
 
 .pre{
 
-float:left;
+    float:left;
 
-width:100px;
+    width:100px;
 
-color: #F8B0B0;
+    color: #F8B0B0;
 
-border: solid 1px #FFDFDF;
+    border: solid 1px #FFDFDF;
 
-padding: 1px 0;
+    padding: 1px 0;
 
 }
-
-
 
 .next{
 
-float:right;
+    float:right;
 
-width:100px;
+    width:100px;
 
-color: #F8B0B0;
+    color: #F8B0B0;
 
-border: solid 1px #FFDFDF;
+    border: solid 1px #FFDFDF;
 
-padding: 1px 0;
+    padding: 1px 0;
 
 }
-
-
 
 .pre:hover,.next:hover{
 
-
-
-background-color:#F8B0B0;
-
-
+    background-color:#F8B0B0;
 
 }
-
-
 
 .pre a:hover,.next a:hover{
 
-
-
-color: #333;
-
-
+    color: #333;
 
 }
+
