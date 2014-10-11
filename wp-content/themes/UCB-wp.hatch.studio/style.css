@@ -962,7 +962,7 @@ float: left;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
-    line-height: 29.8px;
+    line-height: 30px;
     margin: 25px 0;
 }
 
@@ -1950,7 +1950,7 @@ a img:hover {
 
     padding: 19px 13px 20px 13px !important;
 
-  
+
 
 }
 
@@ -2096,7 +2096,7 @@ width:100px;
 
 color: #F8B0B0;
 
-border: solid 1px #FFDFDF;
+border: solid 1px #23B4EC ;
 
 padding: 1px 0;
 
@@ -2110,20 +2110,15 @@ width:100px;
 
 color: #F8B0B0;
 
-border: solid 1px #FFDFDF;
+border: solid 1px #23B4EC;
 
 padding: 1px 0;
 
 }
 
-.pre:hover,.next:hover{
-
-background-color:#F8B0B0;
-
-}
 
 .pre a:hover,.next a:hover{
 
-color: #333;
+color: #23B4EC;
 
 }
