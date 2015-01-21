@@ -1,15 +1,4 @@
-<?php get_header(); ?>
-
-<?php get_Sidebar(2); ?>
-
-<?php get_Sidebar(); ?>
-
-</div><!-- END contents -->
-
-<div class="clear-both"></div>
-
-</div><!-- END container -->
-
-</div>
-
-<?php get_footer(); ?>
+<?php $content_type = "page" ?>
+<?php $display_pagenavi = false ?>
+<?php $display_related_posts = false ?>
+<?php include(TEMPLATEPATH.'/layouts/single.php'); ?>
