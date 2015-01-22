@@ -1,7 +1,7 @@
 /* PAGE LAYOUT*/
 
 html {
-    font-size: 12px;
+    font-size: 14px;
 }
 body {
     margin: 0 auto;
@@ -303,9 +303,17 @@ h4 {
     line-height: 180%;
 }
 
-.entry-content img, .entry-content {
+.entry-content {
     height: auto;
     max-width: 95%;
+    margin-bottom: 2em;
+
+}
+
+.single-post .entry-content img {
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
     margin-bottom: 2em;
 }
 
