@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php get_Sidebar(3); ?>
+<?php get_Sidebar(2); ?>
 
 <div id="center"><!-- CENTER -->
 
