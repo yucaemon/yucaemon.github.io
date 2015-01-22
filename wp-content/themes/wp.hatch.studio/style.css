@@ -445,7 +445,7 @@ body {
 }
 
 .head-categories-subtitle{
-    font-size: 1px;
+    font-size: 12px;
 }
 
 
@@ -798,7 +798,14 @@ p.subtitle {
 
 }
 
-
+.site-header:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
 p.date {
 
@@ -3455,42 +3462,15 @@ a img:hover {
 
 }
 
-
-
-#author-page img {
-
-
-
+#author-page img.author-header {
     width: 100px;
-
-
-
     height: 100px;
-
-
-
     -webkit-border-radius: 150px;
-
-
-
     border-radius: 120px;
-
-
-
     border: solid 1px #E6E1E1;
-
-
-
     float: left;
-
-
-
     margin: 32px 33px 37px -36px;
-
-
-
 }
-
 
 
 #author-page .cate-right-text h3 {

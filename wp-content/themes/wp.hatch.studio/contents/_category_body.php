@@ -1,6 +1,6 @@
 
 
-</div>
+
 
 <div id="Column">
 
@@ -74,3 +74,4 @@
     <?php endwhile; ?>
 
   </ul>
+</div>
