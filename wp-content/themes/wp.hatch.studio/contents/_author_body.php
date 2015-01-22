@@ -1,7 +1,4 @@
 
-
-</div>
-
 <div id="Column">
 
   <ul class="pickup">
@@ -75,3 +72,5 @@
     <?php endwhile; ?>
 
   </ul>
+
+</div>
