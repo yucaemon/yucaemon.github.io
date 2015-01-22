@@ -222,21 +222,24 @@ h4 {
 }
 .pickup .post-text {
     font-size: 11px;
-
     float: left;
-
-
-
     font-weight: normal;
 }
+
+
+
 .pickup-authors img {
     width: 45px;
     height: 45px;
     -webkit-border-radius: 45px;
     border-radius: 45px;
     border: solid 1px #E6E1E1;
-    float: left;
+    float: right;
     margin: -26px 0 0 14px;
+}
+
+.single-post .pickup-authors img {
+    float: left !important;
 }
 
 .pickup-text .mini-info {
