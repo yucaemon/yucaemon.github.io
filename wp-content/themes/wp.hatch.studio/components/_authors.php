@@ -7,14 +7,31 @@
 <ul class="Authors-list">
 
   <?php
+  $results = $wpdb->get_results("
+                    SELECT posts.post_author, meta.meta_value FROM $wpdb->postmeta as meta
+                    join $wpdb->posts as posts on posts.ID = meta.post_id
+                    WHERE meta.meta_key = 'views'
+                    AND posts.post_author in (22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12);
+                    ", ARRAY_N);
 
-  // 表示する順番にユーザーIDを設定する
+  $post_count = array();
+  $views = array();
+  foreach ($results as $result) {
+    $post_count[$result[0]] = $post_count[$result[0]] + 1;
+    $views[$result[0]] = $views[$result[0]] + $result[1];
+  }
 
-  $this_authors = array(22,5,20,18,14,23,24,8,7,6,32,33, 34,12);
+  $average_views = array();
+
+  foreach ($views as $key => $value) {
+    $average_views[$key] = round($value / $post_count[$key]);
+  }
+
+  arsort( $average_views );
 
   ?>
 
-  <?php foreach ($this_authors as $this_author_id ) { ?>
+  <?php foreach ($average_views as $this_author_id => $this_authors_views ) { ?>
 
     <li>
 
@@ -22,9 +39,15 @@
 
       <dl>
 
-        <dt><a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></a></dt>
+        <dt>
+          <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></a>
+          / <?php echo $this_authors_views ?>
+        </dt>
 
-        <dd><a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'description', $this_author_id ); ?></a></dd>
+        <dd>
+
+          <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'description', $this_author_id ); ?></a>
+        </dd>
 
       </dl>
 

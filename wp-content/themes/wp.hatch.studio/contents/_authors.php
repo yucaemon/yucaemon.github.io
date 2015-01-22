@@ -28,7 +28,7 @@
                     since
                     <?php
                  $result =  $wpdb->get_var("
-                    SELECT post_date FROM hkm_posts
+                    SELECT post_date FROM $wpdb->posts
                     WHERE post_type = 'post'
                     AND post_status = 'publish'
                     AND post_author = $this_author_id
