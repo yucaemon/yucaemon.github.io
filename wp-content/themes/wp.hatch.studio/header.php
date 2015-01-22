@@ -90,7 +90,10 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 ?>
 
-<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/desktop.css" media="screen and (min-width:769px)" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/mobile.css" media="screen and (max-width:767px)" />
+
 
 <link href="js/jquery/jquery.bxslider.css" rel="stylesheet" type="text/css" />
 
@@ -168,7 +171,7 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
     <ul class="head-categories">
 
-        <li>
+        <li class="hatchstudio">
             <div class="text-tit">
                 <p class="head-categories-title"><a href="<?php echo home_url(); ?>">San Francisco</a></p>
                 <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">サンフランシスコ　面白まがじん</a></p>
@@ -176,7 +179,7 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
             <div class="head-categories-img"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></a></div>
         </li>
 
-        <li>
+        <li class="ucb">
             <div class="text-tit">
                 <p class="head-categories-title"><a href="http://ucberkeley.hatchstudioinc.com/">UC Berkeley</a></p>
                 <p class="head-categories-subtitle"><a href="http://ucberkeley.hatchstudioinc.com/">UCバークレー　面白インタビュー</a></p>

@@ -1,0 +1,385 @@
+/* PAGE LAYOUT*/
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "ＭＳ Ｐゴシック";
+    font-size: 12px;}
+#container {
+    margin: 145px auto;
+    width: 1200px;
+}
+#contents {
+
+    margin: 0 auto;
+    width: 1200px;
+
+}
+#center {
+    float: left;
+    width: 720px;
+    padding: 0 40px;
+
+}
+#left-side {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    float: left;
+    width: 130px;
+    padding-top: 5px;
+    height: auto;
+    margin-left:30px;
+}
+#right-side {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-top: 4px;
+}
+.twitter {
+    width: 201px;
+    padding: 10px 0 20px 10px;
+    border-bottom: dotted 1px #FF8888;
+}
+.facebook {
+    padding: 15px 0 0 10px;
+}
+
+/* NAVI */
+#navi {
+    border-bottom: solid 11px rgba(255, 195, 231, 0);
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding: 20px 40px 5px 40px;
+    clear: both;
+    position: fixed !important;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px #F3F3F3;
+    width: 100%;
+    min-width: 800px;
+    /* height: 50px; */
+    border-top: solid 12px #313131;
+
+}
+
+#navi{
+    clear:both;
+}
+
+#navi ul.head-categories {
+    float:left;
+}
+
+#navi ul.head-categories li {
+    float:left;
+    border-right: solid 1px #DAD4D4;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+.head-categories-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head-categories-subtitle{
+    font-size: 12px;
+}
+
+#navi ul li .text-tit{
+    float:left;
+}
+
+.head-categories-img{
+    float:right;
+}
+
+.head-categories-img img{
+    width: 50px;
+    height: 46px;
+    margin-left:25px;
+}
+
+/* Header */
+.title {
+    font-size: 53px;
+    height: 200px;
+}
+.title span.first-a {
+    color: #FA8BAF;
+}
+.title h1 {
+    width: 720px;
+    letter-spacing: 3px;
+    font-size: 100px;
+    height: 109px;
+    padding-bottom: 16px;
+    white-space: nowrap;
+}
+
+.position{
+    font-size:16px;
+}
+
+
+.title span.c {
+    color: #FFC7CD;
+}
+p.title span.ca {
+    position: absolute;
+    font-size: 20px;
+    margin: -96px 0 0 695px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 31px;
+    padding-top: 4px;
+    margin: 0 0 0 8px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 10px;
+}
+
+/** index-header **/
+
+#top-sf {
+    float: left;
+    padding: 55px 88px 10px 13px;
+}
+#top-sf img {
+    width: 305px;
+    height: 300px;
+}
+
+p.subtitle {
+    margin: 0 0;
+    font-size: 12px;
+    float: right;
+    padding: 8px 9px 3px 0;
+    width: 305px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+p.date {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* HEADER */
+.event {
+    font-size: 11px;
+    float: left;
+    padding-top: 26px;
+}
+.event time {
+    float: left;
+    letter-spacing: 0.1em;
+    width: 7em;
+}
+.event li {
+    padding-bottom: 10px;
+}
+
+.future-event {
+    padding-top: 10px;
+}
+.event-shedule li {
+    padding: 4px;
+}
+
+/* CONTENTS */
+.sub-title {
+    font-size: 10px;
+}
+#header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+    font-size: 9px;
+}
+
+
+/* PICKUP */
+h3 {
+    font-size: 10px;
+    margin-bottom: 13px;
+    color: #F8B0B0;
+}
+.pickup {
+    margin-bottom: 42px;
+}
+.pickup li {
+    border-bottom: dotted 1px #FF8888;
+    padding: 25px 0;}
+.pickup-img {
+    float: left;
+    width: 292px;
+}
+
+.pickup-img .attachment-post-thumbnail {
+    width: 259px;
+    height: 183px;
+    margin-top: 16px;
+}
+
+h4 {
+    padding-top: 14px;
+    font-size: 24px;
+    padding: 9px 0 12px 0;
+    letter-spacing: 0px;
+    line-height: 34px;
+}
+.pickup-text {
+    width: 368px;
+    float: left;
+
+    margin: 0 0;
+}
+.pickup-paragraph {
+    width: 416px;
+}
+.pickup .post-text {
+    font-size: 11px;
+
+    float: left;
+
+    width: 385px;
+
+    font-weight: normal;
+}
+.pickup-authors img {
+    width: 45px;
+
+    height: 45px;
+
+    -webkit-border-radius: 45px;
+
+    border-radius: 45px;
+
+    border: solid 1px #E6E1E1;
+
+    float: right;
+
+    float: right;
+
+    margin: -26px 0 0 14px;
+}
+.pickup-text .mini-info {
+    width: 300px;
+}
+
+/* CONTENTS  */
+.articles ul {
+    border-bottom: dotted 1px #FF8888;
+}
+.articles li {
+    width: 146px;
+    height: 366px;
+    float: left;
+    margin-right: 34px;
+    border-top: solid 4px rgb(255, 224, 224);
+}
+.articles .post-text {
+    font-size: 10px;
+    font-weight: normal;
+    height: 45px;
+    padding-top: 7px;
+    float: left;
+    width: 110px;
+}
+
+/* SINGLE PAGE */
+.single-post {
+    padding: 0 35px;
+}
+.entry-thumbnail img {
+    width: 650px;
+    height: 410px;
+}
+.single-post h1 {
+    font-size: 32px;
+    padding: 7px 0 18px 0;
+}
+
+.single-post .authors-info {
+    width: 650px;
+    padding: 33px 0 50px 12px;
+}
+
+.single-post .authors-info p {
+    float: left;
+}
+
+.single-post .authors-info p.name {
+    font-size: 20px;
+    padding-top: 14px;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.single-post .authors-info p.author-about {
+    font-size: 10px;
+    padding-left: 30px;
+    width: 473px;
+    word-spacing: 2px;
+    font-weight: normal;
+}
+.single-post .authors-info .pickup-authors img {
+    margin: 0 23px 0 0;
+}
+
+.single-post .mini-info {
+    font-size: 9px;
+}
+.single-post .api-share-btns {
+    padding-bottom: 20px;
+}
+
+/*POST-EDIT entry-content*/
+.entry-content {
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.entry-content img, .entry-content {
+    height: auto;
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+
+.entry-content h2 {
+    line-height: 180%;
+}
+
+.navi-pager{
+    font-size: 14px;
+    text-align: center;
+    width: 217px;
+    padding-left: 256px;
+    padding-bottom: 59px;
+    clear: both;
+}
+
+/* SOCIAL */
+.fb-comments {
+    padding: 80px 0 0 35px;
+}
+
+/* post-related */
+.post-related {
+    width: 650px;
+    margin: 0 36px;
+}
+.post-related h3 {
+    font-size: 16px;
+    margin: 0 0 4px 0;
+}
+.post-related .relatedthumb {
+    border: solid 2px #FFDFDF !important;
+    margin: 30px 14px 0 1px !important;
+    height: 142px !important;
+    padding: 19px 13px 20px 13px !important;
+
+}

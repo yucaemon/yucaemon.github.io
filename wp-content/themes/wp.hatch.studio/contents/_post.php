@@ -128,7 +128,7 @@
 
 <?php if (!is_user_logged_in()) : ?>
 
-  <div class="fb-comments" data-href="<?php the_permalink(); ?>" data-width="650" data-num-posts="10"></div>
+  <!--div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="10"></div-->
 
 <?php endif; ?>
 
