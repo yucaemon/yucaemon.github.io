@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-    margin: 175px auto;
+    margin: 95px auto;
     width: 1200px;
 }
 
@@ -99,7 +99,7 @@ dl.cate-text {
 /* CATEGORY NAVI */
 
 .navbar-fixed-top {
-    top: 95px;
+    top: 0px;
 }
 
 ul.nav {

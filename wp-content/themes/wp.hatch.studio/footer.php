@@ -80,7 +80,7 @@
 
 <style type="text/css">
 
-#navi { top: 28px !important; }
+.navbar { top: 28px !important; }
 
 </style>
 
