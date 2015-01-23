@@ -113,6 +113,11 @@ ul.nav {
     line-height: 30px;
 }
 
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0.5em;
+    height: 30px;
+}
+
 .nav .category-icon-box {
     width:30px;
     height:30px;

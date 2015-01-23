@@ -8,6 +8,10 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
+    <a class="navbar-brand" href="#">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="70">
+    </a>
+
   </div>
 
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
