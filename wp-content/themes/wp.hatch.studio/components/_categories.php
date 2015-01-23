@@ -1,126 +1,82 @@
+<div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
 
-<div class="title-icon"><span class="sub-title">category</span></div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav category">
+      <li>
+        <a href="<?php echo get_category_link('5'); ?>">
+          <div class="category-icon-box icon-eat"></div>
+          EAT
+        </a>
+      </li>
 
-<ul class="category">
+      <li>
+        <a href="<?php echo get_category_link('6'); ?>">
+          <div class="category-icon-box icon-go"></div>
+          GO
+        </a>
+      </li>
 
-  <li>
+      <li>
 
-    <a href="<?php echo get_category_link( '5' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/EAT.png" class="cate-img EAT"></a>
+        <a href="<?php echo get_category_link('1'); ?>">
+          <div class="category-icon-box icon-cook"></div>
+          COOK
+        </a>
+      </li>
 
-    <dl class="cate-text">
+      <li>
 
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '5' ); ?>">EAT</a></dt>
+        <a href="<?php echo get_category_link('4'); ?>">
+          <div class="category-icon-box icon-buy"></div>
+          BUY
+        </a>
 
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '5' ); ?>">食べてみる</a></dt>
+      </li>
 
-    </dl>
+      <li>
+        <a href="<?php echo get_category_link('18'); ?>">
+          <div class="category-icon-box icon-news"></div>
+          NEWS
+        </a>
+      </li>
 
-  </li>
+      <li>
 
-  <li>
+        <a href="<?php echo get_category_link('8'); ?>">
+          <div class="category-icon-box icon-memo"></div>
+          MEMO
+        </a>
 
-    <a href="<?php echo get_category_link( '6' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/GO.png" class="cate-img GO"></a>
+      </li>
 
-    <dl class="cate-text">
+      <li>
 
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '6' ); ?>">GO</a></dt>
+        <a href="<?php echo get_category_link('9'); ?>">
+          <div class="category-icon-box icon-meet"></div>
+          MEET
+        </a>
 
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '6' ); ?>">行ってみる</a></dt>
+      </li>
 
-    </dl>
+      <li>
 
-  </li>
+        <a href="<?php echo get_category_link('3'); ?>">
+          <div class="category-icon-box icon-study"></div>
+          STUDY
+        </a>
 
-  <li>
+      </li>
 
-    <a href="<?php echo get_category_link( '1' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/COOK.png" class="cate-img COOK"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '1' ); ?>">COOK</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '1' ); ?>">料理する</a></dt>
-
-    </dl>
-
-  </li>
-
-  <li>
-
-    <a href="<?php echo get_category_link( '4' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/BUY.png" class="cate-img BUY"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '4' ); ?>">BUY</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '4' ); ?>">買ってみる</a></dt>
-
-    </dl>
-
-  </li>
-
-  <li>
-
-    <a href="<?php echo get_category_link( '18' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/NEWS.png" class="cate-img NEWS"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '18' ); ?>">NEWS</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '18' ); ?>">読んでみる</a></dt>
-
-    </dl>
-
-  </li>
-
-  <li>
-
-    <a href="<?php echo get_category_link( '8' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/MEMO.png" class="cate-img MEMO"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '8' ); ?>">MEMO</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '8' ); ?>">知ってみる</a></dt>
-
-    </dl>
-
-  </li>
-
-  <li>
-
-    <a href="<?php echo get_category_link( '9' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/MEET.png" class="cate-img MEET"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '9' ); ?>">MEET</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '9' ); ?>">会ってみる</a></dt>
-
-    </dl>
-
-  </li>
-
-  <li>
-
-    <a href="<?php echo get_category_link( '3' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/categories/WEB.png" class="cate-img WEB"></a>
-
-    <dl class="cate-text">
-
-      <dt class="cate-desc-english-tit"><a href="<?php echo get_category_link( '3' ); ?>">STUDY</a></dt>
-
-      <dt class="cate-desc-tit"><a href="<?php echo get_category_link( '3' ); ?>">WEBする</a></dt>
-
-    </dl>
-
-  </li>
-
-</ul>
+    </ul>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-<div id="left-side"><!-- LEFT SIDE -->
+<nav class="navbar navbar-default navbar-fixed-top">
   <?php include(TEMPLATEPATH.'/components/_categories.php'); ?>
-</div><!--  END LEFT SIDE -->
+</nav>
 

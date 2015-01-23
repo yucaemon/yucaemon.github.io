@@ -90,10 +90,10 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 ?>
 
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/lib/bootstrap-3.3.2-dist/css/bootstrap.css" media="screen" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/desktop.css" media="screen and (min-width:769px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css" media="screen and (max-width:767px)" />
-
 
 <link href="js/jquery/jquery.bxslider.css" rel="stylesheet" type="text/css" />
 
@@ -117,7 +117,9 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.jrumble.1.3.min.js"></script>
 
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lib/bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery/jquery.bxslider.min.js"></script>
 
 <!-- ここからGoogle Analytics -->
 

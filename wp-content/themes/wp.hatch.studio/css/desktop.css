@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-    margin: 145px auto;
+    margin: 175px auto;
     width: 1200px;
 }
 
@@ -20,7 +20,6 @@ body {
     float: left;
     width: 720px;
     padding: 0 40px;
-
 }
 
 /** left-navi **/
@@ -42,14 +41,6 @@ body {
 }
 
 /** CATEGORY **/
-.category {
-    padding: 10px 0 30px 0;
-}
-.category li {
-    height: 70px;
-    padding: 17px 0 15px 0;
-    float: left;
-}
 
 .category li:after {
     content: "";
@@ -103,6 +94,77 @@ dl.cate-text {
 }
 
 /* NAVI */
+
+.navbar-fixed-top {
+    top: 95px;
+}
+
+ul.nav {
+    margin: 0 auto;
+}
+.nav li {
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+.navbar-nav > li > a {
+    line-height: 30px;
+}
+
+.nav .category-icon-box {
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    border:1px solid #999;
+    float: left;
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+
+}
+
+.icon-eat {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/EAT.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-go {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/GO.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-cook {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/COOK.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-buy {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/BUY.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-news {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/NEWS.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-memo {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/MEMO.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-meet {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/MEET.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.icon-study {
+    background: url(/wp-content/themes/wp.hatch.studio/images/categories/WEB.png) no-repeat center center;
+    background-size: 25px;
+}
+
 #navi {
     border-bottom: solid 11px rgba(255, 195, 231, 0);
     font-size: 14px;
@@ -286,6 +348,7 @@ h4 {
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
     line-height: 34px;
+    font-weight: bold;
 }
 .pickup-text {
     width: 368px;

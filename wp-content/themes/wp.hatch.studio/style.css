@@ -25,6 +25,11 @@ License URI: ライセンスの URL
     font-weight: normal;
     font-style: normal;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
@@ -55,6 +60,20 @@ a.symbol {
     margin: 0 0;
     padding: 0 0;
 }
+
+* {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
 a img {
     border-style: none;
 }
@@ -94,12 +113,19 @@ span {
 
 /* navi */
 
+.navbar-fixed-top {
 
+    border-width: 0 0 1px;
+    background: white;
+}
 
-
+.navbar img {
+    display: block;
+}
 
 #navi ul.social-icons {
     float: right;
+    display: none;
 }
 
 #navi ul.social-icons li{
@@ -112,11 +138,8 @@ span {
 }
 
 #navi .symbol {
-
     padding: 0 5px;
-
     vertical-align: top;
-
 }
 
 #header {
@@ -512,52 +535,6 @@ line-height: 2;
 
    padding: 14px 10px 12px 0;
 }
-.EAT {
-
- 
-
-    width: 38px;
-
-    padding: 18px 20px 0 7px;
-}
-.GO {
-    width: 57px;
-
-     padding-top: 5px;
-
-  
-
-}
-.COOK {    width: 42px;
-
-    padding: 0 14px 0 9px;}
-.BUY {    width: 38px;
-
-    padding: 15px 14px 0 9px;}
-.NEWS {    width: 33px;
-
-    padding: 10px 14px 0 9px;
-}
-.MEMO {    width: 32px;
-
-    padding: 10px 15px 0 7px;
-
-    
-
-}
-.MEET {
-
-    width: 43px;
-
-    padding: 10px 11px 0 2px;
-}
-.WEB {
-
-    width: 42px;
-
-    padding: 1px 11px 0 2px;
-}
-
 /* FOOTER */
 #footer {
     height: 140px;
