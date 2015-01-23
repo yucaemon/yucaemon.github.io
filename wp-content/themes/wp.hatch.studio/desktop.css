@@ -254,10 +254,9 @@ p.date {
 .sub-title {
     font-size: 10px;
 }
-#header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+#header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
     font-size: 9px;
 }
-
 
 /* PICKUP */
 h3 {
@@ -283,7 +282,6 @@ h3 {
 }
 
 h4 {
-    padding-top: 14px;
     font-size: 24px;
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
@@ -349,51 +347,86 @@ h4 {
 }
 
 /* SINGLE PAGE */
-.single-post {
+
+#single-post {
     padding: 0 35px;
 }
 .entry-thumbnail img {
     width: 650px;
     height: 410px;
 }
-.single-post h1 {
+h1 {
     font-size: 32px;
     padding: 7px 0 18px 0;
 }
 
-.single-post .authors-info {
+
+#single-post .authors-info {
     width: 650px;
     padding: 33px 0 50px 12px;
 }
 
-.single-post .authors-info p {
+#single-post .authors-info p {
     float: left;
 }
 
-.single-post .authors-info p.name {
+#single-post .authors-info p.name {
     font-size: 20px;
     padding-top: 14px;
     letter-spacing: 0;
     font-weight: bold;
 }
 
-.single-post .authors-info p.author-about {
+#single-post .authors-info p.author-about {
     font-size: 10px;
     padding-left: 30px;
     width: 473px;
     word-spacing: 2px;
     font-weight: normal;
 }
-.single-post .authors-info .pickup-authors img {
+
+#single-post .authors-info .pickup-authors img {
     margin: 0 23px 0 0;
 }
 
-.single-post .mini-info {
+#single-post .mini-info {
     font-size: 9px;
 }
-.single-post .api-share-btns {
+
+#single-post .api-share-btns {
     padding-bottom: 20px;
 }
+
+/*author-pages */
+
+#author .authors-info {
+    width: 650px;
+    padding: 33px 0 50px 12px;
+}
+
+#author .authors-info p {
+    float: left;
+}
+
+#author .authors-info p.name {
+    font-size: 20px;
+    padding-top: 14px;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+#author .authors-info p.author-about {
+    font-size: 10px;
+    padding-left: 30px;
+    width: 473px;
+    word-spacing: 2px;
+    font-weight: normal;
+}
+#author .authors-info .pickup-authors img {
+    margin: 0 23px 0 0;
+}
+
+
 
 /*POST-EDIT entry-content*/
 .entry-content {

@@ -1,4 +1,3 @@
-
 <div id="Column">
 
   <ul class="pickup">

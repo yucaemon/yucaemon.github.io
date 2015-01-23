@@ -18,13 +18,14 @@
             <a href="<?php echo get_author_posts_url($this_author_id)?>">
                 <img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg">
             </a>
-
             <dl>
 
                 <dt>
-                    <a href="<?php echo get_author_posts_url($this_author_id)?>"><span
-                            class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?> </span><span
-                            class="position">| キュレーター</span></a>
+                    <a href="<?php echo get_author_posts_url($this_author_id)?>">
+                      <span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?> </span>
+                    </a>
+                      <span class="position">| キュレーター</span>
+                      <span class="since-date">
                     since
                     <?php
                  $result =  $wpdb->get_var("
@@ -38,10 +39,11 @@
                     $dtime = new DateTime($result);
                     echo $dtime->format('Y-m-d');
                     ?>
+                    </span>
                 </dt>
 
                 <dd>
-
+                  <div class="post-account">
                     <?php
                  $result = (int) $wpdb->get_var("
                     SELECT COUNT(*) FROM $wpdb->posts
@@ -51,7 +53,7 @@
                     ");
                     echo $result;
                     ?> post
-
+                   </div>
                     <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'description', $this_author_id ); ?></a>
                 </dd>
 
