@@ -22,7 +22,11 @@ body {
     padding: 0 40px;
 }
 
-/** left-navi **/
+.contents-container {
+    margin: 0 auto;
+}
+
+/** LEFT-NAVI **/
 #left-side {
     background-color: white;
     border-bottom: solid 11px rgba(255, 195, 231, 0);
@@ -41,7 +45,6 @@ body {
 }
 
 /** CATEGORY **/
-
 .category li:after {
     content: "";
     clear: both;
@@ -76,7 +79,7 @@ dl.cate-text {
     white-space:nowrap;
 }
 
-/** right-side **/
+/* RIGHT-NAVI */
 #right-side {
     font-family: 'Alegreya Sans SC', sans-serif;
     float: left;
@@ -93,7 +96,7 @@ dl.cate-text {
     padding: 15px 0 0 10px;
 }
 
-/* NAVI */
+/* CATEGORY NAVI */
 
 .navbar-fixed-top {
     top: 95px;
@@ -102,11 +105,10 @@ dl.cate-text {
 ul.nav {
     margin: 0 auto;
 }
-.nav li {
+ul.nav li {
     font-size: 1.5em;
     font-weight: bold;
     vertical-align: middle;
-
 }
 
 .navbar-nav > li > a {
@@ -118,7 +120,7 @@ ul.nav {
     height: 30px;
 }
 
-.nav .category-icon-box {
+ul.nav .category-icon-box {
     width:30px;
     height:30px;
     border-radius: 30px;
@@ -170,6 +172,7 @@ ul.nav {
     background-size: 25px;
 }
 
+/* TOP NAVI */
 #navi {
     border-bottom: solid 11px rgba(255, 195, 231, 0);
     font-size: 14px;
@@ -226,7 +229,7 @@ ul.nav {
     margin-left:25px;
 }
 
-/* Header */
+/* PAGE Header */
 .title {
     font-size: 53px;
     height: 200px;
@@ -267,7 +270,7 @@ h2 {
     letter-spacing: 10px;
 }
 
-/** index-header **/
+/* INDEX-HEADER */
 
 #top-sf {
     float: left;
@@ -295,7 +298,6 @@ p.date {
     font-weight: bold;
 }
 
-/* HEADER */
 .event {
     font-size: 11px;
     float: left;
@@ -465,7 +467,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-/*author-pages */
+/* AUTHOR PAGE */
 
 #author .authors-info {
     width: 650px;
@@ -494,9 +496,7 @@ h1 {
     margin: 0 23px 0 0;
 }
 
-
-
-/*POST-EDIT entry-content*/
+/* POST PAGE */
 .entry-content {
     font-size: 18px;
     line-height: 180%;
@@ -519,6 +519,40 @@ h1 {
     padding-left: 256px;
     padding-bottom: 59px;
     clear: both;
+}
+
+.post .authors-info {
+    width: 650px;
+    padding: 33px 0 50px 12px;
+}
+
+.post .authors-info:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.post .authors-info p {
+    float: left;
+}
+
+.post .authors-info p.name {
+    font-size: 20px;
+    padding-top: 14px;
+    letter-spacing: 0;
+}
+
+.post .authors-info p.author-about {
+    font-size: 10px;
+    padding-left: 30px;
+    width: 473px;
+    word-spacing: 2px;
+}
+
+.post .authors-info .pickup-authors img {
+    margin: 0 23px 0 0;
 }
 
 /* SOCIAL */

@@ -175,6 +175,7 @@ p.title span.ca {
 }
 
 /* category-page  */
+
 .cate-img-top {
     float: left;
     padding-left: 93px;
@@ -335,7 +336,8 @@ p.description {
     width: 175px;
     padding: 10px 35px;
 }
-/* AUTHORS */#author-list {
+/* AUTHORS */
+#author-list {
 
     padding-bottom: 10px;
 
@@ -692,7 +694,8 @@ a img:hover {
     visibility: hidden;
 }
 
-/*POST-EDIT entry-content*/
+/* POST PAGE */
+
 .entry-content {
     font-weight: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -701,6 +704,19 @@ a img:hover {
 
 .entry-content img {
     border: 1px solid #ddd
+}
+
+.post .authors-info p {
+    color: #333;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.post .authors-info p.name {
+    font-weight: bold;
+}
+
+.post .authors-info p.author-about {
+    font-weight: normal;
 }
 
 /* post-related */

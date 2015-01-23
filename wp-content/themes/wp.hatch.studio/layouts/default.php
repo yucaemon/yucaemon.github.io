@@ -2,6 +2,7 @@
 
 <?php get_Sidebar(); ?>
 
+
   <div id="center"><!-- CENTER -->
 
     <div id="<?php echo $content_type ?>-page">
