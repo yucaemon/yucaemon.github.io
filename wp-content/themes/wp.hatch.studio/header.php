@@ -94,6 +94,7 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/desktop.css" media="screen and (min-width:769px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css" media="screen and (max-width:767px)" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css" media="screen" />
 
 <link href="js/jquery/jquery.bxslider.css" rel="stylesheet" type="text/css" />
 
