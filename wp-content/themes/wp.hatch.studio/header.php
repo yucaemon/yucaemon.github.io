@@ -91,8 +91,8 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 ?>
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/desktop.css" media="screen and (min-width:769px)" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/mobile.css" media="screen and (max-width:767px)" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/desktop.css" media="screen and (min-width:769px)" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css" media="screen and (max-width:767px)" />
 
 
 <link href="js/jquery/jquery.bxslider.css" rel="stylesheet" type="text/css" />
@@ -193,17 +193,17 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <ul class="social-icons">
 
-<li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'>circlefacebook</span></a></li>
+<li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span class='symbol'>circletwitterbird</span></a></li>
+<li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circleaboutme</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circleimessage</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/" target="_blank"><span class='symbol'>circlemeetup</span></a></li>
+<li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circlegithubalt</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
 </ul>
 

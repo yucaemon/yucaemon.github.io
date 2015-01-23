@@ -1,5 +1,5 @@
 
-<div class="single-post">
+<div class="post">
 
   <?php while (have_posts()) : the_post(); ?>
 

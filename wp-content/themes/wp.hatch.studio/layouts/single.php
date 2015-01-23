@@ -4,7 +4,7 @@
   <?php include(TEMPLATEPATH.'/contents/_'.$content_type.'.php'); ?>
 </div><!--END CENTER -->
 
-<?php get_Sidebar(); ?>
+<?php get_Sidebar(2); ?>
 
 </div><!-- END contents -->
 <div class="clear-both"></div>

@@ -3,7 +3,7 @@
 <?php $cat_id = $target_cat->term_id; ?>
 
 <div class="cate-img-top cook-img-top"><img
-    src="<?php echo get_template_directory_uri(); ?>/images/cates/T-<?php echo $cat_id ?>.png"></div>
+    src="<?php echo get_template_directory_uri(); ?>/images/big_categories_img/T-<?php echo $cat_id ?>.png"></div>
 
 <div class="cate-right-text img-cook">
 

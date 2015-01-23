@@ -1,7 +1,4 @@
-<div id="right-side"><!--RIGHT SIDE -->
-
-  <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
-  <?php include(TEMPLATEPATH.'/components/_authors.php'); ?>
-  <?php include(TEMPLATEPATH.'/components/_popular.php'); ?>
-  <?php include(TEMPLATEPATH.'/components/_social.php'); ?>
+<div id="left-side"><!-- LEFT SIDE -->
+  <?php include(TEMPLATEPATH.'/components/_categories.php'); ?>
+</div><!--  END LEFT SIDE -->
 

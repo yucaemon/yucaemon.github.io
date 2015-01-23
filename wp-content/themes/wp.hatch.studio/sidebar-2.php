@@ -1,4 +1,6 @@
-<div id="left-side"><!-- LEFT SIDE -->
-  <?php include(TEMPLATEPATH.'/components/_categories.php'); ?>
-</div><!--  END LEFT SIDE -->
-
+<div id="right-side"><!--RIGHT SIDE -->
+  <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
+  <?php include(TEMPLATEPATH.'/components/_popular_authors.php'); ?>
+  <?php include(TEMPLATEPATH.'/components/_popular_post.php'); ?>
+  <?php include(TEMPLATEPATH.'/components/_socialMedia.php'); ?>
+</div>

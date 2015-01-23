@@ -6,7 +6,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '5' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/EAT.png" class="cate-img EAT"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/EAT.png" class="cate-img EAT"></a>
 
     <dl class="cate-text">
 
@@ -21,7 +21,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '6' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/GO.png" class="cate-img GO"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/GO.png" class="cate-img GO"></a>
 
     <dl class="cate-text">
 
@@ -36,7 +36,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '1' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/COOK.png" class="cate-img COOK"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/COOK.png" class="cate-img COOK"></a>
 
     <dl class="cate-text">
 
@@ -51,7 +51,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '4' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/BUY.png" class="cate-img BUY"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/BUY.png" class="cate-img BUY"></a>
 
     <dl class="cate-text">
 
@@ -66,7 +66,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '18' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/NEWS.png" class="cate-img NEWS"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/NEWS.png" class="cate-img NEWS"></a>
 
     <dl class="cate-text">
 
@@ -81,7 +81,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '8' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/MEMO.png" class="cate-img MEMO"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/MEMO.png" class="cate-img MEMO"></a>
 
     <dl class="cate-text">
 
@@ -96,7 +96,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '9' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/MEET.png" class="cate-img MEET"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/MEET.png" class="cate-img MEET"></a>
 
     <dl class="cate-text">
 
@@ -111,7 +111,7 @@
   <li>
 
     <a href="<?php echo get_category_link( '3' ); ?>"><img
-        src="<?php echo get_template_directory_uri(); ?>/images/tags/WEB.png" class="cate-img WEB"></a>
+        src="<?php echo get_template_directory_uri(); ?>/images/categories/WEB.png" class="cate-img WEB"></a>
 
     <dl class="cate-text">
 

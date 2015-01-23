@@ -8,12 +8,6 @@
 
 <div id="footer">
 
-
-
-
-
-
-
 <div id ="footer-content">
 
 
@@ -24,17 +18,17 @@
 
 <ul class ="icons">
 
-<li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'>circlefacebook</span></a></li>
+<li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span class='symbol'>circletwitterbird</span></a></li>
+<li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circleaboutme</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circleimessage</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/" target="_blank"><span class='symbol'>circlemeetup</span></a></li>
+<li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/" target="_blank"><span class='symbol'></span></a></li>
 
-<li><a href="" target="_blank"><span class='symbol'>circlegithubalt</span></a></li>
+<li><a href="" target="_blank"><span class='symbol'></span></a></li>
 
 </ul>
 
