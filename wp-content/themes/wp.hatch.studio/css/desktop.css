@@ -195,35 +195,17 @@ ul.nav .category-icon-box {
     clear:both;
 }
 
-#navi ul.head-categories {
-    float:left;
+.site-categories h4 {
+  margin: 0 0 !important;
 }
 
-#navi ul.head-categories li {
-    float:left;
-    border-right: solid 1px #DAD4D4;
-    padding-right: 30px;
-    margin-right: 30px;
-}
 
 .head-categories-title{
     font-size: 20px;
     font-weight: bold;
 }
 
-.head-categories-subtitle{
-    font-size: 12px;
-}
-
-#navi ul li .text-tit{
-    float:left;
-}
-
-.head-categories-img{
-    float:right;
-}
-
-.head-categories-img img{
+.site-categories-img img{
     width: 50px;
     height: 46px;
     margin-left:25px;
