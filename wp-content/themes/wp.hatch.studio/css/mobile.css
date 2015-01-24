@@ -55,6 +55,11 @@ h1 {
 
 /* NAVI */
 
+.navbar-brand {
+    height: auto;
+    padding: 7px 0;
+}
+
 .navbar-toggle {
     float: left;
     margin-left: 1em;

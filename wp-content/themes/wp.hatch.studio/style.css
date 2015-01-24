@@ -119,6 +119,10 @@ span {
     background: white;
 }
 
+ul.nav li {
+    font-weight: bold;
+}
+
 .navbar img {
     display: block;
 }
