@@ -45,6 +45,12 @@ body {
 }
 
 /** CATEGORY **/
+
+.cate-right-text {
+    float: left;
+    width: 287px;
+}
+
 .category li:after {
     content: "";
     clear: both;

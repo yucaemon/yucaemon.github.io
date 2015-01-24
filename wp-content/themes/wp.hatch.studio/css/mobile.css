@@ -159,6 +159,20 @@ ul.social-icons {
 
 /* CATEGORY */
 
+#categpry-page .cate-right-text {
+
+}
+
+#category-page .big-title, #category-page h3 {
+    text-align: center;
+}
+
+#category-page .small-title {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+
 .cate-img-top {
 
 }
@@ -262,7 +276,7 @@ h4 {
 
 }
 .pickup .post-text {
-    font-size: 11px;
+    font-size: 0.9em;
     float: left;
     font-weight: normal;
 }

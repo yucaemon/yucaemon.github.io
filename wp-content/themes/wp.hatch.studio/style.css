@@ -123,6 +123,10 @@ ul.nav li {
     font-weight: bold;
 }
 
+.navbar-nav > li > a {
+    color: #999;
+}
+
 .navbar img {
     display: block;
 }
@@ -194,9 +198,7 @@ p.title span.ca {
     padding-bottom: 57px;
     border-bottom: dotted 1px #FF8888;
 }
-.cate-right-text {
-    float: left;    width: 287px;
-}
+
 .img-eat {
     padding-top: 42px;
 }.img-news {
