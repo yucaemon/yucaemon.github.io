@@ -6,9 +6,6 @@
     src="<?php echo get_template_directory_uri(); ?>/images/big_categories_img/T-<?php echo $cat_id ?>.png"></div>
 
 <div class="cate-right-text img-cook">
-
-  <span class="sub-title">category</span>
-
   <?php
 
   $category = get_category($cat_id);

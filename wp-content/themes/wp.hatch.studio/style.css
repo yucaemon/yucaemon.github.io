@@ -127,6 +127,10 @@ span {
     background: white;
 }
 
+ul.nav li {
+    font-weight: bold;
+}
+
 .navbar img {
     display: block;
 }
@@ -183,13 +187,6 @@ p.title span.ca {
 }
 
 /* category-page  */
-
-.cate-img-top {
-    float: left;
-    padding-left: 93px;
-    padding-top: 20px;
-    padding-right: 50px;
-}
 
 .eat-img-top {
     padding-left: 123px;

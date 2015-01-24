@@ -12,12 +12,22 @@ body {
 #container {
     margin: 80px auto;
     width: 90%;
+    max-width: 768px;
 }
 #contents {
 }
 
 #center {
     float: left;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post {
+    word-break: break-all;
 }
 
 #left-side {
@@ -37,7 +47,18 @@ body {
     padding: 15px 0 0 10px;
 }
 
+/* TYPE */
+
+h1 {
+    font-size: 2em;
+}
+
 /* NAVI */
+
+.navbar-brand {
+    height: auto;
+    padding: 7px 0;
+}
 
 .navbar-toggle {
     float: left;
@@ -136,6 +157,16 @@ ul.social-icons {
     letter-spacing: 10px;
 }
 
+/* CATEGORY */
+
+.cate-img-top {
+
+}
+.cate-img-top img {
+    margin: 0 auto;
+    display: block;
+}
+
 /** index-header **/
 
 #top-sf {
@@ -211,7 +242,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
 }
@@ -295,7 +326,46 @@ h4 {
     padding-bottom: 20px;
 }
 
-/*POST-EDIT entry-content*/
+/* POST */
+.post .authors-info {
+    width: 95%;
+}
+
+.post .authors-info:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.post .authors-info p {
+
+}
+
+.post .authors-info p.name {
+    font-size: 1.5em;
+    padding: 0.5em 0 0 2.5em;
+
+}
+
+.post .authors-info p.name:after {
+
+}
+
+.post .authors-info p.author-about {
+    clear: both;
+    font-size: 0.8em;
+    width: 100%;
+    word-spacing: 2px;
+    margin: 3em 0 2em 0;
+}
+
+.post .authors-info .pickup-authors img {
+    margin: 1em 0 0 0;
+    float: left;
+}
+
 .entry-content {
     font-size: 1em;
     line-height: 180%;
@@ -360,3 +430,19 @@ h4 {
     float: left;
     font-size: 1.6em;
 }
+
+/* GOOGLE MAP */
+ .google-maps {
+     position: relative;
+     padding-bottom: 75%;
+     height: 0;
+     overflow: hidden;
+ }
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
