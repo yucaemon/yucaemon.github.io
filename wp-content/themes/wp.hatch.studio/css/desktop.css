@@ -79,6 +79,13 @@ dl.cate-text {
     white-space:nowrap;
 }
 
+.cate-img-top {
+    float: left;
+    padding-left: 93px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
 /* RIGHT-NAVI */
 #right-side {
     font-family: 'Alegreya Sans SC', sans-serif;

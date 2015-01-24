@@ -136,6 +136,16 @@ ul.social-icons {
     letter-spacing: 10px;
 }
 
+/* CATEGORY */
+
+.cate-img-top {
+
+}
+.cate-img-top img {
+    margin: 0 auto;
+    display: block;
+}
+
 /** index-header **/
 
 #top-sf {
@@ -218,7 +228,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
 }
