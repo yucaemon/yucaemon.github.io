@@ -19,9 +19,9 @@ License URI: ライセンスの URL
 /* initialize */
 @font-face {
     font-family: 'Mono Social Icons Font';
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'), url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'), url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'), url('../MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    src: url('fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'), url('fonts/MonoSocialIconsFont-1.10.woff') format('woff'), url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'), url('fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -730,35 +730,7 @@ a img:hover {
     visibility: hidden;
 }
 
-#author-page img.author-header {
-    width: 100px;
-    height: 100px;
-    -webkit-border-radius: 150px;
-    border-radius: 120px;
-    border: solid 1px #E6E1E1;
-    float: left;
-    margin: 32px 33px 37px -36px;
-}
 
-#author-page .cate-right-text h3 {
-    font-size: 53px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    color: #333;
-    padding: 6px 0 0 0;
-    margin-bottom: 4px;
-    height: 56px;
-}
-#author-page .cate-right-text .big-title {
-    font-size: 11px;
-    padding: 4px 0 0 0;
-    font-weight: 300;
-    width:600px;
-}
-#author-page .cate-right-text {
-    width: auto;
-    padding: 14px 0 0 89px;
-    float: left;
-}
 .wp-post-image {
     width: 110px;
 

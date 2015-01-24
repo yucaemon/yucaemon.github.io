@@ -10,7 +10,7 @@ body {
     font-size: 1em;
 }
 #container {
-    margin: 80px auto;
+    margin: 70px auto;
     width: 90%;
     max-width: 768px;
 }
@@ -338,7 +338,46 @@ h4 {
     padding-bottom: 20px;
 }
 
-/* POST */
+/* AUTHER'S ARTICLE */
+#author-page img.author-header {
+    -webkit-border-radius: 150px;
+    border-radius: 120px;
+    border: solid 1px #E6E1E1;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+}
+
+#author-page #header .sub-title {
+    display: none;
+}
+#author-page .cate-right-text h3 {
+    font-size: 2.5em;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #666;
+    padding: 6px 0 0 0;
+    margin-bottom: 4px;
+
+}
+#author-page .cate-right-text .big-title {
+    font-size: 11px;
+    padding: 4px 0 0 0;
+    font-weight: 300;
+    width: 100%;
+}
+#author-page .cate-right-text {
+    width: auto;
+    float: left;
+}
+
+#author-page .cate-right-text h3 {
+    text-align: center;
+}
+
+#author-page .pickup-text .mini-info {
+    width: 100%;
+}
+/* POST PAGE */
 .post .authors-info {
     width: 95%;
 }
