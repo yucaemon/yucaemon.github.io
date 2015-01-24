@@ -28,12 +28,12 @@ body {
     display: none;
 }
 
-.twitter {
+#right-side.twitter {
     width: 201px;
     padding: 10px 0 20px 10px;
-    border-bottom: dotted 1px #FF8888;
 }
-.facebook {
+
+#right-side.facebook {
     padding: 15px 0 0 10px;
 }
 
@@ -196,19 +196,12 @@ p.date {
 
 /* PICKUP */
 h3 {
-
     color: #F8B0B0;
 }
-.pickup {
 
-}
 .pickup li {
     border-bottom: dotted 1px #FF8888;
     padding-bottom: 2em;
-}
-
-.pickup-img {
-
 }
 
 .pickup-img .attachment-post-thumbnail {
@@ -227,16 +220,11 @@ h4 {
     margin: 0 0;
 }
 
-.pickup-paragraph {
-
-}
 .pickup .post-text {
     font-size: 11px;
     float: left;
     font-weight: normal;
 }
-
-
 
 .pickup-authors img {
     width: 45px;
@@ -359,3 +347,19 @@ h4 {
 
 }
 
+/* AUTHORS PAGE */
+
+.author-page img {
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #E6E1E1;
+    float: left;
+    margin-top: 5px;
+}
+
+.author-page .author-social-icons  {
+    float: left;
+    font-size: 1.6em;
+}

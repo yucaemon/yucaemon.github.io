@@ -6,6 +6,7 @@ body {
     font-size: 12px;
 }
 
+
 #container {
     margin: 95px auto;
     width: 1200px;
@@ -87,12 +88,12 @@ dl.cate-text {
     height: auto;
     margin-top: 4px;
 }
-.twitter {
+#right-side .twitter {
     width: 201px;
     padding: 10px 0 20px 10px;
-    border-bottom: dotted 1px #FF8888;
 }
-.facebook {
+
+#right-side .facebook {
     padding: 15px 0 0 10px;
 }
 
@@ -449,7 +450,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-/* AUTHOR PAGE */
+/* AUTHOR */
 
 #author .authors-info {
     width: 650px;
