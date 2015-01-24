@@ -1,23 +1,14 @@
 <div class="author-page">
-
     <div class="page-title">記者一覧</div>
-
     <ul>
-
         <?php
-
-  // 表示する順番にユーザーIDを設定する
-
-  $this_authors = array(22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12);
-
-  ?>
+        // 表示する順番にユーザーIDを設定する
+        $this_authors = array(22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12);
+        ?>
         <?php foreach ($this_authors as $this_author_id ) { ?>
-
         <li>
             <div class="author-list-thumbnail">
-                <a href="<?php echo get_author_posts_url($this_author_id)?>">
-                    <img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg">
-                </a>
+                <a href="<?php echo get_author_posts_url($this_author_id)?>"><img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg"></a>
             </div>
 
             <dl>

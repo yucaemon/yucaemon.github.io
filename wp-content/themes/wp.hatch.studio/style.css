@@ -357,14 +357,9 @@ p.description {
 
 }
 .author-page img {
-    width: 10%;
-    height: 10%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: solid 1px #E6E1E1;
-    float: left;
-    margin-top: 5px;
-
 }
 
 .author-page .page-title{

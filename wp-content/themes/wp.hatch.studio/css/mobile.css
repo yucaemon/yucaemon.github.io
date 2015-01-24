@@ -349,14 +349,11 @@ h4 {
 
 /* AUTHORS PAGE */
 
-.author-page img {
+.author-page .author-list-thumbnail {
     width: 80px;
     height: 80px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: solid 1px #E6E1E1;
-    float: left;
-    margin-top: 5px;
+    margin: 5px auto;
+    display: block;
 }
 
 .author-page .author-social-icons  {
