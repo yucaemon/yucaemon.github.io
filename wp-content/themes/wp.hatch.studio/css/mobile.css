@@ -38,12 +38,12 @@ body {
     display: none;
 }
 
-.twitter {
+#right-side.twitter {
     width: 201px;
     padding: 10px 0 20px 10px;
-    border-bottom: dotted 1px #FF8888;
 }
-.facebook {
+
+#right-side.facebook {
     padding: 15px 0 0 10px;
 }
 
@@ -241,19 +241,12 @@ p.date {
 
 /* PICKUP */
 h3 {
-
     color: #F8B0B0;
 }
-.pickup {
 
-}
 .pickup li {
     border-bottom: dotted 1px #FF8888;
     padding-bottom: 2em;
-}
-
-.pickup-img {
-
 }
 
 .pickup-img .attachment-post-thumbnail {
@@ -272,16 +265,11 @@ h4 {
     margin: 0 0;
 }
 
-.pickup-paragraph {
-
-}
 .pickup .post-text {
     font-size: 0.9em;
     float: left;
     font-weight: normal;
 }
-
-
 
 .pickup-authors img {
     width: 45px;
@@ -482,6 +470,20 @@ h4 {
 
 }
 
+/* AUTHORS PAGE */
+
+.author-page .author-list-thumbnail {
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+
+.author-page .author-social-icons  {
+    float: left;
+    font-size: 1.6em;
+}
+
 /* GOOGLE MAP */
  .google-maps {
      position: relative;
@@ -496,3 +498,4 @@ h4 {
     width: 100% !important;
     height: 100% !important;
 }
+

@@ -17,6 +17,8 @@ License: ライセンス
 License URI: ライセンスの URL
 
 /* initialize */
+
+
 @font-face {
     font-family: 'Mono Social Icons Font';
     src: url('fonts/MonoSocialIconsFont-1.10.eot');
@@ -78,10 +80,16 @@ a img {
     border-style: none;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+
 p {
     margin: 0 0;
     padding: 0 0;
 }
+
 span {
     margin: 0 0;
     padding: 0 0;
@@ -318,6 +326,11 @@ padding-left: 15px;
     padding: 10px 0 30px 0;
     border-bottom: dotted 1px #FF8888;
 }
+
+#right-side .twitter {
+    border-bottom: dotted 1px #FF8888;
+}
+
 .about div.description {
     padding: 5px 0 14px 0;
 }
@@ -335,68 +348,106 @@ p.description {
     width: 175px;
     padding: 10px 35px;
 }
-/* AUTHORS */
-#author-list {
 
+
+/* AUTHORS */
+.author-page{
     padding-bottom: 10px;
 
 }
-#author-list img {
-
-    width: 80px;
-    height: 80px;
-    -webkit-border-radius: 45px;
-    border-radius: 40px;
+.author-page img {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
     border: solid 1px #E6E1E1;
-    float: left;
-    margin-top: 5px;
-
 }
 
-#author-list .page-title{
+.author-page .page-title{
 
     border-bottom: dotted 1px #FF8888;
-    padding: 30px 0;
-    font-size: 24px;
-    text-align:center;
-    color: #2D2D2D;
+    padding: 42px 0;
+    font-size: 1.9em;
+    text-align: center;
+    color: #525252;
+    letter-spacing: 0.2em;
 
 }
-#author-list {
+
+/* AUTHOR LIST PAGE */
+
+.author-page {
     padding: 0 0 15px 0;
 }
-#author-list li {
+.author-page li {
     border-bottom: dotted 1px #FF8888;
     padding: 30px 0;
 }
-#author-list dl {
+.author-page dl {
     width: 85%;
     float: left;
     padding-left: 20px;
+    margin:0 0;
 }
-#author-list dt {
-
+.author-page dt {
     font-weight: bold;
     font-size: 160%;
     padding-bottom: 10px;
     border-bottom: dashed 1px #FFC0C0;
-
+    clear:both;
 }
 
-#author-list dt span.name{
 
+.author-page .name{
+    font-size: 1em;
     color: #2D2D2D;
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
 
 }
-#author-list dd {
 
-    padding-top: 10px;
+.author-page .post-account{
+    font-size: 1em;
+    float: right;
+    color: #848484;
+}
+
+
+.author-page .since-date{
+    font-size: 1em;
+    float: left;
+    padding-top: 3px;
+    color: rgb(255, 201, 201);
+}
+
+.author-page .position{
+    font-size: 0.8em;
+    padding-left: 9px;
+    letter-spacing: 0.1em;
+}
+
+
+.author-page .introduction{
+    padding: 15px 0;
+}
+
+
+.author-page dd {
+
     color: #6B6969;
     letter-spacing: 1px;
+    clear:both;
 
 }
 
+.author-page .author-social-icons a {
+     color: #9B9B9B;
+ }
+.author-page .author-social-icons a:hover {
+    color: #333;
+}
+
+.author-page .author-social-icons  {
+    float: right;
+    font-size: 1em;
+}
 /** Authors in sidebar **/
 
 .Authors {

@@ -1,17 +1,8 @@
 <!-- footer -->
 
-
-
-
-
-
-
 <div id="footer">
 
 <div id ="footer-content">
-
-
-
 
 
 <?php if (!preg_match('~Windows|MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT'])) : ?>
@@ -33,10 +24,6 @@
 </ul>
 
 <?php endif; ?>
-
-
-
-
 
 <p><small>© <?php bloginfo('name'); ?> All Rights Reserved.</small></p>
 
