@@ -21,6 +21,15 @@ body {
     float: left;
 }
 
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post {
+    word-break: break-all;
+}
+
 #left-side {
     display: none;
 }
