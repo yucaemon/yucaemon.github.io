@@ -8,7 +8,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo home_url(); ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="70">
     </a>
 
@@ -18,22 +18,18 @@
     <ul class="nav navbar-nav category">
       <li>
         <a href="<?php echo get_category_link('5'); ?>">
-          <div class="category-icon-box icon-eat"></div>
           EAT
         </a>
       </li>
 
       <li>
         <a href="<?php echo get_category_link('6'); ?>">
-          <div class="category-icon-box icon-go"></div>
           GO
         </a>
       </li>
 
       <li>
-
         <a href="<?php echo get_category_link('1'); ?>">
-          <div class="category-icon-box icon-cook"></div>
           COOK
         </a>
       </li>
@@ -41,7 +37,6 @@
       <li>
 
         <a href="<?php echo get_category_link('4'); ?>">
-          <div class="category-icon-box icon-buy"></div>
           BUY
         </a>
 
@@ -49,7 +44,6 @@
 
       <li>
         <a href="<?php echo get_category_link('18'); ?>">
-          <div class="category-icon-box icon-news"></div>
           NEWS
         </a>
       </li>
@@ -57,7 +51,6 @@
       <li>
 
         <a href="<?php echo get_category_link('8'); ?>">
-          <div class="category-icon-box icon-memo"></div>
           MEMO
         </a>
 
@@ -66,19 +59,21 @@
       <li>
 
         <a href="<?php echo get_category_link('9'); ?>">
-          <div class="category-icon-box icon-meet"></div>
           MEET
         </a>
 
       </li>
 
       <li>
-
         <a href="<?php echo get_category_link('3'); ?>">
-          <div class="category-icon-box icon-study"></div>
           STUDY
         </a>
+      </li>
 
+      <li>
+        <a href="/authors">
+          AUTHORS
+        </a>
       </li>
 
     </ul>

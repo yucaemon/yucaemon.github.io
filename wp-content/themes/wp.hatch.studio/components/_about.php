@@ -29,16 +29,16 @@
 <div class="site-categories">
   <ul>
 
-    <li class="hatchstudio">
+    <li>
+      <div class="head-categories-img"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></a></div>
       <p class="head-categories-title"><a href="<?php echo home_url(); ?>">San Francisco</a></p>
       <p class="head-categories-subtitle"><a href="<?php echo home_url(); ?>">サンフランシスコ　面白まがじん</a></p>
-      <div class="head-categories-img"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/sf-head-icon.png"></a></div>
     </li>
 
-    <li class="ucb">
+    <li>
+      <div class="head-categories-img"><a href="http://ucberkeley.hatchstudioinc.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
       <p class="head-categories-title"><a href="http://ucberkeley.hatchstudioinc.com/">UC Berkeley</a></p>
       <p class="head-categories-subtitle"><a href="http://ucberkeley.hatchstudioinc.com/">UCバークレー　面白インタビュー</a></p>
-      <div class="head-categories-img"><a href="http://ucberkeley.hatchstudioinc.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb-head-icon.png"></a></div>
     </li>
 
   </ul>

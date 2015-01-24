@@ -114,7 +114,7 @@ ul.nav {
 }
 ul.nav li {
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: bolder;
     vertical-align: middle;
 }
 
@@ -202,20 +202,30 @@ ul.nav .category-icon-box {
     clear:both;
 }
 
+.site-categories {
+
+}
+
 .site-categories h4 {
   margin: 0 0 !important;
 }
 
+.site-categories li {
+    clear: both;
+    margin-top: 1em;
+}
 
 .head-categories-title{
     font-size: 20px;
     font-weight: bold;
 }
 
-.site-categories-img img{
+.head-categories-img {
+    float: left;
+}
+.head-categories-img img{
     width: 50px;
-    height: 46px;
-    margin-left:25px;
+    margin-right: 0.5em;
 }
 
 /* PAGE Header */
