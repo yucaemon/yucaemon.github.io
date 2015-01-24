@@ -12,6 +12,7 @@ body {
 #container {
     margin: 80px auto;
     width: 90%;
+    max-width: 768px;
 }
 #contents {
 }
@@ -35,6 +36,12 @@ body {
 }
 .facebook {
     padding: 15px 0 0 10px;
+}
+
+/* TYPE */
+
+h1 {
+    font-size: 2em;
 }
 
 /* NAVI */
@@ -317,7 +324,46 @@ h4 {
     padding-bottom: 20px;
 }
 
-/*POST-EDIT entry-content*/
+/* POST */
+.post .authors-info {
+    width: 95%;
+}
+
+.post .authors-info:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.post .authors-info p {
+
+}
+
+.post .authors-info p.name {
+    font-size: 1.5em;
+    padding: 0.5em 0 0 2.5em;
+
+}
+
+.post .authors-info p.name:after {
+
+}
+
+.post .authors-info p.author-about {
+    clear: both;
+    font-size: 0.8em;
+    width: 100%;
+    word-spacing: 2px;
+    margin: 3em 0 2em 0;
+}
+
+.post .authors-info .pickup-authors img {
+    margin: 1em 0 0 0;
+    float: left;
+}
+
 .entry-content {
     font-size: 1em;
     line-height: 180%;
@@ -369,3 +415,17 @@ h4 {
 
 }
 
+/* GOOGLE MAP */
+ .google-maps {
+     position: relative;
+     padding-bottom: 75%;
+     height: 0;
+     overflow: hidden;
+ }
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
