@@ -472,7 +472,7 @@ h4 {
 
 /* AUTHORS PAGE */
 
-.author-page .author-list-thumbnail {
+.author-page img {
     width: 80px;
     height: 80px;
     margin: 5px auto;
@@ -481,7 +481,7 @@ h4 {
 
 .author-page .author-social-icons  {
     float: left;
-    font-size: 1.6em;
+    font-size: 1em;
 }
 
 /* GOOGLE MAP */

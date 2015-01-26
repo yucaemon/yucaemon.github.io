@@ -530,7 +530,9 @@ h1 {
     width: auto;
     padding: 14px 0 0 89px;
     float: left;
-.author-page .author-list-thumbnail {
+}
+
+.author-page img {
     width: 10%;
     height: 10%;
     float: left;

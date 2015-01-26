@@ -7,9 +7,9 @@
         ?>
         <?php foreach ($this_authors as $this_author_id ) { ?>
         <li>
-            <div class="author-list-thumbnail">
+
                 <a href="<?php echo get_author_posts_url($this_author_id)?>"><img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg"></a>
-            </div>
+
 
             <dl>
                 <dt>
