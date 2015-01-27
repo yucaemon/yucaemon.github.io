@@ -239,6 +239,10 @@ p.date {
     font-size: 1em;
 }
 
+#header h3 {
+    font-size: 1em;
+}
+
 /* PICKUP */
 h3 {
     color: #F8B0B0;
