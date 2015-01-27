@@ -382,9 +382,7 @@ p.description {
     padding: 30px 0;
 }
 .author-page dl {
-    width: 85%;
     float: left;
-    padding-left: 20px;
     margin:0 0;
 }
 .author-page dt {
@@ -419,7 +417,6 @@ p.description {
 
 .author-page .position{
     font-size: 0.8em;
-    padding-left: 9px;
     letter-spacing: 0.1em;
 }
 
@@ -445,7 +442,6 @@ p.description {
 }
 
 .author-page .author-social-icons  {
-    float: right;
     font-size: 1em;
 }
 /** Authors in sidebar **/

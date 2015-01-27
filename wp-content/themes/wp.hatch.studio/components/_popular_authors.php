@@ -13,6 +13,7 @@
                     SELECT posts.post_author, meta.meta_value FROM $wpdb->postmeta as meta
                     join $wpdb->posts as posts on posts.ID = meta.post_id
                     WHERE meta.meta_key = 'views'
+                    AND posts.post_status = 'publish'
                     AND posts.post_author in (22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12)
                     AND posts.post_date > '$last_month';
                     ", ARRAY_N);
@@ -47,9 +48,7 @@
 
         <dt>
           <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></a>
-          <!--
           / <?php echo $this_authors_views ?>
-          -->
         </dt>
 
         <dd>

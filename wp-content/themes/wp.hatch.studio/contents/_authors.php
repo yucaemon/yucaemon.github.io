@@ -14,25 +14,22 @@
             <dl>
                 <dt>
 
-                    <a href="<?php echo get_author_posts_url($this_author_id)?>">
-                        <span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?> </span>
-                    </a>
-                      <span class="position">| キュレーター
-                          <?php
+                    <a href="<?php echo get_author_posts_url($this_author_id)?>"><span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></span></a>
+                    <span class="delimiter">|</span>
+                      <span class="position">キュレーター<?php
                      $job = get_the_author_meta( 'job', $this_author_id );
                     if ( $job ) :
                         echo "兼".$job;
                     endif;
 
-                    ?>
-                      </span>
+                    ?></span>
 
                   <span class="author-social-icons">
                     <?php
                         $facebook = get_the_author_meta( 'facebook', $this_author_id );
                         $facebookLink = '';
                         if ( $facebook ) :
-                            $facebookLink = '<a class="facebook" href="'. $facebook .'" target="_blank" title="Twitter"><span class="fa-stack "><i class="fa fa-facebook-square "></i></span></a>';
+                            $facebookLink = '<a class="facebook" href="'. $facebook .'" target="_blank" title="Twitter"><span class="fa-stack"><i class="fa fa-facebook-square"></i></span></a>';
                     endif;
                     echo $facebookLink;
                     ?>
@@ -41,7 +38,7 @@
                         $twitter = get_the_author_meta( 'twitter', $this_author_id );
                         $twitterLink = '';
                         if ( $twitter ) :
-                            $twitterLink = '<a class="twitter" href="' . $twitter .'" target="_blank" title="Twitter"><span class="fa-stack "><i class="fa fa-twitter-square "></i></span></a>';
+                            $twitterLink = '<a class="twitter" href="' . $twitter .'" target="_blank" title="Twitter"><span class="fa-stack"><i class="fa fa-twitter-square"></i></span></a>';
                     endif;
                     echo $twitterLink;
                     ?>
@@ -50,7 +47,7 @@
                         $instagram = get_the_author_meta( 'instagram', $this_author_id );
                         $instagramLink = '';
                         if ( $instagram ) :
-                            $instagramLink = '<a class="instagram" href="' . $instagram .'" target="_blank" title="Twitter"><span class="fa-stack "><i class="fa fa-instagram "></i></span></a>';
+                            $instagramLink = '<a class="instagram" href="' . $instagram .'" target="_blank" title="Twitter"><span class="fa-stack"><i class="fa fa-instagram"></i></span></a>';
                     endif;
                     echo $instagramLink;
                     ?>
@@ -59,7 +56,7 @@
                         $pinterest = get_the_author_meta( 'pinterest', $this_author_id );
                         $pinterestLink = '';
                         if ( $pinterest ) :
-                            $pinterestLink = '<a class="pinterest" href="' . $pinterest .'" target="_blank" title="pinterest"><span class="fa-stack "><i class="fa fa-pinterest "></i></span></a>';
+                            $pinterestLink = '<a class="pinterest" href="' . $pinterest .'" target="_blank" title="pinterest"><span class="fa-stack"><i class="fa fa-pinterest"></i></span></a>';
                     endif;
                     echo $pinterestLink;
                     ?>
@@ -68,7 +65,7 @@
                         $user_url = get_the_author_meta( 'user_url', $this_author_id );
                         $user_urlLink = '';
                         if ( $user_url ) :
-                            $user_urlLink = '<a class="user_url" href="' . $user_url .'" target="_blank" title="user_url"><span class="fa-stack "><i class="fa fa-link "></i></span></a>';
+                            $user_urlLink = '<a class="user_url" href="' . $user_url .'" target="_blank" title="user_url"><span class="fa-stack"><i class="fa fa-home"></i></span></a>';
                     endif;
                     echo $user_urlLink;
                     ?>
