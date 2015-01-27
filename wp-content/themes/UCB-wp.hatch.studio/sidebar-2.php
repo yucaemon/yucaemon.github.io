@@ -3,6 +3,7 @@
     <div class="title-icon"><span class="sub-title">category</span></div>
 
     <ul class="category">
+        <li><a href="<?php echo get_category_link('9'); ?>">記事</a></li>
         <li><a href="<?php echo get_category_link('2'); ?>">文系学部生</a></li>
         <li><a href="<?php echo get_category_link('3'); ?>">理系学部生</a></li>
         <li><a href="<?php echo get_category_link('4'); ?>">Law School</a></li>
