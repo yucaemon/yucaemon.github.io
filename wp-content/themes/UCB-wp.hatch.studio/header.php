@@ -216,28 +216,15 @@ $str = $post->post_content;
 
             </ul>
 
-            <?php if (!preg_match('~Windows|MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT'])) : ?>
 
-            <ul class="social-icons">
 
-                <li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'>circlefacebook</span></a>
-                </li>
+            <div class="top-facebook">
 
-                <li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span
-                        class='symbol'>circletwitterbird</span></a></li>
+                <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhatchsudioinc%3Ffref%3Dts&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowtransparency="true"></iframe>
 
-                <li><a href="" target="_blank"><span class='symbol'>circleaboutme</span></a></li>
+            </div>
 
-                <li><a href="" target="_blank"><span class='symbol'>circleimessage</span></a></li>
 
-                <li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/" target="_blank"><span class='symbol'>circlemeetup</span></a>
-                </li>
-
-                <li><a href="" target="_blank"><span class='symbol'>circlegithubalt</span></a></li>
-
-            </ul>
-
-            <?php endif; ?>
 
             <div class="clear-both"></div>
 

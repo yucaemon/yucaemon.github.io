@@ -600,6 +600,7 @@ p.date {
     padding-bottom: 43px;
     border-bottom: dotted 1px #6EB3FF;
     margin-bottom:18px;
+    text-align:center;
 
 }
 
@@ -629,7 +630,7 @@ p.date {
 
 .cate-title h3 {
 
-    font-size: 88px;
+    font-size: 70px;
 
     font-family: 'Alegreya Sans SC', sans-serif;
 
@@ -645,7 +646,7 @@ p.date {
 
 .cate-title .big-title {
 
-    font-size: 22px;
+    font-size: 13px;
 
     padding: 0 0 2px 0;
 
@@ -2121,4 +2122,9 @@ padding: 1px 0;
 
 color: #23B4EC;
 
+}
+
+.top-facebook{
+
+    float:right;
 }
