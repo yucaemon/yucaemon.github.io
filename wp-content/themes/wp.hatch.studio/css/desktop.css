@@ -532,11 +532,26 @@ h1 {
     float: left;
 }
 
-.author-page .author-list-thumbnail {
+.author-page img {
     width: 10%;
     height: 10%;
     float: left;
     margin-top: 5px;
+}
+
+/* AUTHORS PAGE */
+
+.author-page dl {
+    width: 85%;
+    padding-left: 20px;
+}
+
+.author-page .author-social-icons  {
+   float:right;
+}
+
+.author-page .position{
+    padding-left: 9px;
 }
 
 /* POST PAGE */

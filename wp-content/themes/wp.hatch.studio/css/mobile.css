@@ -238,6 +238,10 @@ p.date {
     font-size: 1em;
 }
 
+#index-page #header h3 {
+    font-size: 1em;
+}
+
 /* PICKUP */
 h3 {
     color: #F8B0B0;
@@ -471,7 +475,11 @@ h4 {
 
 /* AUTHORS PAGE */
 
-.author-page .author-list-thumbnail {
+.author-page dl {
+    width: 100%;
+}
+
+.author-page img {
     width: 80px;
     height: 80px;
     margin: 5px auto;
@@ -479,8 +487,26 @@ h4 {
 }
 
 .author-page .author-social-icons  {
-    float: left;
-    font-size: 1.6em;
+    font-size: 1em;
+}
+
+.author-page dt {
+ text-align: center;
+}
+
+.author-page .name {
+    padding-left: 0.5em;
+}
+
+.author-page .position {
+ display:block;
+ font-size:0.6em;
+ padding-left: 0.5em;
+}
+
+.delimiter{
+    visibility:hidden;
+
 }
 
 /* GOOGLE MAP */
