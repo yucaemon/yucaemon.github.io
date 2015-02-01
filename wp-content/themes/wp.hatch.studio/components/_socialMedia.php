@@ -1,7 +1,5 @@
 <!-- ?php dynamic_sidebar(); ? -->
 
-<div class="title-icon"><span class="sub-title">twitter</span></div>
-
 <div class="twitter">
 
   <a class="twitter-timeline" href="https://twitter.com/hatchstudioinc" data-widget-id="480117151240433665">@hatchstudioinc からのツイート</a>
