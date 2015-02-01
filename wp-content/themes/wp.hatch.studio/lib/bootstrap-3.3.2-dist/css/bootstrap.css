@@ -1074,10 +1074,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
+  color: #444444;
   background-color: #fff;
 }
 input,
@@ -1587,6 +1587,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-anchor: center;
 }
 .row {
   margin-right: -15px;
@@ -4379,7 +4380,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4394,7 +4395,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #9B9797;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4425,7 +4426,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  /* border-color: #e7e7e7; */
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,

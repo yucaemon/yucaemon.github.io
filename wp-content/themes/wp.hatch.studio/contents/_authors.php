@@ -1,5 +1,5 @@
+<?php include(TEMPLATEPATH.'/components/_about.php'); ?>
 <div class="author-page">
-    <div class="page-title">記者一覧</div>
     <ul>
         <?php
         // 表示する順番にユーザーIDを設定する

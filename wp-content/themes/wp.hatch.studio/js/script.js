@@ -37,6 +37,8 @@ $(function(){
 
 });
 
+    /*navibar dorpdown*/
+
     $(".dropdown").hover(
         function() {
             $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
