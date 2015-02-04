@@ -654,9 +654,10 @@ h1 {
 
 /* ABOUT-COMPONENTS */
 
-.about .description,.about .about-logos,.about .about-signs {
+.about {
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
+
 }
 
 
@@ -670,20 +671,28 @@ h1 {
 
 
 .about .about-logos {
-     clear:both;
- 
-     width: 100%;
+    clear:both;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 1em;
 }
 
-.about .about-logo {
+.about .about-logos:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
 
+.about img.about-logo {
     float: left;
 }
 
-.about .about-yucaemon {
+
+.about img.about-yucaemon {
     width: 13%;
     padding-left: 17px;
-    float: left;
 }
 
 .about .about-signs{
