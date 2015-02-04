@@ -1177,6 +1177,7 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
+  color: #171717; */;
 }
 h1 small,
 h2 small,
@@ -4381,7 +4382,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   /* background-color: #f8f8f8; */
-  border-color: #e7e7e7;
+  background-color: #FAFAF7;
 }
 .navbar-default .navbar-brand {
   color: #777;

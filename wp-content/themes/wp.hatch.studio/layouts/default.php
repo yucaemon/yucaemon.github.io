@@ -10,8 +10,8 @@
       <div id="header"><!-- HEADER -->
 
         <div class="title"><!-- TITLE -->
-          <h1><a href="<?php echo home_url(); ?>">S<span class="first-a">a</span>n Fr<span
-                class="second-a">a</span>n<span class="c">c</span>isco</a></h1>
+          <h1>S<span class="first-a">a</span>n Fr<span
+                class="second-a">a</span>n<span class="c">c</span>isco</h1>
 
           <h2>現地密着まがじん。</h2>
         </div>

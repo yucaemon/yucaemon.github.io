@@ -20,6 +20,7 @@ body {
     float: left;
     width: 720px;
     padding-right: 50px;
+    padding-left: 55px;
 }
 
 .contents-container {
@@ -87,8 +88,8 @@ dl.cate-text {
 
 .cate-img-top {
     float: left;
-    padding-left: 93px;
-    padding-top: 20px;
+    padding-left: 108px;
+    padding-top: 110px;
     padding-right: 50px;
 }
 
@@ -98,7 +99,7 @@ dl.cate-text {
     float: left;
     width: 28%;
     height: auto;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 #right-side .twitter {
     width: 290px;
@@ -244,8 +245,8 @@ ul.nav .category-icon-box {
 
 /* PAGE Header */
 .title {
-    font-size: 53px;
-    height: 200px;
+    /* font-size: 53px; */
+    /* height: 200px; */
 }
 .title span.first-a {
     color: #FA8BAF;
@@ -253,10 +254,13 @@ ul.nav .category-icon-box {
 .title h1 {
     width: 720px;
     letter-spacing: 3px;
-    font-size: 100px;
-    height: 109px;
-    padding-bottom: 16px;
+    font-size: 99px;
+    /* height: 109px; */
+    /* padding-bottom: 16px; */
     white-space: nowrap;
+    padding: 0 0;
+    margin: 0 0;
+    padding-bottom: 19px;
 }
 
 .position{
@@ -275,33 +279,35 @@ p.title span.ca {
 }
 
 h2 {
-    font-size: 31px;
+    font-size: 23px;
     padding-top: 4px;
     margin: 0 0 0 8px;
     font-weight: bold;
     float: left;
-    letter-spacing: 10px;
+    letter-spacing: 16px;
+    padding-bottom: 30px;
 }
 
 /* INDEX-HEADER */
 
 #top-sf {
     float: left;
-    padding: 55px 88px 10px 13px;
+    padding: -41px 88px 10px 13px;
 }
 #top-sf img {
     width: 305px;
+    padding-right: 60px;
     height: 300px;
 }
 
 p.subtitle {
     margin: 0 0;
     font-size: 12px;
-    float: right;
-    padding: 8px 9px 3px 0;
-    width: 305px;
+    padding: 5px 9px 3px 0;
+    /* width: 305px; */
     line-height: 22px;
     font-weight: bold;
+    /* width: 55px; */
 }
 
 p.date {
@@ -365,6 +371,7 @@ h3 {
 
 h4 {
     font-size: 24px;
+    /* color: #171717; */
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
     line-height: 34px;
@@ -440,7 +447,8 @@ h4 {
 }
 h1 {
     font-size: 32px;
-    padding: 7px 0 18px 0;
+    /* padding: 7px 0 18px 0; */
+    /* color: #171717; */
 }
 
 
@@ -646,24 +654,55 @@ h1 {
 
 /* ABOUT-COMPONENTS */
 
-.about div.description {
-    /* padding: 5px 0 14px 0; */
-    clear: both;
+.about .description,.about .about-logos,.about .about-signs {
+    width: 70%;
+    margin:0 auto;
 }
-.about p {
-    clear: both;
-    /* padding: 6px 30px 0 30px; */    
-    font-size: 0.9em;
+
+
+.about .description{
     letter-spacing: 0.09em;
     color: #898989;
     line-height: 1.7em;
-    /* clear: both; */
-    /* text-align: center; */
-    /* clear: both; */
+    padding-bottom: 1px;
+    clear: both;
 }
-.about img {
-    padding: 63px 0;
-    display: block;
-    margin: 0 auto;
-    opacity: 0.8;
+
+
+.about .about-logos {
+     clear:both;
+ 
+     width: 100%;
+}
+
+.about .about-logo {
+
+    float: left;
+}
+
+.about .about-yucaemon {
+    width: 13%;
+    padding-left: 17px;
+    float: left;
+}
+
+.about .about-signs{
+    /* width: 70%; */
+    clear: both;
+}
+
+.about .yuca-sign img {
+    width: 13%;
+    margin-left: 100%;
+    opacity: 0.7;
+}
+
+.about p.created-date{
+    width: 100%;
+    font-size: 0.5em;
+    letter-spacing: 0.09em;
+    color: #898989;
+    line-height: 1.7em;
+    text-align: right;
+    clear: both;
 }

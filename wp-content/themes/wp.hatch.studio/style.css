@@ -349,11 +349,12 @@ padding-left: 15px;
 
 /* ABOUT-COMPONENTS */
 .about {
+    height: 200px;
     padding-top: 61px;
-    padding-bottom: 159px;
+    padding-bottom: 130px;
     /* margin-bottom: 25px; */
     /* border-bottom: dotted 1px #A96161; */
-    /* clear: both; */
+    clear: both;
 }
 
 
@@ -368,10 +369,10 @@ p.description {
 
 .created-date{
     /* color: #F0A5A5; */
-    float:right;
-    padding: 14px 4px 0 0;
-    letter-spacing: 0.2em;
-    font-size: 0.7em;
+    /* float:right; */
+    padding: 14px -11px 0 0;
+    /* letter-spacing: 0.2em; */
+    /* font-size: 0.7em; */
 }
 
 /* AUTHORS */
@@ -393,6 +394,7 @@ p.description {
 .author-page {
     padding: 0 0 15px 0;
     border-top: dotted 1px #EAEAEA;
+    clear: both;
 }
 .author-page li {
     border-bottom: dotted 1px #E5E5E5;
@@ -540,12 +542,12 @@ p.description {
 }
 .popular li {
     padding: 5px 0;
-    /* color: #DDD9D9; */
+    /* color: #BE3232; */
     /* padding-top: 3px; */
     /* margin-top: 23px; */
 }
 .popular .side-title {
-    color: rgb(253, 189, 189);
+    color: rgb(255, 212, 209);
     letter-spacing: 0.05em;
     /* padding: 8px 8px 8px 2px; */
  
@@ -555,7 +557,7 @@ p.description {
 
 
 .popular .name{
-font-size: 1.3em;
+font-size: 1.1em;
 color: rgb(255, 193, 193);
 }
 
@@ -567,7 +569,7 @@ color: #9D9C9C;
 
 .popular .views{
     /* padding-top: 17px; */
-    font-size: 1em;
+    font-size: 0.9em;
     color: #C5BABA;
 }
 
@@ -585,7 +587,7 @@ color: #9D9C9C;
 }
 .popular-title {
     /* font-size: 11px; */
-    font-size: 0.9em; 
+    font-size: 0.8em; 
     letter-spacing: 0.04em; 
     padding: 3px;
     /* color: #934141; */ 
@@ -710,7 +712,7 @@ p.more {
 }
 a {
     text-decoration: none;
-    color: rgb(94, 94, 94);
+    color: rgb(105, 105, 105);
 }
 /*SINGLE-PAGE*/
 .blog li {
@@ -731,7 +733,7 @@ a:hover {
     opacity: 0.6;
     filter: alpha(opacity=90);
     -ms-filter: "alpha( opacity=90 )";
-    color: #949494;
+    color: #5C5A5A;
 }
 a img:hover {
     opacity: 0.6;
@@ -744,7 +746,7 @@ a img:hover {
     text-decoration: underline;
 }
 ::selection {
-    background: #FFC0C0; /* Safari */
+    background: #FDDCDC; /* Safari */
 }
 ::-moz-selection {
     background: #FFC0C0; /* Firefox */
