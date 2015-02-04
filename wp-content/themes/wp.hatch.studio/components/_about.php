@@ -2,8 +2,8 @@
 <div class ="about">
 
     <div class="about-logos">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="about-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png" class="about-yucaemon">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png">
     </div>
 
     <div class="description">
