@@ -235,7 +235,7 @@ p.title span.ca {
     padding-top: 37px;
 }
 .cate-right-text h3 {
-    font-size: 53px;
+    font-size: 67px;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
     padding: 6px 0 0 0;
@@ -243,12 +243,13 @@ p.title span.ca {
     height: 56px;
 }
 .cate-right-text .big-title {
-    font-size: 22px;
-    padding: 0 0 2px 0;
+    font-size: 17px;
+    padding: 17px 0 0 0;
     font-weight: bold;
+    letter-spacing: 0.2em;
 }
 .cate-right-text .small-title {
-    font-size: 10px;
+    font-size: 12px;
 }
 #header .cate-right-text .sub-title {
     background-color: rgb(253, 189, 189);

@@ -1105,8 +1105,9 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
+.cate-img-top > img {
   vertical-align: middle;
+  width: 106%;
 }
 .img-responsive,
 .thumbnail > img,
