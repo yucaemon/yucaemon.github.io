@@ -2,8 +2,8 @@
 <div class ="about">
 
     <div class="about-logos">
-        <div class="about-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></div>
-        <div class="about-yucaemon"><img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png"></div>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png">
     </div>
 
     <div class="description">
@@ -13,11 +13,9 @@
     </div>
 
     <div class="about-signs">
-    <div class="yuca-sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
-    <p class="created-date">6/28/2014</p>
+      <div class="yuca-sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
+      <p class="created-date">6/28/2014</p>
     </div>
-
-
 
 </div>
 
