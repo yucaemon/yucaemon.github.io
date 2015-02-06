@@ -357,7 +357,7 @@ padding-left: 15px;
 }
 
 .about > .about-logos {
-    margin: 0 auto 2em 14em;
+    margin: 0 auto 3em 14em;
     width: 205px;
 }
 
@@ -370,13 +370,13 @@ padding-left: 15px;
 }
 
 .about img:last-child {
-    width: 64px;
+    width: 58px;
     padding-left: 17px;
 }
 
 .about > .description{
     /* letter-spacing: 0.09em; */
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     font-size: 0.9em; 
     letter-spacing: 0.1em; color: #898989; 
     line-height: 1.6em; 
