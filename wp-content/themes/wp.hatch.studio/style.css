@@ -357,7 +357,7 @@ padding-left: 15px;
 }
 
 .about > .about-logos {
-    margin: 0 auto 2em auto;
+    margin: 0 auto 2em 14em;
     width: 205px;
 }
 
@@ -370,13 +370,17 @@ padding-left: 15px;
 }
 
 .about img:last-child {
-    width: 60px;
+    width: 64px;
     padding-left: 17px;
 }
 
 .about > .description{
-    letter-spacing: 0.09em;
-    padding-bottom: 3em;
+    /* letter-spacing: 0.09em; */
+    padding-bottom: 1em;
+    font-size: 0.9em; 
+    letter-spacing: 0.1em; color: #898989; 
+    line-height: 1.6em; 
+    padding-top: 10px;
 }
 
 
@@ -391,6 +395,8 @@ padding-left: 15px;
     font-size: 0.5em;
     letter-spacing: 0.09em;
     text-align: right;
+    padding-right: 8px;
+    padding-top: 4px;
 }
 p.description {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
