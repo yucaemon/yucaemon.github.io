@@ -234,24 +234,29 @@ p.title span.ca {
 .img-meet {
     padding-top: 37px;
 }
-.cate-right-text h3 {
-    font-size: 67px;
+.category-header h3 {
+    font-size: 118px;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
     padding: 6px 0 0 0;
     margin: 0 0;
     height: 56px;
 }
-.cate-right-text .big-title {
+.category-header .big-title {
     font-size: 17px;
     padding: 17px 0 0 0;
     font-weight: bold;
     letter-spacing: 0.2em;
+    /* float: right; */
 }
-.cate-right-text .small-title {
+.category-header .small-title {
     font-size: 12px;
+    /* float: right; */
 }
-#header .cate-right-text .sub-title {
+
+
+
+#header .category-header .sub-title {
     background-color: rgb(253, 189, 189);
     color: #FFF;
 }
@@ -357,7 +362,7 @@ padding-left: 15px;
 }
 
 .about > .about-logos {
-    margin: 0 auto 3em 14em;
+    margin: 0 auto 2em 14em;
     width: 205px;
 }
 
@@ -376,7 +381,7 @@ padding-left: 15px;
 
 .about > .description{
     /* letter-spacing: 0.09em; */
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     font-size: 0.9em; 
     letter-spacing: 0.1em; color: #898989; 
     line-height: 1.6em; 

@@ -46,7 +46,7 @@
 
             <p class="post-text"><a href="<?php the_permalink() ?>"
                                     rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 130) . '...'; ?>
-            </p>
+            </a></p>
 
           </div>
 

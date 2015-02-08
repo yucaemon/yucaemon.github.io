@@ -132,4 +132,4 @@
 
 <?php endif; ?>
 
-<div class="post-related"><?php get_yuzo_related_posts(); ?></div>
+
