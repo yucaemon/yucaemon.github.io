@@ -91,7 +91,7 @@ a:hover{
 }
 
 
- {
+ *{
     margin: 0 0;
     padding: 0 0;
 }
@@ -194,7 +194,7 @@ a.dropdown-toggle {}
 #header {
     margin: 0 auto;
     width: 100%;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
     border-bottom: dotted 1px #FF8888;
 }
 
@@ -236,7 +236,6 @@ p.title span.ca {
 
 }#category-page #header {
     border-bottom: none;
-    padding-bottom: 57px;
     border-bottom: dotted 1px #FF8888;
 }
 
@@ -251,17 +250,24 @@ p.title span.ca {
 .img-meet {
     padding-top: 37px;
 }
+
+.category-header {
+    width: 322px;
+    margin: 0 auto;
+}
+
+.cate-img-top {
+    float: left;
+}
 .cate-right-text h3 {
-    font-size: 67px;
+    font-size: 72px;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
-    padding: 6px 0 0 0;
     margin: 0 0;
-    height: 56px;
+    height: 73px;
 }
 .cate-right-text .big-title {
-    font-size: 17px;
-    padding: 17px 0 0 0;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.2em;
 }
