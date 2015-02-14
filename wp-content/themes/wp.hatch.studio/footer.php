@@ -76,7 +76,18 @@
 
 
 
+<script>
 
+$(function(){
+  $(".dropdown-menu").each(function(){
+    var parentWidth = $(this).parent().innerWidth();
+    var menuWidth = $(this).innerWidth();
+    var margin = (parentWidth / 2 ) - (menuWidth / 2);
+    margin = margin + "px";
+    $(this).css("margin-left", margin);
+  });
+});
+</script>
 
 
 

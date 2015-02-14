@@ -15,14 +15,15 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav category">
         <li>
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME</a>
+            <a href="/">HOME</a>
         </li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">SITE</a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href='http://hatchstudioinc.com/'>San Francisco</a></li>
-                <li><a href='http://ucberkeley.hatchstudioinc.com/'>UC BERKELEY</a></li>
-                <li><a href='http://hatchstudioinc.com/'>NEW YORK</a></li>
+                <?php $site_domain = explode( 'http://', site_url() ) ?>
+                <li><a href='<?php echo site_url(); ?>'>San Francisco</a></li>
+                <li><a href='http://ucberkeley.<?php echo $site_domain[1] ?>/'>UC BERKELEY</a></li>
+                <li><a href='http://newyork.<?php echo $site_domain[1] ?>/'>NEW YORK</a></li>
             </ul>
         </li>
         <li class="dropdown">
@@ -38,15 +39,8 @@
                 <li><a href="<?php echo get_category_link('3'); ?>">STUDY</a></li>
             </ul>
         </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT</a>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="<?php echo get_author_link('5'); ?>">HACHICO</a></li>
-                <li><a href="<?php echo get_author_link('6'); ?>">HANAE</a></li>
-                <li><a href="<?php echo get_author_link('1'); ?>">KYOKO</a></li>
-                <li><a href="<?php echo get_author_link('4'); ?>">YUKARI</a></li>
-                <li><a href="<?php echo get_author_link('18'); ?>">MAYUMI</a></li>
-            </ul>
+        <li>
+            <a href="/authors">ABOUT</a>
         </li>
 
 

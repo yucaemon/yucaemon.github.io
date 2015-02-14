@@ -132,12 +132,22 @@ span {
     border-width: 0 0 1px;
     background: white;
     text-align: center;
-
+    border-bottom: 1px solid #f7f7f7;
 }
 
-ul.nav li {
+.navbar-default .navbar-nav > li > a:hover {
+    color: red;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #333;
+    background-color: white;
+}
+
+ul.nav > li {
     font-family: "Open Sans",sans-serif;
     font-style: normal;
+    margin-right: 2em;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -145,6 +155,13 @@ ul.nav li {
 }
 
 a.dropdown-toggle {}
+
+.dropdown-menu > li > a {
+    border-bottom: 1px solid #f7f7f7;
+    padding: 15px 20px;
+    font-weight: bolder;
+    color: #333;
+}
 
 .navbar-default .navbar-nav > li > a:hover{
     color:#333;
