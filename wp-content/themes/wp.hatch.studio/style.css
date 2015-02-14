@@ -591,20 +591,23 @@ p.description {
     border-top: dotted 1px #D8CFCF;
 }
 .popular li {
-    padding: 5px 0;
-    /* color: #BE3232; */
-    /* padding-top: 3px; */
-    /* margin-top: 23px; */
+    padding: 12px 0;
 }
+
+.popular li:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
 .popular .side-title {
     color: rgb(255, 212, 209);
     letter-spacing: 0.05em;
-    /* padding: 8px 8px 8px 2px; */
- 
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.4em;
 }
-
 
 .popular .name{
 font-size: 1.1em;
@@ -614,33 +617,32 @@ color: rgb(255, 193, 193);
 .popular .time{
 font-size: 1em;
 color: #9D9C9C;
-/* margin-right: 17px; */
 }
 
 .popular .views{
-    /* padding-top: 17px; */
     font-size: 0.9em;
     color: #C5BABA;
 }
 
+.popular-header {
+    width: 65%;
+    float: left;
+}
+.popular-img {
+
+}
 .popular-img img {
     border: solid 1px #E6E6E6;
-    float: right;
-    width: 25%;
     height: 25%;
+
 }
 .popular-text {
-    width: 65%;
-    /* float: left; */
-    /* padding-left: 14px; */
     padding-top: 3px;
 }
 .popular-title {
-    /* font-size: 11px; */
-    font-size: 0.8em; 
+    font-size: 0.8em;
     letter-spacing: 0.04em; 
     padding: 3px;
-    /* color: #934141; */ 
 }
 #side dl {
     padding: 0 0;

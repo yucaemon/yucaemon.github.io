@@ -2,34 +2,48 @@
 
   <div class="side-title">POPULAR POSTS</div>
 
+
+
   <?php
 
-  query_posts('showposts=10&cat=19');
+  $last_month = date('Y-m-d', strtotime('-2 months'));
+  $results = $wpdb->get_results("
+                    SELECT posts.ID, meta.meta_value FROM $wpdb->postmeta as meta
+                    join $wpdb->posts as posts on posts.ID = meta.post_id
+                    WHERE meta.meta_key = 'views'
+                    AND posts.post_status = 'publish'
+                    AND posts.post_author in (22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12)
+                    AND posts.post_date > '$last_month';
+                    ", ARRAY_N);
 
-  while(have_posts()) : the_post();
+  $average_views = array();
 
-    ?>
+  foreach ($results as $result) {
+    $average_views[$result[0]] = $result[1];
+  }
+
+  arsort( $average_views );
+
+  $view_ordered_post_ids = array_keys( $average_views )
+  ?>
+
+  <?php foreach ( array_slice( $view_ordered_post_ids, 0, 10 ) as $this_post_index => $this_post_id ) {
+       $this_post_views = $average_views[$this_post_id];
+       $this_post = get_post( $this_post_id );
+  ?>
 
     <li>
 
-
-
-      <span class="name"><?php the_author_nickname(); ?></span><span class="views"> - <?php if (function_exists('the_views')) { the_views(); } ?></span>
-
-
-      <div class="popular-img"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(60,60)); ?></a></div>
-
-      <div class="popular-text"><div class ="popular-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-
-
-          <!-- p class="popular-paraglah"><?php echo substr(strip_tags($post-> post_content), 0, 200);?></p -->
-
+      <div class="popular-header">
+        <span class="name"><?php echo the_author_meta( 'nickname', $this_post->post_author ); ?> </span><span class="views"> - <?php echo $this_post_views ?>views</span>
+        <div class="popular-text">
+          <div class ="popular-title"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo $this_post->post_title; ?></a></div>
+        </div>
       </div>
-
-      <div class="clear-both"></div>
+      <div class="popular-img"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo get_the_post_thumbnail( $this_post->ID ); ?></a></div>
 
     </li>
 
-  <?php endwhile; ?>
+  <?php } ?>
 
 </ul>
