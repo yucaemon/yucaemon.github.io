@@ -50,8 +50,6 @@ body {
 .cate-right-text {
     float: left;
     width: 287px;
-    padding-top: 63px;
-    /* padding-left: 5px; */
 }
 
 .category li:after {
@@ -90,11 +88,14 @@ dl.cate-text {
 
 .cate-img-top {
     float: right;
-    padding-left: 99px;
-    padding-top: 19px;
-    padding-right: 61px;
-    /* width: 36%; */
 }
+
+.cate-img-top img{
+    width: 116px;
+    padding-right: 50px;
+    padding-top: 17px;
+}
+
 
 /* RIGHT-NAVI */
 #right-side {
@@ -106,7 +107,7 @@ dl.cate-text {
 }
 #right-side .twitter {
     width: 290px;
-    padding: 35px 30px;
+    padding: 35px 10px;
 }
 
 #right-side .facebook {
@@ -535,7 +536,6 @@ h1 {
     font-size: 53px;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
-    padding: 6px 0 0 0;
     margin-bottom: 4px;
     height: 56px;
 }
