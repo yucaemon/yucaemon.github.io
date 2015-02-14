@@ -48,8 +48,7 @@ body {
 /** CATEGORY **/
 
 .cate-right-text {
-    float: left;
-    width: 287px;
+    text-align: center;
 }
 
 .category li:after {
@@ -86,14 +85,12 @@ dl.cate-text {
     white-space:nowrap;
 }
 
-.cate-img-top {
-    float: right;
-}
 
 .cate-img-top img{
-    width: 116px;
-    padding-right: 50px;
-    padding-top: 17px;
+    height: 92px;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
 }
 
 
