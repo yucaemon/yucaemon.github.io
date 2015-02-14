@@ -1,7 +1,5 @@
+<div class="side-title">PICKUP POSTS</div>
 <ul class="popular">
-
-  <div class="side-title">PICKUP POSTS</div>
-
   <?php
 
   $results = $wpdb->get_results("
@@ -30,12 +28,10 @@
     <li>
 
       <div class="popular-header">
-        <span class="name"><?php echo the_author_meta( 'nickname', $this_post->post_author ); ?> </span><span class="views"> - <?php echo $this_post_views ?>views</span>
-        <div class="popular-text">
-          <div class ="popular-title"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo $this_post->post_title; ?></a></div>
-        </div>
+        <span class="author"><?php echo the_author_meta( 'nickname', $this_post->post_author ); ?> </span><span class="views"> - <?php echo $this_post_views ?>views</span>
+        <div class ="title"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo $this_post->post_title; ?></a></div>
       </div>
-      <div class="popular-img"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo get_the_post_thumbnail( $this_post->ID ); ?></a></div>
+      <div class="popular-img"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo get_the_post_thumbnail( $this_post->ID, 'thumbnail' ); ?></a></div>
 
     </li>
 

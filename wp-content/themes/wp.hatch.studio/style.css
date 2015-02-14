@@ -588,15 +588,25 @@ p.description {
     padding: 10px 0;
     font-weight: bold;
 }
-.popular {
-    padding: 15px 0 20px 10px;
-    border-bottom: dotted 1px #FF8888;
+
+/* popular-posts */
+
+.side-title {
+    color: rgb(255, 212, 209);
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-left: 10px;
 }
 
-.popular li + li {
-    border-top: dotted 1px #D8CFCF;
+.popular {
+    padding: 15px 0 0 10px;
+    border-bottom: dotted 1px #FF8888;
+    margin-bottom: 1.5em;
 }
+
 .popular li {
+    border-top: dotted 1px #D8CFCF;
     padding: 12px 0;
 }
 
@@ -608,48 +618,42 @@ p.description {
     visibility: hidden;
 }
 
-.popular .side-title {
-    color: rgb(255, 212, 209);
-    letter-spacing: 0.05em;
-    font-weight: bold;
-    font-size: 1.4em;
+.popular .popular-header {
+    width: 65%;
+    float: left;
 }
 
-.popular .name{
-font-size: 1.1em;
-color: rgb(255, 193, 193);
+.popular .popular-header .author{
+    font-size: 1.1em;
+    color: rgb(255, 193, 193);
 }
 
-.popular .time{
-font-size: 1em;
-color: #9D9C9C;
+.popular .popular-header .title {
+    font-size: 0.8em;
+    letter-spacing: 0.04em;
+    padding: 3px;
+    display: block;
 }
 
-.popular .views{
+.popular .popular-header .time{
+    font-size: 1em;
+    color: #9D9C9C;
+}
+
+.popular .popular-header .views{
     font-size: 0.9em;
     color: #C5BABA;
 }
 
-.popular-header {
-    width: 65%;
-    float: left;
-}
-.popular-img {
-
-}
-.popular-img img {
+.popular img {
     border: solid 1px #E6E6E6;
-    height: 25%;
+    height: 73px;
+    display: block;
+}
 
-}
-.popular-text {
-    padding-top: 3px;
-}
-.popular-title {
-    font-size: 0.8em;
-    letter-spacing: 0.04em; 
-    padding: 3px;
-}
+
+
+
 #side dl {
     padding: 0 0;
     margin: 0 0;
