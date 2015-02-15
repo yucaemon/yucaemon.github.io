@@ -113,25 +113,10 @@ dl.cate-text {
 
 /* CATEGORY NAVI */
 
-.navbar-fixed-top {
-    top: 0px;
-    text-align: center;
-}
 
-ul.nav {
-    margin: 0 auto;
-}
-ul.nav li {
-
-    line-height: 1em;
-    font-size: 0.8em;
-    line-height: .9em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    text-align: center;
-    font-weight: 600;
-
+/* navi */
+.navbar img {
+    display: block;
 }
 
 .navbar-nav > li > a {
