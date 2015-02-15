@@ -57,6 +57,7 @@ a.symbol {
     text-decoration: none;
 }
 @charset "UTF-8";
+
 /*CSS Document */
 * {
     margin: 0 0;
@@ -76,12 +77,12 @@ a.symbol {
     box-sizing: content-box;
 }
 
-
 body {
     margin: 0 auto;
     width: 100%;
     font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "ＭＳ Ｐゴシック";
 }
+
 a img {
     border-style: none;
 }
@@ -101,7 +102,9 @@ span {
     padding: 0 0;
 }
 
-/* CONTENTS */
+/* PAGE LAYOUT */
+
+/* COMMON STYLES */
 .sub-title {
     letter-spacing: 2px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -112,7 +115,8 @@ span {
     margin-bottom: 10px;
     padding: 2px 6px;
 }
-#header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+
+.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFC0C0;
     background-color: rgb(255, 255, 255);
@@ -121,6 +125,7 @@ span {
     border: solid 1px #FFE7E7;
     padding: 2px 4px;
 }
+
 .title-icon {
     margin: 10px 0 5px 0;
 }
@@ -143,13 +148,6 @@ ul.nav li {
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-
-}
-
-@media screen and (min-width: 768px) {
-    ul.nav li {
-        text-align: center;
-    }
 
 }
 
@@ -191,49 +189,35 @@ ul.nav > li {
     margin-right: 2em;
 }
 
-#navi ul.social-icons {
-    float: right;
-    display: none;
-}
 
-#navi ul.social-icons li{
+/* COMMON HEADER */
 
-    font-size: 38px;
-    font-weight: normal;
-    font-style: normal;
-    display: inline;
-
-}
-
-#navi .symbol {
-    padding: 0 5px;
-    vertical-align: top;
-}
-
-#header {
+.header {
     margin: 0 auto;
     width: 100%;
     padding-bottom: 30px;
     border-bottom: dotted 1px #FF8888;
 }
 
-.title span.first-a {
+/* INDEX HEADER */
+
+#index-page .header .title span.first-a {
     color: #FA8BAF;
 }
 
-.title span.first-a {
+#index-page .title span.first-a {
     color: #FA8BAF;
 }
 
-.title span.c {
+#index-page .title span.c {
     color: #FFC7CD;
 }
 
-p.title span.ca {
+#index-page p.title span.ca {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.site-header:after {
+#index-page .site-header:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -242,37 +226,24 @@ p.title span.ca {
     height: 0;
 }
 
-/* category-page  */
+/* INDEX BODY */
+
+/* CATEGORY HEADER  */
+
+#category-page .header {
+     border-bottom: none;
+     border-bottom: dotted 1px #FF8888;
+}
+
+#category-page .header .category-header {
+    margin: 0 auto;
+}
 
 .eat-img-top {
     padding-left: 123px;
     padding-top: 0px;
 }
 
-.go-img-top {
-    padding-left: 121px;
-    padding-top: 0;
-
-}#category-page #header {
-    border-bottom: none;
-    border-bottom: dotted 1px #FF8888;
-}
-
-.img-eat {
-    padding-top: 42px;
-}.img-news {
-    padding-top: 42px;
-}
-.img-memo {
-    padding-top: 47px;
-}
-.img-meet {
-    padding-top: 37px;
-}
-
-.category-header {
-    margin: 0 auto;
-}
 
 .cate-img-top {
     float: left;
@@ -292,80 +263,139 @@ p.title span.ca {
 .cate-right-text .small-title {
     font-size: 12px;
 }
-#header .cate-right-text .sub-title {
+.header .cate-right-text .sub-title {
     background-color: rgb(253, 189, 189);
     color: #FFF;
 }
-.tags dd {
-    font-size: 8px;
-    color: #6B6969;
+
+/* CATEGORY BODY */
+
+
+
+/* AUTHOR HEADER */
+/* AUTHOR BODY */
+
+/* PICKUP */
+
+/* POST */
+
+.entry-content {
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
 }
-#interview {
-    padding: 10px 0 30px 0;
+
+.entry-content img {
+    border: 1px solid #ddd
+}
+
+.post .authors-info p {
+    color: #333;
     font-family: 'Alegreya Sans SC', sans-serif;
-    border-bottom: dotted 1px #FF8888;
 }
-#interview p.bigtitle {
-    font-size: 30px;
-    float: left;
+
+.post .authors-info p.name {
     font-weight: bold;
 }
-#interview span.big {
-    font-size: 40px;
+
+.post .authors-info p.author-about {
+    font-weight: normal;
 }
-#interview p.smailtitle {
-    font-size: 11px;
-    float: left;
-    padding: 21px 53px 27px 19px;
+
+/* post-related */
+
+.post-related h3 {
+    color: #F8B0B0;
 }
-#interview p.name {
-    font-size: 11px;
+
+.post-related .yuzo_related_post:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+
+/* ABOUT */
+/* AUTHORS */
+
+.author-page {
+    padding: 0 0 15px 0;
+    border-top: dotted 1px #EAEAEA;
+    clear: both;
+}
+.author-page li {
+    border-bottom: dotted 1px #E5E5E5;
+    padding: 30px 0;
+}
+.author-page dl {
     float: left;
-    padding-right: 24px;
-    word-spacing: 5px;
+    margin:0 0;
+}
+.author-page dt {
     font-weight: bold;
+    font-size: 1.3em;
+    /* padding-bottom: 0px; */
+    /* border-bottom: dashed 1px #FFFFFF; */
+    clear:both;
+    color:#444;
 }
-.interview-img {
-    width: 100px;
+
+
+.author-page .name{
+    color: #444;
+    letter-spacing: 0.05em;
+    padding: 8px 8px 8px 2px;
 }
-#interview img {
-    width: 35px;
-    height: 35px;
 
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
-    float: left;
-}
-#interview img.focus {
-
-   width: 20px;
-
-   height: 20px;
-
-   margin: -11px 0 0 -14px;
-
-   position: absolute;
-}
-#interview .interview-face-photo {
-    margin-top: 1px;}
-#interview p.interview-title {
-width: 182px;
-
-font-size: 9px;
-
-float: left;
-
-padding-left: 15px;
-}
-.interview-left {
-    padding: 5px 15px 0 0;
-    float: left;
-    border-right: dotted 1px #FF8888;
-}
-.interview-right {
-    padding-top: 5px;
+.author-page .post-account{
+    font-size: 0.9em;
     float: right;
+    color: #848484;
 }
+
+
+.author-page .since-date{
+    font-size: 0.8em;
+    float: left;
+    padding-top: 3px;
+    color: rgb(255, 201, 201);
+}
+
+.author-page .position{
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+
+.author-page .introduction{
+    padding: 0px 0;
+    font-size: 0.8em;
+    letter-spacing: 0.09em; color: #898989;
+    line-height: 1.6em;
+}
+
+
+.author-page dd {
+
+    color: #6B6969;
+    letter-spacing: 1px;
+    clear:both;
+
+}
+
+.author-page .author-social-icons a {
+    color: #9B9B9B;
+}
+.author-page .author-social-icons a:hover {
+    color: #333;
+}
+
+.author-page .author-social-icons  {
+    font-size: 1em;
+}
+
 
 /* SIDE */
 .post-authors img {
@@ -462,84 +492,6 @@ p.description {
 }
 
 
-
-/* AUTHOR LIST PAGE */
-
-.author-page {
-    padding: 0 0 15px 0;
-    border-top: dotted 1px #EAEAEA;
-    clear: both;
-}
-.author-page li {
-    border-bottom: dotted 1px #E5E5E5;
-    padding: 30px 0;
-}
-.author-page dl {
-    float: left;
-    margin:0 0;
-}
-.author-page dt {
-    font-weight: bold;
-    font-size: 1.3em;
-    /* padding-bottom: 0px; */
-    /* border-bottom: dashed 1px #FFFFFF; */
-    clear:both;
-    color:#444;
-}
-
-
-.author-page .name{
-    color: #444;
-    letter-spacing: 0.05em;
-    padding: 8px 8px 8px 2px;
-}
-
-.author-page .post-account{
-    font-size: 0.9em;
-    float: right;
-    color: #848484;
-}
-
-
-.author-page .since-date{
-    font-size: 0.8em;
-    float: left;
-    padding-top: 3px;
-    color: rgb(255, 201, 201);
-}
-
-.author-page .position{
-    font-size: 0.8em;
-    letter-spacing: 0.1em;
-}
-
-
-.author-page .introduction{
-    padding: 0px 0;
-    font-size: 0.8em; 
-    letter-spacing: 0.09em; color: #898989; 
-    line-height: 1.6em;
-}
-
-
-.author-page dd {
-
-    color: #6B6969;
-    letter-spacing: 1px;
-    clear:both;
-
-}
-
-.author-page .author-social-icons a {
-     color: #9B9B9B;
- }
-.author-page .author-social-icons a:hover {
-    color: #333;
-}
-
-.author-page .author-social-icons  {
-    font-size: 1em;
-}
 /** Authors in sidebar **/
 
 .Authors {
@@ -667,10 +619,7 @@ p.description {
     border-bottom: dotted 1px #FF8888;
 }
 /* CONTENTS  */
-#Column {
 
-    margin: 0 0;
-    padding: 0 0;}
 ul {
     list-style: none;
     padding: 0 0;
@@ -859,44 +808,8 @@ a img:hover {
     visibility: hidden;
 }
 
-/* POST PAGE */
 
-.entry-content {
-    font-weight: normal;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #666;
-}
 
-.entry-content img {
-    border: 1px solid #ddd
-}
-
-.post .authors-info p {
-    color: #333;
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
-
-.post .authors-info p.name {
-    font-weight: bold;
-}
-
-.post .authors-info p.author-about {
-    font-weight: normal;
-}
-
-/* post-related */
-
-.post-related h3 {
-    color: #F8B0B0;
-}
-
-.post-related .yuzo_related_post:after {
-    content: "";
-    clear: both;
-    height: 0;
-    display: block;
-    visibility: hidden;
-}
 
 
 .wp-post-image {
@@ -908,7 +821,7 @@ a img:hover {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 
     .social-icons {
-        display: hide;
+        display: none;
     }
 
 }

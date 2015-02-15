@@ -152,6 +152,3 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <body><!--- BODY -->
 
-<div id="container"><!-- CONTAINER -->
-
-<div id="contents"><!-- CONTENTS -->

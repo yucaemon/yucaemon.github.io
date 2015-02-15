@@ -1,4 +1,5 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <?php include(TEMPLATEPATH.'/components/_categories.php'); ?>
-</nav>
-
+<div id="right-side"><!--RIGHT SIDE -->
+  <?php include(TEMPLATEPATH.'/components/_popular_posts.php'); ?>
+  <?php include(TEMPLATEPATH.'/components/_pickup_posts.php'); ?>
+  <?php include(TEMPLATEPATH.'/components/_socialMedia.php'); ?>
+</div>

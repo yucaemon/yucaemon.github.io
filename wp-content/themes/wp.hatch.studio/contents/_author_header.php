@@ -10,7 +10,7 @@ $author_id = $curauth->id;
 
 ?>
 
-<div class="cate-right-text">
+<div>
 
   <span class="sub-title">Author</span>
 
