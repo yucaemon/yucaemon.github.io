@@ -85,6 +85,9 @@ dl.cate-text {
     white-space:nowrap;
 }
 
+.category-header {
+    width: 322px;
+}
 
 .cate-img-top img{
     height: 92px;

@@ -172,9 +172,17 @@ ul.social-icons {
 }
 
 
-.cate-img-top {
-
+.category-header {
+    width: 300px;
 }
+
+.cate-img-top img{
+    height: 92px;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
 .cate-img-top img {
     margin: 0 auto;
     display: block;
