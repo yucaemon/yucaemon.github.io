@@ -143,6 +143,10 @@ ul.nav .category-icon-box {
 
 }
 
+ul.nav .ranking {
+    display: none;
+}
+
 .icon-eat {
     background: url(/wp-content/themes/wp.hatch.studio/images/categories/EAT.png) no-repeat center center;
     background-size: 25px;
@@ -624,6 +628,14 @@ h1 {
 }
 
 /* post-related */
+
+.popular .popular-header .title {
+    font-size: 0.8em;
+    letter-spacing: 0.04em;
+    padding: 3px;
+    display: block;
+}
+
 .post-related {
     width: 650px;
     margin: 0 36px;
@@ -640,3 +652,21 @@ h1 {
 
 }
 
+/* popular-posts */
+.popular .popular-header {
+    width: 65%;
+    float: left;
+}
+
+.popular .popular-header .author{
+    font-size: 1.1em;
+}
+
+.popular .popular-header .views {
+    font-size: 0.9em;
+}
+
+.popular img {
+    height: 73px;
+    display: block;
+}

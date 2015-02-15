@@ -531,3 +531,36 @@ h4 {
     height: 100% !important;
 }
 
+/* popular-posts */
+
+.popular .popular-header {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.popular .popular-header .title {
+    font-size: 1em;
+    padding: 3px;
+    display: block;
+}
+
+.popular .title {
+    text-align: left;
+    display: block;
+}
+
+.popular .popular-header .author{
+    font-size: 1.3em;
+}
+
+.popular .popular-header .views {
+    font-size: 1.1em;
+}
+
+.popular img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 1em auto;
+}

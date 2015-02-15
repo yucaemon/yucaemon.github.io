@@ -40,10 +40,11 @@
             </ul>
         </li>
         <li>
-            <a href="/authors">ABOUT</a>
+          <a href="/authors">ABOUT</a>
         </li>
-
-
+        <li class="ranking">
+          <a href="/ranking">RANKING</a>
+        </li>
     </ul>
   </div>
 

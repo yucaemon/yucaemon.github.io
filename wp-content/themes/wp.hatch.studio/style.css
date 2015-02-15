@@ -636,41 +636,22 @@ p.description {
     visibility: hidden;
 }
 
-.popular .popular-header {
-    width: 65%;
-    float: left;
-}
-
-.popular .popular-header .author{
-    font-size: 1.1em;
-    color: rgb(255, 193, 193);
-}
-
-.popular .popular-header .title {
-    font-size: 0.8em;
-    letter-spacing: 0.04em;
-    padding: 3px;
-    display: block;
-}
-
 .popular .popular-header .time{
     font-size: 1em;
     color: #9D9C9C;
 }
 
+.popular .popular-header .author{
+    color: rgb(255, 193, 193);
+}
+
 .popular .popular-header .views{
-    font-size: 0.9em;
     color: #C5BABA;
 }
 
 .popular img {
     border: solid 1px #E6E6E6;
-    height: 73px;
-    display: block;
 }
-
-
-
 
 #side dl {
     padding: 0 0;
