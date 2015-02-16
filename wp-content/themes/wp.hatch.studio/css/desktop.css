@@ -1,11 +1,13 @@
 /* initialize */
+html {
+    font-size: 14px;
+}
 
 h1 {
     font-size: 32px;
     /* padding: 7px 0 18px 0; */
     /* color: #171717; */
 }
-
 
 h2 {
     font-size: 26px;
@@ -35,10 +37,6 @@ h4 {
 
 /* PAGE LAYOUT */
 
-html {
-    font-size: 14px;
-}
-
 body {
     margin: 0 auto;
     width: 100%;
@@ -60,13 +58,11 @@ body {
     margin: 0 auto;
 }
 
-
 /* COMMON STYLES */
 
 .sub-title {
     font-size: 10px;
 }
-
 
 /* NAVI */
 
@@ -88,12 +84,12 @@ ul.nav li {
 }
 
 ul.nav .category-icon-box {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     border-radius: 30px;
-    border:1px solid #999;
+    border: 1px solid #999;
     float: left;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     margin-right: 0.5em;
 
@@ -111,7 +107,6 @@ ul.nav .ranking {
     visibility: hidden;
 }
 
-
 /* COMMON HEADER */
 
 .header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
@@ -125,6 +120,7 @@ ul.nav .ranking {
     float: left;
     padding: -41px 88px 10px 13px;
 }
+
 #top-sf img {
     width: 305px;
     padding-right: 60px;
@@ -154,11 +150,13 @@ p.date {
     float: left;
     padding-top: 26px;
 }
+
 .event time {
     float: left;
     letter-spacing: 0.1em;
     width: 7em;
 }
+
 .event li {
     padding-bottom: 10px;
 }
@@ -166,6 +164,7 @@ p.date {
 .future-event {
     padding-top: 10px;
 }
+
 .event-shedule li {
     padding: 4px;
 }
@@ -174,9 +173,11 @@ p.date {
     /* font-size: 53px; */
     /* height: 200px; */
 }
+
 .title span.first-a {
     color: #FA8BAF;
 }
+
 .title h1 {
     width: 720px;
     letter-spacing: 3px;
@@ -191,6 +192,7 @@ p.date {
 .title span.c {
     color: #FFC7CD;
 }
+
 p.title span.ca {
     position: absolute;
     font-size: 20px;
@@ -198,8 +200,8 @@ p.title span.ca {
     font-weight: 900;
 }
 
-.position{
-    font-size:16px;
+.position {
+    font-size: 16px;
 }
 
 /* INDEX BODY */
@@ -216,7 +218,7 @@ p.title span.ca {
     border-top: solid 4px rgb(255, 224, 224);
 }
 
-.articles  p {
+.articles p {
     margin: 0 0 1em 0;
 }
 
@@ -245,7 +247,6 @@ p.title span.ca {
     width: 110px;
 }
 
-
 .articles .sub-title {
     font-size: 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -258,17 +259,20 @@ p.title span.ca {
     padding: 3px;
     margin-left: 0px;
 }
+
 .articles .mini-info {
     clear: both;
     width: 146px;
     font-size: 12px;
     padding-top: 0px;
 }
+
 .articles .mini-info .sub-title {
     font-size: 9px;
     padding: 2px 4px;
     margin-right: 50px;
 }
+
 .articles .mini-info p {
     font-size: 8px;
     padding: 0 0;
@@ -284,14 +288,12 @@ p.title span.ca {
     width: 322px;
 }
 
-.cate-img-top img{
+.cate-img-top img {
     height: 92px;
     display: block;
     padding-top: 10px;
     margin: 0 auto;
 }
-
-
 
 /** CATEGORY BODY **/
 
@@ -320,7 +322,7 @@ p.title span.ca {
     font-size: 11px;
     padding: 4px 0 0 0;
     font-weight: 300;
-    width:600px;
+    width: 600px;
     text-align: left !important;
 }
 
@@ -335,12 +337,12 @@ p.title span.ca {
     display: none;
 }
 
-
 /* PICKUP */
 
 .pickup {
     margin-bottom: 42px;
 }
+
 .pickup li {
     border-bottom: dotted 1px #FF8888;
     padding: 1.5em 0 2.5em 0;
@@ -358,7 +360,6 @@ p.title span.ca {
     margin-top: 1em;
     border: 1px solid #f7f7f7;
 }
-
 
 .pickup .pickup-text {
     margin: 0 0;
@@ -404,7 +405,7 @@ p.title span.ca {
     line-height: 180%;
 }
 
-.navi-pager{
+.navi-pager {
     font-size: 14px;
     text-align: center;
     width: 217px;
@@ -462,10 +463,12 @@ p.title span.ca {
     width: 650px;
     margin: 0 36px;
 }
+
 .post-related h3 {
     font-size: 16px;
     margin: 0 0 4px 0;
 }
+
 .post-related .relatedthumb {
     border: solid 2px #FFDFDF !important;
     margin: 30px 14px 0 1px !important;
@@ -488,17 +491,18 @@ p.title span.ca {
 .author-page {
     margin-bottom: 4em;
 }
+
 .author-page dl {
     width: 85%;
     padding-left: 26px;
 }
 
-.author-page .author-social-icons  {
-    float:right;
+.author-page .author-social-icons {
+    float: right;
     padding-bottom: -1px;
 }
 
-.author-page .position{
+.author-page .position {
     padding-left: 9px;
 }
 
@@ -510,6 +514,7 @@ p.title span.ca {
     height: auto;
     margin-top: 5px;
 }
+
 #side-bar-1 .twitter {
     width: 290px;
     padding: 35px 10px;
@@ -526,7 +531,7 @@ p.title span.ca {
     float: left;
 }
 
-#side-bar-1 .popular .popular-header .author{
+#side-bar-1 .popular .popular-header .author {
     font-size: 1.1em;
 }
 
@@ -539,9 +544,7 @@ p.title span.ca {
     display: block;
 }
 
-
 /* FOOTER */
-
 
 /* SOCIAL */
 .fb-comments {

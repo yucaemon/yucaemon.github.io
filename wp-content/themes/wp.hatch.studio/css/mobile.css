@@ -3,10 +3,10 @@
 h1 {
     font-size: 2em;
 }
+
 h3 {
     color: #F8B0B0;
 }
-
 
 h4 {
     font-size: 1.5em;
@@ -33,13 +33,11 @@ body {
     max-width: 768px;
 }
 
-
 /* COMMON STYLES */
 
 .sub-title {
     font-size: 1em;
 }
-
 
 #side-bar-1 {
     display: none;
@@ -53,7 +51,6 @@ body {
 #side-bar-1.facebook {
     padding: 15px 0 0 10px;
 }
-
 
 /* NAVI */
 
@@ -71,20 +68,17 @@ body {
     top: 0px;
 }
 
-
 @media screen and (min-width: 768px) {
     ul.nav li {
         text-align: center;
     }
 }
 
-
 /* COMMON HEADER */
 
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
     font-size: 1em;
 }
-
 
 ul.social-icons {
     display: none;
@@ -140,11 +134,13 @@ p.date {
     float: left;
     padding-top: 26px;
 }
+
 .event time {
     float: left;
     letter-spacing: 0.1em;
     width: 7em;
 }
+
 .event li {
     padding-bottom: 10px;
 }
@@ -152,6 +148,7 @@ p.date {
 .future-event {
     padding-top: 10px;
 }
+
 .event-shedule li {
     padding: 4px;
 }
@@ -159,7 +156,6 @@ p.date {
 #index-page .header h3 {
     font-size: 1em;
 }
-
 
 /* INDEX BODY */
 
@@ -173,7 +169,7 @@ p.date {
     width: 300px;
 }
 
-.cate-img-top img{
+.cate-img-top img {
     height: 92px;
     display: block;
     padding-top: 10px;
@@ -230,13 +226,13 @@ p.date {
     font-weight: 300;
     width: 100%;
 }
+
 #author-page > div:first-child {
     width: auto;
 
 }
 
 /* AUTHOR BODY */
-
 
 /* PICKUP */
 .pickup li {
@@ -275,7 +271,6 @@ p.date {
     margin: -26px 0 0 14px;
 }
 
-
 /* POST */
 
 .single-post .pickup-authors img {
@@ -290,7 +285,6 @@ p.date {
 .post {
     word-break: break-all;
 }
-
 
 .post .authors-info {
     width: 95%;
@@ -346,7 +340,7 @@ p.date {
 .single-post .entry-content img {
     max-width: 100%;
     height: auto;
-    width /***/:auto;
+    width /***/: auto;
     margin-bottom: 2em;
 }
 
@@ -354,7 +348,7 @@ p.date {
     line-height: 1.8em;
 }
 
-.navi-pager{
+.navi-pager {
     font-size: 1.2em;
     text-align: center;
     clear: both;
@@ -369,10 +363,12 @@ p.date {
     width: 100%;
     margin: 0 2em;
 }
+
 .post-related h3 {
     font-size: 16px;
     margin: 0 0 4px 0;
 }
+
 .post-related .relatedthumb {
     border: solid 2px #FFDFDF !important;
     margin: 30px 14px 0 1px !important;
@@ -396,7 +392,7 @@ p.date {
     display: block;
 }
 
-.author-page .author-social-icons  {
+.author-page .author-social-icons {
     font-size: 1em;
 }
 
@@ -409,13 +405,13 @@ p.date {
 }
 
 .author-page .position {
-    display:block;
-    font-size:0.6em;
+    display: block;
+    font-size: 0.6em;
     padding-left: 0.5em;
 }
 
-.delimiter{
-    visibility:hidden;
+.delimiter {
+    visibility: hidden;
 
 }
 
@@ -438,7 +434,7 @@ p.date {
     display: block;
 }
 
-#side-bar-1 .popular .popular-header .author{
+#side-bar-1 .popular .popular-header .author {
     font-size: 1.3em;
 }
 
@@ -467,6 +463,7 @@ p.date {
     height: 0;
     overflow: hidden;
 }
+
 .google-maps iframe {
     position: absolute;
     top: 0;

@@ -91,7 +91,7 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 ?>
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/lib/bootstrap-3.3.2-dist/css/bootstrap.css" media="screen" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/desktop.css" media="screen and (min-width:1025px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css" media="screen and (max-width:1024px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css" media="screen" />
