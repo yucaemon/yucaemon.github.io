@@ -18,7 +18,7 @@
             <a href="/">HOME</a>
         </li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SITE</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOCATIONS</a>
             <ul class="dropdown-menu" role="menu">
                 <?php $site_domain = explode( 'http://', site_url() ) ?>
                 <li><a href='<?php echo site_url(); ?>'>San Francisco</a></li>
