@@ -241,7 +241,6 @@ ul.social-icons {
 
 /* PICKUP */
 .pickup li {
-    border-bottom: dotted 1px #FF8888;
     padding: 1.5em 0 4em 0;
 }
 
@@ -277,7 +276,6 @@ ul.social-icons {
     height: 45px;
     -webkit-border-radius: 45px;
     border-radius: 45px;
-    border: solid 1px #E6E1E1;
     float: right;
     margin: -26px 0 0 14px;
 }
@@ -381,7 +379,6 @@ ul.social-icons {
 }
 
 .post-related .relatedthumb {
-    border: solid 2px #FFDFDF !important;
     margin: 30px 14px 0 1px !important;
     height: 142px !important;
     padding: 19px 13px 20px 13px !important;

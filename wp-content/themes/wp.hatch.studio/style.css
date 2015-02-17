@@ -106,17 +106,12 @@ a img:hover {
     opacity: 0.6;
     filter: alpha(opacity=90);
     -ms-filter: "alpha( opacity=90 )";
-    color: #B4B4B4;
 }
 
 a {
     text-decoration: none;
-    color: rgb(105, 105, 105);
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #555;
-}
 
 span {
     margin: 0 0;
@@ -142,8 +137,6 @@ ul {
 /* COMMON STYLES */
 .sub-title {
     letter-spacing: 2px;
-    background-color: rgb(253, 189, 189);
-    color: #fff;
     -webkit-border-radius: 60px;
     border-radius: 3px;
     margin-bottom: 10px;
@@ -198,38 +191,21 @@ p.more {
 }
 
 iframe[AttributesStyle] {
-
     height: 150px;
-
     width: 300px;
-
     border-top-width: 0;
 }
 
 .pre {
     float: left;
     width: 100px;
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
     padding: 1px 0;
-}
-
-.pre:hover, .next:hover {
-    background-color: #F8B0B0;
-}
-
-.pre a:hover, .next a:hover {
-    color: #333;
 }
 
 .next {
-
     float: right;
     width: 100px;
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
     padding: 1px 0;
-
 }
 
 /* NAVI */
@@ -237,8 +213,6 @@ iframe[AttributesStyle] {
 .navbar-fixed-top {
     top: 0px;
     border-width: 0 0 1px;
-    background: white;
-    border-bottom: 1px solid #f7f7f7;
 }
 
 ul.nav li {
@@ -253,25 +227,8 @@ ul.nav li {
 
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: red;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #333;
-    background-color: white;
-}
-
 ul.nav {
     margin: 0 auto;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #848484;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #333;
 }
 
 .dropdown-menu {
@@ -279,10 +236,8 @@ ul.nav {
 }
 
 .dropdown-menu > li > a {
-    border-bottom: 1px solid #f7f7f7;
     padding: 1.1em 1.5em;
     font-weight: bolder;
-    color: #333;
 }
 
 ul.nav > li {
@@ -328,18 +283,12 @@ ul.nav.social > li > a {
     height: 27px;
     -webkit-border-radius: 27px;
     border-radius: 27px;
-    border: solid 1px #E6E1E1;
     float: right;
     margin-top: 7px;
     margin-left: 4px;
 }
 
 /* CATEGORY HEADER  */
-
-#category-page .header {
-    border-bottom: none;
-    border-bottom: dotted 1px #FF8888;
-}
 
 #category-page .header .category-header {
     margin: 0 auto;
@@ -352,7 +301,6 @@ ul.nav.social > li > a {
 #category-page .cate-right-text h2 {
     font-size: 72px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    color: #333;
     margin: 0 0;
     height: 73px;
 }
@@ -367,11 +315,6 @@ ul.nav.social > li > a {
     font-size: 12px;
 }
 
-#category-page .header .cate-right-text .sub-title {
-    background-color: rgb(253, 189, 189);
-    color: #FFF;
-}
-
 /* CATEGORY BODY */
 
 /* AUTHOR HEADER */
@@ -383,20 +326,13 @@ ul.nav.social > li > a {
 
 .entry-content {
     font-weight: normal;
-    color: #666;
 }
 
 .entry-content p a {
-    color: #FFC7CD;
     text-decoration: underline;
 }
 
-.entry-content img {
-    border: 1px solid #ddd
-}
-
 .post .authors-info p {
-    color: #333;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -406,12 +342,6 @@ ul.nav.social > li > a {
 
 .post .authors-info p.author-about {
     font-weight: normal;
-}
-
-/* post-related */
-
-.post-related h3 {
-    color: #F8B0B0;
 }
 
 .post-related .yuzo_related_post:after {
@@ -428,7 +358,6 @@ ul.nav.social > li > a {
     width: 80%;
     margin: 4em auto 3em auto;
     line-height: 1.7em;
-    color: #898989;
 }
 
 .about > .about-logos {
@@ -454,7 +383,6 @@ ul.nav.social > li > a {
     padding-bottom: 3em;
     font-size: 0.9em;
     letter-spacing: 0.1em;
-    color: #898989;
     line-height: 1.6em;
     padding-top: 10px;
 }
@@ -478,18 +406,15 @@ ul.nav.social > li > a {
 .authors img {
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: solid 1px #E6E1E1;
     margin-top: 37px;
 }
 
 .authors {
     padding: 0 0 10px 0;
-    border-top: dotted 1px #EAEAEA;
     clear: both;
 }
 
 .authors li {
-    border-bottom: dotted 1px #E5E5E5;
     padding: 30px 0;
 }
 
@@ -504,11 +429,9 @@ ul.nav.social > li > a {
     /* padding-bottom: 0px; */
     /* border-bottom: dashed 1px #FFFFFF; */
     clear: both;
-    color: #444;
 }
 
 .authors .name {
-    color: #444;
     letter-spacing: 0.05em;
     padding: 8px 8px 8px 2px;
 }
@@ -516,14 +439,12 @@ ul.nav.social > li > a {
 .authors .post-account {
     font-size: 0.9em;
     float: right;
-    color: #848484;
 }
 
 .authors .since-date {
     font-size: 0.8em;
     float: left;
     padding-top: 3px;
-    color: rgb(255, 201, 201);
 }
 
 .authors .position {
@@ -535,22 +456,12 @@ ul.nav.social > li > a {
     padding: 0px 0;
     font-size: 0.8em;
     letter-spacing: 0.09em;
-    color: #898989;
     line-height: 1.6em;
 }
 
 .authors dd {
-    color: #6B6969;
     letter-spacing: 1px;
     clear: both;
-}
-
-.authors .author-social-icons a {
-    color: #9B9B9B;
-}
-
-.authors .author-social-icons a:hover {
-    color: #333;
 }
 
 .authors .author-social-icons {
@@ -561,15 +472,9 @@ ul.nav.social > li > a {
 
 #side-bar-1 .about, .site-categories {
     padding: 10px 0 30px 0;
-    border-bottom: dotted 1px #FF8888;
-}
-
-#side-bar-1 .twitter {
-    border-bottom: dotted 1px #FF8888;
 }
 
 #side-bar-1 .side-title {
-    color: rgb(255, 212, 209);
     letter-spacing: 0.05em;
     font-weight: bold;
     font-size: 1.4em;
@@ -580,12 +485,10 @@ ul.nav.social > li > a {
 
 #side-bar-1 .popular {
     padding: 15px 0 0 10px;
-    border-bottom: dotted 1px #FF8888;
     margin-bottom: 1.5em;
 }
 
 #side-bar-1 .popular li {
-    border-top: dotted 1px #D8CFCF;
     padding: 12px 0;
 }
 
@@ -599,33 +502,18 @@ ul.nav.social > li > a {
 
 #side-bar-1 .popular .popular-header .time {
     font-size: 1em;
-    color: #9D9C9C;
-}
-
-#side-bar-1 .popular .popular-header .author {
-    color: rgb(255, 193, 193);
-}
-
-#side-bar-1 .popular .popular-header .views {
-    color: #C5BABA;
-}
-
-#side-bar-1 .popular img {
-    border: solid 1px #E6E6E6;
 }
 
 /* FOOTER */
 #footer {
     height: 140px;
     margin: 50px 0 0 0;
-    background-color: #313131;
     clear: both;
     padding-top: 30px;
 }
 
 #footer-content {
     clear: both;
-    color: #817E7E;
     width: 234px;
     margin: 0 auto;
 }
