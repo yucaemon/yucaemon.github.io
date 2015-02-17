@@ -63,6 +63,10 @@ body {
 
 /* NAVI */
 
+.navbar-brand {
+    padding: 10px 2em 0 24px;
+}
+
 .navbar img {
     display: block;
 }
@@ -79,21 +83,8 @@ ul.nav.category > li {
     margin-right: 2em;
 }
 
-.navbar > .container-fluid .navbar-brand {
-    margin-left: 0.5em;
-    height: 30px;
-}
-
-ul.nav .category-icon-box {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid #999;
-    float: left;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 0.5em;
-
+ul.nav.social {
+    padding-right: 3em;
 }
 
 ul.nav .ranking {
