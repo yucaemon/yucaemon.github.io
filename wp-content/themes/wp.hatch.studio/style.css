@@ -483,12 +483,12 @@ ul.nav.social > li > a {
 
 /* SIDE BAR POPULAR */
 
-#side-bar-1 .popular {
+#side-bar-1 .popular, #side-bar-1 .links {
     padding: 15px 0 0 10px;
     margin-bottom: 1.5em;
 }
 
-#side-bar-1 .popular li {
+#side-bar-1 .popular li, #side-bar-1 .links dl {
     padding: 12px 0;
 }
 

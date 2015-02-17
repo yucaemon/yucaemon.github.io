@@ -19,7 +19,14 @@
 <!-- ここからOGP -->
 
 <meta property="fb:admins" content="100000980770893" />
-
+  <?php
+  global $site_name;
+  $site_name = Array(
+    1 => "sf",
+    6 => "ucberkeley",
+    8 => "newyork"
+  );
+  ?>
 <?php
 
 if (is_front_page()){
