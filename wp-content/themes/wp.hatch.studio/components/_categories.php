@@ -19,10 +19,13 @@
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOCATIONS</a>
             <ul class="dropdown-menu" role="menu">
-                <?php $site_domain = explode( 'http://', site_url() ) ?>
-                <li><a href='<?php echo site_url(); ?>'>San Francisco</a></li>
-                <li><a href='http://ucberkeley.<?php echo $site_domain[1] ?>/'>UC BERKELEY</a></li>
-                <li><a href='http://newyork.<?php echo $site_domain[1] ?>/'>NEW YORK</a></li>
+                <?php
+                   preg_match('/[^.]+\.[^.]+$/',site_url(),$match);
+                  $site_domain = $match[0]
+                ?>
+                <li><a href='http://<?php echo $site_domain ?>'>San Francisco</a></li>
+                <li><a href='http://ucberkeley.<?php echo $site_domain ?>/'>UC BERKELEY</a></li>
+                <li><a href='http://newyork.<?php echo $site_domain ?>/'>NEW YORK</a></li>
             </ul>
         </li>
         <li class="dropdown">
