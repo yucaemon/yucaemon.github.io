@@ -12,5 +12,4 @@
     <p class="big-title"><?php echo $category->name ?></p>
   </div>
 
-  <div class="clear-both"></div>
 </div>

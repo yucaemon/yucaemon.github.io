@@ -15,8 +15,6 @@
 
       <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_body.php'); ?>
 
-      <div class="clear-both"></div>
-
       <?php if ($display_pagenavi && function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
       </div>
       <!-- END Column -->

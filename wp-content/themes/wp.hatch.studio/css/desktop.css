@@ -261,6 +261,14 @@ ul.nav .ranking {
     width: 322px;
 }
 
+#category-page .category-header:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
 #category-page .cate-img-top img {
     height: 92px;
     display: block;
@@ -302,6 +310,14 @@ ul.nav .ranking {
 #author-page .header {
     width: auto;
     padding: 14px 0 0 89px;
+}
+
+#author-page .header:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
 }
 
 /* AUTHOR BODY */
@@ -458,28 +474,36 @@ ul.nav .ranking {
 
 /* AUTHORS */
 
-.author-page img {
+.authors img {
     width: 8%;
     height: 8%;
     float: left;
     margin: 19px 0 0 9px;
 }
 
-.author-page {
+.authors {
     margin-bottom: 4em;
 }
 
-.author-page dl {
+.authors ul li:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.authors dl {
     width: 85%;
     padding-left: 26px;
 }
 
-.author-page .author-social-icons {
+.authors .author-social-icons {
     float: right;
     padding-bottom: -1px;
 }
 
-.author-page .position {
+.authors .position {
     padding-left: 9px;
 }
 

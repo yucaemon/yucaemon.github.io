@@ -26,4 +26,3 @@ $author_id = $curauth->id;
 
 </div>
 
-<div class="clear-both"></div>

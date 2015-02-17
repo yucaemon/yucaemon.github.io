@@ -45,8 +45,6 @@
 
         </div>
 
-        <div class="clear-both"></div>
-
         <div class="mini-info">
 
           <span class="sub-title"><?php echo time_ago(); ?></span>
@@ -63,7 +61,6 @@
 
       </div>
 
-      <div class="clear-both"></div>
 
     </li>
 

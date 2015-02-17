@@ -1,5 +1,5 @@
 <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
-<div class="author-page">
+<div class="authors">
     <ul>
         <?php
         // 表示する順番にユーザーIDを設定する
@@ -111,8 +111,6 @@
                 </dd>
 
             </dl>
-
-            <div class="clear-both"></div>
 
         </li>
 

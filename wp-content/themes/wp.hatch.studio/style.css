@@ -184,10 +184,6 @@ p.more {
     padding: 4px 5px;
 }
 
-.clear-both {
-    clear: both;
-}
-
 .wp-post-image {
     width: 110px;
     height: 110px;
@@ -479,30 +475,30 @@ ul.nav.social > li > a {
 
 /* AUTHORS */
 
-.author-page img {
+.authors img {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: solid 1px #E6E1E1;
     margin-top: 37px;
 }
 
-.author-page {
+.authors {
     padding: 0 0 10px 0;
     border-top: dotted 1px #EAEAEA;
     clear: both;
 }
 
-.author-page li {
+.authors li {
     border-bottom: dotted 1px #E5E5E5;
     padding: 30px 0;
 }
 
-.author-page dl {
+.authors dl {
     float: left;
     margin: 0 0;
 }
 
-.author-page dt {
+.authors dt {
     font-weight: bold;
     font-size: 1.3em;
     /* padding-bottom: 0px; */
@@ -511,31 +507,31 @@ ul.nav.social > li > a {
     color: #444;
 }
 
-.author-page .name {
+.authors .name {
     color: #444;
     letter-spacing: 0.05em;
     padding: 8px 8px 8px 2px;
 }
 
-.author-page .post-account {
+.authors .post-account {
     font-size: 0.9em;
     float: right;
     color: #848484;
 }
 
-.author-page .since-date {
+.authors .since-date {
     font-size: 0.8em;
     float: left;
     padding-top: 3px;
     color: rgb(255, 201, 201);
 }
 
-.author-page .position {
+.authors .position {
     font-size: 0.8em;
     letter-spacing: 0.1em;
 }
 
-.author-page .introduction {
+.authors .introduction {
     padding: 0px 0;
     font-size: 0.8em;
     letter-spacing: 0.09em;
@@ -543,21 +539,21 @@ ul.nav.social > li > a {
     line-height: 1.6em;
 }
 
-.author-page dd {
+.authors dd {
     color: #6B6969;
     letter-spacing: 1px;
     clear: both;
 }
 
-.author-page .author-social-icons a {
+.authors .author-social-icons a {
     color: #9B9B9B;
 }
 
-.author-page .author-social-icons a:hover {
+.authors .author-social-icons a:hover {
     color: #333;
 }
 
-.author-page .author-social-icons {
+.authors .author-social-icons {
     font-size: 1em;
 }
 

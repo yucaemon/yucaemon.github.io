@@ -20,7 +20,5 @@
 
   <?php endif; ?>
 
-  <div class="clear-both"></div>
-
 </div><!-- END NAVI -->
 

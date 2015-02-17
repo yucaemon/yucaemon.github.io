@@ -58,13 +58,10 @@
 
       </dl>
 
-      <div class="clear-both"></div>
-
     </li>
 
   <?php } ?>
 
 </ul>
 
-<div class="clear-both"></div>
 <?php } ?>

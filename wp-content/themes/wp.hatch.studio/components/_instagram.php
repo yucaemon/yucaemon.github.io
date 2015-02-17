@@ -26,8 +26,6 @@
             href="<?php echo get_author_posts_url( get_the_author_ID() ) ?>"><?php userphoto_the_author_photo() ?></a>
         </div>
 
-        <div class="clear-both"></div>
-
       </li>
 
     <?php endwhile; ?>
