@@ -75,6 +75,10 @@ ul.nav li {
     text-align: center;
 }
 
+ul.nav.category > li {
+    margin-right: 2em;
+}
+
 .navbar > .container-fluid .navbar-brand {
     margin-left: 0.5em;
     height: 30px;

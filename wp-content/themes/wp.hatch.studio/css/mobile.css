@@ -75,6 +75,14 @@ body {
     }
 }
 
+ul.nav.social li {
+    float: left;
+}
+
+ul.nav.social li {
+    float: left;
+}
+
 /* COMMON HEADER */
 
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {

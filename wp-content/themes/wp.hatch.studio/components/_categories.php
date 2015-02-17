@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -45,6 +45,24 @@
         <li class="ranking">
           <a href="/ranking">RANKING</a>
         </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right social">
+      <li>
+        <a class="twitter" href="https://www.facebook.com/hatchsudioinc" target="_blank" title="twitter">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="twitter" href="https://twitter.com/hatchstudioinc" target="_blank" title="twitter">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
     </ul>
   </div>
 
