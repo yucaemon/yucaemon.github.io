@@ -1,0 +1,13 @@
+<h1>U<span>C</span> B<span>e</span>rkeley</h1>
+<h2>UCバークレー大学の面白インタビュー</h2>
+
+<div class="description">
+  <p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
+  <h3>Interview</h3>
+  <p>
+    名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪
+  </p>
+</div>
+
+<div class="site-character"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+

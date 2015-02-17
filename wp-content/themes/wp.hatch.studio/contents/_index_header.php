@@ -1,5 +1,7 @@
 <?php if( get_current_blog_id() == 8 ){ ?>
   <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_header_newyork.php'); ?>
+<?php }else if( get_current_blog_id() == 6 ){ ?>
+    <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_header_ucberkeley.php'); ?>
 <?php }else{ ?>
 
 <h1>S<span class="first-a">a</span>n Fr<span
