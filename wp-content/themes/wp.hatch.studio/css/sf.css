@@ -5,7 +5,7 @@ a img:hover {
 }
 
 a {
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -21,31 +21,31 @@ h3 {
 }
 
 ::-moz-selection {
-    background: #FFC0C0; /* Firefox */
+    background: #FDDCDC; /* Firefox */
 }
 
 /* COMMON STYLE */
 .sub-title {
-    background-color: rgb(253, 189, 189);
+    background-color: #ffc0c0;
     color: #fff;
 }
 
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
-    color: #FFC0C0;
-    background-color: rgb(255, 255, 255);
-    border: solid 1px #FFE7E7;
+    color: #ffc0c0;
+    background-color: white;
+    border: solid 1px #ffe7e7;
 }
 
 .mini-info {
-    color: #FFC7CD;
+    color: #FFC0C0;
 }
 
 .mini-info a {
-    color: #FFC7CD;
+    color: #ffc0c0;
 }
 
 .pre {
-    color: #F8B0B0;
+    color: #f8b0b0;
     border: solid 1px #FFDFDF;
 }
 
@@ -108,7 +108,7 @@ h3 {
 }
 
 #index-page .header h1 span:nth-child(3) {
-    color: #FFC7CD;
+    color: #ffc0c0;
 }
 
 /* INDEX BODY */
@@ -122,13 +122,13 @@ h3 {
 }
 
 .articles li {
-    border-top: solid 4px rgb(255, 224, 224);
+    border-top: solid 4px #FFE0E0;
 }
 
 .articles .sub-title {
     color: #FFC0C0;
-    background-color: rgb(255, 255, 255);
-    border: solid 1px #FFE7E7;
+    background-color: white;
+    border: solid 1px #ffc0c0;
 }
 
 /* CATEGORY HEADER  */
@@ -142,7 +142,7 @@ h3 {
 }
 
 #category-page .header .cate-right-text .sub-title {
-    background-color: rgb(253, 189, 189);
+    background-color: #ffc0c0;
     color: #FFF;
 }
 
@@ -173,7 +173,7 @@ h3 {
 }
 
 .entry-content p a {
-    color: #FFC7CD;
+    color: #ffc0c0;
 }
 
 .entry-content img {
@@ -185,7 +185,7 @@ h3 {
 }
 
 .post-related h3 {
-    color: #F8B0B0;
+    color: #ffc0c0;
 }
 
 .post-related .relatedthumb {
@@ -229,7 +229,7 @@ h3 {
 }
 
 .authors .since-date {
-    color: rgb(255, 201, 201);
+    color: #ffc0c0;
 }
 
 .authors .introduction {
@@ -260,7 +260,7 @@ h3 {
 }
 
 #side-bar-1 .side-title {
-    color: rgb(255, 212, 209);
+    color: #ffc0c0;
 }
 
 /* SIDE BAR POPULAR */
@@ -278,7 +278,7 @@ h3 {
 }
 
 #side-bar-1 .popular .popular-header .author {
-    color: rgb(255, 193, 193);
+    color: #ffc0c0;
 }
 
 #side-bar-1 .popular .popular-header .views {

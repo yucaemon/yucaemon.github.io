@@ -99,11 +99,11 @@ h3 {
 
 /* INDEX HEADER */
 
-#index-page .header span:first-child {
+#index-page .header h1 span:first-child {
     color: #99E3F1;
 }
 
-#index-page .header span:nth-child(2) {
+#index-page .header h1 span:nth-child(2) {
     color: #23B4EC;
 }
 
@@ -290,11 +290,6 @@ h3 {
 
 #side-bar-1 .popular, #side-bar-1 .links dl {
     border-bottom: dotted 1px #6EB3FF;
-}
-
-#side-bar-1 .links dl dt {
-    font-size: 16px;
-    font-weight: bold;
 }
 
 #side-bar-1 .popular li {
