@@ -151,11 +151,8 @@ ul {
 }
 
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
-    color: #FFC0C0;
-    background-color: rgb(255, 255, 255);
     -webkit-border-radius: 60px;
     border-radius: 3px;
-    border: solid 1px #FFE7E7;
     padding: 2px 4px;
 }
 
@@ -165,7 +162,6 @@ ul {
 
 .mini-info {
     font-size: 9px;
-    color: #FFC7CD;
     letter-spacing: 1px;
     padding-top: 18px;
     line-height: 2;
@@ -177,10 +173,6 @@ ul {
 
 .mini-info p {
     padding-top: 9px;
-}
-
-.mini-info a {
-    color: #FFC7CD;
 }
 
 .cate-img {
@@ -312,22 +304,9 @@ ul.nav.social > li > a {
     margin: 0 auto;
     width: 100%;
     padding-bottom: 30px;
-    border-bottom: dotted 1px #FF8888;
 }
 
 /* INDEX HEADER */
-
-#index-page .header span.first-a {
-    color: #FA8BAF;
-}
-
-#index-page span.first-a {
-    color: #FA8BAF;
-}
-
-#index-page span.c {
-    color: #FFC7CD;
-}
 
 #index-page span.ca {
     font-family: 'Alegreya Sans SC', sans-serif;

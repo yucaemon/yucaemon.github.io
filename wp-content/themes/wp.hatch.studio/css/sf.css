@@ -1,0 +1,41 @@
+/* COMMON STYLE */
+
+.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+    color: #FFC0C0;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #FFE7E7;
+}
+
+.mini-info {
+    color: #FFC7CD;
+}
+
+.mini-info a {
+    color: #FFC7CD;
+}
+
+/* COMMON HEADER */
+
+.header {
+    border-bottom: dotted 1px #FF8888;
+}
+
+/* INDEX HEADER */
+
+#index-page .header span.first-a {
+    color: #FA8BAF;
+}
+
+#index-page span.first-a {
+    color: #FA8BAF;
+}
+
+#index-page span.c {
+    color: #FFC7CD;
+}
+
+/* PICKUP */
+
+.pickup li {
+    border-bottom: solid 1px #FFE7E7;
+}

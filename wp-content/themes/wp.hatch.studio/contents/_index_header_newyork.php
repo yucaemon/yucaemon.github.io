@@ -1,17 +1,12 @@
-<?php if( get_current_blog_id() == 8 ){ ?>
-  <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_header_newyork.php'); ?>
-<?php }else{ ?>
 
-<h1>S<span class="first-a">a</span>n Fr<span
-    class="second-a">a</span>n<span class="c">c</span>isco</h1>
+<h1>N<span>e</span>w Y<span>o</span><span>r</span>k</h1>
 <h2>現地密着まがじん。</h2>
+<p class="description">現地密着面白マガジン はっちすたじおは、海外各地、現地のみんなでつくる情報共有WEBまがじんです。</p>
+<div class="site-character"><img src="<?php echo get_template_directory_uri(); ?>/images/top-newyork.png"></div>
 
-<p class="description">はっちすたじおは、北カリフォルニアのバークレーを拠点にサンフラ、サンノゼ、シリコンバレーでやんちゃにくらす現地のやつらが適当につくる情報共有WEBまがじんです。</p>
-<div class="site-character"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sf.png"></div>
+<p class="date">03.01</p>
 
-<p class="date">06.28</p>
-
-<p class="description">にオープンしました。<br>北カリフォルニアの若者集まれ！</p>
+<p class="description">にオープンしました。<br>おもしろ探検隊員、随時募集中！！</p>
 
 <div class="event">
 
@@ -44,4 +39,3 @@
 
 </div>
 
-<?php } ?>
