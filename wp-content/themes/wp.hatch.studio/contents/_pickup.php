@@ -35,7 +35,7 @@
 
         <div class="pickup-text">
 
-          <h4><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
+          <h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
           <p class="post-text">
             <a href="<?php the_permalink() ?>" rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 130) . '...'; ?>
           </p>

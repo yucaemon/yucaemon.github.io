@@ -20,7 +20,7 @@ $author_id = $curauth->id;
 
   </a>
 
-  <h3><?php echo get_the_author_meta('first_name', $author_id); ?></h3>
+  <h2><?php echo get_the_author_meta('first_name', $author_id); ?></h2>
 
   <p class="big-title"><?php echo get_the_author_meta('description', $author_id); ?></p>
 

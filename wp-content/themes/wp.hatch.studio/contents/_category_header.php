@@ -8,7 +8,7 @@
     <?php
     $category = get_category($cat_id);
     ?>
-    <h3><?php echo $category->slug ?></h3>
+    <h2><?php echo $category->slug ?></h2>
     <p class="big-title"><?php echo $category->name ?></p>
   </div>
 

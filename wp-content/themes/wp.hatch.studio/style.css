@@ -29,6 +29,7 @@ License URI: ライセンスの URL
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    color: #333;
 }
 
 .symbol, a.symbol:before {
@@ -113,9 +114,8 @@ a {
     color: rgb(105, 105, 105);
 }
 
-* {
-    margin: 0 0;
-    padding: 0 0;
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #555;
 }
 
 span {
@@ -142,7 +142,6 @@ ul {
 /* COMMON STYLES */
 .sub-title {
     letter-spacing: 2px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: rgb(253, 189, 189);
     color: #fff;
     -webkit-border-radius: 60px;
@@ -152,7 +151,6 @@ ul {
 }
 
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFC0C0;
     background-color: rgb(255, 255, 255);
     -webkit-border-radius: 60px;
@@ -316,29 +314,34 @@ ul.nav > li {
 
 /* INDEX HEADER */
 
-#index-page .header .title span.first-a {
+#index-page .header span.first-a {
     color: #FA8BAF;
 }
 
-#index-page .title span.first-a {
+#index-page span.first-a {
     color: #FA8BAF;
 }
 
-#index-page .title span.c {
+#index-page span.c {
     color: #FFC7CD;
 }
 
-#index-page p.title span.ca {
+#index-page span.ca {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-#index-page .site-header:after {
+#index-page .header:after {
     visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0;
+}
+
+#index-page p.date {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
 }
 
 /* INDEX BODY */
@@ -364,16 +367,11 @@ ul.nav > li {
     margin: 0 auto;
 }
 
-.eat-img-top {
-    padding-left: 123px;
-    padding-top: 0px;
-}
-
 .cate-img-top {
     float: left;
 }
 
-.cate-right-text h3 {
+#category-page .cate-right-text h2 {
     font-size: 72px;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
@@ -381,17 +379,17 @@ ul.nav > li {
     height: 73px;
 }
 
-.cate-right-text .big-title {
+#category-page .cate-right-text .big-title {
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.2em;
 }
 
-.cate-right-text .small-title {
+#category-page .cate-right-text .small-title {
     font-size: 12px;
 }
 
-.header .cate-right-text .sub-title {
+#category-page .header .cate-right-text .sub-title {
     background-color: rgb(253, 189, 189);
     color: #FFF;
 }
@@ -407,7 +405,6 @@ ul.nav > li {
 
 .entry-content {
     font-weight: normal;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666;
 }
 
@@ -667,7 +664,6 @@ ul.nav > li {
 #footer-content ul li {
     font-size: 35px;
     display: inline;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     padding-right: 5px;

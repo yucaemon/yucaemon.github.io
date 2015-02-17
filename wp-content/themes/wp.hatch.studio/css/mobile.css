@@ -1,5 +1,9 @@
 /* initialize */
 
+html {
+    font-size: 14px;
+}
+
 h1 {
     font-size: 2em;
 }
@@ -18,9 +22,6 @@ h4 {
 
 /* PAGE LAYOUT */
 
-html {
-    font-size: 14px;
-}
 
 body {
     margin: 0 auto;
@@ -84,17 +85,20 @@ ul.social-icons {
     display: none;
 }
 
-.title {
+
+/* INDEX HEADER */
+
+#index-page h1, #index-page h2 {
     text-align: center;
 }
 
-.title h1 {
+#index-page h1 {
     letter-spacing: 3px;
     font-size: 2.5em;
     white-space: nowrap;
 }
 
-.title h2 {
+#index-page h2 {
     font-size: 1.5em;
     padding-top: 4px;
     margin: 0 auto 0.8em auto;
@@ -102,60 +106,53 @@ ul.social-icons {
     letter-spacing: 2px;
 }
 
-/* INDEX HEADER */
+#index-page .description {
+    margin: 0 auto 0.5em auto;
+    line-height: 22px;
+    width: 90%;
+}
 
-#top-sf {
+#index-page .site-character {
     margin: 0 auto;
 }
 
-#top-sf img {
+#index-page .site-character img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 290px;
 }
 
-p.subtitle {
-    margin: 0 auto 0.5em auto;
-    line-height: 22px;
-    width: 90%;
-}
 
-p.date {
-    font-family: 'Alegreya Sans SC', sans-serif;
+#index-page p.date {
     font-size: 2.7em;
     float: left;
     letter-spacing: 1px;
-    font-weight: bold;
     margin-right: 0.5em;
-}
-
-.event {
-    float: left;
-    padding-top: 26px;
-}
-
-.event time {
-    float: left;
-    letter-spacing: 0.1em;
-    width: 7em;
-}
-
-.event li {
-    padding-bottom: 10px;
-}
-
-.future-event {
-    padding-top: 10px;
-}
-
-.event-shedule li {
-    padding: 4px;
 }
 
 #index-page .header h3 {
     font-size: 1em;
 }
+
+#index-page .event {
+    padding-top: 26px;
+}
+
+#index-page .event time {
+    float: left;
+    letter-spacing: 0.1em;
+    width: 7em;
+}
+
+#index-page .event li {
+    padding-bottom: 10px;
+}
+
+#index-page .future-event {
+    padding-top: 10px;
+}
+
 
 /* INDEX BODY */
 
@@ -165,25 +162,25 @@ p.date {
 
 /* CATEGORY HEADER  */
 
-.category-header {
+#category-page .category-header {
     width: 300px;
 }
 
-.cate-img-top img {
+#category-page .cate-img-top img {
     height: 92px;
     display: block;
     padding-top: 10px;
     margin: 0 auto;
 }
 
-.cate-img-top img {
+#category-page .cate-img-top img {
     margin: 0 auto;
     display: block;
 }
 
 /* CATEGORY BODY */
 
-#category-page .big-title, #category-page h3 {
+#category-page .big-title, #category-page h2 {
     text-align: center;
 }
 
@@ -211,7 +208,7 @@ p.date {
     display: none;
 }
 
-#author-page h3 {
+#author-page h2 {
     font-size: 2.5em;
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #666;
@@ -249,6 +246,12 @@ p.date {
 .pickup .pickup-text {
     width: 100%;
     margin: 0 0;
+}
+
+.pickup .pickup-text h3 {
+    font-size: 1.5em;
+    padding: 9px 0 12px 0;
+    letter-spacing: 0px;
 }
 
 .pickup .pickup-text .mini-info {
