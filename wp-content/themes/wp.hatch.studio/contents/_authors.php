@@ -1,9 +1,15 @@
 <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
-<div class="author-page">
+<div class="authors">
     <ul>
         <?php
         // 表示する順番にユーザーIDを設定する
-        $this_authors = array(22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12);
+        if( get_current_blog_id() == 1 ) {
+          $this_authors = array(22, 5, 20, 18, 14, 24, 8, 7, 6, 33, 34, 35, 26, 37, 38, 39, 41, 12);
+        }else if( get_current_blog_id() == 6 ){
+          $this_authors = array(23, 31, 38, 32, 35, 36);
+        }else if( get_current_blog_id() == 8 ){
+          $this_authors = array(22, 5, 20, 18, 14, 24, 8, 7, 6, 33, 34, 35, 26, 37, 38, 39, 41, 12);
+        }
         ?>
         <?php foreach ($this_authors as $this_author_id ) { ?>
         <li>
@@ -111,8 +117,6 @@
                 </dd>
 
             </dl>
-
-            <div class="clear-both"></div>
 
         </li>
 

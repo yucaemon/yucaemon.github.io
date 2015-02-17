@@ -19,7 +19,14 @@
 <!-- ここからOGP -->
 
 <meta property="fb:admins" content="100000980770893" />
-
+  <?php
+  global $site_name;
+  $site_name = Array(
+    1 => "sf",
+    6 => "ucberkeley",
+    8 => "newyork"
+  );
+  ?>
 <?php
 
 if (is_front_page()){
@@ -90,12 +97,20 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 ?>
 
+
+
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/lib/bootstrap-3.3.2-dist/css/bootstrap.css" media="screen" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/desktop.css" media="screen and (min-width:1025px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css" media="screen and (max-width:1024px)" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css" media="screen" />
-
+  <?php if( get_current_blog_id() == 8 ){ ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/newyork.css" media="screen" />
+  <?php }else if( get_current_blog_id() == 6 ){ ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ucberkeley.css" media="screen" />
+  <?php }else { ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/sf.css" media="screen" />
+  <?php } ?>
   <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 
 <link href="<?php bloginfo('template_url'); ?>/js/jquery/jquery.bxslider.css" rel="stylesheet" type="text/css" />
@@ -152,6 +167,3 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
 
 <body><!--- BODY -->
 
-<div id="container"><!-- CONTAINER -->
-
-<div id="contents"><!-- CONTENTS -->

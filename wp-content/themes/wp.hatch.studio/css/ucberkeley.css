@@ -1,0 +1,323 @@
+/* initialize */
+
+a img:hover {
+    color: #B4B4B4;
+}
+
+a {
+    color: rgb(105, 105, 105);
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #555;
+}
+
+h3 {
+    color: #F8B0B0;
+}
+
+::selection {
+    background: #FDDCDC; /* Safari */
+}
+
+::-moz-selection {
+    background: #FFC0C0; /* Firefox */
+}
+
+/* COMMON STYLE */
+.sub-title {
+    background-color: #6EB3FF;
+    color: #fff;
+}
+
+.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+    color: #6EB3FF;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #6EB3FF;
+}
+
+.mini-info {
+    color: #6EB3FF;
+}
+
+.mini-info a {
+    color: #6EB3FF;
+}
+
+.pre {
+    color: #F8B0B0;
+    border: solid 1px #FFDFDF;
+}
+
+.pre:hover, .next:hover {
+    background-color: #F8B0B0;
+}
+
+.pre a:hover, .next a:hover {
+    color: #333;
+}
+
+.next {
+    color: #F8B0B0;
+    border: solid 1px #FFDFDF;
+}
+
+/* NAVI */
+
+.navbar-fixed-top {
+    background: white;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: red;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #333;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #848484;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #333;
+}
+
+.dropdown-menu > li > a {
+    border-bottom: 1px solid #f7f7f7;
+    color: #333;
+}
+
+/* COMMON HEADER */
+
+.header {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+/* INDEX HEADER */
+
+#index-page .header span:first-child {
+    color: #99E3F1;
+}
+
+#index-page .header span:nth-child(2) {
+    color: #23B4EC;
+}
+
+#index-page .header h2 {
+    font-size: 23px;
+    padding-top: -6px;
+    margin: 0 0 3em 8px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#index-page .header h3 {
+    font-size: 49px;
+    color: #333;
+    margin-top: 0;
+}
+
+#index-page .header .description {
+    float: left;
+    width: 325px;
+}
+#index-page .site-character {
+    float: right;
+}
+
+/* INDEX BODY */
+
+.post-authors img {
+    border: solid 1px #E6E1E1;
+}
+
+.articles ul {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+.articles li {
+    border-top: solid 4px rgb(255, 224, 224);
+}
+
+.articles .sub-title {
+    color: #FFC0C0;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #FFE7E7;
+}
+
+/* CATEGORY HEADER  */
+
+#category-page .header {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+#category-page .header .cate-img-top {
+    display: none;
+}
+
+#category-page .cate-right-text h2 {
+    color: #333;
+}
+
+
+#category-page .header .cate-right-text .sub-title {
+    background-color: rgb(253, 189, 189);
+    color: #FFF;
+}
+
+/* AUTHOR HEADER */
+
+#author-page .header img.author-header {
+    border: solid 1px #E6E1E1;
+}
+
+/* PICKUP */
+
+.pickup li {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+.pickup .pickup-img .attachment-post-thumbnail {
+    border: 1px solid #f7f7f7;
+}
+
+.pickup-authors img {
+    border: solid 1px #E6E1E1;
+}
+
+/* POST */
+
+.entry-content {
+    color: #666;
+}
+
+.entry-content p a {
+    color: #6EB3FF;
+}
+
+.entry-content img {
+    border: 1px solid #ddd
+}
+
+.post .authors-info p {
+    color: #333;
+}
+
+.post-related h3 {
+    color: #F8B0B0;
+}
+
+.post-related .relatedthumb {
+    border: solid 2px #FFDFDF !important;
+}
+
+/* ABOUT */
+
+.about {
+    color: #898989;
+}
+
+.about > .description {
+    color: #898989;
+}
+
+/* AUTHORS */
+
+.authors img {
+    border: solid 1px #E6E1E1;
+}
+
+.authors {
+    border-top: dotted 1px #EAEAEA;
+}
+
+.authors li {
+    border-bottom: dotted 1px #E5E5E5;
+}
+
+.authors dt {
+    color: #444;
+}
+
+.authors .name {
+    color: #444;
+}
+
+.authors .post-account {
+    color: #848484;
+}
+
+.authors .since-date {
+    color: rgb(255, 201, 201);
+}
+
+.authors .introduction {
+    color: #898989;
+}
+
+.authors dd {
+    color: #6B6969;
+}
+
+.authors .author-social-icons a {
+    color: #9B9B9B;
+}
+
+.authors .author-social-icons a:hover {
+    color: #333;
+}
+
+
+/* SIDE BAR */
+
+#side-bar-1 .about, .site-categories {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+#side-bar-1 .twitter {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+#side-bar-1 .side-title {
+    color: #23B4EC;
+}
+
+/* SIDE BAR POPULAR */
+
+#side-bar-1 .popular, #side-bar-1 .links dl {
+    border-bottom: dotted 1px #6EB3FF;
+}
+
+#side-bar-1 .links dl dt {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#side-bar-1 .popular li {
+    border-top: dotted 1px #D8CFCF;
+}
+
+#side-bar-1 .popular .popular-header .time {
+    color: #9D9C9C;
+}
+
+#side-bar-1 .popular .popular-header .author {
+    color: #23B4EC;
+}
+
+#side-bar-1 .popular .popular-header .views {
+    color: #C5BABA;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #313131;
+}
+
+#footer-content {
+    color: #817E7E;
+}

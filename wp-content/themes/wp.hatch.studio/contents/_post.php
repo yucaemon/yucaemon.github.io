@@ -81,12 +81,11 @@
           </div>
 
           <div class="authors-info">
-
-            <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>">
-
-              <div class="pickup-authors"><?php userphoto_the_author_photo() ?></div>
-
-            </a>
+            <div class="pickup-authors">
+              <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>">
+                <?php userphoto_the_author_photo() ?>
+              </a>
+            </div>
 
             <p class="name"><?php the_author_nickname(); ?></p>
 

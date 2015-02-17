@@ -1,21 +1,19 @@
 <?php get_header(); ?>
 
-<?php get_Sidebar(); ?>
+<div id="container"><!-- CONTAINER -->
+<?php include(TEMPLATEPATH.'/components/_navbar.php'); ?>
 
-
-  <div id="center"><!-- CENTER -->
+  <div id="contents"><!-- CENTER -->
 
     <div id="<?php echo $content_type ?>-page">
 
-      <div id="header"><!-- HEADER -->
+      <div class="header"><!-- HEADER -->
 
         <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_header.php'); ?>
 
       </div><!-- END HEADER -->
 
       <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_body.php'); ?>
-
-      <div class="clear-both"></div>
 
       <?php if ($display_pagenavi && function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
       </div>
@@ -26,16 +24,10 @@
       <? } ?>
 
     </div>
-    <!-- CENTER -->
+    <!-- CONTENTS -->
 
-    <?php get_Sidebar(2); ?>
-
-  </div><!-- END contents -->
-
-  <div class="clear-both"></div>
+    <?php get_Sidebar(); ?>
 
 </div><!-- END container -->
-
-</div>
 
 <?php get_footer(); ?>
