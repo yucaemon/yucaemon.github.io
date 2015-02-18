@@ -1,7 +1,7 @@
 <h1>U<span>C</span> B<span>e</span>rkeley</h1>
-<h2>UCバークレー大学の面白インタビュー</h2>
+<h2><span>UCバークレー大学の</span><span>面白インタビュー</span></h2>
 
-<div class="description">
+<div class="description ucb">
   <p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
   <h3>Interview</h3>
   <p>
@@ -9,5 +9,5 @@
   </p>
 </div>
 
-<div class="site-character"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+<div class="site-character right"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
 

@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h1 {
+    line-height: 1.3em;
+}
+
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
@@ -340,6 +344,16 @@ ul.nav.social > li > a {
     font-weight: bold;
 }
 
+.post h2, .post h3, .post h4 {
+    color: #333;
+}
+
+.post h2 {
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-bottom: 0.5em;
+}
+
 .post .authors-info p.author-about {
     font-weight: normal;
 }
@@ -356,7 +370,7 @@ ul.nav.social > li > a {
 
 .about {
     width: 80%;
-    margin: 4em auto 3em auto;
+    margin: 1em auto 3em auto;
     line-height: 1.7em;
 }
 

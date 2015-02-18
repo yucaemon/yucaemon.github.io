@@ -139,8 +139,21 @@ ul.nav .ranking {
     /* width: 55px; */
 }
 
-#index-page .site-character {
+#index-page .description.ucb {
     float: left;
+    width: 325px;
+}
+
+
+#index-page .site-character.left {
+    float: left;
+}
+
+#index-page .site-character.right {
+    float: right;
+}
+
+#index-page .site-character {
     padding: -41px 88px 10px 13px;
     width: 378px;
 }

@@ -114,6 +114,12 @@ ul.social-icons {
     letter-spacing: 2px;
 }
 
+#index-page h2 > span {
+    white-space: nowrap;
+    display: block;
+    padding-bottom: 0.5em;
+}
+
 #index-page .description {
     margin: 0 auto 0.5em auto;
     line-height: 22px;
