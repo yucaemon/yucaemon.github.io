@@ -30,10 +30,10 @@ h3 {
     color: #fff;
 }
 
-.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
-    color: #ffc0c0;
-    background-color: white;
-    border: solid 1px #ffe7e7;
+.header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
+    color: white;
+    background-color: #ffc0c0;
+    border: solid 1px #ffc0c0;
 }
 
 .mini-info {

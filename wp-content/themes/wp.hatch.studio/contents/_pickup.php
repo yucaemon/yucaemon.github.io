@@ -41,7 +41,7 @@
           </p>
 
           <div class="mini-info">
-            <span class="sub-title"><?php echo time_ago(); ?></span>
+            <span class="time-ago"><?php echo time_ago(); ?></span>
             <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
           </div>
 

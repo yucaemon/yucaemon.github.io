@@ -344,6 +344,12 @@ ul.nav .ranking {
     padding-right: 2em;
 }
 
+.pickup .pickup-img img {
+    width: 100%;
+    height: auto;
+    max-height: 210px;
+}
+
 .pickup .pickup-img .attachment-post-thumbnail {
     width: 100%;
     height: auto;
@@ -364,9 +370,14 @@ ul.nav .ranking {
     font-weight: bold;
 }
 
+.pickup .pickup-text h4 {
+    padding: 0;
+}
+
 .pickup .post-text {
     font-size: 0.8em;
     font-weight: normal;
+    line-height: 170%;
 }
 
 .pickup .pickup-text .mini-info {

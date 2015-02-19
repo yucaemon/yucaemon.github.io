@@ -148,7 +148,7 @@ ul {
     padding: 2px 6px;
 }
 
-.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+.header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
     -webkit-border-radius: 60px;
     border-radius: 3px;
     padding: 2px 4px;
