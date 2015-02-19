@@ -294,7 +294,6 @@ ul.nav .ranking {
 
 #author-page .header h2 {
     font-size: 3.8em;
-    font-family: 'Alegreya Sans SC', sans-serif;
     color: #333;
     margin-top: 6px;
     margin-bottom: 4px;
@@ -302,8 +301,9 @@ ul.nav .ranking {
 }
 
 #author-page .header .big-title {
-    font-size: 11px;
-    padding: 4px 0 0 0;
+    font-size: 0.8em;
+    line-height: 180%;
+    padding: 1em 0 0 0;
     font-weight: 300;
     width: 600px;
     text-align: left !important;
@@ -508,7 +508,6 @@ ul.nav .ranking {
 
 /* SIDE BAR*/
 #side-bar-1 {
-    font-family: 'Alegreya Sans SC', sans-serif;
     float: left;
     width: 28%;
     height: auto;
