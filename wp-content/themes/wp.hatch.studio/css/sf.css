@@ -78,14 +78,6 @@ h3 {
     background-color: white;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #848484;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #333;
-}
-
 .dropdown-menu > li > a {
     border-bottom: 1px solid #f7f7f7;
     color: #333;
@@ -168,10 +160,6 @@ h3 {
 
 /* POST */
 
-.entry-content {
-    color: #666;
-}
-
 .entry-content p a {
     color: #ffc0c0;
 }
@@ -192,16 +180,6 @@ h3 {
     border: solid 2px #FFDFDF !important;
 }
 
-/* ABOUT */
-
-.about {
-    color: #898989;
-}
-
-.about > .description {
-    color: #898989;
-}
-
 /* AUTHORS */
 
 .authors img {
@@ -216,28 +194,9 @@ h3 {
     border-bottom: dotted 1px #E5E5E5;
 }
 
-.authors dt {
-    color: #444;
-}
-
-.authors .name {
-    color: #444;
-}
-
-.authors .post-account {
-    color: #848484;
-}
 
 .authors .since-date {
     color: #ffc0c0;
-}
-
-.authors .introduction {
-    color: #898989;
-}
-
-.authors dd {
-    color: #6B6969;
 }
 
 .authors .author-social-icons a {
@@ -285,11 +244,3 @@ h3 {
     color: #C5BABA;
 }
 
-/* FOOTER */
-#footer {
-    background-color: #313131;
-}
-
-#footer-content {
-    color: #817E7E;
-}

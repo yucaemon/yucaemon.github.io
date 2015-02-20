@@ -32,8 +32,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #555;
+}
+
 h1 {
     line-height: 1.3em;
+    font-family: "Helvetica Neue";
 }
 
 .symbol, a.symbol:before {
@@ -88,7 +93,7 @@ a.symbol {
 body {
     margin: 0 auto;
     width: 100%;
-    font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+    font-family: "Helvetica", "Arial",'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
     /* font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "ＭＳ Ｐゴシック"; */
 }
 
@@ -214,6 +219,14 @@ iframe[AttributesStyle] {
 }
 
 /* NAVI */
+.navbar-default .navbar-nav > li > a {
+    color: #848484;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #333;
+}
+
 
 .navbar-fixed-top {
     top: 0px;
@@ -330,6 +343,12 @@ ul.nav.social > li > a {
 
 .entry-content {
     font-weight: normal;
+    color: #666;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4 {
+    font-weight: normal !important;
+    color: #666 !important;
 }
 
 .entry-content p a {
@@ -343,7 +362,7 @@ ul.nav.social > li > a {
     font-weight: bold;
 }
 
-.post h2, .post h3, .post h4 {
+.post h1, .post h2, .post h3, .post h4 {
     color: #333;
 }
 
@@ -367,10 +386,15 @@ ul.nav.social > li > a {
 
 /* ABOUT */
 
+/* ABOUT */
+
+
+
 .about {
     width: 80%;
     margin: 1em auto 3em auto;
     line-height: 1.7em;
+    color: #898989;
 }
 
 .about > .about-logos {
@@ -398,6 +422,7 @@ ul.nav.social > li > a {
     letter-spacing: 0.1em;
     line-height: 1.6em;
     padding-top: 10px;
+    color: #898989;
 }
 
 .about .yuca-sign > img {
@@ -442,16 +467,19 @@ ul.nav.social > li > a {
     /* padding-bottom: 0px; */
     /* border-bottom: dashed 1px #FFFFFF; */
     clear: both;
+    color: #444;
 }
 
 .authors .name {
     letter-spacing: 0.05em;
     padding: 8px 8px 8px 2px;
+    color: #444;
 }
 
 .authors .post-account {
     font-size: 0.9em;
     float: right;
+    color: #898989;
 }
 
 .authors .since-date {
@@ -470,11 +498,13 @@ ul.nav.social > li > a {
     font-size: 0.8em;
     letter-spacing: 0.09em;
     line-height: 1.6em;
+    color: #898989;
 }
 
 .authors dd {
     letter-spacing: 1px;
     clear: both;
+    color: #6B6969;
 }
 
 .authors .author-social-icons {
@@ -533,12 +563,14 @@ ul.nav.social > li > a {
     margin: 50px 0 0 0;
     clear: both;
     padding-top: 30px;
+    background-color: #313131;
 }
 
 #footer-content {
     clear: both;
     width: 234px;
     margin: 0 auto;
+    color: #817E7E;
 }
 
 #footer-content p {

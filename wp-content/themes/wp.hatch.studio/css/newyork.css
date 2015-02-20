@@ -8,10 +8,6 @@ a {
     color: rgb(105, 105, 105);
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #555;
-}
-
 h3 {
     color: #F8B0B0;
 }
@@ -76,14 +72,6 @@ h3 {
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #333;
     background-color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #848484;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #333;
 }
 
 .dropdown-menu > li > a {
@@ -167,10 +155,6 @@ h3 {
 
 /* POST */
 
-.entry-content {
-    color: #666;
-}
-
 .entry-content p a {
     color: #FFC7CD;
 }
@@ -193,14 +177,6 @@ h3 {
 
 /* ABOUT */
 
-.about {
-    color: #898989;
-}
-
-.about > .description {
-    color: #898989;
-}
-
 /* AUTHORS */
 
 .authors img {
@@ -215,28 +191,9 @@ h3 {
     border-bottom: dotted 1px #E5E5E5;
 }
 
-.authors dt {
-    color: #444;
-}
-
-.authors .name {
-    color: #444;
-}
-
-.authors .post-account {
-    color: #848484;
-}
 
 .authors .since-date {
     color: rgb(255, 201, 201);
-}
-
-.authors .introduction {
-    color: #898989;
-}
-
-.authors dd {
-    color: #6B6969;
 }
 
 .authors .author-social-icons a {
@@ -282,13 +239,4 @@ h3 {
 
 #side-bar-1 .popular .popular-header .views {
     color: #C5BABA;
-}
-
-/* FOOTER */
-#footer {
-    background-color: #313131;
-}
-
-#footer-content {
-    color: #817E7E;
 }

@@ -25,7 +25,7 @@ h4 {
     padding: 9px 0 12px 0;
     letter-spacing: 0px;
     line-height: 34px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /*CSS Document */
@@ -118,6 +118,7 @@ ul.nav .ranking {
 
 #index-page .header h2 {
     float: left;
+    letter-spacing: 16px;
 }
 
 #index-page .header span.ca {
@@ -133,14 +134,14 @@ ul.nav .ranking {
     padding: 0px 9px 3px 0;
     /* width: 305px; */
     line-height: 22px;
-    font-weight: bold;
+    font-weight: normal;
     overflow: hidden;
     /* width: 55px; */
 }
 
 #index-page .description.ucb {
-    float: left;
-    width: 325px;
+    float: left !important;
+    width: 325px !important;
 }
 
 
