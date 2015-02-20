@@ -49,35 +49,12 @@ h3 {
     background-color: #F8B0B0;
 }
 
-.pre a:hover, .next a:hover {
-    color: #333;
-}
-
 .next {
     color: #F8B0B0;
     border: solid 1px #FFDFDF;
 }
 
 /* NAVI */
-
-.navbar-fixed-top {
-    background: white;
-    border-bottom: 1px solid #f7f7f7;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: red;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #333;
-    background-color: white;
-}
-
-.dropdown-menu > li > a {
-    border-bottom: 1px solid #f7f7f7;
-    color: #333;
-}
 
 /* COMMON HEADER */
 
@@ -125,10 +102,6 @@ h3 {
     border-bottom: dotted 1px #FF8888;
 }
 
-#category-page .cate-right-text h2 {
-    color: #333;
-}
-
 #category-page .header .cate-right-text .sub-title {
     background-color: rgb(253, 189, 189);
     color: #FFF;
@@ -163,10 +136,6 @@ h3 {
     border: 1px solid #ddd
 }
 
-.post .authors-info p {
-    color: #333;
-}
-
 .post-related h3 {
     color: #F8B0B0;
 }
@@ -195,15 +164,6 @@ h3 {
 .authors .since-date {
     color: rgb(255, 201, 201);
 }
-
-.authors .author-social-icons a {
-    color: #9B9B9B;
-}
-
-.authors .author-social-icons a:hover {
-    color: #333;
-}
-
 
 /* SIDE BAR */
 
