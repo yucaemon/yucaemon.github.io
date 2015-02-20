@@ -441,8 +441,9 @@ ul.nav .ranking {
 }
 
 .post .authors-info p.author-about {
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 30px;
+    line-height: 180%;
     width: 523px;
     word-spacing: 2px;
 }
