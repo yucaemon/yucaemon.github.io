@@ -41,6 +41,9 @@ h1 {
     font-family: "Helvetica Neue";
 }
 
+h4 {
+    font-weight: 500;
+}
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
@@ -295,6 +298,10 @@ ul.nav.social > li > a {
     font-weight: bold;
 }
 
+#index-page .description {
+    font-weight: normal;
+}
+
 /* INDEX BODY */
 .post-authors img {
     width: 27px;
@@ -338,6 +345,14 @@ ul.nav.social > li > a {
 /* AUTHOR BODY */
 
 /* PICKUP */
+
+.pickup .pickup-text h3 {
+    font-weight: bold;
+}
+
+.pickup .post-text {
+    font-weight: normal;
+}
 
 /* POST */
 
