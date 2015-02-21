@@ -367,6 +367,10 @@ ul.nav .ranking {
     margin-top: 1em;
 }
 
+.wp-post-image {
+    border: 1px solid #e0e0e0;
+}
+
 .pickup .pickup-text {
     margin: 0 0;
     overflow: hidden;

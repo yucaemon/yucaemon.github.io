@@ -379,6 +379,14 @@ ul.nav.social > li > a {
     font-weight: normal;
 }
 
+.pickup .pickup-img .attachment-post-thumbnail {
+    border: 1px solid #f7f7f7;
+}
+
+.pickup-authors img {
+    border: solid 1px #E6E1E1;
+}
+
 /* POST */
 
 .entry-content {
