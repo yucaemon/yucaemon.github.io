@@ -8,7 +8,7 @@
         }else if( get_current_blog_id() == 6 ){
           $this_authors = array(23, 31, 38, 32, 35, 36);
         }else if( get_current_blog_id() == 8 ){
-          $this_authors = array(22, 5, 20, 18, 14, 24, 8, 7, 6, 33, 34, 35, 26, 37, 38, 39, 41, 12);
+          $this_authors = array(24, 22, 17);
         }
         ?>
         <?php foreach ($this_authors as $this_author_id ) { ?>
