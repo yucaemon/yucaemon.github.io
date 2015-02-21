@@ -47,6 +47,14 @@ body {
     padding-left: 55px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #contents {
+        width: 785px !important;
+    }
+}
+
+
+
 .contents-container {
     margin: 0 auto;
 }
@@ -152,6 +160,12 @@ ul.nav .ranking {
 #index-page .site-character {
     padding: -41px 88px 10px 13px;
     width: 378px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #index-page .site-character {
+       width: 348px !important;
+    }
 }
 
 #index-page .site-character img {
