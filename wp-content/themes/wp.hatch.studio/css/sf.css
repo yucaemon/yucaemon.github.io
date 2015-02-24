@@ -12,9 +12,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #555;
 }
 
+
 h3 {
     color: #F8B0B0;
+    font-size: 10px;
+    margin-bottom: 13px;
 }
+
 
 ::selection {
     background: #FDDCDC; /* Safari */
@@ -26,13 +30,14 @@ h3 {
 
 /* COMMON STYLE */
 .sub-title {
-    background-color: #ffc0c0;
-    color: #fff;
+    border: 1px solid #ffc0c0;
+    color: #ffc0c0;
 }
 
 .header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
-    color: white;
-    background-color: #ffc0c0;
+    padding: 4px;
+    color: #ffc0c0;
+    /* background-color: #ffc0c0; */
     border: solid 1px #ffc0c0;
 }
 

@@ -14,10 +14,6 @@ h2 {
     margin: 0 0;
 }
 
-h3 {
-    font-size: 10px;
-    margin-bottom: 13px;
-}
 
 h4 {
     font-size: 24px;
@@ -137,14 +133,15 @@ ul.nav .ranking {
     margin: 0 0;
     font-size: 12px;
     padding: 0px 9px 3px 0;
-    /* width: 305px; */
+    width: 305px;
     line-height: 22px;
     overflow: hidden;
     /* width: 55px; */
+    /* height: 20px; */
 }
 
 #index-page .description.ucb {
-    float: left !important;
+    float: right !important;
     width: 325px !important;
 }
 
