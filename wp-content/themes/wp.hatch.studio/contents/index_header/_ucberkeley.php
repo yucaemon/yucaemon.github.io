@@ -1,7 +1,7 @@
 <h1>U<span>c</span> <span>B</span><span>e</span>r<span>k</span><span>e</span><span>l</span><span>e</span><span>y</span></h1>
 <h2><span>UCバークレー大学の</span><span>面白まがじん。</span></h2>
-
-<div class="description ucb">
+<div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+<div class="description">
     <p><span class="sub-title-top">UCB</span>UC バークレー大学の校内</p>
     <h3>Interview</h3>
     <p>
@@ -9,4 +9,3 @@
     </p>
 </div>
 
-<div class="site-character right"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
