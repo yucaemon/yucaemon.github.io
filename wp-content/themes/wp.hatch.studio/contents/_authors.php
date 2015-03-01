@@ -1,4 +1,18 @@
 <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
+
+<?php
+
+$last_month = date('Y-m-d', strtotime('-3 months'));
+$results = $wpdb->get_results("
+SELECT count(post_author), post_author, max(post_date), min(post_date)
+FROM $wpdb->posts WHERE post_type = 'post' and post_status = 'publish'
+and post_author != 1
+group by post_author
+having max(post_date) > '$last_month'
+order by count(post_author) desc;
+", ARRAY_N);
+?>
+
 <div class="authors">
     <ul>
         <?php
@@ -11,8 +25,14 @@
           $this_authors = array(24, 22, 17);
         }
         ?>
-        <?php foreach ($this_authors as $this_author_id ) { ?>
-        <li>
+        <?php foreach ($results as $result ) {
+          $this_author_id = $result[1];
+          $post_counts = $result[0];
+          $last_updated_date = $result[2];
+          $joined_date = $result[3];
+        ?>
+        <!--?php foreach ($this_authors as $this_author_id ) { ?-->
+        <li><?php echo $this_user_id ?>
 
                 <a href="<?php echo get_author_posts_url($this_author_id)?>"><img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg"></a>
 
@@ -75,49 +95,27 @@
                     endif;
                     echo $user_urlLink;
                     ?>
-
                   </span>
-
                 </dt>
 
                 <dd>
-
                     <p class="introduction">
                         <?php echo get_the_author_meta( 'description', $this_author_id ); ?>
                     </p>
                     <div class="post-account">
                         <?php
-                 $result = (int) $wpdb->get_var("
-                        SELECT COUNT(*) FROM $wpdb->posts
-                        WHERE post_type = 'post'
-                        AND post_status = 'publish'
-                        AND post_author = $this_author_id
-                        ");
-                        echo $result;
+                        echo $post_counts;
                         ?> post
                     </div>
                     <div class="since-date">
                         Join:
                         <?php
-                 $result =  $wpdb->get_var("
-                        SELECT post_date FROM $wpdb->posts
-                        WHERE post_type = 'post'
-                        AND post_status = 'publish'
-                        AND post_author = $this_author_id
-                        order by post_date
-                        limit 1
-                        ");
-                        $dtime = new DateTime($result);
+                        $dtime = new DateTime($joined_date);
                         echo $dtime->format('Y-m-d');
                         ?>
                     </div>
-
-
-
                 </dd>
-
             </dl>
-
         </li>
 
         <?php } ?>
