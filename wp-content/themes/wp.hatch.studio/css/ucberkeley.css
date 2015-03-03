@@ -66,6 +66,15 @@ h3 {
     font-size: 50px;
 }
 
+
+::selection {
+    background: #B2EAFF; /* Safari */
+}
+
+::-moz-selection {
+    background: #B2EAFF; /* Firefox */
+}
+
 #index-page .header h1 span:first-child {
     color: #99E3F1;
 }
@@ -177,7 +186,7 @@ h3 {
 }
 
 .authors .since-date {
-    color: rgb(255, 201, 201);
+    color: #23B4EC;
 }
 
 /* SIDE BAR */
@@ -192,6 +201,11 @@ h3 {
 
 #side-bar-1 .side-title {
     color: #23B4EC;
+}
+
+.about .takuya-sign > img {
+    width: 20%;
+    float: right;
 }
 
 /* SIDE BAR POPULAR */

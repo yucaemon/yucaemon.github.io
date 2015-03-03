@@ -2,16 +2,15 @@
 
   <div class="about-logos">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/ucb/ucb-about-bear.png">
   </div>
 
   <div class="description">
-    UCバークレー大学とは？
-    ヒッピー文化の発祥の地に位置し、世界的に有名な学生運動がおこったUCバークレー大学はアメリカの名門大学の中でも最もリベラルな校風として知られ、世界中からユニークで自由な学生が集まる。研究などの分野において数多くのノーベル賞受賞者を輩出する名門大学である。
+      はっちすたじおUC Berkeleyはバークレー周辺にいる学生が年齢・性別・人種など関係なく集まり「なんでもいいから出来る範囲でもうちょっと良いものを」をテーマに活動できる場所があったらいいなと思って作りました。大学に関連する情報発信や面白い人にインタビューしたりミートアップなどを通じてみなさんと時間と空間を共有しちょっと元気がでたり「へぇ〜」って思ってもらえたら嬉しいです。
   </div>
 
   <div class="about-signs">
-    <div class="yuca-sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
+    <div class="takuya-sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb/takuya-sign.png"></div>
     <p class="created-date">6/28/2014</p>
   </div>
 
