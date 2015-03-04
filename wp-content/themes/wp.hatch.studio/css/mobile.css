@@ -393,6 +393,14 @@ ul.social-icons {
 
 /* AUTHOR */
 
+.authors ul li:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
 .authors dl {
     width: 100%;
 }
