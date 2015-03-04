@@ -25,7 +25,6 @@
                 ?>
                 <li><a href='http://<?php echo $site_domain ?>'>San Francisco</a></li>
                 <li><a href='http://ucberkeley.<?php echo $site_domain ?>/'>UC BERKELEY</a></li>
-                <li><a href='http://newyork.<?php echo $site_domain ?>/'>NEW YORK</a></li>
             </ul>
         </li>
         <li class="dropdown">

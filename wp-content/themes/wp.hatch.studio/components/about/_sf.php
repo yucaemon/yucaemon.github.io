@@ -12,7 +12,7 @@
   </div>
 
   <div class="about-signs">
-    <div class="yuca-sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
+    <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
     <p class="created-date">6/28/2014</p>
   </div>
 

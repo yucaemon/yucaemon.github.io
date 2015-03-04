@@ -21,9 +21,7 @@
   <dl>
     <dt>
       <a href="http://admission.universityofcalifornia.edu/how-to-apply/apply-online/index.html" target="_blank">
-        UCB online
-        </br>
-        Application</a>
+        UCB online Application</a>
     </dt>
     <dd>
       <a href="http://takuyasuzuki0403.wix.com/berkeley#!student-life/c11m6" target="_blank"> <span>＋</span>Read More</a>

@@ -82,4 +82,23 @@ function test_save_pre($content){
 
 }
 
+
+/**
+プロフィールの項目を追加
+*/
+function my_new_contactmethods( $contactmethods ) {
+//追加
+$contactmethods['facebook'] = 'Facebook URL';
+$contactmethods['twitter'] = 'Twitter URL';
+$contactmethods['instagram'] = 'instagram URL';
+$contactmethods['pinterest'] = 'pinterest URL';
+$contactmethods['job'] = '職業';
+//使わない
+unset($contactmethods['aim']);
+unset($contactmethods['yim']);
+unset($contactmethods['jabber']);
+return $contactmethods;
+}
+add_filter('user_contactmethods','my_new_contactmethods',10,1);
+
 ?>

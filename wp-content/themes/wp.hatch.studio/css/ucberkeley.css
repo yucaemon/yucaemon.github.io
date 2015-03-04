@@ -20,27 +20,27 @@ a {
 
 /* COMMON STYLE */
 .sub-title {
-    background-color: #6EB3FF;
+    background-color: #23B4EC;
     color: #fff;
 }
 
 .header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
     color: white;
-    background-color: #6EB3FF;
-    border: solid 1px #6EB3FF;
+    background-color: #23B4EC;
+    border: solid 1px #23B4EC;
 }
 
 .mini-info {
-    color: #6EB3FF;
+    color: #23B4EC;
 }
 
 .mini-info a {
-    color: #6EB3FF;
+    color: #23B4EC;
 }
 
 .pre {
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
+    color: #23B4EC;
+    border: solid 1px #23B4EC;
 }
 
 .pre:hover, .next:hover {
@@ -48,17 +48,13 @@ a {
 }
 
 .next {
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
+    color: #23B4EC;
+    border: solid 1px #23B4EC;
 }
 
 /* NAVI */
 
 /* COMMON HEADER */
-
-.header {
-    border-bottom: dotted 1px #6EB3FF;
-}
 
 /* INDEX HEADER */
 
@@ -147,12 +143,6 @@ h3 {
     border: solid 1px #E6E1E1;
 }
 
-/* PICKUP */
-
-.pickup li {
-    border-bottom: dotted 1px #6EB3FF;
-}
-
 /* POST */
 
 .entry-content p a {
@@ -164,12 +154,19 @@ h3 {
 }
 
 
+.post-related h3 {
+    color: #23B4EC;
+}
 
 .post-related .relatedthumb {
-    border: solid 2px #FFDFDF !important;
+    border: solid 2px #23B4EC !important
 }
 
 /* ABOUT */
+
+.about .sign > img {
+    width: 20%;
+}
 
 /* AUTHORS */
 
@@ -195,23 +192,14 @@ h3 {
     border-bottom: dotted 1px #6EB3FF;
 }
 
-#side-bar-1 .twitter {
-    border-bottom: dotted 1px #6EB3FF;
-}
-
 #side-bar-1 .side-title {
     color: #23B4EC;
-}
-
-.about .takuya-sign > img {
-    width: 20%;
-    float: right;
 }
 
 /* SIDE BAR POPULAR */
 
 #side-bar-1 .popular, #side-bar-1 .links dl {
-    border-bottom: dotted 1px #6EB3FF;
+    border-bottom: dotted 1px #D8CFCF;
 }
 
 #side-bar-1 .popular li {

@@ -300,6 +300,7 @@ ul.nav.social > li > a {
     margin: 0 auto;
     width: 100%;
     padding-bottom: 30px;
+    border-bottom: dotted 1px #D8CFCF;
 }
 
 /* INDEX HEADER */
@@ -370,6 +371,10 @@ ul.nav.social > li > a {
 /* AUTHOR BODY */
 
 /* PICKUP */
+
+.pickup li {
+    border-bottom: dotted 1px #D8CFCF;
+}
 
 .pickup .pickup-text h3 {
     font-weight: bold;
@@ -451,7 +456,17 @@ ul.nav.social > li > a {
     width: 205px;
 }
 
-.about > div:after, .about .yuca-sign:after {
+.about > .about-logos > img:last-child{
+    width: 58px;
+    padding-left: 17px;
+}
+
+.about .sign > img {
+    float: right;
+    padding-left: 17px;
+}
+
+.about > div:after, .about .sign:after {
     content: "";
     clear: both;
     height: 0;
@@ -459,10 +474,6 @@ ul.nav.social > li > a {
     visibility: hidden;
 }
 
-.about img:last-child {
-    width: 58px;
-    padding-left: 17px;
-}
 
 .about > .description {
     /* letter-spacing: 0.09em; */
@@ -476,7 +487,7 @@ ul.nav.social > li > a {
 
 
 .about p.created-date {
-    font-size: 0.5em;
+    font-size: 0.8em;
     letter-spacing: 0.09em;
     text-align: right;
     padding-right: 8px;
@@ -574,6 +585,10 @@ ul.nav.social > li > a {
     font-weight: bold;
     font-size: 1.4em;
     padding-left: 10px;
+}
+
+#side-bar-1 .twitter {
+    border-bottom: dotted 1px #D8CFCF;
 }
 
 /* SIDE BAR POPULAR */
