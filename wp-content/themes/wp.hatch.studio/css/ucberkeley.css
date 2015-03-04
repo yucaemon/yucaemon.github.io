@@ -56,10 +56,6 @@ a {
 
 /* COMMON HEADER */
 
-.header {
-    border-bottom: dotted 1px #6EB3FF;
-}
-
 /* INDEX HEADER */
 
 h3 {
@@ -147,12 +143,6 @@ h3 {
     border: solid 1px #E6E1E1;
 }
 
-/* PICKUP */
-
-.pickup li {
-    border-bottom: dotted 1px #6EB3FF;
-}
-
 /* POST */
 
 .entry-content p a {
@@ -170,6 +160,10 @@ h3 {
 }
 
 /* ABOUT */
+
+.about .sign > img {
+    width: 20%;
+}
 
 /* AUTHORS */
 
@@ -195,23 +189,14 @@ h3 {
     border-bottom: dotted 1px #6EB3FF;
 }
 
-#side-bar-1 .twitter {
-    border-bottom: dotted 1px #6EB3FF;
-}
-
 #side-bar-1 .side-title {
     color: #23B4EC;
-}
-
-.about .takuya-sign > img {
-    width: 20%;
-    float: right;
 }
 
 /* SIDE BAR POPULAR */
 
 #side-bar-1 .popular, #side-bar-1 .links dl {
-    border-bottom: dotted 1px #6EB3FF;
+    border-bottom: dotted 1px #D8CFCF;
 }
 
 #side-bar-1 .popular li {

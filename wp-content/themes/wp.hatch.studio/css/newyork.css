@@ -58,10 +58,6 @@ h3 {
 
 /* COMMON HEADER */
 
-.header {
-    border-bottom: dotted 1px #D8CFCF;
-}
-
 /* INDEX HEADER */
 
 #index-page .header h1 span:first-child {
@@ -136,12 +132,6 @@ h3 {
     border: solid 1px #E6E1E1;
 }
 
-/* PICKUP */
-
-.pickup li {
-    border-bottom: dotted 1px #D8CFCF;
-}
-
 /* POST */
 
 .entry-content p a {
@@ -191,19 +181,11 @@ h3 {
     border-bottom: dotted 1px #FF8888;
 }
 
-#side-bar-1 .twitter {
-    border-bottom: dotted 1px #D8CFCF;
-}
-
 #side-bar-1 .side-title {
     color: #FFDF60;
 }
 
 /* SIDE BAR POPULAR */
-
-#side-bar-1 .popular {
-    border-bottom: dotted 1px #D8CFCF;
-}
 
 #side-bar-1 .popular li {
     border-top: dotted 1px #D8CFCF;

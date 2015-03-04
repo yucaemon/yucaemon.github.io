@@ -1,4 +1,4 @@
-<div class="side-title">PICKUP POSTS</div>
+<div class="side-title">TOTAL RANKING</div>
 <ul class="popular">
   <?php
 

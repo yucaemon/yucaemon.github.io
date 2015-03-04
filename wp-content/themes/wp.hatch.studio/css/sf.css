@@ -67,10 +67,6 @@ h3 {
 
 /* COMMON HEADER */
 
-.header {
-    border-bottom: dotted 1px #FF8888;
-}
-
 /* INDEX HEADER */
 
 #index-page .header h1 span:first-child {
@@ -122,12 +118,6 @@ h3 {
     border: solid 1px #E6E1E1;
 }
 
-/* PICKUP */
-
-.pickup li {
-    border-bottom: solid 1px #FFE7E7;
-}
-
 /* POST */
 
 .entry-content p a {
@@ -165,9 +155,9 @@ h3 {
     color: #ffc0c0;
 }
 
-.about .yuca-sign > img {
+/* ABOUT */
+.about .sign > img {
     width: 13%;
-    float: right;
 }
 
 /* SIDE BAR */
@@ -176,19 +166,11 @@ h3 {
     border-bottom: dotted 1px #FF8888;
 }
 
-#side-bar-1 .twitter {
-    border-bottom: dotted 1px #FF8888;
-}
-
 #side-bar-1 .side-title {
     color: #ffc0c0;
 }
 
 /* SIDE BAR POPULAR */
-
-#side-bar-1 .popular, #side-bar-1 .links {
-    border-bottom: dotted 1px #FF8888;
-}
 
 #side-bar-1 .popular li {
     border-top: dotted 1px #D8CFCF;
