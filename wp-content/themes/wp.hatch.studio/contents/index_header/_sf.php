@@ -16,7 +16,7 @@
     <h3 class="sub-title">イベント予定</h3>
 
     <ul>
-      <li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/"><time>2014/2月</time> <span>バークレー若者会開催予定！</span></a></li>
+      <li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/events/220510792/"><time>2015/3/21</time> <span>第6回バークレー若者会開催予定！</span></a></li>
     </ul>
 
   </div>
