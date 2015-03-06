@@ -1,28 +1,29 @@
 <?php include(TEMPLATEPATH.'/components/_about.php'); ?>
 
 <?php
+$site_leader_id = $site_leader[ get_current_blog_id() ];
 $last_month = date('Y-m-d', strtotime('-6 months'));
 $results = $wpdb->get_results("
 SELECT count(post_author), post_author, max(post_date), min(post_date)
 FROM $wpdb->posts WHERE post_type = 'post' and post_status = 'publish'
-and post_author not in (1, 22, 23 )
+and post_author not in( 1, 22, $site_leader_id )
 group by post_author
 having max(post_date) > '$last_month'
 order by count(post_author) desc;
 ", ARRAY_N);
 ?>
-
 <?php
 $leaders = $wpdb->get_results("
 SELECT count(post_author), post_author, max(post_date), min(post_date)
 FROM $wpdb->posts WHERE post_type = 'post' and post_status = 'publish'
-and post_author in ( 22, 23 )
+and post_author in ( $site_leader_id )
 group by post_author
 having max(post_date) > '$last_month'
 order by count(post_author) desc;
 ", ARRAY_N);
 array_unshift( $results, $leaders[0] )
 ?>
+
 <div class="authors">
     <ul>
         <?php foreach ($results as $result ) {

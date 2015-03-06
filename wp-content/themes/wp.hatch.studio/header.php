@@ -26,6 +26,14 @@
     6 => "ucberkeley",
     8 => "newyork"
   );
+
+  global $site_leader;
+  $site_leader = Array(
+    1 => 22,
+    6 => 23,
+    8 => 24
+  )
+
   ?>
 <?php
 
