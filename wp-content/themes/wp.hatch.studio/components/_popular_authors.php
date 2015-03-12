@@ -14,6 +14,7 @@
                     join $wpdb->posts as posts on posts.ID = meta.post_id
                     WHERE meta.meta_key = 'views'
                     AND posts.post_status = 'publish'
+                    AND posts.post_type = 'post'
                     AND posts.post_author in (22,5,20,18,14,24,8,7,6,33,34,35,26,37,38,39,41,12)
                     AND posts.post_date > '$last_month';
                     ", ARRAY_N);
