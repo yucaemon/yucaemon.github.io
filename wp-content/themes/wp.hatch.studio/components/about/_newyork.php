@@ -2,18 +2,18 @@
 
   <div class="about-logos">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/ny/mininy.png">
   </div>
 
   <div class="description">
-    はっちすたじおとは主にバークレーを拠点とした、北カリフォルニアで暮らす頑張る若者達が、分け隔てなく自由に出会えて遊べる場所があったらなーと思って作ったすたじおです。
-    そんな仲間たちが情報をシェアする為に日々の生活情報を発信すれば、楽しんじゃね？便利じゃね？って感じのただの好奇心から作りました。
-    ここアメリカから、たくさんの”新しいおもしろ情報”を日本や現地のみんなに発信！お届けできたら嬉しいです。
+      はっちすたじおNew Yorkはニューヨーク州で活動する若者が集まってできたすたじおです。
+      ニューヨークという土地から個性豊かなライターたちが発信する留学やニューヨークを楽しむコツ、
+      生活情報から読者のみなさまといろんな繋がりを持つことができたらいいなあと思います。
   </div>
 
   <div class="about-signs">
-    <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/yuca-sign_07.png"></div>
-    <p class="created-date">6/28/2014</p>
+    <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ny/yukisign.png"></div>
+    <p class="created-date">3/22/2015</p>
   </div>
 
 </div>

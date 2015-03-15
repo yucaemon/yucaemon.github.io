@@ -2,7 +2,7 @@
 
   <div class="about-logos">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03_03.png">
   </div>
 
   <div class="description">

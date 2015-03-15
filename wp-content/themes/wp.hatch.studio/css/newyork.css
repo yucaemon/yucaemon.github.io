@@ -156,6 +156,11 @@ h3 {
 
 /* ABOUT */
 
+.about .sign > img {
+    width: 18%;
+    opacity: 0.8;
+}
+
 /* AUTHORS */
 
 .authors img {
