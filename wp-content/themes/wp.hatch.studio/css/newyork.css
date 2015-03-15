@@ -114,7 +114,7 @@ h3 {
 /* CATEGORY HEADER  */
 
 #category-page .header {
-    border-bottom: dotted 1px #FF8888;
+
 }
 
 #category-page .header .cate-right-text .sub-title {
@@ -147,11 +147,11 @@ h3 {
 }
 
 .post-related h3 {
-    color: #F8B0B0;
+    color: #FFDF60;
 }
 
 .post-related .relatedthumb {
-    border: solid 2px #FFDFDF !important;
+    border: solid 2px #FFDF60 !important;
 }
 
 /* ABOUT */

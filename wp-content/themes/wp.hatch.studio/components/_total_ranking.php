@@ -7,6 +7,7 @@
                     join $wpdb->posts as posts on posts.ID = meta.post_id
                     WHERE meta.meta_key = 'views'
                     AND posts.post_status = 'publish'
+                    AND posts.post_type = 'post'
                     order by cast( meta.meta_value as signed) desc limit 5;
                     ", ARRAY_N);
 
