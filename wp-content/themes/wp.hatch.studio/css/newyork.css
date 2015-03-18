@@ -27,8 +27,7 @@ h3 {
 }
 
 .header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
-    color: white;
-    background-color: #FFDF60;
+    color: #333;
     border: solid 1px #FFDF60;
 }
 
@@ -80,6 +79,19 @@ h3 {
     padding: 3px;
 }
 
+#index-page .site-character {
+    padding: -41px 88px 10px 13px;
+    width: 343px;
+}
+
+
+#index-page .notice {
+    font-size: 11px;
+    float: left;
+    padding-top: 26px;
+    width: 305px;
+}
+
 #index-page h3 {
     margin-top: 12px;
     font-size: 34px;
@@ -87,9 +99,27 @@ h3 {
 }
 
 #index-page .site-character img {
-    width: 262px;
+    width: 235px;
+    margin-top: -22px;
 }
+#index-page .sub-title-top {
+    margin-right: 12px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #FFDF60;
+    color: #fff;
+    -webkit-border-radius: 60px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 2px 2px 2px 5px;
 
+}
+#index-page .description .description-top-text{
+
+padding-top:10px;
+
+}
 
 /* INDEX BODY */
 

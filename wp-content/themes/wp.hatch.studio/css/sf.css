@@ -81,6 +81,10 @@ h3 {
     color: #ffc0c0;
 }
 
+#index-page .site-character {
+    padding: -41px 88px 10px 13px;
+    width: 378px;
+}
 /* INDEX BODY */
 
 .post-authors img {

@@ -148,10 +148,7 @@ ul.nav .ranking {
     float: right;
 }
 
-#index-page .site-character {
-    padding: -41px 88px 10px 13px;
-    width: 378px;
-}
+
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     #index-page .site-character {
