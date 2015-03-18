@@ -1,8 +1,5 @@
 <h1>N<span>e</span>w Y<span>o</span><span>r</span>k</h1>
-<h2><span>現地密着</span><span>まがじん。</span></h2>
-
-
-
+<h2>現地密着まがじん。</h2>
 
 <p class="description">
 <span class="description-top-text">
@@ -11,7 +8,7 @@
 </p>
 <div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-newyork.png"></div>
 <p class="date">03.22</p>
-<p class="description">にオープンしました。<br>ニューヨークの若者集まれ！</p>
+<p class="description second-description">にオープンしました。<br>ニューヨークの若者集まれ！</p>
 
 <div class="notice">
 

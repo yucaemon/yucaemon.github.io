@@ -102,7 +102,7 @@ ul.social-icons {
 
 #index-page h1 {
     letter-spacing: 3px;
-    font-size: 2.5em;
+    font-size: 5.5em;
     white-space: nowrap;
 }
 
@@ -111,7 +111,7 @@ ul.social-icons {
     padding-top: 4px;
     margin: 0 auto 0.8em auto;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 16px;
 }
 
 #index-page h2 > span {
@@ -120,10 +120,8 @@ ul.social-icons {
     padding-bottom: 0.5em;
 }
 
-#index-page .description {
-    margin: 0 auto 0.5em auto;
-    line-height: 22px;
-    width: 90%;
+#index-page .description, #index-page .notice, #index-page .date{
+display: none;
 }
 
 #index-page .site-character {
@@ -135,6 +133,10 @@ ul.social-icons {
     margin-left: auto;
     margin-right: auto;
     width: 290px;
+}
+
+#index-page .site-character img{
+    margin-top: 0 !important;
 }
 
 

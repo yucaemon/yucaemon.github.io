@@ -120,9 +120,9 @@ ul.nav .ranking {
 
 #index-page .header h2 {
     float: left;
+    margin-bottom: 2em;
     letter-spacing: 16px;
 }
-
 #index-page .header span.ca {
     position: absolute;
     font-size: 20px;
