@@ -118,7 +118,7 @@ h3 {
 /* POST */
 
 .entry-content a {
-    color: #23B4EC;
+    color: #23B4EC !important;
 }
 
 .entry-content img {

@@ -395,9 +395,8 @@ ul.nav.social > li > a {
 /* POST */
 
 .entry-content {
-    font-weight: normal;
-    color: #666;
-}
+     font-weight: normal;
+ }
 
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4 {
     font-weight: normal !important;
@@ -405,7 +404,7 @@ ul.nav.social > li > a {
 }
 
 .entry-content p a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .post .authors-info p {
