@@ -1,7 +1,7 @@
 <div class ="about">
 
   <div class="about-logos">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/ucb/logo-ucb.png">
     <img src="<?php echo get_template_directory_uri(); ?>/images/ucb/ucb-about-bear.png">
   </div>
 

@@ -458,7 +458,7 @@ ul.nav.social > li > a {
 
 .about > .about-logos > img:last-child{
     width: 54px;
-    padding-left: 17px;
+    /* padding-left: 17px; */
 }
 
 .about .sign > img {
