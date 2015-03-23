@@ -11,7 +11,7 @@
 
   <div class="about-signs">
     <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb/takuya-sign.png"></div>
-    <p class="created-date">6/28/2014</p>
+    <p class="created-date">9/29/2014</p>
   </div>
 
 </div>

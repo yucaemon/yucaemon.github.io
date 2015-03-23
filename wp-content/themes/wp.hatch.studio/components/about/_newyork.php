@@ -13,7 +13,7 @@
 
   <div class="about-signs">
     <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ny/yukisign.png"></div>
-    <p class="created-date">3/22/2015</p>
+    <p class="created-date">3/24/2015</p>
   </div>
 
 </div>
