@@ -383,16 +383,30 @@ ul.nav .ranking {
 
 .pickup .pickup-text .mini-info {
     width: 300px;
+    float: left;
 }
 
 .pickup-authors img {
-    width: 45px;
-    height: 45px;
-    -webkit-border-radius: 45px;
-    border-radius: 45px;
+     width: 45px;
+     height: 45px;
+     -webkit-border-radius: 45px;
+     border-radius: 45px;
+     margin-top: -24px;
+     /* margin: -26px 0 0 14px; */
+ }
+
+.pickup-authors{
     float: right;
-    margin: -26px 0 0 14px;
 }
+
+.pickup-authors-name{
+    font-size: 0.1em;
+    padding-bottom: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #C5BABA;
+}
+
 
 /* POST */
 
