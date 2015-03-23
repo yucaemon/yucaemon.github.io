@@ -45,9 +45,13 @@
             <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
           </div>
 
-          <div class="pickup-authors">
-            <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php userphoto_the_author_photo() ?></a>
-          </div>
+
+              <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>">
+                  <div class="pickup-authors"><p class="pickup-authors-name"><?php echo get_the_author_meta('first_name', $author_id); ?></p><?php userphoto_the_author_photo() ?>
+                  </div>
+
+              </a>
+
 
         </div>
 
