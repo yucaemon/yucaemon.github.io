@@ -9,7 +9,7 @@ a {
 }
 
 h3 {
-    color: #F8B0B0;
+    color: #FFDF60;
 }
 
 ::selection {
@@ -17,7 +17,7 @@ h3 {
 }
 
 ::-moz-selection {
-    background: #FFC0C0; /* Firefox */
+    background: #FFFBA7; /* Firefox */
 }
 
 /* COMMON STYLE */
@@ -40,17 +40,17 @@ h3 {
 }
 
 .pre {
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
+    color: #FFFBA7;
+    border: solid 1px #FFDF60;
 }
 
 .pre:hover, .next:hover {
-    background-color: #F8B0B0;
+    background-color: #FFFBA7;
 }
 
 .next {
-    color: #F8B0B0;
-    border: solid 1px #FFDFDF;
+    color: #FFFBA7;
+    border: solid 1px #FFDF60;
 }
 
 /* NAVI */
@@ -124,11 +124,11 @@ padding-top:10px;
 }
 
 .articles ul {
-    border-bottom: dotted 1px #FF8888;
+    border-bottom: dotted 1px #FFDF60;
 }
 
 .articles li {
-    border-top: solid 4px rgb(255, 224, 224);
+    border-top: solid 4px #FFDF60;
 }
 
 .articles .sub-title {
@@ -144,7 +144,7 @@ padding-top:10px;
 }
 
 #category-page .header .cate-right-text .sub-title {
-    background-color: rgb(253, 189, 189);
+    background-color: #FFDF60;
     color: #FFF;
 }
 
@@ -161,7 +161,7 @@ padding-top:10px;
 /* POST */
 
 .entry-content p a {
-    color: #FFC7CD;
+    color: #FCCB62;
 }
 
 .entry-content p {
@@ -209,7 +209,7 @@ padding-top:10px;
 /* SIDE BAR */
 
 #side-bar-1 .about, .site-categories {
-    border-bottom: dotted 1px #FF8888;
+    border-bottom: dotted 1px #FFDF60;
 }
 
 #side-bar-1 .side-title {

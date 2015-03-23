@@ -9,15 +9,6 @@ a {
 }
 
 
-
-::selection {
-    background: #FDDCDC; /* Safari */
-}
-
-::-moz-selection {
-    background: #FFC0C0; /* Firefox */
-}
-
 /* COMMON STYLE */
 .sub-title {
     background-color: #23B4EC;
@@ -44,7 +35,7 @@ a {
 }
 
 .pre:hover, .next:hover {
-    background-color: #F8B0B0;
+    background-color: rgba(163, 203, 208, 0.33);
 }
 
 .next {
@@ -116,10 +107,7 @@ h3 {
     display: none;
 }
 
-#category-page .header .cate-right-text .sub-title {
-    background-color: rgb(253, 189, 189);
-    color: #FFF;
-}
+
 
 /* AUTHOR HEADER */
 
@@ -129,8 +117,8 @@ h3 {
 
 /* POST */
 
-.entry-content p a {
-    color: #6EB3FF;
+.entry-content a {
+    color: #23B4EC;
 }
 
 .entry-content img {
@@ -181,6 +169,10 @@ h3 {
 }
 
 /* SIDE BAR POPULAR */
+#side-bar-1 .popular, #side-bar-1 .links {
+    border-bottom: dotted 1px #D8CFCF;
+    color: rgb(105, 105, 105);
+}
 
 #side-bar-1 .popular, #side-bar-1 .links dl {
     border-bottom: dotted 1px #D8CFCF;
