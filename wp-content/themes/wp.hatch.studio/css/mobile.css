@@ -153,6 +153,7 @@ display: none;
 
 #index-page .event {
     padding-top: 26px;
+    text-align: center;
 }
 
 #index-page .event time {

@@ -149,6 +149,11 @@ ul.nav .ranking {
 }
 
 
+ul.important-notice a{
+    font-size: 1.2em;
+    color: #181818;
+    font-weight: bold;
+}
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     #index-page .site-character {

@@ -9,4 +9,13 @@
 <div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
 <p class="date">09.29</p>
 <p class="description second-description">にオープンしました。<br>UCバークレー大学生徒達集まれ！</p>
+
+<div class="event">
+
+    <ul class="important-notice">
+        <li><a href="http://newyork.hatchstudioinc.com/">エリア拡大！はっちすたじおニューヨーク版公開！</a></li>
+        <li><a href="http://hatchstudioinc.com/">サンフランシスコ版　　</a><a href="http://newyork.hatchstudioinc.com/">ニューヨーク版</a></li>
+    </ul>
+
 </div>
+

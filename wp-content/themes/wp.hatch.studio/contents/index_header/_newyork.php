@@ -11,3 +11,11 @@
 <p class="description second-description">にオープンしました。<br>ニューヨークの若者集まれ！</p>
 
 
+<div class="event">
+
+    <ul class="important-notice">
+        <li><a href="http://newyork.hatchstudioinc.com/">エリア拡大！はっちすたじおニューヨーク版公開！</a></li>
+        <li><a href="http://hatchstudioinc.com/">サンフランシスコ版　　</a><a href="http://ucberkeley.hatchstudioinc.com/">UCバークレー大学版</a></li>
+    </ul>
+
+</div>
