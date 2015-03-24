@@ -176,6 +176,10 @@ display: none;
     display: none;
 }
 
+.pickup-text .pickup-authors-name{
+    display: none;
+}
+
 /* CATEGORY HEADER  */
 
 #category-page .category-header {
