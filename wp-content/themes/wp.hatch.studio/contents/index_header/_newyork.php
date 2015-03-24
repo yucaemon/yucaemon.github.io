@@ -9,5 +9,5 @@
 <div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-newyork.png"></div>
 <p class="date">03.24</p>
 <p class="description second-description">にオープンしました。<br>ニューヨークの若者集まれ！</p>
-</div>
+
 
