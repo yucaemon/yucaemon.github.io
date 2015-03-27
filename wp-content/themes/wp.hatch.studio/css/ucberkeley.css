@@ -74,7 +74,18 @@ h3 {
 
 #index-page .site-character img {
     width: 256px;
-    margin: -22px 43px 0 79px;
+}
+
+@media screen and (min-width: 1025px) {
+    #index-page .site-character img {
+        margin: -22px 43px 0 79px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #index-page .site-character img {
+        margin: -22px auto 0 auto;
+    }
 }
 
 /* INDEX BODY */
