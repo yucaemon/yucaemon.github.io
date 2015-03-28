@@ -391,6 +391,17 @@ ul.nav.social > li > a {
 .pickup-authors img {
     border: solid 1px #E6E1E1;
 }
+.pickup-authors{
+    float: right;
+}
+
+.pickup-text .pickup-authors-name{
+    font-size: 0.8em;
+    padding-bottom: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #C5BABA;
+}
 
 /* POST */
 

@@ -177,10 +177,6 @@ display: none;
     display: none;
 }
 
-.pickup-text .pickup-authors-name{
-    display: none;
-}
-
 /* CATEGORY HEADER  */
 
 #category-page .category-header {
@@ -289,6 +285,10 @@ display: none;
     border-radius: 45px;
     float: right;
     margin: -26px 0 0 14px;
+}
+
+.pickup-authors-name {
+    display: none;
 }
 
 /* POST */

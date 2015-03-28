@@ -400,19 +400,6 @@ ul.important-notice a{
      /* margin: -26px 0 0 14px; */
  }
 
-.pickup-authors{
-    float: right;
-}
-
-.pickup-authors-name{
-    font-size: 0.1em;
-    padding-bottom: 21px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #C5BABA;
-}
-
-
 /* POST */
 
 .entry-content {
