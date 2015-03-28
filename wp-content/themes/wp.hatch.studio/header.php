@@ -118,6 +118,8 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/newyork.css" media="screen" />
   <?php }else if( get_current_blog_id() == 6 ){ ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ucberkeley.css" media="screen" />
+  <?php }else if( get_current_blog_id() == 9 ){ ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/portland.css" media="screen" />
   <?php }else { ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/sf.css" media="screen" />
   <?php } ?>

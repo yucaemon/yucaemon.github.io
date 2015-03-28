@@ -70,7 +70,7 @@ h3 {
 /* INDEX HEADER */
 
 #index-page .header h1 span:first-child {
-    color: #FA8BAF;
+    color: rgba(53, 250, 177, 0.71);
 }
 
 #index-page .header h1 span:nth-child(2) {
