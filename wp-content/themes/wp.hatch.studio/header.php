@@ -24,14 +24,16 @@
   $site_name = Array(
     1 => "sf",
     6 => "ucberkeley",
-    8 => "newyork"
+    8 => "newyork",
+    9 => 'portland'
   );
 
   global $site_leader;
   $site_leader = Array(
     1 => 22,
     6 => 23,
-    8 => 24
+    8 => 24,
+    9 => 49
   )
 
   ?>
