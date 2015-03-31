@@ -41,7 +41,7 @@
 
               <a href="https://twitter.com/share" class="twitter-share-button"
                  data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>" 　
-                 data-via="hatchstudioinc" data-lang="ja" data-hashtags="サンフランシスコおもしろまがじん" data-dnt="true">ツイート</a>
+                 data-via="hatchstudioinc" data-lang="ja" data-hashtags="海外おもしろまがじん" data-dnt="true">ツイート</a>
 
               <script>!function (d, s, id) {
                   var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
