@@ -5,7 +5,7 @@
   <?php include(TEMPLATEPATH.'/components/sidebar/_' . $site_name[get_current_blog_id()] . '.php'); ?>
   <?php include(TEMPLATEPATH.'/components/_socialMedia.php'); ?>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- はっち広告 -->
+  <!-- 広告 -->
   <ins class="adsbygoogle"
        style="display:inline-block;width:300px;height:600px"
        data-ad-client="ca-pub-1574488309106788"
