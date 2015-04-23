@@ -41,7 +41,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right social">
       <li>
-        <a class="twitter" href="https://www.facebook.com/hatchsudioinc" target="_blank" title="twitter">
+        <a class="twitter" href="https://www.facebook.com/hatchstudioinc" target="_blank" title="twitter">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
