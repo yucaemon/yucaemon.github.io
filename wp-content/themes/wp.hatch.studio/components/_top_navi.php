@@ -4,7 +4,7 @@
 
     <ul class="social-icons">
 
-      <li><a href="https://www.facebook.com/hatchsudioinc?fref=ts" target="_blank"><span class='symbol'></span></a></li>
+      <li><a href="https://www.facebook.com/hatchstudioinc?fref=ts" target="_blank"><span class='symbol'></span></a></li>
 
       <li><a href="https://twitter.com/hatchstudioinc" target="_blank"><span class='symbol'></span></a></li>
 
