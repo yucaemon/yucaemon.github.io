@@ -2,7 +2,7 @@
 
   <?php
 
-  query_posts('showposts=12&cat=-22&posts_per_page=1&paged=' . $paged);
+  query_posts('showposts=12&posts_per_page=1&paged=' . $paged);
 
   while (have_posts()) : the_post();
 
@@ -74,7 +74,7 @@
 
 <ul class="articles">
 
-  <?php query_posts('showposts=16&cat=-22&offset=12');
+  <?php query_posts('showposts=16&offset=12');
 
   if (have_posts()) : while (have_posts()) :
     the_post(); ?>
