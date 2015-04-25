@@ -9,11 +9,11 @@
 
       <div class="header"><!-- HEADER -->
 
-        <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_header.php'); ?>
+        <?php include(TEMPLATEPATH . '/contents/' . $content_type . '/_' . $content_type . '_header.php'); ?>
 
       </div><!-- END HEADER -->
 
-      <?php include(TEMPLATEPATH . '/contents/_' . $content_type . '_body.php'); ?>
+      <?php include(TEMPLATEPATH . '/contents/' . $content_type . '/_' . $content_type . '_body.php'); ?>
 
       <?php if ($display_pagenavi && function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
       </div>
