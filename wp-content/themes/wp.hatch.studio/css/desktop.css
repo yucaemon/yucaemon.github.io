@@ -396,8 +396,8 @@ ul.important-notice a{
      height: 45px;
      -webkit-border-radius: 45px;
      border-radius: 45px;
-     margin-top: -24px;
-     /* margin: -26px 0 0 14px; */
+    margin: -24px auto 0 auto;
+    display: block;
  }
 
 /* POST */

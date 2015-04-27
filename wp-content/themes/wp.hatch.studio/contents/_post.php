@@ -41,7 +41,7 @@
 
               <a href="https://twitter.com/share" class="twitter-share-button"
                  data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>" 　
-                 data-via="hatchstudioinc" data-lang="ja" data-hashtags="サンフランシスコおもしろまがじん" data-dnt="true">ツイート</a>
+                 data-via="hatchstudioinc" data-lang="ja" data-hashtags="海外おもしろまがじん" data-dnt="true">ツイート</a>
 
               <script>!function (d, s, id) {
                   var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
@@ -130,5 +130,16 @@
   <!--div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="10"></div-->
 
 <?php endif; ?>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- はっち広告ーレスポンシブ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1574488309106788"
+     data-ad-slot="7838417156"
+     data-ad-format="auto"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div class="post-related"><?php get_yuzo_related_posts(); ?></div>

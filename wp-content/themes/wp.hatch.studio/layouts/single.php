@@ -5,7 +5,7 @@
   <?php include(TEMPLATEPATH.'/components/_navbar.php'); ?>
 
   <div id="contents"><!-- CONTENTS -->
-    <?php include(TEMPLATEPATH.'/contents/_'.$content_type.'.php'); ?>
+    <?php include(TEMPLATEPATH.'/contents/pages/_'.$content_type.'.php'); ?>
   </div><!--END CONTENTS -->
 
   <?php get_Sidebar(); ?>
