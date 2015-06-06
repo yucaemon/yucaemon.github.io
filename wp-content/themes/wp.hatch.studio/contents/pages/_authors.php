@@ -35,8 +35,7 @@ array_unshift( $results, $leaders[0] )
         <!--?php foreach ($this_authors as $this_author_id ) { ?-->
         <li><?php echo $this_user_id ?>
 
-                <a href="<?php echo get_author_posts_url($this_author_id)?>"><img src="/wp-content/uploads/userphoto/<?php echo $this_author_id ?>.thumbnail.jpg"></a>
-
+                <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo userphoto_thumbnail($this_author_id); ?></a>
 
             <dl>
                 <dt>

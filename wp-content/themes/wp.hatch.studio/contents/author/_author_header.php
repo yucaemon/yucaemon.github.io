@@ -15,9 +15,7 @@ $author_id = $curauth->id;
   <span class="sub-title">Author</span>
 
   <a href="<?php echo get_author_posts_url($author_id) ?>">
-
-    <img class="author-header" src="/wp-content/uploads/userphoto/<?php echo $author_id ?>.jpg">
-
+    <?php userphoto_the_author_photo('','',array('class' => 'author-header'),'') ?>
   </a>
 
   <h2><?php echo get_the_author_meta('first_name', $author_id); ?></h2>
