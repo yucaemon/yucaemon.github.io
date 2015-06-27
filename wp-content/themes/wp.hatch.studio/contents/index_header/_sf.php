@@ -3,11 +3,11 @@
 <h2>現地密着まがじん。</h2>
 
 <p class="description">はっちすたじおは、北カリフォルニアのバークレーを拠点にサンフラ、サンノゼ、シリコンバレーでやんちゃにくらす現地のやつらが適当につくる情報共有WEBまがじんです。</p>
-<div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sf.png"></div>
+<div class="site-character left"><img src="<?php echo get_template_directory_uri(); ?>/images/top-sf-oneyear.png"></div>
 
-<p class="date">06.28</p>
+<p class="date">1st Anniversary!!!</p>
 
-<p class="description">にオープンしました。<br>北カリフォルニアの若者集まれ！</p>
+<p class="description">06.28.2014 開設しました。<br>北カリフォルニアの若者集まれ！</p>
 
 <div class="event">
 
