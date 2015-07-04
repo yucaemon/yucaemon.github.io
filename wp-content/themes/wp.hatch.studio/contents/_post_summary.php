@@ -37,7 +37,7 @@
 
           <h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
           <p class="post-text">
-            <a href="<?php the_permalink() ?>" rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 130) . '...'; ?>
+            <a href="<?php the_permalink() ?>" rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 130) . '...'; ?> </a>
           </p>
 
           <div class="mini-info">
@@ -45,13 +45,11 @@
             <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
           </div>
 
-
               <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>">
                   <div class="pickup-authors"><p class="pickup-authors-name"><?php echo get_the_author_meta('first_name', $author_id); ?></p><?php userphoto_the_author_photo() ?>
                   </div>
 
               </a>
-
 
         </div>
 
