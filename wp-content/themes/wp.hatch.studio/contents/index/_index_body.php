@@ -35,12 +35,15 @@
 
       <div class="pickup-text">
 
-        <h4><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
+        <h4><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php
+ if(mb_strlen($post->post_title)>51) { $title= mb_substr($post->post_title,0,51) ; echo $title. ･･･ ;
+            } else {echo $post->post_title;}?></a>
+        </h4>
 
         <div class="pickup-paragraph">
 
           <p class="post-text"><a href="<?php the_permalink() ?>"
-                                  rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 130) . '...'; ?></a>
+                                  rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 60) . '...'; ?></a>
           </p>
 
         </div>

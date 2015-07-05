@@ -415,6 +415,7 @@ ul.articles:after{
 }
 .pickup-authors{
     float: right;
+    padding-right:25px;
 }
 
 .pickup-text .pickup-authors-name{

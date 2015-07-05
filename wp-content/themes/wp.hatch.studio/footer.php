@@ -4,7 +4,6 @@
 
 <div id ="footer-content">
 
-
 <?php if (!preg_match('~Windows|MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT'])) : ?>
 
 <ul class ="icons">

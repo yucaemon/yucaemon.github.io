@@ -21,7 +21,10 @@
 
           </div>
 
-          <a href="<?php echo home_url(); ?>"><h1 class="entry-title"><?php the_title(); ?></h1></a>
+
+          <h1 class="entry-title"> <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php echo mb_substr($post->post_title, 0, 67).''; ?></a></h1>
+
+
 
           <div class="api-share-btns">
 
