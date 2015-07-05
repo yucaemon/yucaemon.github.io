@@ -197,7 +197,7 @@ ul.important-notice a{
 
 .articles li {
     width: 160px;
-    height: 380px;
+    height: 345px;
     float: left;
     margin-right: 24px;
 }
@@ -227,8 +227,7 @@ ul.important-notice a{
     font-weight: normal;
     height: 45px;
     padding-top: 7px;
-    float: left;
-    width: 110px;
+    width: 160px;
 }
 
 .articles .sub-title {
@@ -242,15 +241,15 @@ ul.important-notice a{
 
 .articles .mini-info {
     clear: both;
-    width: 146px;
+    width: 100px;
     font-size: 12px;
     padding-top: 0px;
+    float:left;
 }
 
 .articles .mini-info .sub-title {
     font-size: 9px;
     padding: 2px 4px;
-    margin-right: 50px;
 }
 
 .articles .mini-info p {

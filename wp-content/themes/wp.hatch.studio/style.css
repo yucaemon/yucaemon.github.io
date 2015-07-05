@@ -328,14 +328,36 @@ ul.nav.social > li > a {
 }
 
 /* INDEX BODY */
+ul.articles{
+   padding-bottom:50px;
+}
+
+ul.articles:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
 .post-authors img {
     width: 27px;
     height: 27px;
     -webkit-border-radius: 27px;
     border-radius: 27px;
     float: right;
-    margin-top: 7px;
     margin-left: 4px;
+}
+
+.post-authors:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+
 }
 
 /* CATEGORY HEADER  */

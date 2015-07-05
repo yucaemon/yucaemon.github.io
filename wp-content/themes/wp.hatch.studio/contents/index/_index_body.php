@@ -100,7 +100,8 @@
           endif;
 
           ?>
-        </a></p>
+        </a>
+      </p>
 
       <p class="post-title">
         <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php
@@ -119,14 +120,12 @@
            rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 30) . '...'; ?></a>
       </p>
 
-      <div class="post-authors">
-        <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php userphoto_the_author_photo() ?></a>
-      </div>
-
       <div class="mini-info">
         <p class="sub-title"><?php echo time_ago(); ?></p>
-        <p class="category-name">カテゴリ：<?php the_category(', '); ?></p>
       </div>
+    <div class="post-authors">
+        <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php userphoto_the_author_photo() ?></a>
+    </div>
 
     </li>
 
