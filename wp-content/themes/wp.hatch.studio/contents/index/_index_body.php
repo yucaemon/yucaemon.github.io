@@ -43,7 +43,7 @@
         <div class="pickup-paragraph">
 
           <p class="post-text"><a href="<?php the_permalink() ?>"
-                                  rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 60) . '...'; ?></a>
+                                  rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 100) . '...'; ?></a>
           </p>
 
         </div>
