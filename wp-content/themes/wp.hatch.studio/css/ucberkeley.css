@@ -95,23 +95,23 @@ h3 {
 }
 
 .articles ul {
-    border-bottom: dotted 1px #6EB3FF;
+    border-bottom: dotted 1px #23B4EC;
 }
 
 .articles li {
-    border-bottom: solid 4px #6EB3FF;
+    border-bottom: solid 4px #23B4EC;
 }
 
 .articles .sub-title {
-    color: #6EB3FF;
+    color: #23B4EC;
     background-color: rgb(255, 255, 255);
-    border: solid 1px #6EB3FF;
+    border: solid 1px #23B4EC;
 }
 
 /* CATEGORY HEADER  */
 
 #category-page .header {
-    border-bottom: dotted 1px #6EB3FF;
+    border-bottom: dotted 1px #23B4EC;
 }
 
 #category-page .header .cate-img-top {
@@ -176,7 +176,7 @@ h3 {
 /* SIDE BAR */
 
 #side-bar-1 .about, .site-categories {
-    border-bottom: dotted 1px #6EB3FF;
+    border-bottom: dotted 1px #23B4EC;
 }
 
 #side-bar-1 .side-title {
