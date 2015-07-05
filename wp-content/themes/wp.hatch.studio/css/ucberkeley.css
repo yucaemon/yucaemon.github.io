@@ -99,7 +99,7 @@ h3 {
 }
 
 .articles li {
-    border-top: solid 4px #6EB3FF;
+    border-bottom: solid 4px #6EB3FF;
 }
 
 .articles .sub-title {

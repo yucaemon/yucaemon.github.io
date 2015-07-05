@@ -128,7 +128,7 @@ padding-top:10px;
 }
 
 .articles li {
-    border-top: solid 4px #FFDF60;
+    border-bottom: solid 4px #FFDF60;
 }
 
 .articles .sub-title {
