@@ -334,7 +334,7 @@ ul.important-notice a{
 /* PICKUP */
 
 .pickup {
-    margin-bottom: 42px;
+    margin-bottom: 20px;
 }
 
 .pickup li {
@@ -568,3 +568,5 @@ ul.important-notice a{
 .fb-comments {
     padding: 80px 0 0 35px;
 }
+
+.wp-pagenavi { padding: 40px 0; !important;}

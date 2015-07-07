@@ -112,6 +112,20 @@
 
   <?php endwhile; ?>
 
+    <div class="navi-pager">
+
+        <div class="pre"><?php previous_post_link('%link', '前の記事へ', false, 22) ?></div>
+
+        <?php $next_post_link = get_next_post_link('%link', '次の記事へ', false, 22); ?>
+
+        <?php if ($next_post_link) : ?>
+
+        <div class="next"><?php echo $next_post_link ?></div>
+
+        <?php endif; ?>
+
+    </div>
+
 </div>
 
 <?php if (!is_user_logged_in()) : ?>
