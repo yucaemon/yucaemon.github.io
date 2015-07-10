@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "GitHubを使ってみる。"
+date: "2015-01-10"
+---
+## GitHubで新しいRepositoryを作成し、このブログのソースを公開してみた流れ。
+
+はじめに、わたしはGitとGitHubを一緒だと考えていて、最初から根本的に間違っていた。
+
+
+*Gitとは、バージョン管理を行うためのソフトウェアでGitリポジトリというデータの貯蔵庫にソースコードなどを入れて利用する。
+
+*GitHubとは、 Gitリポジトリを置く場所をインターネット上に提供しているというサービス。
+
+わたしは、ローカルで既にブログを書き始めていたので、そのソースを新しく作ったGitHubレポジトリにアップするというやり方を紹介します。
+
+---
+
+## 手順
+*  step1. GitHubで新しいRepositoryを作成する。
+*  step2. インストールをする。
+*  step3. GitHubにファイルをアップロードする。
+*  おまけ  Repository削除の仕方。
+
+---
+
+## step1. GitHubで新しいRepositoryを作成する。
+
+GitHubにログインして設定画面で新しいレポジトリをつくる。
+プラスのアイコンの __"New repsitory"__ をクリック。
+
+![](/assets/images/github/github-step1.png)
+
+Repsitory nameを決めて、__"Create Repsitory"__ ボタンをぽちっ！
+
+![](/assets/images/github/github-step2.png)
+
+そうすると先ほどつくった __”yuca-blog”__ という新しいレボジトリができた。
+
+![](/assets/images/github/github-step3.png)
+
+---
+## step2. GitHub for Macをインストールをする。
+
+ターミナル操作でもGitHubへのpushはできるが、今回はターミナルを使わなくてもできる[GitHub for Mac](https://mac.github.com/ "GitHub for Mac")というのをインストールして使ってみることにした。
+
+![](/assets/images/github/install.png)
+
+---
+
+## step3. GitHubへレポジトリをプッシュする。
+
+次に、ローカルにあるファイル ”yuca-blog” を先ほど作ったGitHubのレポジトリへアップロードしよう。まず、GitHub for Macを起動させ、プラスマークの"Add"を選択して、GitHubアップしたいローカルのファイルのディレクトリを指定する。
+
+![](/assets/images/github/github-step4.png)
+
+__"Settings"__をクリックして、アップする先のGithubの新レポジトリのディレクトリを指定する。
+
+![](/assets/images/github/github-step5.png)
+
+ちなみに、Githubの新レポジトリのディレクトリ先はここで見れます。
+
+![](/assets/images/github/github-link.png)
+
+__"Changes"__ をクリックするとアップロードする変更点一覧が現れるのでコミット名を記入し、まとめてコミットする。
+
+![](/assets/images/github/github-step6.png)
+
+その後に __"Branches"__ をクリックし、__"Publish"__ を押すと、GitHubのレボジトリへアップロードされる。
+
+![](/assets/images/github/github-step7.png)
+
+GitHubのページで確認してみると、Yuca-blogという新しいレボジトリにちゃんとローカルで作っていたファイルが全部入ってる！！完。
+
+![](/assets/images/github/github-step8.png)
+
+---
+
+## おまけ : Repository削除の仕方。
+いろいろやってるうちにGitHubにかなりレボジトリをつくってしまい、削除の仕方に思いのほかとまどったので、削除の仕方はこちら↓
+
+![](/assets/images/github/github-delate.png)
+
+---
+
+## 今回の勉強点
+
+* GitHubで公開するコードは予めGitで管理されていることが大前提である。（Gitがインストールされてることは大大前提。）
+gitで管理されてるかの確認方法はフォルダの中のgitのファイル有無で。
+
+![](/assets/images/github/makeSureGit.png)
+
+* 新しくレボジトリを作成する方法として、今回は、既にローカルで開発していたので、【ローカル→GitHub】というやり方になったが、GitHubのレポジトリをcloneしローカルにおとしていくという逆のやり方もある。【GitHub→ローカル】実はそっちの方が楽なんじゃないのとおもった。まー今度新しいプロジェクトの時はそうしようと思う。
