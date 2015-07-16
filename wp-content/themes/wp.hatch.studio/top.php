@@ -2,7 +2,7 @@
 
   <div id="container"><!-- CONTAINER -->
 
-    INDEX PAGE
+    INDEX PAGE2
   </div><!-- END container -->
 
 <?php get_footer(); ?>
