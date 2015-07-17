@@ -2,13 +2,11 @@
 
 <?php
 $site_leader_id = $site_leader[ get_current_blog_id() ];
-$last_month = date('Y-m-d', strtotime('-6 months'));
 $results = $wpdb->get_results("
 SELECT count(post_author), post_author, max(post_date), min(post_date)
 FROM $wpdb->posts WHERE post_type = 'post' and post_status = 'publish'
 and post_author not in( 1, 22, $site_leader_id )
 group by post_author
-having max(post_date) > '$last_month'
 order by count(post_author) desc;
 ", ARRAY_N);
 ?>
@@ -18,12 +16,38 @@ SELECT count(post_author), post_author, max(post_date), min(post_date)
 FROM $wpdb->posts WHERE post_type = 'post' and post_status = 'publish'
 and post_author in ( $site_leader_id )
 group by post_author
-having max(post_date) > '$last_month'
 order by count(post_author) desc;
 ", ARRAY_N);
 array_unshift( $results, $leaders[0] )
 ?>
 
+<?php
+// 現役/OB 表示をしたい場合は、ここにSiteIDを入れてください
+// ユーザーの設定で「ステータス」が「ob」になっている人も表示されるようになります
+//    1 => "sf",
+//    6 => "ucberkeley",
+//    8 => "newyork",
+//    9 => 'portland'
+
+$is_ob_display = in_array( get_current_blog_id(),  [ 6 ] );
+?>
+<?php
+
+// ヘッダに表示される「現役」「卒業生」の文言を変更する場合は、下の文字列を変更してください
+if( $is_ob_display ){
+  $user_kinds = [ '現役' => false, '卒業生' => true ];
+}else{
+  $user_kinds = [ '現役' => false ];
+}
+
+?>
+
+<?php foreach( $user_kinds as $user_status_title => $is_ob_status ) { ?>
+
+<?php if( $is_ob_display ){
+// この下のh2が、「現役」「卒業生」のヘッダになるので、スタイルを変更する場合はこのh2を変更してください ?>
+<h2><?php echo $user_status_title ?></h2>
+<?php } ?>
 <div class="authors">
     <ul>
         <?php foreach ($results as $result ) {
@@ -31,18 +55,18 @@ array_unshift( $results, $leaders[0] )
           $post_counts = $result[0];
           $last_updated_date = $result[2];
           $joined_date = $result[3];
+          $is_ob = strtolower( get_the_author_meta( 'is_ob', $this_author_id ) ) == 'ob';
         ?>
-        <!--?php foreach ($this_authors as $this_author_id ) { ?-->
+        <?php if( $is_ob == $is_ob_status ){ ?>
         <li><?php echo $this_user_id ?>
 
                 <a href="<?php echo get_author_posts_url($this_author_id)?>"><?php echo userphoto_thumbnail($this_author_id); ?></a>
 
             <dl>
                 <dt>
-
-                    <a href="<?php echo get_author_posts_url($this_author_id)?>"><span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></span></a>
+                  <a href="<?php echo get_author_posts_url($this_author_id)?>"><span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></span></a>
                     <span class="delimiter">|</span>
-                      <span class="position">キュレーター<?php
+                      <span class="position">記者<?php
                      $job = get_the_author_meta( 'job', $this_author_id );
                     if ( $job ) :
                         echo "兼".$job;
@@ -119,7 +143,8 @@ array_unshift( $results, $leaders[0] )
         </li>
 
         <?php } ?>
-
+        <?php } ?>
     </ul>
 
 </div>
+<?php } ?>

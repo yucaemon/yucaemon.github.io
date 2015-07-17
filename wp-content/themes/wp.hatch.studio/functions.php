@@ -93,6 +93,7 @@ $contactmethods['twitter'] = 'Twitter URL';
 $contactmethods['instagram'] = 'instagram URL';
 $contactmethods['pinterest'] = 'pinterest URL';
 $contactmethods['job'] = '職業';
+$contactmethods['is_ob'] = 'ステータス';
 //使わない
 unset($contactmethods['aim']);
 unset($contactmethods['yim']);
