@@ -17,7 +17,7 @@
                         the_views();
                       } ?></span>
 
-            <span class="category-name">カテゴリ：<?php the_category(', '); ?>　タグ：<?php the_tags('', ', '); ?></span>
+            <span class="category-name">カテゴリ：<?php the_category(', '); ?></span>
 
           </div>
 
