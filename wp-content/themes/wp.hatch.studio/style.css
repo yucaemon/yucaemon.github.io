@@ -36,14 +36,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #555;
 }
 
-h1 {
+#index-page h1 {
     line-height: 1.3em;
     font-family: "Helvetica Neue", "Helvetica";
 }
 
-h4 {
-    font-weight: 500;
-}
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
@@ -104,25 +101,27 @@ a img {
     border-style: none;
 }
 
-a:hover {
+a:link {
     text-decoration: none;
 }
 
 a:hover {
+    text-decoration: none;
     opacity: 0.6;
     filter: alpha(opacity=90);
     -ms-filter: "alpha( opacity=90 )";
     color: #5C5A5A;
+}
+a:visited{
+    text-decoration: none;
+    color: #5C5A5A;
+
 }
 
 a img:hover {
     opacity: 0.6;
     filter: alpha(opacity=90);
     -ms-filter: "alpha( opacity=90 )";
-}
-
-a {
-    text-decoration: none;
 }
 
 
@@ -266,7 +265,7 @@ ul.nav li {
     font-size: 0.8em;
     line-height: .9em;
     text-transform: uppercase;
-    text-decoration: none;
+    /*text-decoration: none;*/
     letter-spacing: 1px;
     font-weight: 600;
 
@@ -398,9 +397,6 @@ ul.articles:after{
     border-bottom: dotted 1px #D8CFCF;
 }
 
-.pickup .pickup-text h3 {
-    font-weight: bold;
-}
 
 .pickup .post-text {
     font-weight: normal;
@@ -432,6 +428,11 @@ ul.articles:after{
      font-weight: normal;
     color: #666;
  }
+
+.post .entry-content img {
+    border: 1px solid #ddd;
+    pointer-events:none;
+}
 
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4 {
     font-weight: normal !important;

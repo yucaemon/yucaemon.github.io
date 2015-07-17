@@ -19,7 +19,7 @@
 
   <div class="future-event">
 
-    <h3 class="sub-title"> → 過去のイベント探検隊レボ</h3>
+    <p class="sub-title"> → 過去のイベント探検隊レボ</p>
 
     <ul>
       <li><a href="http://www.meetup.com/JapaneseMeetupBerkeley/events/220510792/"><time>2015/3/21</time> <span>第6回バークレー若者会開催しました！</span></a>
