@@ -340,6 +340,21 @@ ul.articles:after{
     visibility:hidden;
 }
 
+
+.authors h2{
+    padding: 20px 0 15px 0;
+    border-top: 4px solid #FAFAFA;
+    font-size: 18px;
+    color: #DADADA;
+    margin: 0 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 2px;
+}
+
+.authors li + li {
+    border-top: dotted 1px #E5E5E5;
+}
+
 .post-authors img {
     width: 27px;
     height: 27px;

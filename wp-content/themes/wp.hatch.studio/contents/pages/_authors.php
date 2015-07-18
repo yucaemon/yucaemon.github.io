@@ -35,20 +35,20 @@ $is_ob_display = in_array( get_current_blog_id(),  [ 6 ] );
 
 // ヘッダに表示される「現役」「卒業生」の文言を変更する場合は、下の文字列を変更してください
 if( $is_ob_display ){
-  $user_kinds = [ '現役' => false, '卒業生' => true ];
+  $user_kinds = [ 'BERKELEYNIAN' => false, 'ALUMNI' => true ];
 }else{
-  $user_kinds = [ '現役' => false ];
+  $user_kinds = [ 'BERKELEYNIAN' => false ];
 }
 
 ?>
 
 <?php foreach( $user_kinds as $user_status_title => $is_ob_status ) { ?>
-
+<div class="authors">
 <?php if( $is_ob_display ){
 // この下のh2が、「現役」「卒業生」のヘッダになるので、スタイルを変更する場合はこのh2を変更してください ?>
 <h2><?php echo $user_status_title ?></h2>
 <?php } ?>
-<div class="authors">
+
     <ul>
         <?php foreach ($results as $result ) {
           $this_author_id = $result[1];
