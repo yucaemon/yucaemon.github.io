@@ -66,10 +66,10 @@ if( $is_ob_display ){
                 <dt>
                   <a href="<?php echo get_author_posts_url($this_author_id)?>"><span class="name"><?php echo get_the_author_meta( 'first_name', $this_author_id ); ?></span></a>
                     <span class="delimiter">|</span>
-                      <span class="position">記者<?php
+                      <span class="position">Editor <?php
                      $job = get_the_author_meta( 'job', $this_author_id );
                     if ( $job ) :
-                        echo "兼".$job;
+                        echo "& ".$job;
                     endif;
 
                     ?></span>

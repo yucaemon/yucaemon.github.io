@@ -622,7 +622,9 @@ ul.important-notice a{
 }
 
 .authors .position {
-    padding-left: 9px;
+    padding-left: 8px;
+    vertical-align: middle;
+    font-size: 14px;
 }
 
 /* SIDE BAR*/
