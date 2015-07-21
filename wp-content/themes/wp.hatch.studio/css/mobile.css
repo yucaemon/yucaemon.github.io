@@ -501,5 +501,14 @@ display: none;
 
 
 
+.post .entry-thumbnail{
+    padding-bottom:20px;
+}
 
+.post .sub-text-content{
+display: none;
+}
 
+.post .authors-content{
+display: none;
+}

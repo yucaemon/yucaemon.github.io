@@ -10,12 +10,12 @@ h1 {
 }
 
 .post h1.entry-title{
-    font-weight: 500;
+    ont-weight: 600;
     font-size: 30px;
-    padding: 10px;
+    padding: 10px 0;
     line-height: 38px;
     letter-spacing: 1px;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -420,7 +420,7 @@ ul.important-notice a{
 .entry-content img, .entry-content {
     height: auto;
     margin: 40px 0;
-    max-width: 700px;
+    max-width: 720px;
 }
 
 .entry-content h2 {
@@ -441,39 +441,128 @@ ul.important-notice a{
     height: auto;
 }
 
-.post .authors-info {
-    padding: 33px 0 50px 12px;
+
+.post .entry-thumbnail {
+   padding-top:10px;
+}
+.post .mini-info{
+    color: #FFC0C0;
+    font-size: 1px;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    line-height: 2;
 }
 
-.post .authors-info:after {
-    content: "";
-    clear: both;
-    height: 0;
+.post .sub-text-content{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: dotted 1px #D8CFCF;
+}
+
+.post .sub-text-content:after{
+    content: ".";
     display: block;
-    visibility: hidden;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
 }
 
-.post .authors-info p {
+.post .sub-text-content .author-nickname{
+
+    font-size: 20px;
+    padding-top: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #666;
     float: left;
+    padding: 11px 13px 0 13px;
+
 }
 
-.post .authors-info p.name {
+.post .sub-text-content .author-photo{
+    float: left;
+    width: 65px;
+}
+
+
+.post .sub-text-content .time{
+    padding-top: 14px;
+    float: right;
+    padding-left: 31px;
+    font-size: 15px;
+    color: #C5BABA;
+    letter-spacing: 1px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.post .views{
+    padding-right: 8px;
+    padding-top: 9px;
+    font-weight: 600;
+    float: right;
+    padding-left: 31px;
+    font-size: 26px;
+    color: #FFC7C7;
+    letter-spacing: 1px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.post .authors-content{
+    margin: 60px 0;
+    border-top: dotted 1px #D8CFCF;
+    border-bottom: dotted 1px #D8CFCF;
+    padding: 29px 0;
+}
+
+.post .authors-content:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
+
+.post .authors-content .author-photo{
+    float: left;
+    width: 94px;
+    margin-top: 36px;
+}
+.post  .author-photo img{
+
+    width: 45px;
+    height: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.post .authors-content .author-excerpt{
+  float: right;
+  width: 600px;
+
+}
+
+.post .authors-content .author-nickname {
     font-size: 20px;
     padding-top: 14px;
     letter-spacing: 0;
+    font-weight: bold;
+    color: #666;
 }
 
-.post .authors-info p.author-about {
+
+.post .authors-content .author-description{
     font-size: 12px;
-    padding-left: 30px;
     line-height: 180%;
-    width: 523px;
     word-spacing: 2px;
+
 }
 
-.post .authors-info .pickup-authors img {
-    margin: 0 0 0 0;
-}
 
 .popular .popular-header .title {
     font-size: 0.8em;
