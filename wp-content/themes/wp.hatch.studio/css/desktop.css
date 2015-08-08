@@ -5,8 +5,6 @@ html {
 
 h1 {
     font-size: 32px;
-    /* padding: 7px 0 18px 0; */
-    /* color: #171717; */
 }
 
 .post h1.entry-title{
@@ -470,13 +468,14 @@ ul.important-notice a{
 
 .post .sub-text-content .author-nickname{
 
-    font-size: 20px;
-    padding-top: 14px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
     font-weight: bold;
     color: #666;
     float: left;
-    padding: 11px 13px 0 13px;
+    padding: 10px 7px 0 8px;
+    text-transform: uppercase;
+
 
 }
 
@@ -487,7 +486,8 @@ ul.important-notice a{
 
 
 .post .sub-text-content .time{
-    padding-top: 14px;
+    padding-top: 9px;
+    padding-right: 4px;
     float: right;
     padding-left: 31px;
     font-size: 15px;
@@ -495,17 +495,58 @@ ul.important-notice a{
     letter-spacing: 1px;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
+.post .post-sub-informations{
+    vertical-align: middle;
+}
 
-.post .views{
-    padding-right: 8px;
-    padding-top: 9px;
-    font-weight: 600;
+.post .post-sub-informations:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
+.post .sns-icons{
+    float:left;
+    padding-top: 11px;
+}
+
+.post .category-name{
+    letter-spacing: 0.03em;
+    padding-left: 1px;
+    color: #C5BABA;
+    font-size: 11px;
+    color: #C5BABA;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.post .views {
     float: right;
-    padding-left: 31px;
-    font-size: 26px;
+    width: 39px;
     color: #FFC7C7;
     letter-spacing: 1px;
+    padding-right: 10px;
     font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.post .views .count{
+    font-size: 24px;
+    float: right;
+    font-weight: 700;
+}
+
+.post .views .count-text{
+    font-size: 11px;
+    font-size: .6875rem;
+    clear: both;
+    color: #C5BABA;
+    float: right;
+    line-height: 1em;
 }
 
 .post .authors-content{
@@ -532,8 +573,8 @@ ul.important-notice a{
 }
 .post  .author-photo img{
 
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     -webkit-border-radius: 45px;
     border-radius: 45px;
     display: block;
@@ -569,6 +610,7 @@ ul.important-notice a{
     letter-spacing: 0.04em;
     padding: 3px;
     display: block;
+    width: 174px;
 }
 
 .post-related {

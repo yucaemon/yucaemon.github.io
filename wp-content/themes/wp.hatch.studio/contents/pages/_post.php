@@ -1,54 +1,70 @@
-
 <div class="post">
 
     <?php while (have_posts()) : the_post(); ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <article id="post-<?php the_ID(); ?>"
+    <?php post_class(); ?>>
 
     <header class="entry-header">
 
         <?php if (!post_password_required()) : ?>
+        <h1 class="entry-title"><a title="<?php the_title(); ?>"
+                                   href="<?php the_permalink() ?>"><?php echo mb_substr($post->post_title, 0, 67).'';
+            ?></a></h1>
 
+        <div class ="post-sub-informations">
 
+            <div class="sns-icons">
+              <span class="twitter-share-botn">
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                   data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>" 　
+                data-via="hatchstudioinc" data-lang="ja" data-hashtags="海外おもしろまがじん" data-dnt="true">ツイート</a>
+                  <script>!function (d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                      if (!d.getElementById(id)) {
+                          js = d.createElement(s);
+                          js.id = id;
+                          js.src = p + '://platform.twitter.com/widgets.js';
+                          fjs.parentNode.insertBefore(js, fjs);
+                      }
+                  }(document, 'script', 'twitter-wjs');</script>
+              </span>
+　　　　　　　
 
-        <h1 class="entry-title"> <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php echo mb_substr($post->post_title, 0, 67).''; ?></a></h1>
-
-
-
-
-        <div class="api-share-btns">
-
-            <?php if (!is_user_logged_in()) : ?>
-
-            <div class="facebook-like-btn">
-
+                <?php if (!is_user_logged_in()) : ?>
+                <span class="facebook-like-btn">
                 <iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=650457541700749"
                         scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;"
                         allowTransparency="true"></iframe>
+                </span>
+　　　　　　　　</span>
 
+
+</div>
+
+
+            <div class="views">
+              <span class="count">
+              <?php echo post_custom('views'); ?>
+               </span>
+              <span class="count-text">
+                VIEWS
+               </span>
+</div>
+
+            </div>
+
+            <div class="category-name">CATEGORIES：<?php $cat = get_the_category(); $cat = $cat[0]; {
+$cat_slug = $cat->slug;
+                echo  $cat_slug;
+                } ?>
             </div>
 
             <?php endif; ?>
 
-            <div class="twitter-share-botn">
 
-                <a href="https://twitter.com/share" class="twitter-share-button"
-                   data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>" 　
-                data-via="hatchstudioinc" data-lang="ja" data-hashtags="海外おもしろまがじん" data-dnt="true">ツイート</a>
 
-                <script>!function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                    if (!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = p + '://platform.twitter.com/widgets.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }
-                }(document, 'script', 'twitter-wjs');</script>
 
-            </div>
-
-        </div>
 
         <div class="entry-thumbnail">
 
@@ -79,7 +95,7 @@
                     <?php userphoto_the_author_photo() ?>
                 </a>
             </div>
-                <p class="author-nickname"><?php the_author_nickname(); ?></p>
+            <p class="author-nickname"><?php the_author_nickname(); ?></p>
             <span class="time"><i class="fa fa-clock-o"></i><?php echo the_date(" M.d.Y - h:s a"); ?></span>
 
 
@@ -109,6 +125,7 @@
         </div>
         <div class="author-excerpt">
             <p class="author-nickname"><?php the_author_nickname(); ?></p>
+
             <p class="author-description"><?php the_author_description(); ?></p>
         </div>
     </div>
