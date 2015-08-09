@@ -13,7 +13,6 @@
             ?></a></h1>
 
         <div class ="post-sub-informations">
-
             <div class="sns-icons">
               <span class="twitter-share-botn">
                 <a href="https://twitter.com/share" class="twitter-share-button"
@@ -37,10 +36,9 @@
                         scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;"
                         allowTransparency="true"></iframe>
                 </span>
-　　　　　　　　</span>
-
-
-</div>
+                <?php endif; ?>
+　　　　　　　　
+　　　　　　　</div>
 
 
             <div class="views">
@@ -50,7 +48,7 @@
               <span class="count-text">
                 VIEWS
                </span>
-</div>
+            </div>
 
             </div>
 
@@ -60,7 +58,7 @@ $cat_slug = $cat->slug;
                 } ?>
             </div>
 
-            <?php endif; ?>
+
 
 
 
