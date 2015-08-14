@@ -1,3 +1,6 @@
+/* 1024px ipad 以下サイズ対応*/
+
+
 /* initialize */
 
 html {
@@ -357,11 +360,16 @@ display: none;
 
 }
 
-.single-post .entry-content img {
+.entry-content img{
+    margin:40px 0;
     max-width: 100%;
     height: auto;
     width /***/: auto;
     margin-bottom: 2em;
+}
+
+.single-post .entry-content img {
+
 }
 
 .entry-content h2 {
@@ -499,8 +507,6 @@ display: none;
     height: 100% !important;
 }
 
-
-
 .post .entry-thumbnail{
     padding-bottom:20px;
 }
@@ -511,4 +517,53 @@ display: none;
 
 .post .authors-content{
 display: none;
+}
+
+/* postの中のテーブルのサイズ */
+
+.entry-content table{
+    width: 535px !important;
+    font-size: 12px !important;
+}
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 740px) {
+    .entry-content table{
+        width: 407px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 580px) {
+    .entry-content table{
+        width: 235px !important;
+        font-size: 5px !important;
+    }
+
+}
+
+/* インタビュー */
+
+.post-interview .comment{
+    font-size: 15px;
+    max-width:545px;
+
+}
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 740px) {
+    .post-interview .comment{
+        max-width:410px;
+
+    }
+}
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 580px) {
+    .post-interview .comment{
+        max-width:250px;
+
+    }
+
 }

@@ -455,6 +455,10 @@ ul.articles:after{
     text-decoration: underline;
 }
 
+.entry-content table{
+margin:10px 0;
+}
+
 
 .post h1, .post h2, .post h3, .post h4 {
     color: #333;
@@ -726,4 +730,79 @@ ul.articles:after{
 /* グーグル広告 */
 .adsbygoogle{
     padding: 20px 0;
+}
+
+/* インタビュー */
+
+.post-interview .interviewee-profile{
+    border: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+    padding: 30px;
+
+}
+
+.interviewee-profile .interviewee-name{
+    font-size: 18px;
+    margin-bottom: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #e0e0e0;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.interviewee-profile .interviewee-excerpt{
+    font-size: 13px;
+    color: #888787;
+    letter-spacing: 0.01em;
+    margin: 0;
+    letter-spacing: 0.01em;
+
+}
+
+i.interview-24 {
+    background-image: url('/wp-content/uploads/sites/8/userphoto/24.thumbnail.jpg')
+}
+
+.post-interview .question .comment{
+    color: #585858;
+}
+.post-interview .answer .comment{
+    color: #9C9C9C;
+}
+
+.post-interview .comment{
+    float: left;
+
+}
+
+.entry-content i.interview-icon img{
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.entry-content i.interview-icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 26px 24px 0 28px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    display: block;
+    background-size: 35px;
+}
+
+.post-interview .question:after,.post-interview .answer:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.post-interview table{
+    margin-left: 92px !important;
 }

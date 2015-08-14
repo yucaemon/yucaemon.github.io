@@ -713,3 +713,21 @@ ul.important-notice a{
 }
 
 .wp-pagenavi { padding: 40px 0; !important;}
+
+/* インタビュー */
+
+.entry-content .post-interview img{
+    max-width: 616px;
+}
+
+.post-interview .comment{
+    font-size: 16px;
+     max-width: 600px;
+}
+
+
+.post-interview table{
+    width: 600px !important;
+    margin-left: 92px !important;
+    font-size: 13px !important;
+}
