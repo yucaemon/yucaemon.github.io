@@ -12,7 +12,6 @@ $author_id = $curauth->id;
 
 <div>
 
-  <span class="sub-title">Author</span>
 
   <a href="<?php echo get_author_posts_url($author_id) ?>">
     <?php userphoto_the_author_photo('','',array('class' => 'author-header'),'') ?>

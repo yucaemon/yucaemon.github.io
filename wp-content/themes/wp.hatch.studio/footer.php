@@ -24,7 +24,7 @@
 
 <?php endif; ?>
 
-<p><small>© <?php bloginfo('name'); ?> All Rights Reserved.</small></p>
+<p><small>hatchstudio All Rights Reserved.</small></p>
 
 
 

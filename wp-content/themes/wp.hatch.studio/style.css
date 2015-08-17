@@ -36,6 +36,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #555;
 }
 
+.post h1.entry-title{
+    font-weight: bold;
+    padding: 10px 0;
+    pointer-events:none;
+}
+
 #index-page h1 {
     line-height: 1.3em;
     font-family: "Helvetica Neue", "Helvetica";
@@ -168,7 +174,6 @@ ul {
 .mini-info {
     font-size: 9px;
     letter-spacing: 1px;
-    padding-top: 18px;
     line-height: 2;
 }
 
@@ -298,7 +303,7 @@ ul.nav.social > li > a {
 .header {
     margin: 0 auto;
     width: 100%;
-    padding-bottom: 30px;
+    padding: 30px 0;
     border-bottom: dotted 1px #D8CFCF;
 }
 
@@ -373,6 +378,158 @@ ul.articles:after{
     visibility:hidden;
 
 }
+/* postのサブ情報’s)*/
+
+/* post-sub-informations (postの上のサブ情報)*/
+
+.post .post-sub-informations{
+    vertical-align: middle;
+}
+
+.post .post-sub-informations:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
+/* sub-text-content（postのtop画像の直下のサブAuthor情報） */
+
+
+.post .sub-text-content{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: dotted 1px #D8CFCF;
+    margin-bottom:30px;
+}
+
+.post .sub-text-content:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
+.post .sub-text-content .author-nickname{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    float: left;
+    padding: 10px 7px 0 8px;
+    text-transform: uppercase;
+
+
+}
+
+.post .sub-text-content .author-photo{
+    float: left;
+    width: 65px;
+}
+
+
+.post .sub-text-content .time{
+    padding-top: 9px;
+    padding-right: 4px;
+    float: right;
+    padding-left: 31px;
+    font-size: 15px;
+    color: #C5BABA;
+    letter-spacing: 1px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* post-sub-informations */
+
+.post .sns-icons{
+    float:left;
+    padding-top: 11px;
+}
+
+.post .category-name{
+    letter-spacing: 0.03em;
+    padding-left: 1px;
+    color: #C5BABA;
+    font-size: 11px;
+    color: #C5BABA;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.post .views {
+    float: right;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.post .views .count{
+    font-size: 24px;
+    float: right;
+    font-weight: 700;
+}
+
+.post .views .count-text{
+    font-size: 11px;
+    font-size: .6875rem;
+    clear: both;
+    color: #C5BABA;
+    float: right;
+    line-height: 1em;
+}
+
+/* authors-content（postの一番下のミニAuthor情報） */
+
+.post .authors-content{
+    margin: 60px 0;
+    border-top: dotted 1px #D8CFCF;
+    border-bottom: dotted 1px #D8CFCF;
+    padding: 29px 0;
+}
+
+.post .authors-content:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+
+
+.post .authors-content .author-photo{
+    float: left;
+    margin-top: 36px;
+}
+
+
+.post .authors-content .author-excerpt{
+    float: right;
+}
+
+.post .authors-content .author-nickname {
+    font-size: 20px;
+    padding-top: 14px;
+    letter-spacing: 0;
+    font-weight: bold;
+    color: #666;
+}
+
+
+.post .authors-content .author-description{
+    font-size: 12px;
+    line-height: 180%;
+    word-spacing: 2px;
+
+}
+
+
 
 /* CATEGORY HEADER  */
 
@@ -385,10 +542,11 @@ ul.articles:after{
 }
 
 #category-page .cate-right-text h2 {
-    font-size: 58px;
+    font-size: 45px;
     margin: 0 0;
-    height: 73px;
     color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0px;
 }
 
 #category-page .cate-right-text .big-title {
@@ -420,6 +578,8 @@ ul.articles:after{
 .pickup .pickup-img .attachment-post-thumbnail {
     border: 1px solid #f7f7f7;
 }
+
+
 
 .pickup-authors img {
     border: solid 1px #E6E1E1;
@@ -648,7 +808,7 @@ margin:10px 0;
 }
 
 #side-bar-1 .popular li, #side-bar-1 .links dl {
-    padding: 12px 0;
+    padding: 16px 0;
 }
 
 #side-bar-1 .popular li:after {

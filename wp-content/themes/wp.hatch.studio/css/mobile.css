@@ -11,6 +11,12 @@ h1 {
     font-size: 2em;
 }
 
+.post h1.entry-title{
+    font-size: 22px;
+    line-height: 33px;
+
+}
+
 h3 {
     color: #F8B0B0;
 }
@@ -216,12 +222,11 @@ display: none;
 /* AUTHOR HEADER */
 
 #author-page img.author-header {
-    -webkit-border-radius: 150px;
-    border-radius: 120px;
-    border: solid 1px #E6E1E1;
-    margin: 0 auto;
+    -webkit-border-radius: 80px;
+    margin: 15px auto;
     display: block;
-    width: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 #author-page .header .sub-title {
@@ -229,18 +234,23 @@ display: none;
 }
 
 #author-page h2 {
-    font-size: 2.5em;
+    font-size: 20px;
+    margin: 0 auto;
+    letter-spacing: 1px;
     color: #666;
     padding: 6px 0 0 0;
-    margin-bottom: 4px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #author-page .big-title {
-    font-size: 11px;
-    padding: 4px 0 0 0;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 9px 0 0 0;
     font-weight: 300;
-    width: 100%;
+    padding: 17px 10px;
+    letter-spacing: 1px;
+    color: #A0A0A0;
 }
 
 #author-page > div:first-child {
@@ -252,13 +262,15 @@ display: none;
 
 /* PICKUP */
 .pickup li {
-    padding: 1.5em 0 4em 0;
+    clear: both;
+    padding: 1.5em 0 6.5em;
+
 }
 
 .pickup .pickup-img .attachment-post-thumbnail {
     width: 100%;
     height: auto;
-    margin-top: 16px;
+    margin: 16px 0;
 }
 
 .pickup .pickup-text {
@@ -267,30 +279,37 @@ display: none;
 }
 
 .pickup .pickup-text h3 {
-    font-size: 1.5em;
-    padding: 9px 0 12px 0;
-    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 14px 0 10px 0;
+    letter-spacing: 1px;
+    line-height: 29px;
 }
 
-.pickup .pickup-text .mini-info {
-    width: 300px;
-}
 
 .pickup .post-text {
-    font-size: 0.9em;
-    float: left;
+    font-size: 10px;
+
 }
 
 .pickup-authors img {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     -webkit-border-radius: 45px;
-    border-radius: 45px;
-    float: right;
-    margin: -26px 0 0 14px;
+    border-radius: 35px;
+    display: block;
+}
+
+.pickup-authors  {
+    float:right;
+    padding-right: 14px;
 }
 
 .pickup-authors-name {
+    display: none;
+}
+
+#author-page .pickup-authors {
     display: none;
 }
 
@@ -404,6 +423,12 @@ display: none;
 
 }
 
+.post h1, .post h2, .post h3, .post h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 /* ABOUT */
 
 /* AUTHOR */
@@ -511,12 +536,39 @@ display: none;
     padding-bottom:20px;
 }
 
-.post .sub-text-content{
-display: none;
+
+/* sub-text-content */
+.post .sns-icons{
+    width:203px;
 }
 
-.post .authors-content{
-display: none;
+.post .category-name{
+    display: none;
+}
+
+/* authors-content（postの一番下のミニAuthor情報） */
+.post .authors-content .author-excerpt {
+    font-size: 10px;
+    line-height: 180%;
+    word-spacing: 2px;
+    width: 260px;
+    padding-right: 15px;
+
+}
+
+.post .authors-content .author-photo{
+    width: 58px;
+}
+
+
+.post .author-photo img{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 /* postの中のテーブルのサイズ */
@@ -560,9 +612,9 @@ display: none;
 }
 
 /* 580px 以下サイズ*/
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 595px) {
     .post-interview .comment{
-        max-width:250px;
+        max-width: 235px;
 
     }
 

@@ -16,8 +16,7 @@ a {
 }
 
 .header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
-    color: white;
-    background-color: #23B4EC;
+    color: #23B4EC;
     border: solid 1px #23B4EC;
 }
 

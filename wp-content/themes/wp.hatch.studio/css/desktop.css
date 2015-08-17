@@ -8,12 +8,10 @@ h1 {
 }
 
 .post h1.entry-title{
-    ont-weight: 600;
-    font-size: 30px;
-    padding: 10px 0;
+    font-size: 28px;
     line-height: 38px;
     letter-spacing: 1px;
-    margin: 0;
+    pointer-events:none;
 }
 
 
@@ -296,34 +294,36 @@ ul.important-notice a{
 /* AUTHOR HEADER */
 
 #author-page .header img.author-header {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     -webkit-border-radius: 150px;
     border-radius: 120px;
     float: left;
-    margin: 32px 33px 37px -36px;
+    margin: 10px 33px 37px -73px;
 }
 
 #author-page .header h2 {
-    font-size: 3.8em;
-    color: #333;
-    margin-top: 6px;
-    margin-bottom: 4px;
-    height: 56px;
+    font-size: 37px;
+    color: #464646;
+    margin: 13px 0 0 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 #author-page .header .big-title {
     font-size: 0.8em;
     line-height: 180%;
-    padding: 1em 0 0 0;
     font-weight: 300;
     width: 600px;
     text-align: left !important;
+    padding-top: 5px;
+    color: #9C9C9C;
 }
 
 #author-page .header {
     width: auto;
     padding: 14px 0 0 89px;
+    padding-bottom: 41px;
 }
 
 #author-page .header:after {
@@ -340,6 +340,12 @@ ul.important-notice a{
     display: none;
 }
 
+#author-page .pickup .post-text {
+
+    width: 410px;
+
+}
+
 /* PICKUP */
 
 .pickup {
@@ -347,7 +353,9 @@ ul.important-notice a{
 }
 
 .pickup li {
-    padding: 1.5em 0 2.5em 0;
+    padding: 3em 0 3em 0;
+    clear: both;
+
 }
 
 .pickup .pickup-img {
@@ -365,7 +373,6 @@ ul.important-notice a{
 .pickup .pickup-img .attachment-post-thumbnail {
     width: 100%;
     height: auto;
-    margin-top: 1em;
 }
 
 .wp-post-image {
@@ -380,7 +387,7 @@ ul.important-notice a{
 .pickup .pickup-text h3 {
     margin: 0 0;
     font-size: 22px;
-    padding: 9px 0 12px 0;
+    padding: 13px 0 16px 0;
     letter-spacing: 1px;
     line-height: 32px;
 }
@@ -392,11 +399,13 @@ ul.important-notice a{
 .pickup .post-text {
     font-size: 0.8em;
     line-height: 170%;
+    float: left;
+    width: 315px;
 }
 
 .pickup .pickup-text .mini-info {
     width: 300px;
-    float: left;
+
 }
 
 .pickup-authors img {
@@ -408,6 +417,10 @@ ul.important-notice a{
     display: block;
  }
 
+.pickup-authors  {
+  float:right;
+  padding-right: 14px;
+}
 /* POST */
 
 .entry-content {
@@ -451,127 +464,20 @@ ul.important-notice a{
     line-height: 2;
 }
 
-.post .sub-text-content{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: dotted 1px #D8CFCF;
-}
+/* authors-content（postの一番下のミニAuthor情報） */
 
-.post .sub-text-content:after{
-    content: ".";
-    display: block;
-    height: 0;
-    font-size:0;
-    clear: both;
-    visibility:hidden;
-}
-
-.post .sub-text-content .author-nickname{
-
-    font-size: 16px;
-    letter-spacing: 1.1px;
-    font-weight: bold;
-    color: #666;
-    float: left;
-    padding: 10px 7px 0 8px;
-    text-transform: uppercase;
-
+.post .authors-content .author-excerpt{
+    width: 600px;
 
 }
-
-.post .sub-text-content .author-photo{
-    float: left;
-    width: 65px;
-}
-
-
-.post .sub-text-content .time{
-    padding-top: 9px;
-    padding-right: 4px;
-    float: right;
-    padding-left: 31px;
-    font-size: 15px;
-    color: #C5BABA;
-    letter-spacing: 1px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
-.post .post-sub-informations{
-    vertical-align: middle;
-}
-
-.post .post-sub-informations:after{
-    content: ".";
-    display: block;
-    height: 0;
-    font-size:0;
-    clear: both;
-    visibility:hidden;
-}
-
-.post .sns-icons{
-    float:left;
-    padding-top: 11px;
-}
-
-.post .category-name{
-    letter-spacing: 0.03em;
-    padding-left: 1px;
-    color: #C5BABA;
-    font-size: 11px;
-    color: #C5BABA;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
-
-.post .views {
-    float: right;
-    width: 39px;
-    letter-spacing: 1px;
-    padding-right: 10px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
-
-
-.post .views .count{
-    font-size: 24px;
-    float: right;
-    font-weight: 700;
-}
-
-.post .views .count-text{
-    font-size: 11px;
-    font-size: .6875rem;
-    clear: both;
-    color: #C5BABA;
-    float: right;
-    line-height: 1em;
-}
-
-.post .authors-content{
-    margin: 60px 0;
-    border-top: dotted 1px #D8CFCF;
-    border-bottom: dotted 1px #D8CFCF;
-    padding: 29px 0;
-}
-
-.post .authors-content:after{
-    content: ".";
-    display: block;
-    height: 0;
-    font-size:0;
-    clear: both;
-    visibility:hidden;
-}
-
 
 .post .authors-content .author-photo{
     float: left;
     width: 94px;
     margin-top: 36px;
 }
-.post  .author-photo img{
 
+.post .author-photo img{
     width: 40px;
     height: 40px;
     -webkit-border-radius: 45px;
@@ -581,28 +487,7 @@ ul.important-notice a{
 
 }
 
-.post .authors-content .author-excerpt{
-  float: right;
-  width: 600px;
-
-}
-
-.post .authors-content .author-nickname {
-    font-size: 20px;
-    padding-top: 14px;
-    letter-spacing: 0;
-    font-weight: bold;
-    color: #666;
-}
-
-
-.post .authors-content .author-description{
-    font-size: 12px;
-    line-height: 180%;
-    word-spacing: 2px;
-
-}
-
+/* post-sub-informations */
 
 .popular .popular-header .title {
     font-size: 0.8em;
