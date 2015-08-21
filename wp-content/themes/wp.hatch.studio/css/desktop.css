@@ -108,6 +108,13 @@ ul.nav .ranking {
 
 /* COMMON HEADER */
 
+
+.header {
+    padding: 30px 0;
+    clear: both;
+}
+
+
 .header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
     font-size: 9px;
 }
@@ -127,7 +134,6 @@ ul.nav .ranking {
 
 #index-page .header h2 {
     float: left;
-    margin-bottom: 2em;
     letter-spacing: 16px;
 }
 #index-page .header span.ca {
@@ -137,24 +143,23 @@ ul.nav .ranking {
 }
 
 #index-page .description {
-    margin: 0 0;
     font-size: 12px;
-    padding: 0px 9px 3px 0;
     width: 305px;
     line-height: 22px;
     overflow: hidden;
-    /* width: 55px; */
-    /* height: 20px; */
-}
-
-#index-page .site-character.left {
     float: left;
 }
 
-#index-page .site-character.right {
-    float: right;
+#index-page .eye-catch {
+   width: 400px;
+   float:left;
 }
 
+#index-page .site-character  {
+    width: 305px;
+    float: left;
+    padding-left: 74px;
+}
 
 ul.important-notice a{
     font-size: 1.2em;
@@ -162,43 +167,26 @@ ul.important-notice a{
     font-weight: bold;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    #index-page .site-character {
-       width: 348px !important;
-    }
-}
-
-#index-page .site-character img {
-    width: 305px;
-    margin: 0 auto;
-    display: block;
-}
-
-
 #index-page p.date {
     font-size: 32px;
     letter-spacing: 1px;
+    padding: 21px 0;
 }
 
 #index-page .event {
     font-size: 11px;
-    float: left;
-    padding-top: 26px;
+    clear: both;
+    padding: 37px 0;
+
 }
 
-#index-page .event time {
-    float: left;
-    letter-spacing: 0.1em;
-    width: 7em;
-}
+
 
 #index-page .event li {
     padding-bottom: 10px;
 }
 
-#index-page .future-event {
-    padding-top: 10px;
-}
+
 
 /* INDEX BODY */
 
@@ -488,6 +476,14 @@ ul.important-notice a{
 }
 
 /* post-sub-informations */
+
+.post .sub-text-content .time{
+    font-size: 15px;
+}
+
+
+
+
 
 .popular .popular-header .title {
     font-size: 0.8em;

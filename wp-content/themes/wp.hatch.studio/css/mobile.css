@@ -40,7 +40,9 @@ body {
 #container {
     margin: 70px auto;
     width: 90%;
+    padding: 0 15px;
     max-width: 768px;
+    min-width: 275px;
 }
 
 /* COMMON STYLES */
@@ -78,6 +80,10 @@ body {
     top: 0px;
 }
 
+.header {
+    padding: 10px 0;
+}
+
 @media screen and (min-width: 768px) {
     ul.nav li {
         text-align: center;
@@ -107,46 +113,28 @@ ul.social-icons {
 
 #index-page h1, #index-page h2 {
     text-align: center;
+    white-space: nowrap;
 }
+
+
 
 #index-page h1 {
+    margin:0 0;
     letter-spacing: 3px;
-    font-size: 3em;
-    white-space: nowrap;
+    font-size: 6em;
 }
+
 
 #index-page h2 {
-    font-size: 1em;
-    padding-top: 4px;
-    margin: 0 auto 0.8em auto;
-    font-weight: bold;
-    letter-spacing: 16px;
+   display: none;
 }
 
-#index-page h2 > span {
-    white-space: nowrap;
-    display: block;
-    padding-bottom: 0.5em;
-}
+
 
 #index-page .description, #index-page .notice, #index-page .date{
 display: none;
 }
 
-#index-page .site-character {
-    margin: 0 auto;
-}
-
-#index-page .site-character img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 290px;
-}
-
-#index-page .site-character img{
-    margin-top: 0 !important;
-}
 
 
 #index-page p.date {
@@ -279,17 +267,17 @@ display: none;
 }
 
 .pickup .pickup-text h3 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: normal;
-    padding: 14px 0 10px 0;
+    padding: 25px 0 10px 0;
     letter-spacing: 1px;
-    line-height: 29px;
+    line-height: 38px;
 }
 
 
 .pickup .post-text {
-    font-size: 10px;
-
+    font-size: 15px;
+    padding-bottom: 19px;
 }
 
 .pickup-authors img {
@@ -429,6 +417,10 @@ display: none;
     font-weight: bold;
 }
 
+#index-page .event {
+display: none;
+}
+
 /* ABOUT */
 
 /* AUTHOR */
@@ -453,6 +445,7 @@ display: none;
 }
 
 .authors .author-social-icons {
+    display: block;
     font-size: 1em;
 }
 
@@ -461,18 +454,20 @@ display: none;
 }
 
 .authors .name {
-    padding-left: 0.5em;
+    display: block;
 }
 
 .authors .position {
-    display: block;
-    font-size: 0.6em;
-    padding-left: 0.5em;
+   display: none;
 }
 
 .delimiter {
-    visibility: hidden;
+    display: none;
 
+}
+
+.authors .introduction {
+    padding-top: 15px;
 }
 
 /* SIDE BAR */
@@ -589,8 +584,14 @@ display: none;
 /* 580px 以下サイズ*/
 @media screen and (max-width: 580px) {
     .entry-content table{
-        width: 235px !important;
+        width: 194px !important;
         font-size: 5px !important;
+    }
+
+    #index-page h1 {
+        letter-spacing: 2px;
+        font-size: 48px;
+        white-space: nowrap;
     }
 
 }
@@ -614,8 +615,40 @@ display: none;
 /* 580px 以下サイズ*/
 @media screen and (max-width: 595px) {
     .post-interview .comment{
-        max-width: 235px;
+        max-width: 194px;
 
     }
 
+    .post-interview .answer,.post-interview .question{
+        width: 325px;
+
+    }
+    .post .sub-text-content .time{
+        font-size: 11px;
+    }
+
+    #index-page .site-character{
+    }
+
+    .pickup .post-text {
+        font-size: 10px;
+
+    }
+    #index-page h1 {
+        font-size: 38px;
+    }
+
+    .pickup .pickup-text h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 15px 0;
+        margin: 0 0;
+    }
+
+    .pickup li {
+        clear: both;
+        padding: 11px 0 63px;
+    }
 }
+
+

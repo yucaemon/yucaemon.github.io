@@ -71,21 +71,38 @@ h3 {
 
 /* INDEX HEADER */
 
-#index-page .site-character img {
-    width: 256px;
+#index-page .site-character{
+    padding-top: 57px;
 }
 
-@media screen and (min-width: 1025px) {
-    #index-page .site-character img {
-        margin: -22px 43px 0 79px;
-    }
+#index-page .site-character img{
+    width: 228px;
 }
 
+/* 1024px 以下サイズ*/
 @media screen and (max-width: 1024px) {
-    #index-page .site-character img {
-        margin: -22px auto 0 auto;
+    #index-page .site-character {
+        padding: 57px 0;
+        margin: 0 auto;
+        width: 160px;
+    }
+    #index-page .site-character img{
+        width: 160px;
     }
 }
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 580px){
+    #index-page .site-character {
+        padding: 32px 0;
+        margin: 0 auto;
+        width: 115px;
+    }
+    #index-page .site-character img {
+        width: 125px;
+    }
+}
+
 
 /* INDEX BODY */
 

@@ -81,10 +81,42 @@ h3 {
     color: #ffc0c0;
 }
 
-#index-page .site-character {
-    padding: -41px 88px 10px 13px;
-    width: 378px;
+#index-page .site-character{
+    padding-top: 40px;
 }
+
+#index-page .site-character img{
+    width: 240px;
+
+}
+
+/* 1024px 以下サイズ*/
+@media screen and (max-width: 1024px) {
+    #index-page .site-character {
+        padding: 57px 0;
+        margin: 0 auto;
+        width: 178px;
+    }
+    #index-page .site-character img{
+        width: 178px;
+    }
+}
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 580px){
+    #index-page .site-character {
+        padding: 32px 0;
+        margin: 0 auto;
+        width: 115px;
+    }
+    #index-page .site-character img {
+        width: 125px;
+    }
+}
+
+
+
+
 /* INDEX BODY */
 
 .post-authors img {
