@@ -11,10 +11,9 @@ h1 {
     font-size: 2em;
 }
 
-.post h1.entry-title{
-    font-size: 22px;
-    line-height: 33px;
-
+.post h1.entry-title {
+    font-size: 28px;
+    line-height: 38px;
 }
 
 h3 {
@@ -190,6 +189,7 @@ display: none;
 #category-page .cate-img-top img {
     margin: 0 auto;
     display: block;
+    display: none;
 }
 
 /* CATEGORY BODY */
@@ -546,12 +546,11 @@ display: none;
     font-size: 10px;
     line-height: 180%;
     word-spacing: 2px;
-    width: 260px;
-    padding-right: 15px;
 
 }
 
 .post .authors-content .author-photo{
+    margin: 0 auto;
     width: 58px;
 }
 
@@ -564,6 +563,14 @@ display: none;
     display: block;
     margin: 0 auto;
 
+}
+
+
+.post .authors-content .author-nickname {
+    font-size: 18px;
+    padding: 14px 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* postの中のテーブルのサイズ */
@@ -614,28 +621,15 @@ display: none;
 
 /* 580px 以下サイズ*/
 @media screen and (max-width: 595px) {
-    .post-interview .comment{
-        max-width: 194px;
 
-    }
 
-    .post-interview .answer,.post-interview .question{
-        width: 325px;
-
-    }
-    .post .sub-text-content .time{
-        font-size: 11px;
-    }
-
-    #index-page .site-character{
+    #index-page h1 {
+        font-size: 38px;
     }
 
     .pickup .post-text {
         font-size: 10px;
 
-    }
-    #index-page h1 {
-        font-size: 38px;
     }
 
     .pickup .pickup-text h3 {
@@ -649,6 +643,52 @@ display: none;
         clear: both;
         padding: 11px 0 63px;
     }
+
+    #category-page .cate-right-text h2 {
+        font-size: 35px;
+    }
+
+    #category-page .cate-right-text .big-title {
+        font-size: 13px;
+    }
+
+    .post h1.entry-title{
+        font-size: 22px;
+        line-height: 33px;
+
+    }
+
+    .post-interview .comment{
+        max-width: 200px;
+
+    }
+
+    .post-interview .answer,.post-interview .question{
+        width: 325px;
+
+    }
+
+    .post .sub-text-content .time{
+        font-size: 11px;
+    }
+
+    .post .sub-text-content .author-nickname {
+        font-size: 15px;
+        padding: 7px 7px 0 8px;
+
+    }
+
+    .post .authors-content .author-description {
+        font-size: 10px;
+    }
+
+    .entry-content i.interview-icon {
+        margin: 26px 18px 0 11px;
+    }
+    .entry-content iframe {
+        width: 276px;
+    }
+
 }
 
 

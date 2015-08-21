@@ -506,12 +506,6 @@ ul.articles:after{
 }
 
 
-.post .authors-content .author-photo{
-    float: left;
-    margin-top: 36px;
-}
-
-
 .post .authors-content .author-excerpt{
     float: right;
 }
@@ -555,6 +549,7 @@ ul.articles:after{
 #category-page .cate-right-text .big-title {
     font-size: 15px;
     font-weight: bold;
+    padding: 10px 0;
 
 }
 
@@ -591,7 +586,7 @@ ul.articles:after{
 
 .pickup-authors-name{
     font-size: 0.8em;
-    padding-bottom: 21px;
+    padding-bottom: 30px;
     text-align: center;
     letter-spacing: 0.1em;
     color: #C5BABA;
