@@ -466,12 +466,11 @@ ul.important-notice a{
 }
 
 .post .author-photo img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     -webkit-border-radius: 45px;
     border-radius: 45px;
     display: block;
-    margin: 0 auto;
 
 }
 
