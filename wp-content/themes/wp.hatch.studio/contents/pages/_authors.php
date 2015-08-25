@@ -28,6 +28,7 @@ array_unshift( $results, $leaders[0] )
 //    6 => "ucberkeley",
 //    8 => "newyork",
 //    9 => 'portland'
+//    11 => 'ucla'
 
 $is_ob_display = in_array( get_current_blog_id(),  [ 6 ] );
 ?>

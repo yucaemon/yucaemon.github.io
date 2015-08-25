@@ -25,7 +25,8 @@
     1 => "sf",
     6 => "ucberkeley",
     8 => "newyork",
-    9 => 'portland'
+    9 => 'portland',
+    11 => 'ucla'
   );
 
   global $site_leader;
@@ -33,7 +34,8 @@
     1 => 22,
     6 => 23,
     8 => 24,
-    9 => 49
+    9 => 49,
+    11 => 22
   )
 
   ?>
@@ -120,6 +122,8 @@ if (has_post_thumbnail() && ! is_archive() && ! is_front_page() && ! is_home()){
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ucberkeley.css" media="screen" />
   <?php }else if( get_current_blog_id() == 9 ){ ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/portland.css" media="screen" />
+  <?php }else if( get_current_blog_id() == 11 ){ ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ucla.css" media="screen" />
   <?php }else { ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/sf.css" media="screen" />
   <?php } ?>
