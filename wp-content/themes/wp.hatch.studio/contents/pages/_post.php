@@ -8,6 +8,7 @@
     <header class="entry-header">
 
         <?php if (!post_password_required()) : ?>
+
         <h1 class="entry-title"><a title="<?php the_title(); ?>"
                                    href="<?php the_permalink() ?>"><?php echo mb_substr($post->post_title, 0, 67).'';
             ?></a></h1>
@@ -28,7 +29,6 @@
                       }
                   }(document, 'script', 'twitter-wjs');</script>
               </span>
-　　　　　　　
 
                 <?php if (!is_user_logged_in()) : ?>
                 <span class="facebook-like-btn">
@@ -37,7 +37,9 @@
                         allowTransparency="true"></iframe>
                 </span>
                 <?php endif; ?>
-　　　　　　　　
+
+                <a href="http://b.hatena.ne.jp/entry/<?php the_permalink(); ?>" class="hatena-bookmark-button" data-hatena-bookmark-title="<?php the_title(); ?>" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
 　　　　　　　</div>
 
 
@@ -107,6 +109,33 @@ $cat_slug = $cat->slug;
     <div class="entry-content">
 
         <?php the_content(); ?>
+        <div class="sns-icons">
+              <span class="twitter-share-botn">
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                   data-url="<?php the_permalink(); ?>" data-text="<?php the_title(); ?>" 　
+                data-via="hatchstudioinc" data-lang="ja" data-hashtags="海外おもしろまがじん" data-dnt="true">ツイート</a>
+                  <script>!function (d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                      if (!d.getElementById(id)) {
+                          js = d.createElement(s);
+                          js.id = id;
+                          js.src = p + '://platform.twitter.com/widgets.js';
+                          fjs.parentNode.insertBefore(js, fjs);
+                      }
+                  }(document, 'script', 'twitter-wjs');</script>
+              </span>
+
+            <?php if (!is_user_logged_in()) : ?>
+                <span class="facebook-like-btn">
+                <iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21&amp;appId=650457541700749"
+                        scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;"
+                        allowTransparency="true"></iframe>
+                </span>
+            <?php endif; ?>
+
+            <a href="http://b.hatena.ne.jp/entry/<?php the_permalink(); ?>" class="hatena-bookmark-button" data-hatena-bookmark-title="<?php the_title(); ?>" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+            　　　　　　　</div>
 
     </div>
     <!-- .entry-content -->
@@ -114,6 +143,7 @@ $cat_slug = $cat->slug;
     </article><!-- #post -->
 
     <?php endwhile; ?>
+
 
     <div class="authors-content">
         <div class="author-photo">
