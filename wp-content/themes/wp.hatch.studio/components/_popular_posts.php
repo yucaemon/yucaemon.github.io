@@ -3,7 +3,7 @@
 
   <?php
 
-  $last_month = date('Y-m-d', strtotime('-2 months'));
+  $last_month = date('Y-m-d', strtotime('-3 months'));
   $results = $wpdb->get_results("
                     SELECT posts.ID, meta.meta_value FROM $wpdb->postmeta as meta
                     join $wpdb->posts as posts on posts.ID = meta.post_id
