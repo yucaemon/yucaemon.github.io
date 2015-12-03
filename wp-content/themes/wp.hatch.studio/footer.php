@@ -23,6 +23,7 @@
 </ul>
 
 <?php endif; ?>
+    <div class="fb-page" data-href="https://www.facebook.com/hatchstudioinc/?ref=hl" data-width="472px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hatchstudioinc/?ref=hl"><a href="https://www.facebook.com/hatchstudioinc/?ref=hl">はっちすたじお</a></blockquote></div></div>
 
 <p><small>hatchstudio All Rights Reserved.</small></p>
 

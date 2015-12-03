@@ -561,8 +561,10 @@ ul.important-notice a{
     padding: 35px 10px;
 }
 
-#side-bar-1 .facebook {
-    padding: 15px 0 0 10px;
+
+#side-bar-1 .side-fb-box {
+    padding: 40px 0;
+    border-bottom: dotted 1px #D8CFCF;
 }
 
 /* SIDE BAR POPULAR */
@@ -586,6 +588,9 @@ ul.important-notice a{
 }
 
 /* FOOTER */
+#footer-content {
+    width: 500px;
+}
 
 /* SOCIAL */
 .fb-comments {
