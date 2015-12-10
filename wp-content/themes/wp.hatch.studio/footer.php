@@ -23,9 +23,16 @@
 </ul>
 
 <?php endif; ?>
+
+    <!-- Facebook -->
     <div class="fb-page" data-href="https://www.facebook.com/hatchstudioinc/?ref=hl" data-width="472px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hatchstudioinc/?ref=hl"><a href="https://www.facebook.com/hatchstudioinc/?ref=hl">はっちすたじお</a></blockquote></div></div>
 
-<p><small>hatchstudio All Rights Reserved.</small></p>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/hatchstudioinc" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @hatchstudioinc</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <p><small>hatchstudio All Rights Reserved.</small></p>
 
 
 

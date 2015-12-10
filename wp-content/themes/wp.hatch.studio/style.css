@@ -875,6 +875,12 @@ margin:10px 0;
     visibility: hidden;
 }
 
+.fb-page{
+    padding-bottom: 20px;
+}
+
+/* facebook likebox レスポンシブ */
+
 #fb-root {
     display: none;
 }
