@@ -72,7 +72,7 @@ $cat_slug = $cat->slug;
 
             if (has_post_thumbnail()) :
 
-              the_post_thumbnail();
+              the_post_thumbnail('large');
 
             else :
 
