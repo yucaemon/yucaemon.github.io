@@ -1,0 +1,198 @@
+/* initialize */
+
+a img:hover {
+    color: #B4B4B4;
+}
+
+a {
+    color: #696969;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #555;
+}
+
+
+h3 {
+    color: #F8B0B0;
+    font-size: 10px;
+    /* margin-bottom: 13px; */
+}
+
+
+::selection {
+    background: #FDDCDC; /* Safari */
+}
+
+::-moz-selection {
+    background: #FDDCDC; /* Firefox */
+}
+
+/* COMMON STYLE */
+.sub-title {
+    border: 1px solid #ffc0c0;
+    color: #ffc0c0;
+}
+
+.header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
+    /* padding: 4px; */
+    /* color: #ffc0c0; */
+    /* background-color: #ffc0c0; */
+    border: solid 1px #ffc0c0;
+}
+
+.mini-info {
+    color: #FFC0C0;
+}
+
+.mini-info a {
+    color: #ffc0c0;
+}
+
+.pre {
+    color: #f8b0b0;
+    border: solid 1px #FFDFDF;
+}
+
+.pre:hover, .next:hover {
+    background-color: #F8B0B0;
+}
+
+.next {
+    color: #F8B0B0;
+    border: solid 1px #FFDFDF;
+}
+
+/* NAVI */
+
+/* COMMON HEADER */
+
+/* INDEX HEADER */
+
+#index-page .header h1 span:first-child {
+    color: rgba(53, 250, 177, 0.71);
+}
+
+#index-page .header h1 span:nth-child(2) {
+
+}
+
+#index-page .header h1 span:nth-child(3) {
+    color: #ffc0c0;
+}
+
+#index-page .site-character {
+    padding: -41px 88px 10px 13px;
+    width: 378px;
+}
+/* INDEX BODY */
+
+.post-authors img {
+    border: solid 1px #E6E1E1;
+}
+
+.articles ul {
+    border-bottom: dotted 1px #FF8888;
+}
+
+.articles li {
+    border-top: solid 4px #FFE0E0;
+}
+
+.articles .sub-title {
+    color: #FFC0C0;
+    background-color: white;
+    border: solid 1px #ffc0c0;
+}
+
+/* CATEGORY HEADER  */
+
+#category-page .header {
+
+}
+
+#category-page .header .cate-right-text .sub-title {
+    background-color: #ffc0c0;
+    color: #FFF;
+}
+
+/* AUTHOR HEADER */
+
+#author-page .header img.author-header {
+    border: solid 1px #E6E1E1;
+}
+
+/* POST */
+
+.entry-content a {
+    color: #ffc0c0;
+}
+
+.entry-content h1 a, .entry-content h2 a, .entry-content h3 a, .entry-content h4 a,.entry-content  h5 a, .entry-content h6 a {
+    color: #ffc0c0;
+}
+
+.entry-content img {
+    border: 1px solid #ddd
+}
+
+.post-related h3 {
+    color: #ffc0c0;
+}
+
+.post-related .relatedthumb {
+    border: solid 2px #FFDFDF !important;
+}
+
+/* AUTHORS */
+
+.authors img {
+    border: solid 1px #E6E1E1;
+}
+
+.authors {
+    border-top: dotted 1px #EAEAEA;
+}
+
+.authors li {
+    border-bottom: dotted 1px #E5E5E5;
+}
+
+
+.authors .since-date {
+    color: #ffc0c0;
+}
+
+/* ABOUT */
+.about .sign > img {
+    width: 13%;
+}
+
+/* SIDE BAR */
+
+#side-bar-1 .about, .site-categories {
+    border-bottom: dotted 1px #FF8888;
+}
+
+#side-bar-1 .side-title {
+    color: #ffc0c0;
+}
+
+/* SIDE BAR POPULAR */
+
+#side-bar-1 .popular li {
+    border-top: dotted 1px #D8CFCF;
+}
+
+#side-bar-1 .popular .popular-header .time {
+    color: #9D9C9C;
+}
+
+#side-bar-1 .popular .popular-header .author {
+    color: #ffc0c0;
+}
+
+#side-bar-1 .popular .popular-header .views {
+    color: #C5BABA;
+}
+

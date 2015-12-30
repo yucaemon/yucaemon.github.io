@@ -1,0 +1,710 @@
+/* 1024px ipad 以下サイズ対応*/
+
+
+/* initialize */
+
+html {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.post h1.entry-title {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h3 {
+    color: #F8B0B0;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding: 9px 0 12px 0;
+    letter-spacing: 0px;
+}
+
+/*CSS Document */
+
+/* PAGE LAYOUT */
+
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#container {
+    margin: 70px auto;
+    width: 90%;
+    padding: 0 15px;
+    max-width: 768px;
+    min-width: 275px;
+}
+
+/* COMMON STYLES */
+
+.sub-title {
+    font-size: 1em;
+}
+
+#side-bar-1 {
+    display: none;
+}
+
+#side-bar-1.twitter {
+    width: 201px;
+    padding: 10px 0 20px 10px;
+}
+
+#side-bar-1.facebook {
+    padding: 15px 0 0 10px;
+}
+
+/* NAVI */
+
+.navbar-brand {
+    height: auto;
+    padding: 7px 0;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 1em;
+}
+
+.navbar-fixed-top {
+    top: 0px;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    ul.nav li {
+        text-align: center;
+    }
+}
+
+ul.nav.social li {
+    float: left;
+}
+
+ul.nav.social li {
+    float: left;
+}
+
+/* COMMON HEADER */
+
+.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+    font-size: 1em;
+}
+
+ul.social-icons {
+    display: none;
+}
+
+
+/* INDEX HEADER */
+
+#index-page h1, #index-page h2 {
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+#index-page h1 {
+    margin:0 0;
+    letter-spacing: 3px;
+    font-size: 6em;
+}
+
+
+#index-page h2 {
+   display: none;
+}
+
+
+
+#index-page .description, #index-page .notice, #index-page .date{
+display: none;
+}
+
+
+
+#index-page p.date {
+    font-size: 2.7em;
+    float: left;
+    letter-spacing: 1px;
+    margin-right: 0.5em;
+}
+
+#index-page .header h3 {
+    font-size: 1em;
+}
+
+#index-page .event {
+    padding-top: 26px;
+    text-align: center;
+}
+
+#index-page .event time {
+    float: left;
+    letter-spacing: 0.1em;
+    width: 7em;
+}
+
+#index-page .event li {
+    padding-bottom: 10px;
+}
+
+#index-page .future-event {
+    padding-top: 10px;
+}
+
+
+/* INDEX BODY */
+
+.articles {
+    display: none;
+}
+
+/* CATEGORY HEADER  */
+
+#category-page .category-header {
+    width: 300px;
+}
+
+#category-page .cate-img-top img {
+    height: 92px;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#category-page .cate-img-top img {
+    margin: 0 auto;
+    display: block;
+    display: none;
+}
+
+/* CATEGORY BODY */
+
+#category-page .big-title, #category-page h2 {
+    text-align: center;
+}
+
+#category-page .small-title {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+#category-page .pickup-text .mini-info {
+    width: 100%;
+}
+
+/* AUTHOR HEADER */
+
+#author-page img.author-header {
+    -webkit-border-radius: 80px;
+    margin: 15px auto;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+#author-page .header .sub-title {
+    display: none;
+}
+
+#author-page h2 {
+    font-size: 20px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    color: #666;
+    padding: 6px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#author-page .big-title {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 9px 0 0 0;
+    font-weight: 300;
+    padding: 17px 10px;
+    letter-spacing: 1px;
+    color: #A0A0A0;
+}
+
+#author-page > div:first-child {
+    width: auto;
+
+}
+
+/* AUTHOR BODY */
+
+/* PICKUP */
+.pickup li {
+    clear: both;
+    padding: 1.5em 0 6.5em;
+
+}
+
+.pickup .pickup-img .attachment-post-thumbnail {
+    width: 100%;
+    height: auto;
+    margin: 16px 0;
+}
+
+.pickup .pickup-text {
+    width: 100%;
+    margin: 0 0;
+}
+
+.pickup .pickup-text h3 {
+    font-size: 26px;
+    font-weight: normal;
+    padding: 25px 0 10px 0;
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+
+.pickup .post-text {
+    font-size: 15px;
+    padding-bottom: 19px;
+}
+
+.pickup-authors img {
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 45px;
+    border-radius: 35px;
+    display: block;
+}
+
+.pickup-authors  {
+    float:right;
+    padding-right: 14px;
+}
+
+.pickup-authors-name {
+    display: none;
+}
+
+#author-page .pickup-authors {
+    display: none;
+}
+
+/* POST */
+
+.single-post .pickup-authors img {
+    float: left !important;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post {
+    word-break: break-all;
+}
+
+.post .authors-info {
+    width: 95%;
+}
+
+.post .authors-info:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.post .authors-info p {
+
+}
+
+.post .authors-info p.name {
+    font-size: 1.5em;
+    padding: 0.5em 0 0 2.5em;
+
+}
+
+.post .authors-info p.name:after {
+
+}
+
+.post .authors-info p.author-about {
+    clear: both;
+    font-size: 0.8em;
+    width: 100%;
+    word-spacing: 2px;
+    margin: 3em 0 2em 0;
+}
+
+.post .authors-info .pickup-authors img {
+    margin: 1em 0 0 0;
+    float: left;
+}
+
+.entry-content {
+    font-size: 1em;
+    line-height: 180%;
+}
+
+.entry-content {
+    height: auto;
+    max-width: 100%;
+
+}
+
+.entry-content img{
+    margin:40px 0;
+    max-width: 100%;
+    height: auto;
+    width /***/: auto;
+    margin-bottom: 2em;
+}
+
+.single-post .entry-content img {
+
+}
+
+.entry-content h2 {
+    line-height: 1.8em;
+}
+
+.navi-pager {
+    font-size: 1.2em;
+    text-align: center;
+    clear: both;
+}
+
+.entry-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.post-related {
+    width: 100%;
+    margin: 0 2em;
+}
+
+.post-related h3 {
+    font-size: 16px;
+    margin: 0 0 4px 0;
+}
+
+.post-related .relatedthumb {
+    margin: 30px 14px 0 1px !important;
+    height: 142px !important;
+    padding: 19px 13px 20px 13px !important;
+
+}
+
+.post h1, .post h2, .post h3, .post h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#index-page .event {
+display: none;
+}
+
+/* ABOUT */
+
+/* AUTHOR */
+
+.authors ul li:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.authors dl {
+    width: 100%;
+}
+
+.authors img {
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+
+.authors .author-social-icons {
+    display: block;
+    font-size: 1em;
+}
+
+.authors dt {
+    text-align: center;
+}
+
+.authors .name {
+    display: block;
+}
+
+.authors .position {
+   display: none;
+}
+
+.delimiter {
+    display: none;
+
+}
+
+.authors .introduction {
+    padding-top: 15px;
+}
+
+/* SIDE BAR */
+
+/* SIDE BAR POPULAR */
+#side-bar-1 .popular .popular-header {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#side-bar-1 .popular .popular-header .title {
+    font-size: 1em;
+    padding: 3px;
+    display: block;
+}
+
+#side-bar-1 .popular .title {
+    text-align: left;
+    display: block;
+}
+
+#side-bar-1 .popular .popular-header .author {
+    font-size: 1.3em;
+}
+
+#side-bar-1 .popular .popular-header .views {
+    font-size: 1.1em;
+}
+
+#side-bar-1 .popular img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 1em auto;
+}
+
+/* FOOTER */
+
+/* SOCIAL */
+.fb-comments, .fb-comments iframe[style] {
+    width: 100% !important;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.post .entry-thumbnail{
+    padding-bottom:20px;
+}
+
+
+/* sub-text-content */
+.post .sns-icons{
+    width:203px;
+}
+
+.post .category-name{
+    display: none;
+}
+
+/* authors-content（postの一番下のミニAuthor情報） */
+.post .authors-content .author-excerpt {
+    font-size: 10px;
+    line-height: 180%;
+    word-spacing: 2px;
+
+}
+
+.post .authors-content .author-photo{
+    margin: 0 auto;
+    width: 58px;
+}
+
+
+.post .author-photo img{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    display: block;
+    padding-left: 5px;
+
+}
+
+
+.post .authors-content .author-nickname {
+    font-size: 18px;
+    padding: 14px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* postの中のテーブルのサイズ */
+
+.entry-content table{
+    width: 535px !important;
+    font-size: 12px !important;
+}
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 740px) {
+    .entry-content table{
+        width: 407px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 580px) {
+    .entry-content table{
+        width: 194px !important;
+        font-size: 5px !important;
+    }
+
+    #index-page h1 {
+        letter-spacing: 2px;
+        font-size: 48px;
+        white-space: nowrap;
+    }
+
+}
+
+/* インタビュー */
+
+.post-interview .comment{
+    font-size: 15px;
+    max-width:545px;
+
+}
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 740px) {
+    .post-interview .comment{
+        max-width:410px;
+
+    }
+}
+
+/* 580px 以下サイズ*/
+@media screen and (max-width: 595px) {
+
+
+    #index-page h1 {
+        font-size: 38px;
+    }
+
+    .pickup .post-text {
+        font-size: 10px;
+
+    }
+
+    .pickup .pickup-text h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 15px 0;
+        margin: 0 0;
+    }
+
+    .pickup li {
+        clear: both;
+        padding: 11px 0 63px;
+    }
+
+    #category-page .cate-right-text h2 {
+        font-size: 35px;
+    }
+
+    #category-page .cate-right-text .big-title {
+        font-size: 13px;
+    }
+
+    .post h1.entry-title{
+        font-size: 22px;
+        line-height: 33px;
+
+    }
+
+    .post-interview .comment{
+        max-width: 200px;
+
+    }
+
+    .post-interview .answer,.post-interview .question{
+        width: 325px;
+
+    }
+
+    .post .sub-text-content .time{
+        font-size: 11px;
+    }
+
+    .post .sub-text-content .author-nickname {
+        font-size: 13px;
+        padding: 7px 7px 0 8px;
+
+    }
+
+    .post .authors-content .author-description {
+        font-size: 10px;
+    }
+
+    .entry-content i.interview-icon {
+        margin: 26px 18px 0 11px;
+    }
+    .entry-content iframe {
+        width: 276px;
+    }
+
+    .post .sub-text-content .time {
+        padding: 9px 5px 0 0 ;
+
+    }
+
+
+
+}
+
+#footer-content {
+    width:500px;
+}
+
+
+/* 550px 以下サイズ*/
+@media screen and (max-width: 545px) {
+    #footer-content {
+        width: 300px;
+    }
+}
