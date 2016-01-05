@@ -14,7 +14,7 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav category">
         <li>
-            <a href="/">HOME</a>
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/header/nav-log.png"></a>
         </li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOCATIONS</a>

@@ -303,6 +303,32 @@ ul.nav.social > li > a {
     padding: 15px 10px;
 }
 
+/* HEADER LOCATIONS NAVI */
+
+ul.header-navi-locations{
+    width:800px;
+    margin:0 auto;
+}
+
+ul.header-navi-locations li{
+    float: left;
+
+}
+ul.header-navi-locations:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.about-us {
+    float: right;
+    position: relative;
+    top: -95px;
+    right: 32px;
+}
+
+
+
 /* COMMON HEADER */
 
 .header {

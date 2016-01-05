@@ -7,11 +7,6 @@
 
     <div id="<?php echo $content_type ?>-page">
 
-      <div class="header"><!-- HEADER -->
-
-        <?php include(TEMPLATEPATH . '/contents/' . $content_type . '/_' . $content_type . '_header.php'); ?>
-
-      </div><!-- END HEADER -->
 
       <?php include(TEMPLATEPATH . '/contents/' . $content_type . '/_' . $content_type . '_body.php'); ?>
 

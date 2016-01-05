@@ -39,7 +39,7 @@ body {
 }
 
 #container {
-    margin: 95px auto;
+    margin: 50px auto;
     width: 1200px;
 }
 
@@ -110,8 +110,10 @@ ul.nav .ranking {
 
 
 .header {
+    height: 330px;
     padding: 30px 0;
     clear: both;
+    background-image: url(../images/header/sf-background.png);
 }
 
 
@@ -155,11 +157,16 @@ ul.nav .ranking {
    float:left;
 }
 
-#index-page .site-character  {
-    width: 305px;
-    float: left;
-    padding-left: 74px;
+.site-character {
+    margin: 0 auto;
+    width: 239px;
+    padding-top: 17px;
 }
+
+.site-character img{
+    width: 239px;
+}
+
 
 ul.important-notice a{
     font-size: 1.2em;
