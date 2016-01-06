@@ -802,7 +802,6 @@ margin:10px 0;
 }
 
 /* SIDE BAR */
-
 #side-bar-1 .about, .site-categories {
     padding: 10px 0 30px 0;
 }
@@ -812,6 +811,7 @@ margin:10px 0;
     font-weight: bold;
     font-size: 1.4em;
     padding-left: 10px;
+    text-align: center;
 }
 
 #side-bar-1 .twitter {
