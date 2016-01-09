@@ -187,10 +187,6 @@ ul.nav .ranking {
     padding-top: 17px;
 }
 
-.site-character img{
-    width: 239px;
-}
-
 
 ul.important-notice a{
     font-size: 1.2em;
@@ -606,10 +602,26 @@ ul.important-notice a{
     font-size: 0.9em;
 }
 
-#side-bar-1 .popular img {
+#side-bar-1 .popular-side img {
     height: 73px;
     display: block;
 }
+/*
+
+#side-bar-1 .title{
+    float:right;
+}
+
+#side-bar-1 .popular .popular-header .views{
+    float:right;
+}
+
+
+.popular-header:after{
+    content: ""; display: block; visibility: hidden; clear: both;
+
+}
+*/
 
 /* FOOTER */
 #footer-content {

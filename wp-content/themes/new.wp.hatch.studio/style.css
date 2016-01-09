@@ -320,6 +320,19 @@ ul.header-navi-locations:after{
     visibility: hidden;
     clear: both;
 }
+
+
+ul.header-navi-locations li > p+p{
+    border-top: solid 1px #E0E0E0;
+}
+
+ul.header-navi-locations li p:last-child{
+    color: #6B6A6A;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+}
 .about-us {
     float: right;
     position: relative;
@@ -850,6 +863,17 @@ margin:10px 0;
 #side-bar-1 .popular .popular-header .time {
     font-size: 1em;
 }
+
+/*
+
+.post-num:before {
+    font-family: "DINNextLTPro-Medium",sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 140%;
+    content: counter(postNum);
+    counter-increment: postNum;
+}
+*/
 
 /* FOOTER */
 #footer {
