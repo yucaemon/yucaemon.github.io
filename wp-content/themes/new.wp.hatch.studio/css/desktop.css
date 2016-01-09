@@ -38,16 +38,37 @@ body {
     width: 100%;
 }
 
+/* 全囲みdiv*/
+
 #container {
+    width: 90%;
     margin: 50px auto;
-    width: 1200px;
 }
 
+/*middle div*/
+
 #contents {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 記事一覧 部分*/
+
+#index-page{
+    float:left;
+    width:70%;
+}
+
+/* SIDE 部分*/
+#side-bar-1 {
     float: left;
-    width: 720px;
-    padding-right: 50px;
-    padding-left: 55px;
+    width: 30%;
+    height: auto;
+    margin-top: 5px;
+}
+
+#contents:after{
+    content: ""; display: block; visibility: hidden; clear: both;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -112,10 +133,13 @@ ul.nav .ranking {
 .header {
     height: 330px;
     padding: 30px 0;
-    clear: both;
+
     background-image: url(../images/header/sf-background.png);
 }
+.header:after{
 
+    content: ""; display: block; visibility: hidden; clear: both;
+}
 
 .header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
     font-size: 9px;
@@ -555,13 +579,6 @@ ul.important-notice a{
     font-size: 14px;
 }
 
-/* SIDE BAR*/
-#side-bar-1 {
-    float: left;
-    width: 28%;
-    height: auto;
-    margin-top: 5px;
-}
 
 #side-bar-1 .twitter {
     width: 290px;
