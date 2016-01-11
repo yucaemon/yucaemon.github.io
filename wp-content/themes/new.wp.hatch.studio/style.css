@@ -308,6 +308,12 @@ ul.nav.social > li > a {
 ul.header-navi-locations{
     width:800px;
     margin:0 auto;
+    padding-top:5px;
+    padding-left: 135px;
+}
+
+ul.header-navi-locations li:first-child{
+    padding-top:26px;
 }
 
 ul.header-navi-locations li{
@@ -322,17 +328,30 @@ ul.header-navi-locations:after{
 }
 
 
-ul.header-navi-locations li > p+p{
-    border-top: solid 1px #E0E0E0;
+
+ul.header-navi-locations li p{
+    color: #666;
+    text-align: center;
+    font-size: 5px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    float: right;
+    padding-bottom: 5px;
 }
 
-ul.header-navi-locations li p:last-child{
-    color: #6B6A6A;
-    text-align: center;
-    font-size: 10px;
-    padding-top: 6px;
-    letter-spacing: 1px;
+
+ul.header-navi-locations li p:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
 }
+
+ul.header-navi-locations li.location-description{
+    padding-top:10px;
+}
+
 .about-us {
     float: right;
     position: relative;
@@ -819,6 +838,15 @@ margin:10px 0;
     padding: 10px 0 30px 0;
 }
 
+#side-bar-1:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+
+}
+
 #side-bar-1 .side-title {
     letter-spacing: 0.05em;
     font-weight: bold;
@@ -844,7 +872,11 @@ margin:10px 0;
 }
 
 #side-bar-1 .popular li, #side-bar-1 .links dl {
-    padding: 16px 0;
+    padding: 32px 0;
+}
+
+#side-bar-1 .side-title img{
+    width: 215px;
 }
 
 #side-bar-1 .popular li:after {
@@ -863,6 +895,13 @@ margin:10px 0;
 #side-bar-1 .popular .popular-header .time {
     font-size: 1em;
 }
+
+/* SIDE BAR POPULAR */
+
+#side-bar-1 .popular li+li {
+    border-top: dotted 1px #D8CFCF;
+}
+
 
 /*
 

@@ -55,8 +55,11 @@ body {
 /* 記事一覧 部分*/
 
 #index-page{
-    float:left;
-    width:70%;
+    float: left;
+    width: 66%;
+    padding-right: 20px;
+    margin-top: 5px;
+    border-right: solid 1px rgba(216, 216, 216, 0.63);
 }
 
 /* SIDE 部分*/
@@ -64,7 +67,8 @@ body {
     float: left;
     width: 30%;
     height: auto;
-    margin-top: 5px;
+    margin-top: -30px;
+    padding-left: 15px;
 }
 
 #contents:after{
@@ -132,9 +136,9 @@ ul.nav .ranking {
 
 .header {
     height: 330px;
-    padding: 30px 0;
-
+    padding-top: 70px;
     background-image: url(../images/header/sf-background.png);
+    background-repeat: no-repeat;
 }
 .header:after{
 
@@ -183,7 +187,7 @@ ul.nav .ranking {
 
 .site-character {
     margin: 0 auto;
-    width: 239px;
+    width: 260px;
     padding-top: 17px;
 }
 
@@ -512,11 +516,11 @@ ul.important-notice a{
 
 
 .popular .popular-header .title {
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.04em;
     padding: 3px;
     display: block;
-    width: 174px;
+    width: 203px;
 }
 
 .post-related {

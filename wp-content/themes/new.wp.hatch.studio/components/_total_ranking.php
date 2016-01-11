@@ -30,14 +30,11 @@
 
         <div class="popular-header">
 
-
-
-
             <!-- div class="post-num"></div-->
-
+            <span class="author"><?php echo the_author_meta( 'nickname', $this_post->post_author ); ?> </span><span class="views"> - <?php echo $this_post_views ?> views</span>
             <div class="title"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo $this_post->post_title;
                 ?></a></div>
-            <div class="views"> - <?php echo $this_post_views ?> views</div>
+
         </div>
         <div class="popular-side"><a href="<?php echo get_permalink($this_post->ID); ?>"><?php echo get_the_post_thumbnail( $this_post->ID,
             'thumbnail' ); ?></a></div>

@@ -200,15 +200,9 @@ h3 {
     border-bottom: dotted 1px #FF8888;
 }
 
-#side-bar-1 .side-title {
-    color: #ffc0c0;
-}
 
 /* SIDE BAR POPULAR */
 
-#side-bar-1 .popular li {
-    border-top: dotted 1px #D8CFCF;
-}
 
 #side-bar-1 .popular .popular-header .time {
     color: #9D9C9C;

@@ -3,17 +3,20 @@
 </div>
 <ul class="header-navi-locations">
     <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-menutop.png"></li>
-    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ny.png"></li>
-    <li><p><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-text-ny.png"></p>
 
-        <p>ニューヨーク</p></li>
-    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucb.png"></li>
-    <li><p><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-text-ucb.png"></p>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ny.png">
+        <p>ニューヨーク</p>
+    </li>
 
-        <p>UCバークレー大学</p></li>
-    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucla.png"></li>
-    <li><p><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-text-ucla.png"></p>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucb.png">
+        <p>UCバークレー</p>
+    </li>
 
-        <p>UCLA大学</p></li>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucla.png">
+        <p>UCLA</p>
+    </li>
 </ul>
 <div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/header/aboutus.png"></div>
