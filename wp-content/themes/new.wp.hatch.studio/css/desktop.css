@@ -135,11 +135,10 @@ ul.nav .ranking {
 
 
 .header {
-    height: 330px;
-    padding-top: 70px;
     background-image: url(../images/header/sf-background.png);
     background-repeat: no-repeat;
 }
+
 .header:after{
 
     content: ""; display: block; visibility: hidden; clear: both;
@@ -217,6 +216,13 @@ ul.important-notice a{
     padding-bottom: 10px;
 }
 
+
+.about-us {
+    float: right;
+    position: relative;
+    top: -95px;
+    right: 32px;
+}
 
 
 /* INDEX BODY */

@@ -281,6 +281,12 @@ ul.nav li {
 
 }
 
+
+ul.nav.category li:not( :first-child ){
+
+padding-top:8px;
+
+}
 ul.nav {
     margin: 0 auto;
 }
@@ -305,11 +311,15 @@ ul.nav.social > li > a {
 
 /* HEADER LOCATIONS NAVI */
 
+.header {
+    height: 330px;
+    padding-top: 70px;
+}
+
 ul.header-navi-locations{
-    width:800px;
+    width:606px;
     margin:0 auto;
     padding-top:5px;
-    padding-left: 135px;
 }
 
 ul.header-navi-locations li:first-child{
@@ -352,12 +362,7 @@ ul.header-navi-locations li.location-description{
     padding-top:10px;
 }
 
-.about-us {
-    float: right;
-    position: relative;
-    top: -95px;
-    right: 32px;
-}
+
 
 
 

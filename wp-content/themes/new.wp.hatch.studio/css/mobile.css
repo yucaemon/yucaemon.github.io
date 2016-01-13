@@ -79,10 +79,6 @@ body {
     top: 0px;
 }
 
-.header {
-    padding: 10px 0;
-}
-
 @media screen and (min-width: 768px) {
     ul.nav li {
         text-align: center;
@@ -103,8 +99,25 @@ ul.nav.social li {
     font-size: 1em;
 }
 
+
+ul.header-navi-locations li:first-child{
+    visibility: hidden;
+}
+
+
+
 ul.social-icons {
     display: none;
+}
+
+.site-character {
+    margin: 0 auto;
+    width: 260px;
+    padding-top: 17px;
+}
+
+.about-us {
+    visibility: hidden;
 }
 
 
@@ -707,4 +720,12 @@ display: none;
     #footer-content {
         width: 300px;
     }
+}
+
+/* 700px 以下サイズ*/
+@media screen and (max-width: 700px) {
+li.location-description img{
+    visibility: hidden;
+
+}
 }
