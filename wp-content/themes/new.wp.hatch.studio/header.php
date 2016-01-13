@@ -8,11 +8,11 @@
 
 <head>
 
-<TITLE>hatch studio - おもしろ情報マガジン <?php wp_title(); ?></TITLE>
+<TITLE>hatch studio - おもしろ海外情報マガジン <?php wp_title(); ?></TITLE>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<META name="description" content="おもしろ情報マガジン　サンフランシスコ、バークレー、シリコンバレーのおもしろ生活情報がいっぱい！！！" />
+<META name="description" content="おもしろ海外情報マガジン　サンフランシスコ、バークレー、シリコンバレーのおもしろ生活情報がいっぱい！！！" />
 
 <META name="Keywords" content="アメリカ,サンフランシスコ,バークレー,シリコンバレー,サンノゼ,ロサンゼルス,ジャカルタ,ボランティア,インドネシア,UCB,UCバークレー,バークレー大学,語学,アメリカ大学,スタートアップ,IT,ミートアップ,バークレーミートアップ,meetup,日本人会,生活情報,求人,募集,留学,インターンシップ,スタンフォード,クラシファイド,現地情報" />
 

@@ -1,26 +1,22 @@
-<h1>U<span>C</span> <span>B</span><span>e</span>r<span>k</span><span>e</span><span>l</span><span>e</span><span>y</span>
-</h1>
-
-<div class="eye-catch">
-    <h2>大学密着まがじん。</h2>
-
-    <div class="site-character"><img src="<?php echo get_template_directory_uri(); ?>/images/top-ucb.png"></div>
+<div class="site-character">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/header/sf-banner-top.png">
 </div>
+<ul class="header-navi-locations">
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-menutop.png"></li>
 
-<div class="description">
-    <p class="description-top-text">
-        名門UCバークレー大学にいる人達はどんな人たちがいるの？という素朴な疑問にお答えして、現役UCバークレー生徒でもあり、自身も面白い経歴をもつ男”Takuya”を中心にUCバークレー大学にいる面白い人達をインタビューしていきます〜♪
-    </p>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ny.png">
+        <p>サンフランシスコ</p>
+    </li>
 
-    <p class="date">09.29</p>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucb.png">
+        <p>ニューヨーク</p>
+    </li>
 
-    <p class="description second-description">にオープンしました。<br>UCバークレー大学生徒達集まれ！</p>
-
-    <div class="event">
-        <ul class="important-notice">
-            <li><a href="http://newyork.hatchstudioinc.com/">エリア拡大！はっちすたじおニューヨーク版公開！</a></li>
-            <li><a href="http://hatchstudioinc.com/">サンフランシスコ版　　</a><a
-                    href="http://newyork.hatchstudioinc.com/">ニューヨーク版</a></li>
-        </ul>
-    </div>
-</div>
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucla.png">
+        <p>UCLA</p>
+    </li>
+</ul>
+<div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/header/aboutus.png"></div>
