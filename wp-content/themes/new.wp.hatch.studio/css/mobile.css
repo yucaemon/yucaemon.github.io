@@ -95,6 +95,7 @@ ul.nav.social li {
 
 /* COMMON HEADER */
 
+
 .header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
     font-size: 1em;
 }
@@ -727,5 +728,14 @@ display: none;
 li.location-description img{
     visibility: hidden;
 
+}
+    .header-cloud1 {
+      visibility: hidden;
+    }
+}
+@media screen and (min-width: 545px) {
+.header {
+    background-image: url(../images/header/sf-background.png);
+    background-repeat: repeat-x;
 }
 }

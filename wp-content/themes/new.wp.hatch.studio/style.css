@@ -312,8 +312,7 @@ ul.nav.social > li > a {
 /* HEADER LOCATIONS NAVI */
 
 .header {
-    height: 330px;
-    padding-top: 70px;
+    height: 411px;
 }
 
 ul.header-navi-locations{
@@ -365,6 +364,24 @@ ul.header-navi-locations li.location-description{
 
 
 
+ui.backgroundimge-icon li{
+    display: inline;
+}
+
+.header-sun {
+    position: relative;
+    left: 4%;
+}
+
+.header-cloud1 {
+    position: relative;
+    left: 14%;
+}
+
+.header-cloud2 {
+    position: relative;
+    left: 55%;
+}
 
 /* COMMON HEADER */
 

@@ -6,12 +6,12 @@
 
     <li class="location-description">
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ny.png">
-        <p>サンフランシスコ</p>
+        <p>ニューヨーク</p>
     </li>
 
     <li class="location-description">
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucb.png">
-        <p>ニューヨーク</p>
+        <p>UCバークレー</p>
     </li>
 
     <li class="location-description">

@@ -39,10 +39,9 @@ body {
 }
 
 /* 全囲みdiv*/
-
 #container {
     width: 90%;
-    margin: 50px auto;
+    margin: 76px auto;
 }
 
 /*middle div*/
@@ -134,10 +133,12 @@ ul.nav .ranking {
 /* COMMON HEADER */
 
 
-.header {
-    background-image: url(../images/header/sf-background.png);
-    background-repeat: no-repeat;
-}
+    .header {
+        background-image: url(../images/header/sf-background.png);
+        background-repeat: repeat-x;
+    }
+
+
 
 .header:after{
 
@@ -147,6 +148,7 @@ ul.nav .ranking {
 .header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
     font-size: 9px;
 }
+
 
 /* INDEX HEADER */
 
@@ -220,8 +222,8 @@ ul.important-notice a{
 .about-us {
     float: right;
     position: relative;
-    top: -95px;
-    right: 32px;
+    top: -22%;
+    right: 4%;
 }
 
 
