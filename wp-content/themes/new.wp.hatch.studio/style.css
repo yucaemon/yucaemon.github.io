@@ -734,15 +734,13 @@ margin:10px 0;
     color: #898989;
 }
 
-.about > .about-logos {
-    margin: 0 auto 2em auto;
-    width: 205px;
+.about > .about-icon {
+    margin: 0 auto;
+    width: 207px;
+    padding-bottom: 23px;
 }
 
-.about > .about-logos > img:last-child{
-    width: 54px;
-    /* padding-left: 17px; */
-}
+
 
 .about .sign > img {
     float: right;
