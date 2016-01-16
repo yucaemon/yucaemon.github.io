@@ -106,7 +106,7 @@ ul.nav.social li {
 
 
 ul.header-navi-locations li:first-child{
-    visibility: hidden;
+    display: none;
 }
 
 
@@ -122,7 +122,7 @@ ul.social-icons {
 }
 
 .about-us {
-    visibility: hidden;
+    display: none;
 }
 
 
@@ -343,7 +343,7 @@ display: none;
     clear: both;
     height: 0;
     display: block;
-    visibility: hidden;
+    display: none;
 }
 
 .post .authors-info p {
@@ -447,7 +447,7 @@ display: none;
     clear: both;
     height: 0;
     display: block;
-    visibility: hidden;
+    display: none;
 }
 
 .authors dl {
@@ -730,11 +730,11 @@ display: none;
 /* 700px 以下サイズ*/
 @media screen and (max-width: 700px) {
 li.location-description img{
-    visibility: hidden;
+    display: none;
 
 }
     .header-cloud1 {
-      visibility: hidden;
+     display: none;
     }
 }
 @media screen and (min-width: 545px) {
