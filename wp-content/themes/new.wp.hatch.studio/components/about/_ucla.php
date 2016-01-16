@@ -10,7 +10,7 @@
     </div>
 
     <div class="about-signs">
-        <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ucb/takuya-sign.png"></div>
+        <div class="sign"><img src="<?php echo get_template_directory_uri(); ?>/images/ucla/ucla-sign.png"></div>
         <p class="created-date">1/18/2016</p>
     </div>
 
