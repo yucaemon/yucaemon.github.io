@@ -40,7 +40,7 @@ body {
 
 /* 全囲みdiv*/
 #container {
-    width: 90%;
+    width: 1200px;
     margin: 76px auto;
 }
 
@@ -51,23 +51,36 @@ body {
     margin: 0 auto;
 }
 
+
 /* 記事一覧 部分*/
+
+/*
+#contents.default-layout > div:first-child{
+        float: left;
+    width: 815px;
+    padding-right: 20px;
+    margin-top: 5px;
+    border-right: solid 1px rgba(216, 216, 216, 0.63);
+
+}
+*/
 
 #index-page{
     float: left;
-    width: 66%;
+    width: 815px;
     padding-right: 20px;
     margin-top: 5px;
     border-right: solid 1px rgba(216, 216, 216, 0.63);
 }
 
+
 /* SIDE 部分*/
 #side-bar-1 {
     float: left;
-    width: 30%;
+    width: 335px;
     height: auto;
     margin-top: -30px;
-    padding-left: 15px;
+    padding-left: 28px;
 }
 
 #contents:after{
@@ -230,10 +243,10 @@ ul.important-notice a{
 /* INDEX BODY */
 
 .articles li {
-    width: 160px;
-    height: 345px;
+    width: 247px;
     float: left;
     margin-right: 24px;
+
 }
 
 .articles p {
@@ -241,27 +254,30 @@ ul.important-notice a{
 }
 
 .articles .thimbnailtop img {
-    width: 160px !important;
+    width: 236px !important;
+    height: 160px;
     margin-bottom: 0px;
 }
 
 .articles li.article-cr {
-    margin-right: 0px;
+    margin-right: 24px;
 }
 
 .articles .post-title {
     font-size: 15px;
-    height: 69px;
+    height: 52px;
     font-weight: bold;
     margin-bottom: 0px;
 }
 
 .articles .post-text {
+
     font-size: 10px;
     font-weight: normal;
-    height: 45px;
-    padding-top: 7px;
-    width: 160px;
+    height: 29px;
+    width: 240px;
+
+
 }
 
 .articles .sub-title {
@@ -493,14 +509,15 @@ ul.important-notice a{
 
 /* authors-content（postの一番下のミニAuthor情報） */
 
-.post .authors-content .author-excerpt{
-    width: 600px;
 
+.post .authors-content .author-excerpt{
+    float: left;
+    width: 600px;
 }
 
 .post .authors-content .author-photo{
     float: left;
-    width: 94px;
+    width: 60px;
     margin-top: 36px;
 }
 
@@ -663,4 +680,29 @@ ul.important-notice a{
     width: 600px !important;
     margin-left: 92px !important;
     font-size: 13px !important;
+}
+
+
+/*single-page-layout and category-page-layout*/
+
+#container.single #contents {
+    float: left;
+    width: 720px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+#container.single #side-bar-1 {
+    float: left;
+    width: 335px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#container.single:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
 }

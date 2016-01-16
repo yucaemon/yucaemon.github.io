@@ -44,6 +44,10 @@ body {
     min-width: 275px;
 }
 
+#container.single{
+   padding-top:10px;
+}
+
 /* COMMON STYLES */
 
 .sub-title {
@@ -51,7 +55,7 @@ body {
 }
 
 #side-bar-1 {
-    display: none;
+    visibility: hidden;
 }
 
 #side-bar-1.twitter {

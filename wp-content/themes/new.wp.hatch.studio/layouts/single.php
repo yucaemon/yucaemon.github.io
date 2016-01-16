@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="container"><!-- CONTAINER -->
+<div id="container" class="single"><!-- CONTAINER -->
 
   <?php include(TEMPLATEPATH.'/components/_navbar.php'); ?>
 

@@ -71,10 +71,22 @@
   } ?>
 
 </ul>
+<!-- 四角はっち公告 -->
+<div class="google-ad-index">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:336px;height:280px"
+         data-ad-client="ca-pub-1574488309106788"
+         data-ad-slot="5136876359"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<!-- 広告 -->
 
 <ul class="articles">
 
-  <?php query_posts('showposts=16&offset=12');
+  <?php query_posts('showposts=6&offset=12');
 
   if (have_posts()) : while (have_posts()) :
     the_post(); ?>
@@ -115,17 +127,10 @@
         </a>
       </p>
 
-      <p class="post-text">
-        <a href="<?php the_permalink() ?>"
-           rel="bookmark"><?php echo mb_substr(strip_tags($post->post_content), 0, 30) . '...'; ?></a>
-      </p>
 
       <div class="mini-info">
         <p class="sub-title"><?php echo time_ago(); ?></p>
       </div>
-    <div class="post-authors">
-        <a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php userphoto_the_author_photo() ?></a>
-    </div>
 
     </li>
 
