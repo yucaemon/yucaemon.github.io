@@ -144,61 +144,18 @@ ul.nav .ranking {
     visibility: hidden;
 }
 
-/* COMMON HEADER */
+/* default(index page) HEADER */
 
-.header{
-
+.default .header{
   width:1200px;
-    background-repeat: repeat-x;
+  background-repeat: repeat-x;
 }
 
-
-
-.header:after{
+.default .header:after{
 
     content: ""; display: block; visibility: hidden; clear: both;
 }
 
-.header .sub-title, ul.pickup .sub-title, #single-post .mini-info .sub-title {
-    font-size: 9px;
-}
-
-
-/* INDEX HEADER */
-
-#index-page .header h1 {
-    width: 720px;
-    letter-spacing: 3px;
-    font-size: 99px;
-    /* height: 109px; */
-    /* padding-bottom: 16px; */
-    white-space: nowrap;
-    padding: 0 0 11px 0;
-    margin: 0 0;
-}
-
-#index-page .header h2 {
-    float: left;
-    letter-spacing: 16px;
-}
-#index-page .header span.ca {
-    position: absolute;
-    font-size: 20px;
-    margin: -96px 0 0 695px;
-}
-
-#index-page .description {
-    font-size: 12px;
-    width: 305px;
-    line-height: 22px;
-    overflow: hidden;
-    float: left;
-}
-
-#index-page .eye-catch {
-   width: 400px;
-   float:left;
-}
 
 .site-character {
     margin: 0 auto;
@@ -299,111 +256,50 @@ ul.important-notice a{
 
 /* CATEGORY HEADER  */
 
-#category-page .cate-right-text {
-    text-align: center;
-}
 
-#category-page .category-header {
-    width: 290px;
-}
 
-#category-page .category-header:after {
-    content: "";
-    clear: both;
-    height: 0;
-    display: block;
-    visibility: hidden;
-}
 
-#category-page .cate-img-top img {
-    height: 92px;
-    display: block;
-    padding-top: 10px;
-    margin: 0 auto;
-}
 
-/** CATEGORY BODY **/
 
-/* AUTHOR HEADER */
 
-#author-page .header img.author-header {
-    width: 70px;
-    height: 70px;
-    -webkit-border-radius: 150px;
-    border-radius: 120px;
-    float: left;
-    margin: 10px 33px 37px -73px;
-}
 
-#author-page .header h2 {
-    font-size: 37px;
-    color: #464646;
-    margin: 13px 0 0 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-#author-page .header .big-title {
-    font-size: 0.8em;
-    line-height: 180%;
-    font-weight: 300;
-    width: 600px;
-    text-align: left !important;
-    padding-top: 5px;
-    color: #9C9C9C;
-}
-
-#author-page .header {
-    width: auto;
-    padding: 14px 0 0 89px;
-    padding-bottom: 41px;
-}
-
-#author-page .header:after {
-    content: "";
-    clear: both;
-    height: 0;
-    display: block;
-    visibility: hidden;
-}
-
-/* AUTHOR BODY */
+/* AUTHOR BODY
 
 #author-page .pickup-authors {
     display: none;
 }
 
-#author-page .pickup .post-text {
+#author-page .list-of-articles .post-text {
 
     width: 410px;
 
 }
+*/
+/* list-of-articles */
 
-/* PICKUP */
-
-.pickup {
+.list-of-articles {
     margin-bottom: 20px;
 }
 
-.pickup li {
+.list-of-articles li {
     padding: 3em 0 3em 0;
     clear: both;
 
 }
 
-.pickup .pickup-img {
+.list-of-articles .pickup-img {
     float: left;
     width: 282px;
     padding-right: 2em;
 }
 
-.pickup .pickup-img img {
+.list-of-articles .pickup-img img {
     width: 100%;
     height: auto;
     max-height: 210px;
 }
 
-.pickup .pickup-img .attachment-post-thumbnail {
+.list-of-articles .pickup-img .attachment-post-thumbnail {
     width: 100%;
     height: auto;
 }
@@ -412,12 +308,12 @@ ul.important-notice a{
     border: 1px solid #e0e0e0;
 }
 
-.pickup .pickup-text {
+.list-of-articles .pickup-text {
     margin: 0 0;
     overflow: hidden;
 }
 
-.pickup .pickup-text h3 {
+.list-of-articles .pickup-text h3 {
     margin: 0 0;
     font-size: 22px;
     padding: 13px 0 16px 0;
@@ -425,18 +321,18 @@ ul.important-notice a{
     line-height: 32px;
 }
 
-.pickup .pickup-text h4 {
+.list-of-articles .pickup-text h4 {
     padding: 0;
 }
 
-.pickup .post-text {
+.list-of-articles .post-text {
     font-size: 0.8em;
     line-height: 170%;
     float: left;
     width: 315px;
 }
 
-.pickup .pickup-text .mini-info {
+.list-of-articles .pickup-text .mini-info {
     width: 300px;
 
 }
@@ -677,26 +573,27 @@ ul.important-notice a{
 }
 
 
-/*single-page-layout and category-page-layout*/
+/*single-page-layout and list-page-layout*/
 
-#container.single #contents {
+.single #contents, .list-page #contents{
     float: left;
     width: 720px;
     padding-right: 30px;
     padding-left: 50px;
 }
 
-#container.single #side-bar-1 {
+.single #side-bar-1, .list-page #side-bar-1 {
     float: left;
     width: 335px;
     height: auto;
     margin-top: 20px;
 }
 
-#container.single:after {
+.single:after, .list-page:after {
     content: "";
     clear: both;
     height: 0;
     display: block;
     visibility: hidden;
 }
+

@@ -71,7 +71,7 @@ h3 {
 
 /* INDEX HEADER */
 
-.header {
+.default .header {
     background-image: url(../images/ucla/header/ucla-background.png);
 
 }

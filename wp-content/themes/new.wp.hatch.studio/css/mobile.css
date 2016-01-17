@@ -101,7 +101,7 @@ ul.nav.social li {
 
 
 
-.header .sub-title, ul.pickup .sub-title, .single-post .mini-info .sub-title {
+.header .sub-title, ul.list-of-articles .sub-title, .single-post .mini-info .sub-title {
     font-size: 1em;
 }
 
@@ -184,104 +184,38 @@ display: none;
 }
 
 
-/* INDEX BODY */
-
 
 
 /* CATEGORY HEADER  */
 
-#category-page .category-header {
-    width: 300px;
-}
 
-#category-page .cate-img-top img {
-    height: 92px;
-    display: block;
-    padding-top: 10px;
-    margin: 0 auto;
-}
 
-#category-page .cate-img-top img {
-    margin: 0 auto;
-    display: block;
-    display: none;
-}
-
-/* CATEGORY BODY */
-
-#category-page .big-title, #category-page h2 {
-    text-align: center;
-}
-
-#category-page .small-title {
-    margin-top: 1em;
-    font-size: 1em;
-}
-
-#category-page .pickup-text .mini-info {
-    width: 100%;
-}
 
 /* AUTHOR HEADER */
 
-#author-page img.author-header {
-    -webkit-border-radius: 80px;
-    margin: 15px auto;
-    display: block;
-    width: 80px;
-    height: 80px;
-}
 
-#author-page .header .sub-title {
-    display: none;
-}
-
-#author-page h2 {
-    font-size: 20px;
-    margin: 0 auto;
-    letter-spacing: 1px;
-    color: #666;
-    padding: 6px 0 0 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#author-page .big-title {
-    font-size: 12px;
-    margin: 0 auto;
-    padding: 9px 0 0 0;
-    font-weight: 300;
-    padding: 17px 10px;
-    letter-spacing: 1px;
-    color: #A0A0A0;
-}
-
-#author-page > div:first-child {
-    width: auto;
-
-}
 
 /* AUTHOR BODY */
 
 /* PICKUP */
-.pickup li {
+.list-of-articles li {
     clear: both;
     padding: 1.5em 0 6.5em;
 
 }
 
-.pickup .pickup-img .attachment-post-thumbnail {
+.list-of-articles .pickup-img .attachment-post-thumbnail {
     width: 100%;
     height: auto;
     margin: 16px 0;
 }
 
-.pickup .pickup-text {
+.list-of-articles .pickup-text {
     width: 100%;
     margin: 0 0;
 }
 
-.pickup .pickup-text h3 {
+.list-of-articles .pickup-text h3 {
     font-size: 26px;
     font-weight: normal;
     padding: 25px 0 10px 0;
@@ -290,7 +224,7 @@ display: none;
 }
 
 
-.pickup .post-text {
+.list-of-articles .post-text {
     font-size: 15px;
     padding-bottom: 19px;
 }
@@ -312,9 +246,6 @@ display: none;
     display: none;
 }
 
-#author-page .pickup-authors {
-    display: none;
-}
 
 /* POST */
 
@@ -435,9 +366,7 @@ display: none;
 display: none;
 }
 
-/* ABOUT */
-
-/* AUTHOR */
+/* AUTHOR　記者一覧ページ */
 
 .authors ul li:after {
     content: "";
@@ -645,19 +574,19 @@ display: none;
         font-size: 38px;
     }
 
-    .pickup .post-text {
+    .list-of-articles .post-text {
         font-size: 10px;
 
     }
 
-    .pickup .pickup-text h3 {
+    .list-of-articles .pickup-text h3 {
         font-size: 20px;
         line-height: 30px;
         padding: 15px 0;
         margin: 0 0;
     }
 
-    .pickup li {
+    .list-of-articles li {
         clear: both;
         padding: 11px 0 63px;
     }

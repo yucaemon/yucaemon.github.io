@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-<div id="container"><!-- CONTAINER -->
+<div id="container" class="default">
 
 <?php include(TEMPLATEPATH.'/components/_navbar.php'); ?>
-  <div class="header"><!-- HEADER -->
+  <div class="header">
   <?php include(TEMPLATEPATH . '/contents/' . $content_type . '/_' . $content_type . '_header.php'); ?>
-  </div><!-- END HEADER -->
+  </div>
 
   <div id="contents">
     <div id="<?php echo $content_type ?>-page">

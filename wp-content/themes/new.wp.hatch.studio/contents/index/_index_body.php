@@ -1,4 +1,4 @@
-<ul class="pickup">
+<ul class="list-of-articles">
 
   <?php
 

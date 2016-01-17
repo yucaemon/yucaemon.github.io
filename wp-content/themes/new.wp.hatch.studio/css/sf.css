@@ -34,7 +34,7 @@ h3 {
     color: #ffc0c0;
 }
 
-.header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
+.header .sub-title, ul.list-of-articles.time-ago, .single-post .mini-info .sub-title {
     /* padding: 4px; */
     /* color: #ffc0c0; */
     /* background-color: #ffc0c0; */
@@ -63,13 +63,8 @@ h3 {
     border: solid 1px #FFDFDF;
 }
 
-/* NAVI */
 
-/* COMMON HEADER */
-
-/* INDEX HEADER */
-
-.header {
+.default .header {
     background-image: url(../images/sf/header/sf-background.png);
 }
 
@@ -132,30 +127,16 @@ h3 {
     border-bottom: dotted 1px #FF8888;
 }
 
-
-
 .articles .sub-title {
     color: #FFC0C0;
     background-color: white;
     border: solid 1px #ffc0c0;
 }
 
-/* CATEGORY HEADER  */
 
-#category-page .header {
-
-}
-
-#category-page .header .cate-right-text .sub-title {
-    background-color: #ffc0c0;
-    color: #FFF;
-}
 
 /* AUTHOR HEADER */
 
-#author-page .header img.author-header {
-    border: solid 1px #E6E1E1;
-}
 
 /* POST */
 
