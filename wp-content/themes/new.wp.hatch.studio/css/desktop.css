@@ -41,7 +41,7 @@ body {
 /* 全囲みdiv*/
 #container {
     width: 1200px;
-    margin: 76px auto;
+    margin: 76px auto 0 auto;
 }
 
 /*middle div*/
@@ -243,21 +243,10 @@ ul.important-notice a{
 
 /* INDEX BODY */
 
-.articles li {
-    width: 247px;
-    float: left;
-    margin-right: 24px;
 
-}
 
 .articles p {
     margin: 0 0 1em 0;
-}
-
-.articles .thimbnailtop img {
-    width: 236px !important;
-    height: 160px;
-    margin-bottom: 0px;
 }
 
 .articles li.article-cr {
@@ -693,8 +682,8 @@ ul.important-notice a{
 #container.single #contents {
     float: left;
     width: 720px;
-    padding-right: 50px;
-    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 50px;
 }
 
 #container.single #side-bar-1 {

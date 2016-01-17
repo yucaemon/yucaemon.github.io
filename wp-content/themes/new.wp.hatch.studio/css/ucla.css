@@ -11,26 +11,26 @@ a {
 
 /* COMMON STYLE */
 .sub-title {
-    color: #23B4EC;
-    border: solid 1px #23B4EC;
+    color: #ABD6FF;
+    border: solid 1px #ABD6FF;
 }
 
 .header .sub-title, ul.pickup .time-ago, .single-post .mini-info .sub-title {
-    color: #23B4EC;
-    border: solid 1px #23B4EC;
+    color: #ABD6FF;
+    border: solid 1px #ABD6FF;
 }
 
 .mini-info {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 .mini-info a {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 .pre {
-    color: #23B4EC;
-    border: solid 1px #23B4EC;
+    color: #ABD6FF;
+    border: solid 1px #ABD6FF;
 }
 
 .pre:hover, .next:hover {
@@ -38,8 +38,8 @@ a {
 }
 
 .next {
-    color: #23B4EC;
-    border: solid 1px #23B4EC;
+    color: #ABD6FF;
+    border: solid 1px #ABD6FF;
 }
 
 /* NAVI */
@@ -54,11 +54,11 @@ h3 {
 
 
 ::selection {
-    background: #B2EAFF; /* Safari */
+    background: #d9f6f8; /* Safari */
 }
 
 ::-moz-selection {
-    background: #B2EAFF; /* Firefox */
+    background: #d9f6f8; /* Firefox */
 }
 
 #index-page .header h1 span:first-child {
@@ -66,7 +66,7 @@ h3 {
 }
 
 #index-page .header h1 span:nth-child(3) {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 /* INDEX HEADER */
@@ -109,23 +109,16 @@ h3 {
     border: solid 1px #E6E1E1;
 }
 
-.articles ul {
-    border-bottom: dotted 1px #23B4EC;
-}
-
-.articles li {
-    border-bottom: solid 4px #23B4EC;
-}
 
 .articles .sub-title {
-    color: #23B4EC;
-    border: solid 1px #23B4EC;
+    color: #ABD6FF;
+    border: solid 1px #ABD6FF;
 }
 
 /* CATEGORY HEADER  */
 
 #category-page .header {
-    border-bottom: dotted 1px #23B4EC;
+    border-bottom: dotted 1px #ABD6FF;
 }
 
 #category-page .header .cate-img-top {
@@ -143,11 +136,11 @@ h3 {
 /* POST */
 
 .entry-content a {
-    color: #23B4EC !important;
+    color: #ABD6FF !important;
 }
 
 .entry-content h1 a, .entry-content h2 a, .entry-content h3 a, .entry-content h4 a, .entry-content  h5 a, .entry-content h6 a {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 .entry-content img {
@@ -156,11 +149,11 @@ h3 {
 
 
 .post-related h3 {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 .post-related .relatedthumb {
-    border: solid 2px #23B4EC !important
+    border: solid 2px #ABD6FF !important
 }
 
 /* ABOUT */
@@ -181,39 +174,33 @@ h3 {
 
 
 .authors .since-date {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 /* SIDE BAR */
 
 #side-bar-1 .about, .site-categories {
-    border-bottom: dotted 1px #23B4EC;
+    border-bottom: dotted 1px #ABD6FF;
 }
 
 #side-bar-1 .side-title {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 /* SIDE BAR POPULAR */
-#side-bar-1 .popular, #side-bar-1 .links {
-    border-bottom: dotted 1px #D8CFCF;
-    color: rgb(105, 105, 105);
-}
+
 
 #side-bar-1 .popular, #side-bar-1 .links dl {
     border-bottom: dotted 1px #D8CFCF;
 }
 
-#side-bar-1 .popular li {
-    border-top: dotted 1px #D8CFCF;
-}
 
 #side-bar-1 .popular .popular-header .time {
     color: #9D9C9C;
 }
 
 #side-bar-1 .popular .popular-header .author {
-    color: #23B4EC;
+    color: #ABD6FF;
 }
 
 #side-bar-1 .popular .popular-header .views {
@@ -221,5 +208,5 @@ h3 {
 }
 
 .post .views {
-    color: #23B4EC;
+    color: #ABD6FF;
 }

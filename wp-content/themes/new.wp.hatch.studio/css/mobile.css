@@ -188,9 +188,7 @@ display: none;
 
 /* INDEX BODY */
 
-.articles {
-    display: none;
-}
+
 
 /* CATEGORY HEADER  */
 
@@ -489,6 +487,10 @@ display: none;
 }
 
 /* SIDE BAR */
+#side-bar-1 {
+ display: none;
+}
+
 
 /* SIDE BAR POPULAR */
 #side-bar-1 .popular .popular-header {
