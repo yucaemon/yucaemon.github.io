@@ -70,8 +70,7 @@ h3 {
 /* INDEX HEADER */
 
 .header {
-    background-image: url(../images/header/sf-background.png);
-    background-repeat: repeat-x;
+    background-image: url(../images/sf/header/sf-background.png);
 }
 
 
@@ -224,3 +223,4 @@ h3 {
 .post .views {
     color: #FFC7C7;
 }
+

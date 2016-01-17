@@ -1,4 +1,4 @@
-<div class="side-title"><img src="<?php echo get_template_directory_uri(); ?>/images/header/total-ranking.png"></div>
+<div class="side-title"><img src="<?php echo get_template_directory_uri(); ?>/images/side/total-ranking.png"></div>
 
 <ul class="popular" type="1">
     <?php

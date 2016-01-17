@@ -67,8 +67,8 @@ body {
 
 #index-page{
     float: left;
-    width: 815px;
-    padding-right: 20px;
+    width: 775px;
+    padding: 0 20px;
     margin-top: 5px;
     border-right: solid 1px rgba(216, 216, 216, 0.63);
 }
@@ -77,10 +77,11 @@ body {
 /* SIDE 部分*/
 #side-bar-1 {
     float: left;
-    width: 335px;
+    width: 328px;
     height: auto;
     margin-top: -30px;
-    padding-left: 28px;
+    padding: 0 25px;
+
 }
 
 #contents:after{
@@ -145,7 +146,11 @@ ul.nav .ranking {
 
 /* COMMON HEADER */
 
+.header{
 
+  width:1200px;
+    background-repeat: repeat-x;
+}
 
 
 
@@ -537,11 +542,11 @@ ul.important-notice a{
 
 
 .popular .popular-header .title {
+    padding-top: 10px;
     font-size: 0.9em;
     letter-spacing: 0.04em;
-    padding: 3px;
     display: block;
-    width: 203px;
+    width: 179px;
 }
 
 .post-related {
@@ -615,7 +620,7 @@ ul.important-notice a{
 /* SIDE BAR POPULAR */
 
 #side-bar-1 .popular .popular-header {
-    width: 65%;
+    width: 60%;
     float: left;
 }
 
@@ -630,6 +635,10 @@ ul.important-notice a{
 #side-bar-1 .popular-side img {
     height: 73px;
     display: block;
+}
+
+#side-bar-1 .popular-side {
+   padding-top:27px;
 }
 /*
 

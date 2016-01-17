@@ -1,3 +1,4 @@
+
 <ui class="backgroundimge-icon">
 
     <li class="header-sun">
@@ -14,20 +15,20 @@
     <img src="<?php echo get_template_directory_uri(); ?>/images/ucla/header/ucla-banner-top.png">
 </div>
 <ul class="header-navi-locations">
-    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-menutop.png"></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-menutop.png"></li>
 
     <li class="location-description">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ny.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ny.png">
         <p>ニューヨーク</p>
     </li>
 
     <li class="location-description">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucb.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ucb.png">
         <p>UCバークレー</p>
     </li>
 
     <li class="location-description">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-location-icons-ucla.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ucla.png">
         <p>UCLA</p>
     </li>
 </ul>

@@ -1,4 +1,4 @@
-<div class="side-title"><img src="<?php echo get_template_directory_uri(); ?>/images/header/popular-post.png"></div>
+<div class="side-title"><img src="<?php echo get_template_directory_uri(); ?>/images/side/popular-post.png"></div>
 <ul class="popular">
 
   <?php

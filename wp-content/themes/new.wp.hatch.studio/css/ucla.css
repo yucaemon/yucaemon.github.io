@@ -73,16 +73,10 @@ h3 {
 
 .header {
     background-image: url(../images/ucla/header/ucla-background.png);
-    background-repeat: repeat-x;
+
 }
 
-#index-page .site-character{
-    padding-top: 57px;
-}
 
-#index-page .site-character img{
-    width: 228px;
-}
 
 /* 1024px 以下サイズ*/
 @media screen and (max-width: 1024px) {
