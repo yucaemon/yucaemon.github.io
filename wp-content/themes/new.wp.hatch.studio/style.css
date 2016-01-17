@@ -346,7 +346,7 @@ ul.header-navi-locations:after{
 ul.header-navi-locations li p{
     color: #666;
     text-align: center;
-    font-size: 5px;
+    font-size:0.5em;
     padding-top: 30px;
     letter-spacing: 2px;
     font-weight: 700;

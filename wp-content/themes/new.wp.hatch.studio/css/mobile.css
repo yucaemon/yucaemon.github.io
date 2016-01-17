@@ -122,9 +122,7 @@ ul.social-icons {
     padding-top: 17px;
 }
 
-.about-us {
-    display: none;
-}
+
 
 
 /* INDEX HEADER */
@@ -722,6 +720,17 @@ display: none;
     width:500px;
 }
 
+ul.header-navi-locations li:first-child{
+    display: none;
+}
+
+.about-us {
+    display: none;
+}
+
+ul.header-navi-locations {
+    width: 475px;
+}
 
 /* 550px 以下サイズ*/
 @media screen and (max-width: 545px) {
@@ -743,13 +752,11 @@ li.location-description img{
      visibility: hidden;
     }
 
-    ul.header-navi-locations li:first-child{
-        display: none;
-    }
+
 
     ul.header-navi-locations{
         margin: 0 auto;
-        width: 277px;
+        width: 349px;
         padding-left: 0;
 
     }
@@ -760,10 +767,4 @@ li.location-description img{
     }
 }
 
-/* 563x 以下サイズになったときバックグランドを消す*/
-@media screen and (max-width: 563px) {
-    .header {
-        background-image:  none;
 
-    }
-}

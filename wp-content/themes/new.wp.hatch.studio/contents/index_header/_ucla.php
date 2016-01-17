@@ -15,7 +15,13 @@
     <img src="<?php echo get_template_directory_uri(); ?>/images/ucla/header/ucla-banner-top.png">
 </div>
 <ul class="header-navi-locations">
+
     <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-menutop.png"></li>
+
+    <li class="location-description">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-sf.png">
+        <p>サンフランシスコ</p>
+    </li>
 
     <li class="location-description">
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ny.png">
@@ -27,9 +33,6 @@
         <p>UCバークレー</p>
     </li>
 
-    <li class="location-description">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ucla.png">
-        <p>UCLA</p>
-    </li>
+
 </ul>
 <div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/header/aboutus.png"></div>
