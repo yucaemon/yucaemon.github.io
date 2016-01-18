@@ -255,3 +255,21 @@ h3 {
 
 }
 
+.header .sub-title, .time-ago, .single-post .mini-info .sub-title {
+    border: solid 1px #FFDF60;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+@media screen and (max-width: 700px){
+ul.header-navi-locations {
+    margin: 0 auto;
+    width: 305px;
+    padding-left: 0;
+}}
+
+/* 700px 以下サイズ*/
+@media screen and (max-width: 700px) {
+    .default .header {
+        background-image:none;
+    }
+}

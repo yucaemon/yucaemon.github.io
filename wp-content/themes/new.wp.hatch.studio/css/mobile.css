@@ -677,9 +677,7 @@ li.location-description img{
     display: none;
 
 }
-.header-cloud1{
-     visibility: hidden;
-    }
+
 
 
 
@@ -701,3 +699,48 @@ li.location-description img{
     height: 280px;
 }
 
+.articles{
+    width: 775px;
+}
+
+
+    .site-character {
+        margin: 0 auto;
+        width: 216px;
+
+    }
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 800px) {
+
+    .articles{
+        width: 516px;
+        margin: 0 auto;
+    }
+}
+
+/* 740px 以下サイズ*/
+@media screen and (max-width: 547px) {
+
+    .articles{
+        width: 234px;
+        margin: 0 auto;
+    }
+}
+/* headerのアイコンの位置をモバイルにしたときは戻す*/
+
+.header {
+    height: 411px;
+    padding-top: 0;
+
+}
+.header-twitterbird {
+
+    position: static;
+
+}
+
+.header-sun {
+    position: static;
+
+}
