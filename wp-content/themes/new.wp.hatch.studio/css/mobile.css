@@ -707,8 +707,10 @@ li.location-description img{
     .site-character {
         margin: 0 auto;
         width: 216px;
+        padding-top: 0;
 
     }
+
 
 /* 800px 以下サイズ*/
 @media screen and (max-width: 800px) {

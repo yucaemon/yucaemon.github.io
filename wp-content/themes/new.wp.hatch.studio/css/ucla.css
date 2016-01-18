@@ -76,6 +76,13 @@ h3 {
 
 }
 
+/* サイズ1024以下の時にbackgroundを切り替える */
+
+@media screen and (max-width: 1024px) {
+.default .header {
+    background-image: url(../images/ucla/header/ucla-small-background.png);
+}
+}
 
 
 /* 1024px 以下サイズ
@@ -234,6 +241,7 @@ h3 {
 
 .site-character {
     margin: 0 auto;
-    width: 222px ;
+    width: 222px;
+    padding-top:0;
 
 }
