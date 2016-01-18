@@ -316,7 +316,7 @@ ul.nav.social > li > a {
 }
 
 ul.header-navi-locations{
-    width:606px;
+    width:633px;
     margin:0 auto;
     padding-top:5px;
 }
@@ -480,8 +480,8 @@ ui.backgroundimge-icon li{
     letter-spacing: 2px;
 }
 
-.authors li + li {
-    border-top: dotted 1px #E5E5E5;
+.authors li{
+    border-bottom: dotted 1px #E5E5E5;
 }
 
 .post-authors img {
