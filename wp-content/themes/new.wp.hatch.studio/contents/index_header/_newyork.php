@@ -31,4 +31,4 @@
 
 
 </ul>
-<div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/header/aboutus.png"></div>
+<div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/ny/header/ny-crew.png"></div>
