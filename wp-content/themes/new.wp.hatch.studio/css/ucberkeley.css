@@ -54,16 +54,13 @@ h3 {
 
 
 ::selection {
-    background: #B2EAFF; /* Safari */
+    background: rgba(222, 200, 251, 0.67); /* Safari */
 }
 
 ::-moz-selection {
-    background: #B2EAFF; /* Firefox */
+    background: rgba(222, 200, 251, 0.67); /* Firefox */
 }
 
-#index-page .header h1 span:first-child {
-    color: #99E3F1;
-}
 
 #index-page .header h1 span:nth-child(3) {
     color: #D3BEEF;

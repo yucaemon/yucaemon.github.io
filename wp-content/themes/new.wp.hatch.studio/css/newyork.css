@@ -13,11 +13,11 @@ h3 {
 }
 
 ::selection {
-    background: #FFFBA7; /* Safari */
+    background: #feffdc; /* Safari */
 }
 
 ::-moz-selection {
-    background: #FFFBA7; /* Firefox */
+    background: #feffdc; /* Firefox */
 }
 
 /* COMMON STYLE */
