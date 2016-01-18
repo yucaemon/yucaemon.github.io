@@ -661,7 +661,7 @@ ul.header-navi-locations {
     width: 475px;
 }
 
-/* 550px 以下サイズ*/
+/* 545px 以下サイズ*/
 @media screen and (max-width: 545px) {
     #footer-content {
         width: 300px;
@@ -710,7 +710,7 @@ li.location-description img{
 
     }
 
-/* 740px 以下サイズ*/
+/* 800px 以下サイズ*/
 @media screen and (max-width: 800px) {
 
     .articles{
@@ -719,7 +719,7 @@ li.location-description img{
     }
 }
 
-/* 740px 以下サイズ*/
+/* 547px 以下サイズ*/
 @media screen and (max-width: 547px) {
 
     .articles{
@@ -744,3 +744,4 @@ li.location-description img{
     position: static;
 
 }
+

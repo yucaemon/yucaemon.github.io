@@ -566,3 +566,27 @@ ul.important-notice a{
     top: 101px;
     left: 194px;
 }
+
+/* 1600px 以上サイズの時、headerのアイコンの位置を戻す*/
+@media screen and (min-width: 1600px) {
+    .header-sun{
+        position: static;
+    }
+
+    .header {
+        height: 411px;
+        padding-top: 0;
+
+    }
+    .header-twitterbird {
+
+        position: static;
+
+    }
+
+    .header-sun {
+        position: static;
+
+    }
+}
+
