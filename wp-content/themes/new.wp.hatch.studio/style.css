@@ -629,7 +629,16 @@ ui.backgroundimge-icon li{
 
 .post .sns-icons{
     float:left;
-    padding-top: 11px;
+}
+
+.entry-content:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+
 }
 
 .post .category-name{
@@ -1088,7 +1097,7 @@ margin:10px 0;
 
 /* グーグル広告 */
 .adsbygoogle{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 /* インタビュー */
