@@ -143,9 +143,7 @@ h3 {
     border-bottom: dotted 1px #FFDF60;
 }
 
-.articles li {
-    border-bottom: solid 4px #FFDF60;
-}
+
 
 .articles .sub-title {
     color: #FFDF60;
@@ -234,10 +232,6 @@ h3 {
 
 /* SIDE BAR POPULAR */
 
-#side-bar-1 .popular li {
-    border-top: dotted 1px #D8CFCF;
-}
-
 #side-bar-1 .popular .popular-header .time {
     color: #9D9C9C;
 }
@@ -252,4 +246,11 @@ h3 {
 
 .post .views {
     color: #FFDF60;
+}
+
+/* INDEX HEADER */
+
+.default .header {
+    background-image: url(../images/ny/header/ny-background.png);
+
 }

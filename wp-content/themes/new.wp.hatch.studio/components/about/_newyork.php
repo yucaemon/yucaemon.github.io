@@ -1,8 +1,7 @@
 <div class ="about">
 
-  <div class="about-logos">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/ny/logo-ny.png">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/ny/mininy.png">
+  <div class="about-icon">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/ny/about/about-icon-ny.png">
   </div>
 
   <div class="description">

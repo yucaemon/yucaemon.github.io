@@ -1,8 +1,7 @@
 <div class ="about">
 
-  <div class="about-logos">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/logo-sf.png">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/yukaemon_03_03.png">
+  <div class="about-icon">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/sf/about/about-icon-sf.png">
   </div>
 
   <div class="description">

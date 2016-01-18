@@ -24,8 +24,9 @@
                    $site_domain = $match[0]
                 ?>
                 <li><a href='http://<?php echo $site_domain ?>'>San Francisco</a></li>
-                <li><a href='http://ucberkeley.<?php echo $site_domain ?>/'>UC Berkeley</a></li>
                 <li><a href='http://newyork.<?php echo $site_domain ?>/'>New York</a></li>
+                <li><a href='http://ucla.<?php echo $site_domain ?>/'>UCLA</a></li>
+                <li><a href='http://ucberkeley.<?php echo $site_domain ?>/'>UC Berkeley</a></li>
             </ul>
         </li>
         <li class="dropdown">
