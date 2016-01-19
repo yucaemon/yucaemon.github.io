@@ -336,9 +336,9 @@ ul.nav.social > li > a {
 
 
 ul.header-navi-locations{
-    width:633px;
-    margin:0 auto;
-    padding-top:5px;
+    width: 512px;
+    margin: 0 auto;
+    padding-top: 13px;
 }
 
 ul.header-navi-locations li:first-child{

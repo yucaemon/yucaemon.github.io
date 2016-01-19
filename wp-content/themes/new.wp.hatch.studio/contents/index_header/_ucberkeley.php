@@ -19,14 +19,14 @@
     <li class="location-description">
         <a href='http://<?php echo $site_domain ?>'>
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-sf.png">
-        <p class="sf-location-description">サンフランシスコ</p>
+        <p class="sf-location-description">SF</p>
         </a>
     </li>
 
     <li class="location-description">
         <a href='http://newyork.<?php echo $site_domain ?>/'>
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ny.png">
-        <p class="ny-location-description">ニューヨーク</p>
+        <p class="ny-location-description">NY</p>
         </a>
     </li>
 

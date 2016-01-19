@@ -260,12 +260,6 @@ h3 {
     border-radius: 3px;
     padding: 2px 4px;
 }
-@media screen and (max-width: 700px){
-ul.header-navi-locations {
-    margin: 0 auto;
-    width: 305px;
-    padding-left: 0;
-}}
 
 /* 700px 以下サイズ*/
 @media screen and (max-width: 700px) {
