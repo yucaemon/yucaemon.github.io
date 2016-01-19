@@ -307,7 +307,7 @@ ul.important-notice a{
 
 .entry-content img, .entry-content {
     height: auto;
-    margin-top: 40px;
+    margin: 25px 0;
     max-width: 720px;
 }
 
