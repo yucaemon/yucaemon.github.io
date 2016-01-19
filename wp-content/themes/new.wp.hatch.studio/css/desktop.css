@@ -563,8 +563,9 @@ ul.important-notice a{
 
 .header-sun {
     position: absolute;
-    top: 101px;
-    left: 194px;
+    top: 103px;
+    left: 129px;
+
 }
 
 /* 1600px 以上サイズの時、headerのアイコンの位置を戻す*/
