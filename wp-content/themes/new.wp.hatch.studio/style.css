@@ -651,6 +651,7 @@ ui.backgroundimge-icon li{
 
 .post .sns-icons{
     float:left;
+    padding-top: 36px
 }
 
 .entry-content:after{
@@ -700,7 +701,6 @@ ui.backgroundimge-icon li{
 /* authors-content（postの一番下のミニAuthor情報） */
 
 .post .authors-content{
-    margin: 60px 0;
     border-top: solid 1px #e9eaed;
     border-bottom: solid 1px #e9eaed;
     padding: 29px 0;
