@@ -5,7 +5,9 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-sun.png">
     </li>
 <li class="header-twitterbird">
+    <a class="twitter" href="https://twitter.com/hatchstudioinc" target="_blank" title="twitter">
     <img src="<?php echo get_template_directory_uri(); ?>/images/header/header-twitterbird.png">
+    </a>
 </li>
 </ui>
 <div class="site-character">
@@ -15,18 +17,24 @@
     <li><img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-menutop.png"></li>
 
     <li class="location-description">
+        <a href='http://newyork.<?php echo $site_domain ?>/'>
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ny.png">
-        <p>ニューヨーク</p>
+        <p class="ny-location-description">ニューヨーク</p>
+        </a>
     </li>
 
     <li class="location-description">
+        <a href='http://ucberkeley.<?php echo $site_domain ?>/'>
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ucb.png">
-        <p>UCバークレー</p>
+        <p class="ucb-location-description">UCバークレー</p>
+        </a>
     </li>
 
     <li class="location-description">
+        <a href='http://ucla.<?php echo $site_domain ?>/'>
         <img src="<?php echo get_template_directory_uri(); ?>/images/header/location-icons/header-location-icons-ucla.png">
-        <p>UCLA</p>
+        <p class="ucla-location-description">UCLA</p>
+        </a>
     </li>
 </ul>
-<div class="about-us"><img src="<?php echo get_template_directory_uri(); ?>/images/sf/header/sf-crew.png"></div>
+<div class="about-us"><a href="/authors"><img src="<?php echo get_template_directory_uri(); ?>/images/sf/header/sf-crew.png"></a></div>

@@ -84,6 +84,28 @@ a.symbol {
     text-decoration: none;
 }
 
+.location-description a:hover p{
+    color: #dddddd !important;
+}
+
+/*
+.location-description a:hover p.sf-location-description{
+    color: #ffc0c0 !important;
+}
+
+.location-description a:hover p.ny-location-description{
+    color: #FFDF60 !important;
+}
+
+.location-description a:hover p.ucla-location-description{
+    color: #ABD6FF !important;
+}
+.location-description a:hover p.ucb-location-description{
+    color: #D3BEEF !important;
+}
+*/
+
+
 @charset "UTF-8";
 
 /*CSS Document */

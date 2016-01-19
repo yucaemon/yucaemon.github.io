@@ -694,6 +694,10 @@ li.location-description img{
     }
 }
 
+.location-description a:hover p{
+    border-bottom: solid 2px #bcbcbc;
+}
+
 
 .authors li {
     height: 280px;
