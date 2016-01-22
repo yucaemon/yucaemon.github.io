@@ -588,6 +588,23 @@ ul.important-notice a{
     .header-sun {
         position: static;
 
+
     }
 }
 
+/* postのリストをカオデビさんの占い仕様にカスタマイズ*/
+
+.entry-content {
+    clear: both;
+}
+
+.entry-content .floating-list img{
+    width:200px;
+    float: left;
+    border: none;
+}
+
+.entry-content .floating-list p{
+    width:500px;
+    float: left;
+}
