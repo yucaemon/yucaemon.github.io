@@ -36,9 +36,6 @@
         <li>
           <a href="/authors">ABOUT</a>
         </li>
-        <li class="ranking">
-          <a href="/ranking">RANKING</a>
-        </li>
     </ul>
     <ul class="nav navbar-nav navbar-right social">
       <li>
