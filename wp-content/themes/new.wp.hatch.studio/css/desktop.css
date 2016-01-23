@@ -594,17 +594,40 @@ ul.important-notice a{
 
 /* postのリストをカオデビさんの占い仕様にカスタマイズ*/
 
-.entry-content {
-    clear: both;
+.entry-content .floating-list img{
+    border: none;
 }
 
-.entry-content .floating-list img{
-    width:200px;
+
+.floating-list ul {
+    padding:40px 0;
+
+}
+
+.floating-list li {
+    width: 720px;
+    padding: 15px 0;
+
+}
+
+.floating-list li{
+    border-top: solid 1px rgba(173, 173, 173, 0.21);
+}
+
+.entry-content .floating-list li img{
+    width:190px;
     float: left;
     border: none;
 }
 
-.entry-content .floating-list p{
-    width:500px;
+.entry-content .floating-list li p{
+    padding-left: 20px;
+    width: 500px;
     float: left;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.floating-list li:after {
+    content: ""; display: block; visibility: hidden; clear: both;
 }
