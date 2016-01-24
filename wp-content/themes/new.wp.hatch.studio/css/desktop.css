@@ -203,6 +203,7 @@ ul.important-notice a{
 
 .articles{
     width: 775px;
+    margin-top: 20px;
 }
 
 
@@ -277,7 +278,7 @@ ul.important-notice a{
     font-size: 0.8em;
     line-height: 170%;
     float: left;
-    width: 315px;
+    width: 385px;
 }
 
 .list-of-articles .pickup-text .mini-info {
