@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "グーグルのmeet upにいってきた。"
+title:  "グーグルのmeet upにいってきた"
 date: "2015-02-11"
 ---
 
@@ -71,7 +71,7 @@ date: "2015-02-11"
 
 ![](/assets/images/google/24.jpg)
 
-で、ビールを片手に今日のお題となる「スタティックジェレーター」を紹介。
+で、ビールを片手に今日のお題となる「スタティックジェレーター」を紹介
 
 ![](/assets/images/google/29.jpg)
 
